@@ -183,12 +183,11 @@ body {
   background: var(--highlight-color);
   color: #fff;
   text-decoration: none;
-  padding: 0.55em 1.7em;
+  padding: 0.55em 0.55em;
   border-radius: 8px;
   font-weight: 700;
-  letter-spacing: .01em;
-  font-size: 1.09em;
-  margin-top: .7em;
+  letter-spacing: 0.01em;
+  font-size: 1em;
   box-shadow: 0 2px 8px #b91c1c11;
   transition: background 0.16s;
   border: none;

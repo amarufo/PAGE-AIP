@@ -38,9 +38,9 @@
     <main class="content">
 
         <section class="section-publicacion">
-            <h1>Proyección Poblacional por Edades, Distritos, Provincias y Departamentos del Perú (2007-2040)</h1>
+            <h1>Aplicación de escritorio para la evaluación automática de proyectos de inversión pública de tipología Educación Primaria y Secundaria</h1>
             <p>
-            <b>¡Ahorra tiempo y mejora tus proyectos!</b> Descarga bases de datos limpias y listas para usar, con proyecciones por año, edad, distrito, provincia y departamento del Perú (2007–2040). Ideal para formuladores de inversión pública y análisis territorial.
+            Esta aplicación permite la evaluación automática de proyectos de inversión pública en el ámbito de la educación, facilitando el análisis de datos y la toma de decisiones informadas.
             </p>
             <div class="descargas-box">
             <h2 id="descargas">📥 Recursos disponibles</h2>
@@ -56,42 +56,12 @@
                 <tbody>
                 <tr>
                     <td data-label="Recurso">
-                    <strong>Población distrital proyectada</strong>
-                    <br><span style="color:#666;">2007–2040</span>
+                    <strong>Aplicación de Escritorio - Evaluación automática de Proyectos Educativos </strong>
+                    <br><span style="color:#666;">Versión beta</span>
                     </td>
-                    <td data-label="Ámbito">Distrital</td>
+                    <td data-label="Ámbito">Educación Primaria y Secundaria</td>
                     <td data-label="Acceso">
-                    <a class="cta-btn" href="https://docs.google.com/spreadsheets/d/11G8OwNJW0Su1ExzLszY-TgoxXOposdcc/edit?usp=sharing&amp;ouid=101071215248574138623&amp;rtpof=true&amp;sd=true" target="_blank">Descargar</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td data-label="Recurso">
-                    <strong>Población provincial proyectada</strong>
-                    <br><span style="color:#666;">2007–2040</span>
-                    </td>
-                    <td data-label="Ámbito">Provincial</td>
-                    <td data-label="Acceso">
-                    <a class="cta-btn" href="https://docs.google.com/spreadsheets/d/11TOWtqLWO2GXDqF4mXwe2mHo6XRVNgh0/edit?usp=sharing&amp;ouid=101071215248574138623&amp;rtpof=true&amp;sd=true" target="_blank">Descargar</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td data-label="Recurso">
-                    <strong>Población departamental proyectada</strong>
-                    <br><span style="color:#666;">2007–2040</span>
-                    </td>
-                    <td data-label="Ámbito">Departamental</td>
-                    <td data-label="Acceso">
-                    <a class="cta-btn" href="https://docs.google.com/spreadsheets/d/11NGl5reI_2tQQZG13izgQdamOVgOP5zG/edit?usp=sharing&amp;ouid=101071215248574138623&amp;rtpof=true&amp;sd=true" target="_blank">Descargar</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td data-label="Recurso">
-                    <strong>Proyección poblacional etaria</strong>
-                    <br><span style="color:#666;">Todos los ámbitos, 2007–2040</span>
-                    </td>
-                    <td data-label="Ámbito">Distrito, Provincia, Departamento</td>
-                    <td data-label="Acceso">
-                    <a class="cta-btn" style="background:#1ebd4b;" href="https://wa.me/51930123005?text=Hola,%20estoy%20interesado%20en%20las%20proyecciones%20de%20poblaci%C3%B3n%20por%20edades%20y%20territorio" target="_blank">Solicitar por WhatsApp</a>
+                    <a class="cta-btn" href="https://drive.google.com/file/d/1kFvVQuWzwbyoum2GyKN6C3Cr4w-rUSQD/view?usp=sharing" target="_blank">📥 Descargar</a>
                     </td>
                 </tr>
                 </tbody>
@@ -116,49 +86,72 @@
                 </ul>
             </div>
             </div>
+            <!-- INSERTAR UNA IMÁGEN -->
+            <img src="../../images/250705_app_evapipedu.png" alt="Aplicación de escritorio para evaluación de proyectos educativos" class="app-image">
             <h2>Metodología y detalles técnicos</h2>
-            <h3>Supuestos y procedimientos</h3>
+            <h3>Resumen metodológico y técnico</h3>
+            <ul>
+              <li><b>Enfoque:</b> Automatización de la evaluación económica de proyectos educativos públicos bajo Invierte.pe.</li>
+              <li><b>Indicadores clave:</b> VACS (Valor Actual de Costos Sociales), CAE (Costo Anual Equivalente), Costo por Beneficiario, Costo-Efectividad, Simulación Monte Carlo y Benchmarking.</li>
+              <li><b>Lenguaje y stack:</b> Python 3.11, Tkinter (interfaz gráfica), Pandas y NumPy (procesamiento de datos), Matplotlib (gráficos), PyInstaller (empaquetado).</li>
+            </ul>
+            
+            <h4>Fórmulas principales</h4>
+            <ul>
+              <li>
+                <b>VACS:</b>
+                <br>
+                <code>VACS = I₀ + Σ<sub>t=1</sub><sup>n</sup> [ (C_inc(t) + C_om(t)) / (1 + r)<sup>t</sup> ]</code>
+                <br>
+                <small>
+                  I₀: inversión inicial, C_inc: costos incrementales, C_om: costos de operación y mantenimiento, r: tasa de descuento, n: horizonte.
+                </small>
+              </li>
+              <li>
+                <b>CAE:</b>
+                <br>
+                <code>CAE = VACS × r / [1 - (1 + r)<sup>-n</sup>]</code>
+              </li>
+              <li>
+                <b>Costo por beneficiario:</b>
+                <br>
+                <code>C_b = CAE / B̄</code>, donde <code>B̄ = promedio anual de beneficiarios</code>
+              </li>
+              <li>
+                <b>Costo-Efectividad:</b>
+                <br>
+                <code>CE = VACS / Σ<sub>t=1</sub><sup>n</sup> B(t)</code>
+              </li>
+              <li>
+                <b>Costo por capacidad de producción:</b>
+                <br>
+                <code>C_cap = (1/n) × Σ<sub>t=1</sub><sup>n</sup> [C_inc(t) + C_om(t)]</code>
+              </li>
+            </ul>
+            
+            <h4>Simulación Monte Carlo</h4>
+            <ul>
+              <li>Se generan 10,000 escenarios aleatorios para modelar la incertidumbre en los costos, usando una distribución normal con <b>μ = 0.0028</b> y <b>σ = 0.0057</b> (basado en el Índice de Precios de Materiales de Construcción).</li>
+              <li>Se reportan percentiles (P10, P50, P90) y el Value at Risk (VaR) al 5%.</li>
+              <li>Fórmula de simulación: <code>Ĉ(t) = C(t) × (1 + ε_t)<sup>t</sup></code>, donde <code>ε_t ~ N(μ, σ)</code></li>
+            </ul>
+            
+            <h4>Flujo funcional de la aplicación</h4>
             <ol>
-            <li>Se asume tasa intercensal constante si hay decrecimiento entre censos.</li>
-            <li>Distritos con variaciones extremas (ej. El Algarrobal, Moquegua) usan promedio geométrico provincial o departamental.</li>
-            <li>Incluye censos 2007 y 2017, y proyecciones anuales por edad y distrito (2007–2040).</li>
-            <li>Edades sin datos censales se imputan como cero para evitar inconsistencias.</li>
-            <li>Imputación de TIC:
-                <ol>
-                <li>Promedio geométrico provincial en misma edad.</li>
-                <li>Promedio departamental en misma edad.</li>
-                <li>TIC=0 ante decrecimiento poblacional.</li>
-                <li>Promedio distrital de todas las edades.</li>
-                </ol>
-            </li>
+              <li><b>Ingreso de datos generales:</b> nombre, horizonte, tasas, montos y departamento. Validación automática de rangos y formatos.</li>
+              <li><b>Flujo de costos incrementales:</b> registro anual, pegado desde Excel, limpieza automática.</li>
+              <li><b>Flujo de costos O&amp;M y beneficiarios:</b> validación de valores y advertencias ante inconsistencias.</li>
+              <li><b>Resultados e indicadores:</b> cálculo automático de todos los indicadores y visualización gráfica.</li>
+              <li><b>Simulación Monte Carlo:</b> análisis probabilístico de los resultados.</li>
+              <li><b>Mapa de calor de sensibilidad:</b> visualización del impacto de variaciones en costos y beneficiarios.</li>
+              <li><b>Benchmarking:</b> comparación visual con proyectos similares por tipología y región.</li>
             </ol>
-            <h3>Fuentes de datos</h3>
+            
+            <h4>Validación y robustez</h4>
             <ul>
-            <li>Censos Nacionales de Población 2007 y 2017 (INEI Perú).</li>
-            <li>Ubigeos oficiales INEI 2022 para estandarización territorial.</li>
-            </ul>
-            <h3>Limpieza y estandarización</h3>
-            <ul>
-            <li>Unificación de nombres y códigos de columnas.</li>
-            <li>Eliminación de registros inconsistentes o con edades nulas.</li>
-            <li>Cruce con la base actualizada de ubigeos.</li>
-            </ul>
-            <h3>Cálculo de tasas de crecimiento (TIC)</h3>
-            <ul>
-            <li>Fórmula: <code>TIC = (Pob2017 / Pob2007)^(1/10) - 1</code> para cada distrito y edad.</li>
-            <li>Imputación de valores faltantes usando promedios geométricos.</li>
-            <li>Para distritos con decremento, la TIC se fuerza a cero.</li>
-            </ul>
-            <h3>Proyección poblacional</h3>
-            <ul>
-            <li>Proyección anual, por edad, distrito, provincia y departamento (2008–2040).</li>
-            <li>Agregación de resultados a nivel provincial y departamental.</li>
-            </ul>
-            <h3>Validación y automatización</h3>
-            <ul>
-            <li>Verificación de 115 edades (0 a 114) por distrito y año.</li>
-            <li>Revisión de duplicados y consistencia de estructura etaria.</li>
-            <li>Automatización y reproducibilidad con notebooks Python.</li>
+              <li>Validación de entradas numéricas y advertencias automáticas.</li>
+              <li>Resultados reproducibles y exportables.</li>
+              <li>Compatible con Windows 10+; no requiere instalación de Python.</li>
             </ul>
             <h2>Licencia y uso</h2>
             <ul>
@@ -182,7 +175,7 @@
             <div class="contacto-footer">
             <b>Autor:</b> Econ. Wilbert Amaru Fernandez Olmedo<br>
             <b>Correo:</b> amarufo9523@gmail.com<br>
-            <b>Fecha:</b> 22 de mayo de 2025
+            <b>Fecha:</b> 05 de julio de 2025
             </div>
         </section>
         </main>
