@@ -78,9 +78,9 @@ body {
   text-decoration: none;
   padding: 0.1rem;
   border-radius: 2px;
-  text-align: center;
+  text-align: left;
   transition: background 0.15s;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .sidebar nav a:hover {
@@ -341,7 +341,7 @@ body {
 /* Paneles estilo masonry ofertable */
 .paneles-contenedor {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 2.2rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -349,15 +349,16 @@ body {
 
 /* Panel individual */
 .panel {
-  background: #fff;
-  border-radius: 13px;
-  box-shadow: 0 2px 16px #0002;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  transition: box-shadow 0.22s, transform 0.18s;
-  border: 1.5px solid #ececec;
-  position: relative;
+min-width: 150px;
+background: #fff;
+border-radius: 13px;
+box-shadow: 0 2px 16px #0002;
+overflow: hidden;
+display: flex;
+flex-direction: column;
+transition: box-shadow 0.22s, transform 0.18s;
+border: 1.5px solid #ececec;
+position: relative;
 }
 
 .panel:hover {
