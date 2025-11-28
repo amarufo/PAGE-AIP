@@ -10,13 +10,13 @@
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "images/icono.png",
+      "src": "images/icono.webp",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "images/icono2.png",
+      "src": "images/icono2.webp",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
@@ -25,7 +25,7 @@
   "categories": ["education", "business", "productivity"],
   "screenshots": [
     {
-      "src": "images/icono.png",
+      "src": "images/icono.webp",
       "sizes": "540x720",
       "type": "image/png",
       "form_factor": "narrow"
@@ -39,7 +39,7 @@
       "url": "/pages/sobre-mi.html",
       "icons": [
         {
-          "src": "images/icono.png",
+          "src": "images/icono.webp",
           "sizes": "192x192"
         }
       ]
@@ -51,7 +51,7 @@
       "url": "/pages/servicios.html",
       "icons": [
         {
-          "src": "images/icono.png",
+          "src": "images/icono.webp",
           "sizes": "192x192"
         }
       ]
@@ -63,10 +63,11 @@
       "url": "/pages/contacto.html",
       "icons": [
         {
-          "src": "images/icono.png",
+          "src": "images/icono.webp",
           "sizes": "192x192"
         }
       ]
     }
   ]
 }
+
