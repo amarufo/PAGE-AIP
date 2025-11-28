@@ -1,0 +1,32 @@
+# Robots.txt - Academia de Inversión Pública
+# Instrucciones para motores de búsqueda
+
+# Permitir a todos los buscadores
+User-agent: *
+Allow: /
+Disallow: /.*\.tmp$
+Disallow: /.*\.log$
+
+# Especificar ubicación del sitemap
+Sitemap: https://amarufo.github.io/sitemap.xml
+
+# Rayos específicos para Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# Bingbot
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 2
+
+# Permitir a ChatGPT bot
+User-agent: GPTBot
+Allow: /
+
+# Bloquear algunos bots no deseados
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /

@@ -1,0 +1,26 @@
+# Sistema Operativo
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE y Editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.env.local
+
+# Node (si se usa build tools en futuro)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Archivos temporales
+*.tmp
+*.log
+.cache/
+
+# Sistema de versiones
+.git/config

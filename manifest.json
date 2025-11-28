@@ -1,0 +1,72 @@
+{
+  "name": "Academia de Inversión Pública",
+  "short_name": "Academia PIP",
+  "description": "Portal especializado en ciencia de datos aplicada a inversión pública en el Perú, con bases de datos, guías técnicas y métodos cuantitativos.",
+  "scope": "/",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "theme_color": "#b91c1c",
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "images/icono.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "images/icono2.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "business", "productivity"],
+  "screenshots": [
+    {
+      "src": "images/icono.png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Sobre mí",
+      "short_name": "Sobre",
+      "description": "Conoce más sobre el especialista",
+      "url": "/pages/sobre-mi.html",
+      "icons": [
+        {
+          "src": "images/icono.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Servicios",
+      "short_name": "Servicios",
+      "description": "Servicios profesionales ofrecidos",
+      "url": "/pages/servicios.html",
+      "icons": [
+        {
+          "src": "images/icono.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Contacto",
+      "short_name": "Contacto",
+      "description": "Ponte en contacto conmigo",
+      "url": "/pages/contacto.html",
+      "icons": [
+        {
+          "src": "images/icono.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}

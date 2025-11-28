@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../../images/icono2.png" type="image/png">
+    <title>Galería: Spearman's rho | Academia Amaru</title>
+    <link href="../../css/styles.css" rel="stylesheet">
+    <style>
+        .gallery-container {
+            background: #fff;
+            border-radius: 14px;
+            box-shadow: 0 2px 12px #0002;
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+
+        .gallery-header {
+            text-align: center;
+            margin-bottom: 3rem;
+            border-bottom: 3px solid #b91c1c;
+            padding-bottom: 2rem;
+        }
+
+        .gallery-header h1 {
+            color: #b91c1c;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .gallery-header p {
+            color: #666;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .gallery-item {
+            background: #fdf9f8;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px #0001;
+            transition: all 0.3s ease;
+            border: 2px solid #e5e7eb;
+        }
+
+        .gallery-item:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 32px #b91c1c22;
+            border-color: #b91c1c;
+        }
+
+        .gallery-item-image {
+            width: 100%;
+            height: 250px;
+            background: linear-gradient(135deg, #b91c1c15 0%, #d9770615 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 4rem;
+            color: #b91c1c;
+        }
+
+        .gallery-item-content {
+            padding: 1.5rem;
+        }
+
+        .gallery-item h3 {
+            color: #b91c1c;
+            margin-bottom: 0.8rem;
+            font-size: 1.1rem;
+        }
+
+        .gallery-item p {
+            color: #666;
+            font-size: 0.95rem;
+            line-height: 1.5;
+            margin-bottom: 1rem;
+        }
+
+        .gallery-item-meta {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.85rem;
+            color: #999;
+            padding-top: 1rem;
+            border-top: 1px solid #e5e7eb;
+        }
+
+        .info-section {
+            background: #f7e5e5;
+            border-left: 4px solid #b91c1c;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 2rem 0;
+        }
+
+        .info-section h2 {
+            color: #b91c1c;
+            margin-bottom: 1rem;
+        }
+
+        .info-section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .info-section li {
+            padding: 0.6rem 0;
+            color: #555;
+            border-bottom: 1px solid #d4b5b5;
+        }
+
+        .info-section li:last-child {
+            border-bottom: none;
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: #b91c1c;
+            text-decoration: none;
+            font-weight: 600;
+            margin-bottom: 2rem;
+            transition: all 0.2s ease;
+        }
+
+        .back-link:hover {
+            transform: translateX(-4px);
+        }
+
+        @media (max-width: 768px) {
+            .gallery-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .gallery-header h1 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="layout">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <a href="../../index.html">
+            <img src="../../images/rino1.png" alt="Perfil Amaru" class="profile-img">
+        </a>
+        <h1>Academia de Inversión Pública</h1>
+        <h3>Econ. Wilbert Amaru Fernandez Olmedo</h3>
+        <h5>Especialista en Ciencia de Datos aplicada a la Inversión Pública</h5>
+        <nav>
+            <a href="../../index.html">Inicio</a>
+            <a href="../cv.html">Sobre el autor</a>
+            <a href="../repositorio.html">Repositorio de recursos</a>
+            <a href="../guias.html">Guía: Proyectos de Inversión Pública</a>
+            <a href="../normas.html">Normas y estándares</a>
+            <a href="../servicios_analisis_cuantitativo_sankey.html"><b>Servicios de Análisis</b></a>
+        </nav>
+        <div class="sidebar-social" style="display: flex; justify-content: center; align-items: center; margin-top: 2rem;gap: 1.5rem;">
+            <a href="https://www.youtube.com/@amarufo_inversionpublica" target="_blank"><img src="../../images/yt.png" alt="YouTube" style="width: 20%; height: 20%; object-fit: contain;"></a>
+            <a href="https://www.linkedin.com/in/amarufo/" target="_blank"><img src="../../images/in.png" alt="LinkedIn" style="width: 20%; height: 20%; object-fit: contain;"></a>
+            <a href="https://github.com/amarufo" target="_blank"><img src="../../images/gh.png" alt="GitHub" style="width: 20%; height: 20%; object-fit: contain;"></a>
+            <a href="https://wa.me/51930123005?text=Estimado,%20buen%20día..." target="_blank"><img src="../../images/wsp.png" alt="WhatsApp" style="width: 20%; height: 20%; object-fit: contain;"></a>
+            <a href="mailto:amaruf9523@gmail.com"><img src="../../images/mailito.png" alt="Email" style="width: 20%; height: 20%; object-fit: contain;"></a>
+        </div>
+    </aside>
+
+    <!-- Contenido principal -->
+    <main class="content">
+        <section class="section-publicacion">
+            <a href="../servicios_analisis_cuantitativo_sankey.html" class="back-link">← Volver al Sankey</a>
+
+            <div class="gallery-container">
+                <div class="gallery-header">
+                    <h1>📊 Spearman's rho</h1>
+                    <p>Correlación no paramétrica basada en rangos</p>
+                </div>
+
+                <div class="info-section">
+                    <h2>Información del Método</h2>
+                    <ul>
+                        <li><strong>Tipo:</strong> Correlación no paramétrica</li>
+                        <li><strong>Aplicable a:</strong> Datos ordinales y no normales</li>
+                        <li><strong>Rango de valores:</strong> ρ de -1 a +1</li>
+                        <li><strong>Frecuencia en tesis:</strong> 5 de 8 tesis (62.5%)</li>
+                        <li><strong>Ventajas:</strong> Robusta ante distribuciones no normales</li>
+                    </ul>
+                </div>
+
+                <h2 style="color: #b91c1c; margin: 2rem 0 1rem 0;">Galería de Ejemplos</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <div class="gallery-item-image">📈</div>
+                        <div class="gallery-item-content">
+                            <h3>Correlación Presupuesto vs Impacto</h3>
+                            <p>Relación entre inversión municipal y cobertura de servicios en 50 distritos.</p>
+                            <div class="gallery-item-meta">
+                                <span>2023</span>
+                                <span>Perú</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <div class="gallery-item-image">🏛️</div>
+                        <div class="gallery-item-content">
+                            <h3>Gobernanza y Eficiencia</h3>
+                            <p>Análisis del índice de gobernanza y eficiencia administrativa en gobiernos locales.</p>
+                            <div class="gallery-item-meta">
+                                <span>2023</span>
+                                <span>Análisis multivariado</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <div class="gallery-item-image">⏱️</div>
+                        <div class="gallery-item-content">
+                            <h3>Ranking Desempeño vs Resultados</h3>
+                            <p>Relación entre el ranking de proyectos y sus resultados medibles en el campo.</p>
+                            <div class="gallery-item-meta">
+                                <span>2022</span>
+                                <span>Evaluación de impacto</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <div class="gallery-item-image">📊</div>
+                        <div class="gallery-item-content">
+                            <h3>Análisis de Satisfacción</h3>
+                            <p>Correlación entre variables de satisfacción ordinal y indicadores de calidad.</p>
+                            <div class="gallery-item-meta">
+                                <span>2023</span>
+                                <span>Encuesta</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <div class="gallery-item-image">🔗</div>
+                        <div class="gallery-item-content">
+                            <h3>Asociación de Factores</h3>
+                            <p>Identificación de factores correlacionados con éxito de proyectos.</p>
+                            <div class="gallery-item-meta">
+                                <span>2023</span>
+                                <span>Análisis exploratorio</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <div class="gallery-item-image">📉</div>
+                        <div class="gallery-item-content">
+                            <h3>Tendencias Temporales</h3>
+                            <p>Evolución de correlaciones a través del tiempo en series históricas.</p>
+                            <div class="gallery-item-meta">
+                                <span>2020-2023</span>
+                                <span>Serie temporal</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="info-section">
+                    <h2>Casos de Uso Recomendados</h2>
+                    <ul>
+                        <li>Análisis de datos ordinales (rankings, niveles, categorías ordenadas)</li>
+                        <li>Muestras pequeñas donde la normalidad no se cumple</li>
+                        <li>Presencia de outliers o datos extremos</li>
+                        <li>Estudios exploratorios para identificar relaciones</li>
+                        <li>Investigaciones con variables de Likert (encuestas)</li>
+                    </ul>
+                </div>
+
+                <div class="info-section">
+                    <h2>Recursos Complementarios</h2>
+                    <ul>
+                        <li><strong>Bases de Datos:</strong> Encuestas de satisfacción, evaluaciones ordinales, rankings de desempeño</li>
+                        <li><strong>Software Recomendado:</strong> R (cor.test), Python (scipy.stats.spearmanr), SPSS, Stata</li>
+                        <li><strong>Documentación:</strong> Ver PDF descargable en el diagrama principal</li>
+                        <li><strong>Contacto:</strong> Solicita análisis personalizado al especialista</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+</div>
+</body>
+</html>

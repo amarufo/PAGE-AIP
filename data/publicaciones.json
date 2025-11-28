@@ -1,0 +1,87 @@
+{
+  "publicaciones": [
+    {
+      "id": "pob-2007-2040",
+      "titulo": "Proyección demográfica 2007-2040",
+      "subtitulo": "Población por edad, distrito, provincia y departamento",
+      "descripcion": "Proyecciones de población por edad, distrito, provincia y departamento (2007-2040), útiles para dimensionar demanda de servicios en proyectos de inversión.",
+      "imagen": "../images/pub001_proypob.png",
+      "icono": "../images/bd.png",
+      "tipo": "base-datos",
+      "contenido": "<h2>Proyección Demográfica</h2><p>Datos proyectados desde 2007 hasta 2040 a nivel de distrito, provincia y departamento.</p><h3>Características</h3><ul><li>Cobertura nacional completa</li><li>Desagregación territorial</li><li>Proyecciones por grupos de edad</li><li>Metodología INEI</li></ul>",
+      "descargas": [
+        {
+          "nombre": "Proyecciones en Excel",
+          "url": "https://ejemplo.com/descargas/proyecciones_2007_2040.xlsx",
+          "tipo": "xlsx"
+        }
+      ],
+      "fecha_publicacion": "2025-05-22",
+      "autor": "Wilbert Amaru Fernández"
+    },
+    {
+      "id": "datos-distritales",
+      "titulo": "Datos descriptivos a nivel distrital",
+      "subtitulo": "Ubigeo, macroregión, superficie, altitud, población",
+      "descripcion": "Ubigeo, macroregión, superficie, altitud, población (censos 2007 y 2017, INEI) y otras variables clave para análisis territoriales y proyectos de inversión.",
+      "imagen": "../images/pub002_generales_dist.png",
+      "icono": "../images/bd.png",
+      "tipo": "base-datos",
+      "contenido": "<h2>Datos Distritales</h2><p>Información geográfica y demográfica desagregada a nivel de distrito.</p><h3>Variables Incluidas</h3><ul><li>UBIGEO</li><li>Macroregión</li><li>Superficie territorial</li><li>Altitud</li><li>Población censal 2007</li><li>Población censal 2017</li></ul>",
+      "descargas": [
+        {
+          "nombre": "Datos en Excel",
+          "url": "https://ejemplo.com/descargas/datos_distritales.xlsx",
+          "tipo": "xlsx"
+        }
+      ],
+      "fecha_publicacion": "2025-05-23",
+      "autor": "Wilbert Amaru Fernández"
+    },
+    {
+      "id": "victimizacion-distrital",
+      "titulo": "Indicador de victimización distrital",
+      "subtitulo": "Porcentaje de personas víctimas de delitos urbanos",
+      "descripcion": "Porcentaje de personas de 15 a 98 años en zonas urbanas que han sido víctimas de algún hecho delictivo en los últimos 12 meses.",
+      "imagen": "../images/250620_victimizacion.png",
+      "icono": "../images/bd.png",
+      "tipo": "base-datos",
+      "contenido": "<h2>Indicador de Victimización</h2><p>Medición de prevalencia de victimización delictiva en zonas urbanas por distrito.</p><h3>Metodología</h3><ul><li>Población objetivo: 15-98 años</li><li>Áreas: zonas urbanas</li><li>Período: últimos 12 meses</li><li>Fuente: Encuestas de victimización</li></ul>",
+      "descargas": [],
+      "fecha_publicacion": "2025-06-19",
+      "autor": "Wilbert Amaru Fernández"
+    },
+    {
+      "id": "app-eva-pips-ebr",
+      "titulo": "App EVA PIPS EBR",
+      "subtitulo": "Evaluación de proyectos de inversión en educación básica",
+      "descripcion": "Aplicación de escritorio para evaluación de proyectos de inversión pública en educación básica regular: primaria y secundaria.",
+      "imagen": "../images/250705_app_evapipedu.png",
+      "icono": "../images/programas.png",
+      "tipo": "aplicacion",
+      "contenido": "<h2>Aplicación EVA PIPS EBR</h2><p>Herramienta de escritorio para evaluación rápida de PIPs en educación.</p><h3>Características</h3><ul><li>Interfaz intuitiva</li><li>Cálculos automáticos</li><li>Generación de reportes</li><li>Compatible Windows/Mac</li></ul>",
+      "descargas": [
+        {
+          "nombre": "Descargar aplicación (Windows)",
+          "url": "https://ejemplo.com/descargas/EVA_PIPS_EBR_v1.exe",
+          "tipo": "exe"
+        }
+      ],
+      "fecha_publicacion": "2025-07-05",
+      "autor": "Wilbert Amaru Fernández"
+    },
+    {
+      "id": "app-calculo-demanda",
+      "titulo": "App web: cálculo de demanda",
+      "subtitulo": "Cálculo de demanda de servicios educativos",
+      "descripcion": "Aplicación web para el cálculo de demanda de servicios educativos, útil en la formulación de proyectos de infraestructura y servicios.",
+      "imagen": "../images/app_calculo_demanda2.png",
+      "icono": "../images/programas.png",
+      "tipo": "aplicacion-web",
+      "contenido": "<h2>Calculadora de Demanda</h2><p>Herramienta web para proyectar demanda de servicios educativos.</p><h3>Funcionalidades</h3><ul><li>Ingreso de datos de población</li><li>Cálculo automático de demanda</li><li>Proyecciones por año</li><li>Exportar resultados</li></ul>",
+      "url_web": "https://ejemplo.com/apps/calculadora-demanda",
+      "fecha_publicacion": "2025-09-25",
+      "autor": "Wilbert Amaru Fernández"
+    }
+  ]
+}
