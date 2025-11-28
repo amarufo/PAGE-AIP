@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Servicios profesionales en análisis cuantitativo, ciencia de datos y formulación de Proyectos de Inversión Pública (PIPs). Consultoría especializada en Perú.">
+    <meta name="description" content="Servicios profesionales en análisis cuantitativo y formulación de Proyectos de Inversión Pública. Consultoría especializada.">
     <meta name="keywords" content="servicios, consultoría, análisis de datos, PIPs, inversión pública, Perú">
     <meta name="author" content="Wilbert Amaru Fernández Olmedo">
     
@@ -24,6 +24,129 @@
     <title>Servicios | Academia de Inversión Pública</title>
     <link rel="icon" href="../images/icono2.png" type="image/png">
     <link href="../css/styles.css" rel="stylesheet">
+    <style>
+        /* Estilos específicos para la página de servicios */
+        .servicios-landing {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .servicio-landing-card {
+            background: #fff;
+            border-radius: 13px;
+            box-shadow: 0 2px 16px #0002;
+            overflow: hidden;
+            border: 1.5px solid #ececec;
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .servicio-landing-card:hover {
+            box-shadow: 0 8px 32px #00000015;
+            transform: translateY(-4px);
+        }
+
+        .servicio-imagen {
+            width: 100%;
+            height: 220px;
+            background: linear-gradient(135deg, #dc2626 0%, #991b1b 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 4rem;
+            font-weight: 300;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .servicio-imagen img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .servicio-imagen.pips {
+            background: linear-gradient(135deg, #ea580c 0%, #c2410c 100%);
+        }
+
+        .servicio-info {
+            padding: 1.8rem;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .servicio-info h2 {
+            font-size: 1.4rem;
+            color: #991b1b;
+            margin-bottom: 0.8rem;
+            font-weight: 700;
+        }
+
+        .servicio-landing-card:nth-child(2) .servicio-info h2 {
+            color: #c2410c;
+        }
+
+        .servicio-info p {
+            color: #444;
+            font-size: 0.95rem;
+            line-height: 1.5em;
+            margin-bottom: 1.5rem;
+            flex: 1;
+        }
+
+        .servicio-link {
+            display: inline-block;
+            background: #dc2626;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 0.8rem 2rem;
+            border-radius: 7px;
+            font-weight: 600;
+            text-align: center;
+            transition: all 0.2s ease;
+            align-self: flex-start;
+        }
+
+        .servicio-link:hover {
+            background: #991b1b;
+            transform: translateY(-2px);
+        }
+
+        .servicio-link.pips {
+            background: #ea580c;
+        }
+
+        .servicio-link.pips:hover {
+            background: #c2410c;
+        }
+
+        @media (max-width: 768px) {
+            .servicios-landing {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+
+            .servicio-imagen {
+                height: 180px;
+                font-size: 3rem;
+            }
+
+            .servicio-info {
+                padding: 1.5rem;
+            }
+
+            .servicio-info h2 {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
 </head>
 <body>
 <div class="layout">
@@ -39,7 +162,6 @@
             <a href="proyectos.html">Proyectos</a>
             <a href="articulos.html">Artículos y bases de datos</a>
             <a href="guias-pip.html">Guías PIP</a>
-            <a href="metodos.html">Métodos cuantitativos</a>
             <a href="contacto.html">Contacto</a>
         </nav>
         <div class="sidebar-social">
@@ -52,260 +174,49 @@
     </aside>
 
     <main class="content">
-        <header class="page-header">
-            <h1>Servicios de análisis cuantitativo</h1>
-            <p class="page-subtitle">Métodos cuantitativos avanzados para proyectos de inversión pública, evaluación económica y analítica aplicada al sistema de formulación de proyectos en el Perú.</p>
-        </header>
 
         <div class="section-publicacion">
             <div class="intro-servicios">
-                <h2>¿Por qué nuestros servicios?</h2>
-                <p>Métodos cuantitativos avanzados para proyectos de inversión pública, análisis económico y evaluación de políticas. Diseñamos soluciones a medida para unidades formuladoras, gobiernos subnacionales y consultores que necesitan rigor técnico y velocidad de respuesta.</p>
+                <h2>Elige tu área de interés</h2>
             </div>
 
-            <!-- Categorías de servicios (copiadas desde serv_tesisma.html) -->
-            <div class="categoria-servicios">
-                <h3 class="categoria-titulo">📊 Econometría y Análisis Estadístico</h3>
-                <div class="servicios-grid">
-                    <div class="servicio-card">
-                        <div class="servicio-header"><h3>📈 Correlación de Pearson</h3></div>
-                        <div class="servicio-content"><p>Identificar relaciones lineales entre variables.</p></div>
-                        <div class="servicio-footer">
-                            <a href="https://drive.google.com/drive/folders/..." class="btn-small btn-pdf" target="_blank">📄</a>
-                            <a href="https://wa.me/51930123005?text=Correlación" class="btn-small btn-contact">📞</a>
-                        </div>
+            <div class="servicios-landing">
+                <!-- Tarjeta 1: Análisis Cuantitativo -->
+                <div class="servicio-landing-card">
+                    <div class="servicio-imagen">
+                        <img src="../images/07_series_principales.png" alt="Análisis Cuantitativo">
+
+                        
                     </div>
-                    <div class="servicio-card">
-                        <div class="servicio-header"><h3>📊 Regresión Lineal Simple</h3></div>
-                        <div class="servicio-content"><p>Modelar relaciones entre variables.</p></div>
-                        <div class="servicio-footer">
-                            <a href="https://drive.google.com/drive/folders/..." class="btn-small btn-pdf" target="_blank">📄</a>
-                            <a href="https://wa.me/51930123005?text=Regresión%20Lineal" class="btn-small btn-contact">📞</a>
+                    <div class="servicio-info">
+                        <div>
+                            <h2>Análisis Cuantitativo para Tesis</h2>
+                            <p>Métodos estadísticos y econométricos avanzados para investigación académica, tesis de postgrado y análisis científico. Desde correlaciones hasta machine learning, te ayudamos a convertir datos en conocimiento riguroso.</p>
                         </div>
+                        <a href="servicios-analisis-cuantitativo.html" class="servicio-link">Explorar servicios →</a>
                     </div>
-                    <div class="servicio-card">
-                        <div class="servicio-header"><h3>🔗 Regresión Múltiple OLS</h3></div>
-                        <div class="servicio-content"><p>Impacto simultáneo de múltiples factores.</p></div>
-                        <div class="servicio-footer">
-                            <a href="https://drive.google.com/drive/folders/..." class="btn-small btn-pdf" target="_blank">📄</a>
-                            <a href="https://wa.me/51930123005?text=Regresión%20Múltiple" class="btn-small btn-contact">📞</a>
-                        </div>
+                </div>
+
+                <!-- Tarjeta 2: Formulación de PIPs -->
+                <div class="servicio-landing-card">
+                    <div class="servicio-imagen pips">
+                        <img src="../images/geomorfologia_satelital.png" alt="Formulación de PIPs">
                     </div>
-                    <div class="servicio-card">
-                        <div class="servicio-header"><h3>🔬 Pruebas de Hipótesis</h3></div>
-                        <div class="servicio-content"><p>t-test, ANOVA, Chi-cuadrado.</p></div>
-                        <div class="servicio-footer">
-                            <a href="https://drive.google.com/drive/folders/..." class="btn-small btn-pdf" target="_blank">📄</a>
-                            <a href="https://wa.me/51930123005?text=Pruebas%20Hipótesis" class="btn-small btn-contact">📞</a>
+                    <div class="servicio-info">
+                        <div>
+                            <h2>Formulación de PIPs</h2>
+                            <p>Proyectos de Inversión Pública completos: desde estudios de prefactibilidad hasta evaluación económica, análisis de riesgos y automatización de cálculos. Cumplimiento normativo garantizado para gobiernos y unidades formuladoras.</p>
                         </div>
-                    </div>
-                    <div class="servicio-card">
-                        <div class="servicio-header"><h3>📊 Panel Data</h3></div>
-                        <div class="servicio-content"><p>Efectos fijos y aleatorios.</p></div>
-                        <div class="servicio-footer">
-                            <a href="https://drive.google.com/drive/folders/..." class="btn-small btn-pdf" target="_blank">📄</a>
-                            <a href="https://wa.me/51930123005?text=Panel%20Data" class="btn-small btn-contact">📞</a>
-                        </div>
-                    </div>
-                    <div class="servicio-card">
-                        <div class="servicio-header"><h3>🔄 Logit/Probit</h3></div>
-                        <div class="servicio-content"><p>Variables binarias y multinomiales.</p></div>
-                        <div class="servicio-footer">
-                            <a href="https://drive.google.com/drive/folders/..." class="btn-small btn-pdf" target="_blank">📄</a>
-                            <a href="https://wa.me/51930123005?text=Logit" class="btn-small btn-contact">📞</a>
-                        </div>
+                        <a href="servicios-formulacion-pips.html" class="servicio-link pips">Explorar servicios →</a>
                     </div>
                 </div>
             </div>
 
-            <div class="categoria-servicios">
-                <h3 class="categoria-titulo">⏰ Series Temporales y Pronósticos</h3>
-                <div class="servicios-grid">
-                    <div class="servicio-card">
-                        <div class="servicio-header"><h3>⏰ ARIMA</h3></div>
-                        <div class="servicio-content"><p>Pronósticos de datos secuenciales.</p></div>
-                        <div class="servicio-footer">
-                            <a href="https://drive.google.com/drive/folders/..." class="btn-small btn-pdf" target="_blank">📄</a>
-                            <a href="https://wa.me/51930123005?text=ARIMA" class="btn-small btn-contact">📞</a>
-                        </div>
-                    </div>
-                    <div class="servicio-card">
-                        <div class="servicio-header"><h3>📈 Descomposición Temporal</h3></div>
-                        <div class="servicio-content"><p>Tendencia y estacionalidad.</p></div>
-                        <div class="servicio-footer">
-                            <a href="https://drive.google.com/drive/folders/..." class="btn-small btn-pdf" target="_blank">📄</a>
-                            <a href="https://wa.me/51930123005?text=Descomposición" class="btn-small btn-contact">📞</a>
-                        </div>
-                    </div>
-                    <div class="servicio-card">
-                        <div class="servicio-header"><h3>📊 VAR</h3></div>
-                        <div class="servicio-content"><p>Relaciones entre múltiples series.</p></div>
-                        <div class="servicio-footer">
-                            <a href="https://drive.google.com/drive/folders/..." class="btn-small btn-pdf" target="_blank">📄</a>
-                            <a href="https://wa.me/51930123005?text=VAR" class="btn-small btn-contact">📞</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="categoria-servicios">
-                <h3 class="categoria-titulo">🤖 Machine Learning y Predicción</h3>
-                <div class="servicios-grid">
-                    <div class="servicio-card">
-                        <div class="servicio-header"><h3>🤖 Log. Regresiva</h3></div>
-                        <div class="servicio-content"><p>Clasificación binaria.</p></div>
-                        <div class="servicio-footer">
-                            <a href="https://drive.google.com/drive/folders/..." class="btn-small btn-pdf" target="_blank">📄</a>
-                            <a href="https://wa.me/51930123005?text=Logística" class="btn-small btn-contact">📞</a>
-                        </div>
-                    </div>
-                    <div class="servicio-card">
-                        <div class="servicio-header"><h3>🌳 Árboles</h3></div>
-                        <div class="servicio-content"><p>Interpretabilidad y reglas.</p></div>
-                        <div class="servicio-footer">
-                            <a href="https://drive.google.com/drive/folders/..." class="btn-small btn-pdf" target="_blank">📄</a>
-                            <a href="https://wa.me/51930123005?text=Árboles" class="btn-small btn-contact">📞</a>
-                        </div>
-                    </div>
-                    <div class="servicio-card">
-                        <div class="servicio-header"><h3>🌲 Random Forest</h3></div>
-                        <div class="servicio-content"><p>Ensambles de alta precisión.</p></div>
-                        <div class="servicio-footer">
-                            <a href="https://drive.google.com/drive/folders/..." class="btn-small btn-pdf" target="_blank">📄</a>
-                            <a href="https://wa.me/51930123005?text=Random%20Forest" class="btn-small btn-contact">📞</a>
-                        </div>
-                    </div>
-                    <div class="servicio-card">
-                        <div class="servicio-header"><h3>⚡ XGBoost</h3></div>
-                        <div class="servicio-content"><p>Máxima precisión predictiva.</p></div>
-                        <div class="servicio-footer">
-                            <a href="https://drive.google.com/drive/folders/..." class="btn-small btn-pdf" target="_blank">📄</a>
-                            <a href="https://wa.me/51930123005?text=XGBoost" class="btn-small btn-contact">📞</a>
-                        </div>
-                    </div>
-                    <div class="servicio-card">
-                        <div class="servicio-header"><h3>📍 SVM</h3></div>
-                        <div class="servicio-content"><p>Espacios complejos.</p></div>
-                        <div class="servicio-footer">
-                            <a href="https://drive.google.com/drive/folders/..." class="btn-small btn-pdf" target="_blank">📄</a>
-                            <a href="https://wa.me/51930123005?text=SVM" class="btn-small btn-contact">📞</a>
-                        </div>
-                    </div>
-                    <div class="servicio-card">
-                        <div class="servicio-header"><h3>🎯 K-Means</h3></div>
-                        <div class="servicio-content"><p>Segmentación.</p></div>
-                        <div class="servicio-footer">
-                            <a href="https://drive.google.com/drive/folders/..." class="btn-small btn-pdf" target="_blank">📄</a>
-                            <a href="https://wa.me/51930123005?text=K-Means" class="btn-small btn-contact">📞</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="categoria-servicios">
-                <h3 class="categoria-titulo">💰 Evaluación Financiera y Económica</h3>
-                <div class="servicios-grid">
-                    <div class="servicio-card">
-                        <div class="servicio-header"><h3>💰 VPN-TIR</h3></div>
-                        <div class="servicio-content"><p>Viabilidad económica.</p></div>
-                        <div class="servicio-footer">
-                            <a href="https://drive.google.com/drive/folders/..." class="btn-small btn-pdf" target="_blank">📄</a>
-                            <a href="https://wa.me/51930123005?text=VPN" class="btn-small btn-contact">📞</a>
-                        </div>
-                    </div>
-                    <div class="servicio-card">
-                        <div class="servicio-header"><h3>📊 Sensibilidad</h3></div>
-                        <div class="servicio-content"><p>Variabilidad de resultados.</p></div>
-                        <div class="servicio-footer">
-                            <a href="https://drive.google.com/drive/folders/..." class="btn-small btn-pdf" target="_blank">📄</a>
-                            <a href="https://wa.me/51930123005?text=Sensibilidad" class="btn-small btn-contact">📞</a>
-                        </div>
-                    </div>
-                    <div class="servicio-card">
-                        <div class="servicio-header"><h3>⚠️ Análisis de Riesgos</h3></div>
-                        <div class="servicio-content"><p>Montecarlo y escenarios.</p></div>
-                        <div class="servicio-footer">
-                            <a href="https://drive.google.com/drive/folders/..." class="btn-small btn-pdf" target="_blank">📄</a>
-                            <a href="https://wa.me/51930123005?text=Riesgos" class="btn-small btn-contact">📞</a>
-                        </div>
-                    </div>
-                    <div class="servicio-card">
-                        <div class="servicio-header"><h3>📈 Costo-Beneficio</h3></div>
-                        <div class="servicio-content"><p>Ratios e impacto social.</p></div>
-                        <div class="servicio-footer">
-                            <a href="https://drive.google.com/drive/folders/..." class="btn-small btn-pdf" target="_blank">📄</a>
-                            <a href="https://wa.me/51930123005?text=Costo-Beneficio" class="btn-small btn-contact">📞</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="categoria-servicios">
-                <h3 class="categoria-titulo">🌍 Análisis Espacial y Geográfico</h3>
-                <div class="servicios-grid">
-                    <div class="servicio-card">
-                        <div class="servicio-header"><h3>🌍 Mapeo Vulnerabilidad</h3></div>
-                        <div class="servicio-content"><p>Zonas de riesgo e índices.</p></div>
-                        <div class="servicio-footer">
-                            <a href="https://drive.google.com/drive/folders/..." class="btn-small btn-pdf" target="_blank">📄</a>
-                            <a href="https://wa.me/51930123005?text=Mapeo" class="btn-small btn-contact">📞</a>
-                        </div>
-                    </div>
-                    <div class="servicio-card">
-                        <div class="servicio-header"><h3>📍 Proximidad Espacial</h3></div>
-                        <div class="servicio-content"><p>Buffer y distancias.</p></div>
-                        <div class="servicio-footer">
-                            <a href="https://drive.google.com/drive/folders/..." class="btn-small btn-pdf" target="_blank">📄</a>
-                            <a href="https://wa.me/51930123005?text=Proximidad" class="btn-small btn-contact">📞</a>
-                        </div>
-                    </div>
-                    <div class="servicio-card">
-                        <div class="servicio-header"><h3>🗺️ Autocorr. Espacial</h3></div>
-                        <div class="servicio-content"><p>Moran e índices.</p></div>
-                        <div class="servicio-footer">
-                            <a href="https://drive.google.com/drive/folders/..." class="btn-small btn-pdf" target="_blank">📄</a>
-                            <a href="https://wa.me/51930123005?text=Autocorrelación" class="btn-small btn-contact">📞</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="categoria-servicios">
-                <h3 class="categoria-titulo">📐 Análisis Multivariante</h3>
-                <div class="servicios-grid">
-                    <div class="servicio-card">
-                        <div class="servicio-header"><h3>🔍 PCA</h3></div>
-                        <div class="servicio-content"><p>Reducción dimensional.</p></div>
-                        <div class="servicio-footer">
-                            <a href="https://drive.google.com/drive/folders/..." class="btn-small btn-pdf" target="_blank">📄</a>
-                            <a href="https://wa.me/51930123005?text=PCA" class="btn-small btn-contact">📞</a>
-                        </div>
-                    </div>
-                    <div class="servicio-card">
-                        <div class="servicio-header"><h3>📊 Factorial</h3></div>
-                        <div class="servicio-content"><p>Factores latentes.</p></div>
-                        <div class="servicio-footer">
-                            <a href="https://drive.google.com/drive/folders/..." class="btn-small btn-pdf" target="_blank">📄</a>
-                            <a href="https://wa.me/51930123005?text=Factorial" class="btn-small btn-contact">📞</a>
-                        </div>
-                    </div>
-                    <div class="servicio-card">
-                        <div class="servicio-header"><h3>🎯 Correspondencia</h3></div>
-                        <div class="servicio-content"><p>Variables categóricas.</p></div>
-                        <div class="servicio-footer">
-                            <a href="https://drive.google.com/drive/folders/..." class="btn-small btn-pdf" target="_blank">📄</a>
-                            <a href="https://wa.me/51930123005?text=Correspondencia" class="btn-small btn-contact">📞</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="contacto-servicios">
-                <h3>📞 Ponte en contacto</h3>
-                <p style="margin-bottom: 1rem;">Consulta sin costo sobre nuestros servicios.</p>
-                <a href="https://wa.me/51930123005?text=Hola" target="_blank">💬 WhatsApp</a>
-                <a href="mailto:amaruf9523@gmail.com?subject=Consulta">📧 Email</a>
-                <a href="https://www.linkedin.com/in/amarufo/" target="_blank">🔗 LinkedIn</a>
+            <div class="contacto-servicios" style="margin-top: 3rem;">
+                <h3>📞 ¿Aún no sabes cuál es tu opción?</h3>
+                <p style="margin-bottom: 1rem;">Contacta sin compromiso. Te ayudaremos a identificar la mejor solución para tu necesidad.</p>
+                <a href="https://wa.me/51930123005?text=Hola%20Wilbert,%20me%20gustaría%20conocer%20más%20sobre%20tus%20servicios" target="_blank">💬 Consultar por WhatsApp</a>
+                <a href="mailto:amaruf9523@gmail.com?subject=Consulta%20sobre%20servicios">📧 Enviar Email</a>
             </div>
         </div>
     </main>

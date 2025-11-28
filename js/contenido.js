@@ -11,11 +11,29 @@ let todasLasEntradas = [];
  */
 async function cargarContenido() {
   try {
-    const response = await fetch('../data/contenido.json');
+    // Determinar la ruta correcta del JSON según la URL actual
+    const currentPath = window.location.pathname;
+    const isInPages = currentPath.includes('/pages/');
+    const jsonPath = isInPages ? '../data/contenido.json' : './data/contenido.json';
+    
+    console.log('Ruta actual:', currentPath);
+    console.log('En pages:', isInPages);
+    console.log('Buscando JSON en:', jsonPath);
+    
+    const response = await fetch(jsonPath);
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
     todasLasEntradas = await response.json();
+    
+    console.log('JSON cargado exitosamente:', todasLasEntradas);
+    
+    // Guardar si estamos en pages o no para usarlo después en rutas de imágenes
+    window.isInPages = isInPages;
     
     // Renderizar según la página actual
     const paginaActual = document.body.dataset.pagina;
+    console.log('Página actual:', paginaActual);
     
     if (paginaActual === 'articulos') {
       renderizarArticulos();
@@ -28,6 +46,16 @@ async function cargarContenido() {
   } catch (error) {
     console.error('Error cargando contenido:', error);
   }
+}
+
+/**
+ * Obtiene la ruta correcta de una imagen según la ubicación actual
+ */
+function ajustarRutaImagen(ruta) {
+  if (window.isInPages) {
+    return '../' + ruta;
+  }
+  return ruta;
 }
 
 /**
@@ -94,14 +122,14 @@ function crearTarjeta(entrada) {
   
   // Icono/sticker
   const icono = document.createElement('img');
-  icono.src = entrada.icono;
+  icono.src = ajustarRutaImagen(entrada.icono);
   icono.alt = entrada.categoria;
   icono.className = 'panel-sticker';
   panel.appendChild(icono);
   
   // Imagen principal
   const img = document.createElement('img');
-  img.src = entrada.imagen;
+  img.src = ajustarRutaImagen(entrada.imagen);
   img.alt = entrada.titulo;
   img.className = 'panel-img';
   panel.appendChild(img);

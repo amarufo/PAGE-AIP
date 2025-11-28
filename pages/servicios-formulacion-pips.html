@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Servicios de formulación de Proyectos de Inversión Pública (PIPs). Automatización, evaluación económica y cumplimiento normativo.">
+    <meta name="keywords" content="PIPs, formulación de proyectos, inversión pública, Perú, automatización">
+    <meta name="author" content="Wilbert Amaru Fernández Olmedo">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://amarufo.github.io/pages/servicios-formulacion-pips.html">
+    <meta property="og:title" content="Servicios de Formulación de PIPs | Academia de Inversión Pública">
+    <meta property="og:description" content="Formulación y automatización de Proyectos de Inversión Pública.">
+    <meta property="og:image" content="https://amarufo.github.io/images/icono.png">
+    
+    <link rel="manifest" href="../manifest.json">
+    <title>Servicios de Formulación de PIPs | Academia de Inversión Pública</title>
+    <link rel="icon" href="../images/icono2.png" type="image/png">
+    <link href="../css/styles.css" rel="stylesheet">
+    <style>
+        .metodos-grid-compacta {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+
+        .metodo-card-compacta {
+            background: #fff;
+            border-radius: 10px;
+            border: 1.5px solid #e5e5e5;
+            padding: 1.2rem;
+            transition: all 0.2s ease;
+            box-shadow: 0 1px 4px #0001;
+        }
+
+        .metodo-card-compacta:hover {
+            border-color: #991b1b;
+            box-shadow: 0 2px 12px #991b1b20;
+            transform: translateY(-2px);
+        }
+
+        .metodo-icono {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            display: block;
+        }
+
+        .metodo-card-compacta h3 {
+            font-size: 1.05rem;
+            color: #1a1a1a;
+            margin: 0.5rem 0;
+            font-weight: 700;
+        }
+
+        .metodo-pregunta {
+            font-size: 0.9rem;
+            color: #666;
+            font-style: italic;
+            margin: 0.7rem 0;
+            line-height: 1.4;
+        }
+
+        .metodo-descripcion {
+            font-size: 0.85rem;
+            color: #555;
+            margin: 0.6rem 0;
+            line-height: 1.35;
+        }
+
+        .metodo-boton {
+            display: inline-block;
+            background: #991b1b;
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-top: 0.8rem;
+            transition: all 0.2s ease;
+        }
+
+        .metodo-boton:hover {
+            background: #7d1010;
+            transform: translateY(-1px);
+        }
+
+        .categorias-container {
+            margin-bottom: 2rem;
+        }
+
+        .categoria-header {
+            font-size: 1.3rem;
+            color: #991b1b;
+            font-weight: 700;
+            margin: 1.5rem 0 1rem 0;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #991b1b;
+        }
+
+        .intro-compacta {
+            background: #fff5f5;
+            padding: 1.2rem;
+            border-radius: 10px;
+            margin-bottom: 1.5rem;
+            border-left: 4px solid #991b1b;
+        }
+
+        .intro-compacta h2 {
+            margin-top: 0;
+            color: #991b1b;
+        }
+
+        .intro-compacta p {
+            margin: 0.5rem 0;
+            font-size: 0.95rem;
+        }
+
+        @media (max-width: 768px) {
+            .metodos-grid-compacta {
+                grid-template-columns: 1fr;
+                gap: 0.8rem;
+            }
+
+            .metodo-card-compacta {
+                padding: 1rem;
+            }
+
+            .metodo-card-compacta h3 {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="layout">
+    <aside class="sidebar">
+        <a href="../index.html"><img src="../images/rino1.png" alt="Perfil Amaru" class="profile-img"></a>
+        <h1>Academia de Inversión Pública</h1>
+        <h3>Econ. Wilbert Amaru Fernandez Olmedo</h3>
+        <h5>Especialista en Ciencia de Datos aplicada a la Inversión Pública</h5>
+        <nav>
+            <a href="../index.html">Inicio</a>
+            <a href="sobre-mi.html">Sobre mí</a>
+            <a href="servicios.html"><b>Servicios</b></a>
+            <a href="proyectos.html">Proyectos</a>
+            <a href="articulos.html">Artículos y bases de datos</a>
+            <a href="guias-pip.html">Guías PIP</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+        <div class="sidebar-social">
+            <a href="https://www.youtube.com/@amarufo_inversionpublica" target="_blank"><img src="../images/yt.png" alt="YouTube"></a>
+            <a href="https://www.linkedin.com/in/amarufo/" target="_blank"><img src="../images/in.png" alt="LinkedIn"></a>
+            <a href="https://github.com/amarufo" target="_blank"><img src="../images/gh.png" alt="GitHub"></a>
+            <a href="https://wa.me/51930123005?text=Estimado,%20buen%20día..." target="_blank"><img src="../images/wsp.png" alt="WhatsApp"></a>
+            <a href="mailto:amaruf9523@gmail.com"><img src="../images/mailito.png" alt="Email"></a>
+        </div>
+    </aside>
+
+    <main class="content">
+        <header class="page-header">
+            <h1>Servicios de Formulación de PIPs</h1>
+            <p class="page-subtitle">Soluciones completas para Proyectos de Inversión Pública con análisis riguroso, evaluación económica y automatización.</p>
+        </header>
+
+        <div class="section-publicacion">
+            <div class="intro-compacta">
+                <h2>¿Qué necesitas para tu PIP?</h2>
+                <p>Selecciona el servicio que corresponde a tu etapa de formulación o necesidad específica.</p>
+            </div>
+
+            <!-- CATEGORÍA 1: Formulación Integral -->
+            <div class="categorias-container">
+                <div class="categoria-header">📋 Formulación Integral de PIPs</div>
+                <div class="metodos-grid-compacta">
+                    <div class="metodo-card-compacta">
+                        <span class="metodo-icono">📊</span>
+                        <h3>Estudios de Prefactibilidad</h3>
+                        <p class="metodo-pregunta">¿Necesitas evaluar si tu idea de proyecto es viable antes de invertir?</p>
+                        <p class="metodo-descripcion">Análisis preliminar de alternativas, costos iniciales y beneficios potenciales.</p>
+                        <a href="https://wa.me/51930123005?text=Necesito%20Estudio%20de%20Prefactibilidad" class="metodo-boton">Solicitar →</a>
+                    </div>
+
+                    <div class="metodo-card-compacta">
+                        <span class="metodo-icono">🔍</span>
+                        <h3>Estudios de Factibilidad</h3>
+                        <p class="metodo-pregunta">¿Ya pasó prefactibilidad y necesitas análisis técnico, económico y ambiental profundo?</p>
+                        <p class="metodo-descripcion">Estudio completo con evaluación financiera rigurosa y evaluación de riesgos.</p>
+                        <a href="https://wa.me/51930123005?text=Necesito%20Estudio%20de%20Factibilidad" class="metodo-boton">Solicitar →</a>
+                    </div>
+
+                    <div class="metodo-card-compacta">
+                        <span class="metodo-icono">📐</span>
+                        <h3>Diseños de Ingeniería</h3>
+                        <p class="metodo-pregunta">¿Necesitas especificaciones técnicas detalladas y cronogramas de ejecución?</p>
+                        <p class="metodo-descripcion">Diseños ejecutivos con presupuestos desagregados y cronogramas.</p>
+                        <a href="https://wa.me/51930123005?text=Necesito%20Diseño%20de%20Ingeniería" class="metodo-boton">Solicitar →</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CATEGORÍA 2: Evaluación Económica -->
+            <div class="categorias-container">
+                <div class="categoria-header">💰 Evaluación Económica y Financiera</div>
+                <div class="metodos-grid-compacta">
+                    <div class="metodo-card-compacta">
+                        <span class="metodo-icono">💵</span>
+                        <h3>VPN-TIR-B/C</h3>
+                        <p class="metodo-pregunta">¿Necesitas indicadores de viabilidad económica según directrices normativas?</p>
+                        <p class="metodo-descripcion">Cálculo de VPN, TIR, Ratio Beneficio-Costo con flujos de 10 años.</p>
+                        <a href="https://wa.me/51930123005?text=Necesito%20calcular%20VPN%20TIR" class="metodo-boton">Solicitar →</a>
+                    </div>
+
+                    <div class="metodo-card-compacta">
+                        <span class="metodo-icono">📊</span>
+                        <h3>Análisis de Sensibilidad</h3>
+                        <p class="metodo-pregunta">¿Quieres saber qué pasa si cambiar el costo, precio o demanda?</p>
+                        <p class="metodo-descripcion">Evaluación de variabilidad de resultados ante cambios en variables clave.</p>
+                        <a href="https://wa.me/51930123005?text=Necesito%20Análisis%20de%20Sensibilidad" class="metodo-boton">Solicitar →</a>
+                    </div>
+
+                    <div class="metodo-card-compacta">
+                        <span class="metodo-icono">⚠️</span>
+                        <h3>Análisis de Riesgos</h3>
+                        <p class="metodo-pregunta">¿Necesitas identificar riesgos y probabilidad de fracaso del proyecto?</p>
+                        <p class="metodo-descripcion">Simulación Montecarlo, escenarios pesimistas y estrategias de mitigación.</p>
+                        <a href="https://wa.me/51930123005?text=Necesito%20Análisis%20de%20Riesgos" class="metodo-boton">Solicitar →</a>
+                    </div>
+
+                    <div class="metodo-card-compacta">
+                        <span class="metodo-icono">📈</span>
+                        <h3>Flujos de Caja</h3>
+                        <p class="metodo-pregunta">¿Necesitas proyecciones de ingresos y costos a 10 años con supuestos justificados?</p>
+                        <p class="metodo-descripcion">Flujos operacionales, de inversión y financieros desagregados.</p>
+                        <a href="https://wa.me/51930123005?text=Necesito%20Proyección%20de%20Flujos" class="metodo-boton">Solicitar →</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CATEGORÍA 3: Automatización -->
+            <div class="categorias-container">
+                <div class="categoria-header">🤖 Automatización y Herramientas</div>
+                <div class="metodos-grid-compacta">
+                    <div class="metodo-card-compacta">
+                        <span class="metodo-icono">🔧</span>
+                        <h3>Modelos en Excel Dinámicos</h3>
+                        <p class="metodo-pregunta">¿Necesitas un modelo que actualice automáticamente cuando cambies datos?</p>
+                        <p class="metodo-descripcion">Hojas de cálculo con fórmulas automáticas y dashboards de resultados.</p>
+                        <a href="https://wa.me/51930123005?text=Necesito%20Modelo%20en%20Excel" class="metodo-boton">Solicitar →</a>
+                    </div>
+
+                    <div class="metodo-card-compacta">
+                        <span class="metodo-icono">🌐</span>
+                        <h3>Aplicativos Web</h3>
+                        <p class="metodo-pregunta">¿Quieres que tu equipo ingrese datos y obtenga cálculos sin saber fórmulas?</p>
+                        <p class="metodo-descripcion">Plataformas interactivas para ingreso de datos y cálculos automáticos de PIPs.</p>
+                        <a href="https://wa.me/51930123005?text=Necesito%20Aplicativo%20Web%20para%20PIPs" class="metodo-boton">Solicitar →</a>
+                    </div>
+
+                    <div class="metodo-card-compacta">
+                        <span class="metodo-icono">📊</span>
+                        <h3>Dashboards de Monitoreo</h3>
+                        <p class="metodo-pregunta">¿Necesitas visualización en tiempo real del avance y ejecución del proyecto?</p>
+                        <p class="metodo-descripcion">Paneles de control con indicadores de ejecución, costos y cronograma.</p>
+                        <a href="https://wa.me/51930123005?text=Necesito%20Dashboard%20de%20Monitoreo" class="metodo-boton">Solicitar →</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CATEGORÍA 4: Análisis Territorial -->
+            <div class="categorias-container">
+                <div class="categoria-header">🌍 Análisis Territorial e Impacto Social</div>
+                <div class="metodos-grid-compacta">
+                    <div class="metodo-card-compacta">
+                        <span class="metodo-icono">🗺️</span>
+                        <h3>Diagnóstico Territorial</h3>
+                        <p class="metodo-pregunta">¿Necesitas caracterizar la zona beneficiaria con datos y mapas?</p>
+                        <p class="metodo-descripcion">Análisis geográfico, demográfico y socioeconómico con visualizaciones.</p>
+                        <a href="https://wa.me/51930123005?text=Necesito%20Diagnóstico%20Territorial" class="metodo-boton">Solicitar →</a>
+                    </div>
+
+                    <div class="metodo-card-compacta">
+                        <span class="metodo-icono">👥</span>
+                        <h3>Análisis de Actores</h3>
+                        <p class="metodo-pregunta">¿Quieres identificar los grupos de interés y sus posiciones sobre el proyecto?</p>
+                        <p class="metodo-descripcion">Mapeo de actores, análisis de poder e influencia, y estrategias de relacionamiento.</p>
+                        <a href="https://wa.me/51930123005?text=Necesito%20Análisis%20de%20Actores" class="metodo-boton">Solicitar →</a>
+                    </div>
+
+                    <div class="metodo-card-compacta">
+                        <span class="metodo-icono">📊</span>
+                        <h3>Indicadores de Impacto</h3>
+                        <p class="metodo-pregunta">¿Necesitas medir el impacto social y resultados del proyecto post-ejecución?</p>
+                        <p class="metodo-descripcion">Definición de indicadores SMART, línea base y evaluación de resultados.</p>
+                        <a href="https://wa.me/51930123005?text=Necesito%20Indicadores%20de%20Impacto" class="metodo-boton">Solicitar →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contacto-servicios" style="margin-top: 2rem;">
+                <h3>📞 ¿Necesitas asesoría en tu PIP?</h3>
+                <p style="margin-bottom: 1rem;">Contacta para evaluar tu proyecto y definir el alcance de los servicios.</p>
+                <a href="https://wa.me/51930123005?text=Hola,%20necesito%20asesoría%20en%20formulación%20de%20PIPs" target="_blank">💬 WhatsApp</a>
+                <a href="mailto:amaruf9523@gmail.com?subject=Consulta%20sobre%20formulación%20de%20PIPs">📧 Email</a>
+            </div>
+        </div>
+    </main>
+</div>
+</body>
+</html>

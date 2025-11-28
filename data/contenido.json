@@ -111,5 +111,175 @@
       "autor": "Wilbert Amaru Fernández",
       "paginas_destino": ["articulos"]
     }
+  ],
+  "metodos_cuantitativos": [
+    {
+      "id": "correlacion-pearson",
+      "emoji": "🔗",
+      "nombre": "Correlación de Pearson",
+      "pregunta": "¿Tienes dos variables numéricas (números, no categorías)? ¿Quieres saber si suben/bajan juntas? Ej: ¿aumenta inversión = aumenta empleo? ¿más horas de estudio = mejores notas?",
+      "descripcion": "Mide la fuerza de la relación lineal entre dos variables continuas.",
+      "pdf_drive": "https://drive.google.com/file/d/1pJ8kL9mN2oP3qR4sT5uV6wX7yZ8aB9cD/view?usp=sharing"
+    },
+    {
+      "id": "regresion-simple",
+      "emoji": "📈",
+      "nombre": "Regresión Lineal Simple",
+      "pregunta": "¿Tienes UNA variable que explica a otra? ¿Quieres predecir? Ej: Conoces AÑOS DE EXPERIENCIA y quieres predecir SALARIO. O: TEMPERATURA predice CONSUMO DE CERVEZA.",
+      "descripcion": "Predice una variable dependiente a partir de una variable independiente.",
+      "pdf_drive": "https://drive.google.com/file/d/EJEMPLO_ID_2/view"
+    },
+    {
+      "id": "regresion-multiple",
+      "emoji": "🔗",
+      "nombre": "Regresión Múltiple OLS",
+      "pregunta": "¿Tienes MUCHAS variables numéricas (3, 5, 10)? ¿Quieres saber cuál es la más importante? Ej: ¿EDAD + AÑOS_EDUCACION + EXPERIENCIA + GÉNERO = SALARIO?",
+      "descripcion": "Analiza cómo múltiples factores impactan una variable de resultado.",
+      "pdf_drive": "https://drive.google.com/file/d/EJEMPLO_ID_3/view"
+    },
+    {
+      "id": "spearman-kendall",
+      "emoji": "📊",
+      "nombre": "Spearman / Kendall",
+      "pregunta": "¿Tus variables NO son numéricas sino RANGOS u ÓRDENES? Ej: Satisfacción (Muy Bajo-Bajo-Medio-Alto-Muy Alto) Y Ingresos (categorías). ¿O datos que rompen la linealidad?",
+      "descripcion": "Correlación para datos no lineales u ordinales.",
+      "pdf_drive": "https://drive.google.com/file/d/EJEMPLO_ID_4/view"
+    },
+    {
+      "id": "t-test",
+      "emoji": "📊",
+      "nombre": "T-Test (t de Student)",
+      "pregunta": "¿Tienes DOS GRUPOS distintos (hombres/mujeres, antes/después, control/tratamiento)? ¿Quieres saber si sus promedios son DIFERENTES? Ej: ¿Ganan diferente los hombres vs mujeres?",
+      "descripcion": "Compara promedios entre DOS grupos.",
+      "pdf_drive": "https://drive.google.com/file/d/EJEMPLO_ID_5/view"
+    },
+    {
+      "id": "anova",
+      "emoji": "📈",
+      "nombre": "ANOVA",
+      "pregunta": "¿Tienes 3 O MÁS GRUPOS diferentes? ¿Quieres comparar si sus promedios difieren significativamente? Ej: ¿Rendimiento diferente en 5 universidades? ¿Ingresos por región (Norte/Centro/Sur/Este)?",
+      "descripcion": "Compara promedios entre TRES o más grupos.",
+      "pdf_drive": "https://drive.google.com/file/d/EJEMPLO_ID_6/view"
+    },
+    {
+      "id": "chi-cuadrado",
+      "emoji": "🔍",
+      "nombre": "Chi-Cuadrado",
+      "pregunta": "¿Tus variables son CATEGORÍAS (texto, no números)? Ej: ¿Género (M/F) + Preferencia (SÍ/NO)? ¿Región (zona1/zona2) + Compra (Sí/No)? ¿Tus datos son conteos o frecuencias?",
+      "descripcion": "Compara variables categóricas (categorías, no números).",
+      "pdf_drive": "https://drive.google.com/file/d/EJEMPLO_ID_7/view"
+    },
+    {
+      "id": "shapiro-wilk",
+      "emoji": "📊",
+      "nombre": "Shapiro-Wilk / Normalidad",
+      "pregunta": "¿No sabes si tus datos son \"normales\" (distribuidos como campana)? ¿Necesitas verificar condiciones antes de hacer otros análisis? ¿Datos sospechosos o muy sesgados?",
+      "descripcion": "Valida si los datos cumplen supuestos estadísticos.",
+      "pdf_drive": "https://drive.google.com/file/d/EJEMPLO_ID_8/view"
+    },
+    {
+      "id": "kolmogorov-smirnov",
+      "emoji": "🔬",
+      "nombre": "Kolmogorov-Smirnov",
+      "pregunta": "¿Quieres verificar si tus datos REALMENTE siguen un patrón específico (Normal, Uniforme, Exponencial)? ¿O comparar dos distribuciones de datos?",
+      "descripcion": "Prueba de bondad de ajuste para distribuciones.",
+      "pdf_drive": "https://drive.google.com/file/d/EJEMPLO_ID_9/view"
+    },
+    {
+      "id": "pca",
+      "emoji": "🔍",
+      "nombre": "PCA (Análisis de Componentes)",
+      "pregunta": "¿Tienes MUCHAS variables (20, 30, 50) y quieres RESUMIR sin perder información? Ej: Encuesta con 50 preguntas → quieres 5 factores principales. ¿Datos abrumadores?",
+      "descripcion": "Reduce dimensionalidad mientras mantiene varianza importante.",
+      "pdf_drive": "https://drive.google.com/file/d/EJEMPLO_ID_10/view"
+    },
+    {
+      "id": "analisis-factorial",
+      "emoji": "📊",
+      "nombre": "Análisis Factorial",
+      "pregunta": "¿Múltiples variables miden LO MISMO (factor latente)? Ej: 5 preguntas diferentes que miden \"SATISFACCIÓN\" o \"CALIDAD DE VIDA\". ¿Quieres resumir en un solo índice?",
+      "descripcion": "Identifica factores subyacentes en tus variables.",
+      "pdf_drive": "https://drive.google.com/file/d/EJEMPLO_ID_11/view"
+    },
+    {
+      "id": "correspondencia",
+      "emoji": "🎯",
+      "nombre": "Correspondencia",
+      "pregunta": "¿Tienes DOS variables categóricas y quieres visualizar su relación? Ej: Región (Norte/Sur/Centro) vs Marca preferida (A/B/C). ¿Datos de tabla de contingencia?",
+      "descripcion": "Análisis para variables cualitativas complejas.",
+      "pdf_drive": "https://drive.google.com/file/d/EJEMPLO_ID_12/view"
+    },
+    {
+      "id": "logit-probit",
+      "emoji": "📈",
+      "nombre": "Logit / Probit",
+      "pregunta": "¿Quieres PREDECIR un evento SÍ/NO? Ej: ¿Compra el cliente? ¿Aprueba el crédito? ¿Se enferma? ¿Renuncia el empleado? ¿Con probabilidades reales?",
+      "descripcion": "Predicción de eventos binarios con probabilidades.",
+      "pdf_drive": "https://drive.google.com/file/d/EJEMPLO_ID_13/view"
+    },
+    {
+      "id": "arboles-decision",
+      "emoji": "🌳",
+      "nombre": "Árboles de Decisión",
+      "pregunta": "¿Quieres REGLAS CLARAS que expliquen tus datos? Ej: \"Si edad > 30 Y ingresos > 1000 ENTONCES compra\". ¿Necesitas comprensible, no una \"caja negra\"?",
+      "descripcion": "Predicciones interpretables con reglas claras.",
+      "pdf_drive": "https://drive.google.com/file/d/EJEMPLO_ID_14/view"
+    },
+    {
+      "id": "random-forest",
+      "emoji": "🌲",
+      "nombre": "Random Forest",
+      "pregunta": "¿Necesitas MÁXIMA PRECISIÓN en predicciones? ¿Tienes datos complejos? ¿No importa si no entiendes cómo funciona? ¿Querés resultados impresionantes?",
+      "descripcion": "Ensamble de árboles para predicciones más precisas.",
+      "pdf_drive": "https://drive.google.com/file/d/EJEMPLO_ID_15/view"
+    },
+    {
+      "id": "xgboost",
+      "emoji": "⚡",
+      "nombre": "XGBoost",
+      "pregunta": "¿Quieres GANAR UNA COMPETENCIA? ¿Maximizar precisión a todo costo? ¿Impresionar en tu defensa de tesis? ¿Datos muy difíciles o confusos?",
+      "descripcion": "Algoritmo de predicción más avanzado disponible.",
+      "pdf_drive": "https://drive.google.com/file/d/EJEMPLO_ID_16/view"
+    },
+    {
+      "id": "k-means",
+      "emoji": "🎯",
+      "nombre": "K-Means (Segmentación)",
+      "pregunta": "¿Quieres AGRUPAR o SEGMENTAR? Ej: Clientes en 3 tipos (VIP/Premium/Regular), ciudades por pobreza, estudiantes por desempeño. ¿Tipos o clusters en tus datos?",
+      "descripcion": "Agrupa observaciones en clusters automáticamente.",
+      "pdf_drive": "https://drive.google.com/file/d/EJEMPLO_ID_17/view"
+    },
+    {
+      "id": "arima",
+      "emoji": "⏰",
+      "nombre": "ARIMA",
+      "pregunta": "¿Tus datos son SERIES TEMPORALES? (eventos ordenados en tiempo: mensual, anual, diario) ¿Quieres PRONOSTICAR futuros valores? Ej: Ventas 2025, inflación próximos meses, demanda futura.",
+      "descripcion": "Pronósticos de series temporales con componentes AR, I, MA.",
+      "pdf_drive": "https://drive.google.com/file/d/EJEMPLO_ID_18/view"
+    },
+    {
+      "id": "descomposicion-temporal",
+      "emoji": "📈",
+      "nombre": "Descomposición Temporal",
+      "pregunta": "¿Tus datos tienen PATRONES (sube en diciembre, baja en junio)? ¿TENDENCIA a largo plazo? ¿Variaciones aleatorias? ¿Quieres entender qué mueve tus datos?",
+      "descripcion": "Separa componentes de una serie temporal.",
+      "pdf_drive": "https://drive.google.com/file/d/EJEMPLO_ID_19/view"
+    },
+    {
+      "id": "var",
+      "emoji": "📊",
+      "nombre": "VAR (Autorregresión)",
+      "pregunta": "¿MÚLTIPLES variables evolucionan JUNTAS en el tiempo? Ej: Inflación Y desempleo Y tipo de cambio evolucionan juntos. ¿Una variable afecta la otra?",
+      "descripcion": "Relaciones dinámicas entre múltiples series.",
+      "pdf_drive": "https://drive.google.com/file/d/EJEMPLO_ID_20/view"
+    },
+    {
+      "id": "panel-data",
+      "emoji": "📊",
+      "nombre": "Panel Data (Efectos Fijos/Aleatorios)",
+      "pregunta": "¿Tienes datos de MÚLTIPLES ENTIDADES (países, ciudades, empresas) EN VARIOS AÑOS? Ej: 10 universidades, 20 años de datos. ¿Quieres medir impacto de política pública?",
+      "descripcion": "Captura heterogeneidad observada y no observada entre entidades.",
+      "pdf_drive": "https://drive.google.com/file/d/EJEMPLO_ID_21/view"
+    }
   ]
 }

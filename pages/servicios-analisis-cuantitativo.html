@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Guía interactiva de métodos cuantitativos para tesis de postgrado. Encuentra el método perfecto para tu investigación.">
+    <meta name="keywords" content="análisis cuantitativo, tesis postgrado, estadística, métodos de investigación">
+    <meta name="author" content="Wilbert Amaru Fernández Olmedo">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://amarufo.github.io/pages/servicios-analisis-cuantitativo.html">
+    <meta property="og:title" content="Guía de Métodos Cuantitativos | Academia de Inversión Pública">
+    <meta property="og:description" content="Encuentra el método cuantitativo perfecto para tu tesis.">
+    <meta property="og:image" content="https://amarufo.github.io/images/icono.png">
+    
+    <link rel="manifest" href="../manifest.json">
+    <title>Guía de Métodos Cuantitativos | Academia de Inversión Pública</title>
+    <link rel="icon" href="../images/icono2.png" type="image/png">
+    <link href="../css/styles.css" rel="stylesheet">
+    <style>
+        /* Estilos para la guía de métodos */
+        .metodos-grid-compacta {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+
+        .metodo-card-compacta {
+            background: #fff;
+            border-radius: 10px;
+            border: 1.5px solid #e5e5e5;
+            padding: 1.2rem;
+            transition: all 0.2s ease;
+            box-shadow: 0 1px 4px #0001;
+            cursor: pointer;
+        }
+
+        .metodo-card-compacta:hover {
+            border-color: #b91c1c;
+            box-shadow: 0 2px 12px #b91c1c20;
+            transform: translateY(-2px);
+        }
+
+        .metodo-icono {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            display: block;
+        }
+
+        .metodo-card-compacta h3 {
+            font-size: 1.05rem;
+            color: #1a1a1a;
+            margin: 0.5rem 0;
+            font-weight: 700;
+        }
+
+        .metodo-pregunta {
+            font-size: 0.9rem;
+            color: #666;
+            font-style: italic;
+            margin: 0.7rem 0;
+            line-height: 1.4;
+        }
+
+        .metodo-descripcion {
+            font-size: 0.85rem;
+            color: #555;
+            margin: 0.6rem 0;
+            line-height: 1.35;
+        }
+
+        .metodo-boton {
+            display: inline-block;
+            background: #b91c1c;
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-top: 0.8rem;
+            transition: all 0.2s ease;
+            text-align: center;
+        }
+
+        .metodo-boton:hover {
+            background: #7d1010;
+            transform: translateY(-1px);
+        }
+
+        .metodo-botones {
+            display: flex;
+            gap: 0.8rem;
+            margin-top: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .metodo-botones .metodo-boton {
+            flex: 1;
+            min-width: 140px;
+            margin-top: 0;
+            padding: 0.6rem 0.8rem;
+        }
+
+        .metodo-boton.metodo-pdf {
+            background: #991b1b;
+        }
+
+        .metodo-boton.metodo-pdf:hover {
+            background: #7d1010;
+        }
+
+        .metodo-boton.metodo-whatsapp {
+            background: #25d366;
+        }
+
+        .metodo-boton.metodo-whatsapp:hover {
+            background: #1fa851;
+        }
+
+        .categorias-container {
+            margin-bottom: 2rem;
+        }
+
+        .categoria-header {
+            font-size: 1.3rem;
+            color: #b91c1c;
+            font-weight: 700;
+            margin: 1.5rem 0 1rem 0;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #b91c1c;
+        }
+
+        @media (max-width: 768px) {
+            .metodos-grid-compacta {
+                grid-template-columns: 1fr;
+                gap: 0.8rem;
+            }
+
+            .metodo-card-compacta {
+                padding: 1rem;
+            }
+
+            .metodo-card-compacta h3 {
+                font-size: 1rem;
+            }
+        }
+
+        .intro-compacta {
+            background: #f9f9f9;
+            padding: 1.2rem;
+            border-radius: 10px;
+            margin-bottom: 1.5rem;
+            border-left: 4px solid #b91c1c;
+        }
+
+        .intro-compacta h2 {
+            margin-top: 0;
+            color: #b91c1c;
+        }
+
+        .intro-compacta p {
+            margin: 0.5rem 0;
+            font-size: 0.95rem;
+        }
+    </style>
+</head>
+<body>
+<div class="layout">
+    <aside class="sidebar">
+        <a href="../index.html"><img src="../images/rino1.png" alt="Perfil Amaru" class="profile-img"></a>
+        <h1>Academia de Inversión Pública</h1>
+        <h3>Econ. Wilbert Amaru Fernandez Olmedo</h3>
+        <h5>Especialista en Ciencia de Datos aplicada a la Inversión Pública</h5>
+        <nav>
+            <a href="../index.html">Inicio</a>
+            <a href="sobre-mi.html">Sobre mí</a>
+            <a href="servicios.html"><b>Servicios</b></a>
+            <a href="proyectos.html">Proyectos</a>
+            <a href="articulos.html">Artículos y bases de datos</a>
+            <a href="guias-pip.html">Guías PIP</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+        <div class="sidebar-social">
+            <a href="https://www.youtube.com/@amarufo_inversionpublica" target="_blank"><img src="../images/yt.png" alt="YouTube"></a>
+            <a href="https://www.linkedin.com/in/amarufo/" target="_blank"><img src="../images/in.png" alt="LinkedIn"></a>
+            <a href="https://github.com/amarufo" target="_blank"><img src="../images/gh.png" alt="GitHub"></a>
+            <a href="https://wa.me/51930123005?text=Estimado,%20buen%20día..." target="_blank"><img src="../images/wsp.png" alt="WhatsApp"></a>
+            <a href="mailto:amaruf9523@gmail.com"><img src="../images/mailito.png" alt="Email"></a>
+        </div>
+    </aside>
+
+    <main class="content">
+        <header class="page-header">
+            <h1>GUIA DE MÉTODOS CUANTITATIVOS</h1>
+            <p class="page-subtitle">¿No sabes qué método usar? Encuentra la técnica perfecta según tu investigación.</p>
+        </header>
+
+        <div class="section-publicacion">
+            <div class="intro-compacta">
+                <h2>Selecciona el método que necesitas</h2>
+                <p>Cada tarjeta incluye una pregunta guía para identificar si ese método es el adecuado para tu investigación. Haz clic en "Ver ejemplo" para acceder a un análisis completo en PDF.</p>
+            </div>
+
+            <div id="metodos-container"></div>
+
+            <div class="contacto-servicios" style="margin-top: 2rem;">
+                <h3>📞 ¿Aún tienes dudas sobre qué método usar?</h3>
+                <p style="margin-bottom: 1rem;">Contactame para una consulta gratuita. Analizo tu investigación y te recomiendo el método perfecto.</p>
+                <a href="https://wa.me/51930123005?text=Tengo%20dudas%20sobre%20qué%20método%20usar%20en%20mi%20tesis" target="_blank">💬 WhatsApp</a>
+                <a href="mailto:amaruf9523@gmail.com?subject=Consulta%20sobre%20métodos%20cuantitativos">📧 Email</a>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        // Cargar datos desde JSON
+        async function cargarMetodos() {
+            try {
+                const response = await fetch('../data/contenido.json');
+                const data = await response.json();
+                const metodos = data.metodos_cuantitativos;
+
+                // Organizar métodos por categorías
+                const categorias = {
+                    'relaciones': {
+                        nombre: '📊 ¿Quieres encontrar relaciones entre variables?',
+                        metodos: metodos.slice(0, 4)
+                    },
+                    'comparacion': {
+                        nombre: '🔬 ¿Quieres comparar grupos o poblaciones?',
+                        metodos: metodos.slice(4, 9)
+                    },
+                    'reduccion': {
+                        nombre: '🎯 ¿Tienes muchas variables y quieres simplificar?',
+                        metodos: metodos.slice(9, 12)
+                    },
+                    'prediccion': {
+                        nombre: '🤖 ¿Quieres predecir o clasificar?',
+                        metodos: metodos.slice(12, 17)
+                    },
+                    'series': {
+                        nombre: '⏰ ¿Trabajas con datos en el tiempo?',
+                        metodos: metodos.slice(17, 20)
+                    },
+                    'panel': {
+                        nombre: '🏢 ¿Tienes datos de múltiples entidades en el tiempo?',
+                        metodos: metodos.slice(20, 21)
+                    }
+                };
+
+                const container = document.getElementById('metodos-container');
+                
+                // Renderizar categorías
+                Object.values(categorias).forEach(categoria => {
+                    // Crear header de categoría
+                    const headerDiv = document.createElement('div');
+                    headerDiv.className = 'categorias-container';
+                    
+                    const header = document.createElement('div');
+                    header.className = 'categoria-header';
+                    header.textContent = categoria.nombre;
+                    headerDiv.appendChild(header);
+                    
+                    // Crear grid de métodos
+                    const grid = document.createElement('div');
+                    grid.className = 'metodos-grid-compacta';
+                    
+                    categoria.metodos.forEach(metodo => {
+                        const card = document.createElement('div');
+                        card.className = 'metodo-card-compacta';
+                        
+                        card.innerHTML = `
+                            <span class="metodo-icono">${metodo.emoji}</span>
+                            <h3>${metodo.nombre}</h3>
+                            <p class="metodo-pregunta">${metodo.pregunta}</p>
+                            <p class="metodo-descripcion">${metodo.descripcion}</p>
+                            <div class="metodo-botones">
+                                <a href="${metodo.pdf_drive}" target="_blank" class="metodo-boton metodo-pdf">📄 Ver ejemplo</a>
+                                <a href="https://wa.me/51930123005?text=Quiero%20usar%20${encodeURIComponent(metodo.nombre)}" class="metodo-boton metodo-whatsapp">💬 Consultar</a>
+                            </div>
+                        `;
+                        
+                        grid.appendChild(card);
+                    });
+                    
+                    headerDiv.appendChild(grid);
+                    container.appendChild(headerDiv);
+                });
+
+            } catch (error) {
+                console.error('Error al cargar métodos:', error);
+                document.getElementById('metodos-container').innerHTML = '<p>Error al cargar los métodos. Intenta recargar la página.</p>';
+            }
+        }
+
+        // Cargar métodos cuando la página esté lista
+        document.addEventListener('DOMContentLoaded', cargarMetodos);
+    </script>
+
+
+</div>
+</body>
+</html>
