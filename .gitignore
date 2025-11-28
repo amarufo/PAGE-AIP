@@ -22,5 +22,13 @@ yarn-error.log
 *.log
 .cache/
 
+# Archivos de documentación y guías (innecesarios en repo)
+GUIA_*.md
+INSTRUCCIONES_*.md
+README_DESCARGAS.md
+README_*.txt
+*.doc
+*.docx
+
 # Sistema de versiones
 .git/config
