@@ -1,10 +1,12 @@
 # 🏛️ Academia de Inversión Pública
 
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen?logo=github)](https://amarufo.github.io/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 **Portal web especializado en ciencia de datos aplicada a inversión pública en el Perú.**
 
-**Autor**: Econ. Wilbert Amaru Fernandez Olmedo  
-**Sitio Web**: https://amarufo.github.io/  
-**Licencia**: MIT
+🌐 **Sitio Web**: [https://amarufo.github.io/](https://amarufo.github.io/)  
+👤 **Autor**: Econ. Wilbert Amaru Fernandez Olmedo
 
 ---
 
@@ -12,159 +14,98 @@
 
 Academia de Inversión Pública es un portal que ofrece:
 
-- 📊 **Bases de datos** de análisis demográfico, victimización y proyecciones
-- 📚 **Guías técnicas** para formulación de Proyectos de Inversión Pública (PIP)
-- 🔬 **Métodos cuantitativos** e herramientas de análisis
-- 🎯 **Publicaciones** y recursos para especialistas
-- 💼 **Servicios profesionales** de consultoría
+- 📊 **69 métodos cuantitativos** con guías interactivas y ejemplos
+- 🧙‍♂️ **Asistente inteligente** para elegir el método correcto para tu tesis
+- 📚 **Bases de datos** de análisis demográfico, victimización y proyecciones
+- 📖 **Guías técnicas** para formulación de Proyectos de Inversión Pública (PIP)
+- 💼 **Servicios profesionales** de consultoría en análisis de datos
+
+---
+
+## ✨ Características Principales
+
+### 🎯 Guía de Métodos Cuantitativos
+- **69 métodos** organizados en 11 categorías
+- **Wizard de 4 preguntas** que recomienda el método ideal según tu tesis
+- Sistema de puntuación inteligente basado en área, tipo de datos, objetivo y muestra
+- Tarjetas con ejemplos reales, PDFs descargables e imágenes
+
+### 📱 Experiencia de Usuario
+- ✅ Diseño responsive (mobile-first)
+- ✅ Navegación intuitiva con filtros y buscador
+- ✅ Galerías de imágenes con modal interactivo
+- ✅ Botón flotante de WhatsApp para consultas rápidas
 
 ---
 
 ## 🗂️ Estructura del Proyecto
 
 ```
-.
-├── index.html                      # Página principal
-├── css/                            # Estilos
-│   ├── styles.css                  # Estilos principales
-│   ├── diagrama-interactivo.css    # Estilos de diagramas
-│   └── sankey-diagram.css          # Estilos Sankey
-├── js/                             # Scripts
-│   ├── diagrama-cuantitativo.js
-│   └── sankey-diagram.js
-├── pages/                          # Páginas secundarias
-│   ├── sobre-mi.html
-│   ├── servicios.html
-│   ├── proyectos.html
-│   ├── articulos.html
-│   ├── guias-pip.html
-│   ├── metodos.html
-│   ├── contacto.html
-│   ├── galerias-metodos/           # Galerías de métodos
-│   └── publicaciones/              # Publicaciones
-├── docs/                           # Documentación y PDFs
-│   ├── pdf/                        # Archivos PDF
-│   └── plots/                      # Gráficos HTML
-├── images/                         # Recursos gráficos
-├── manifest.json                   # Configuración PWA
-├── sitemap.xml                     # Mapa del sitio
-├── robots.txt                      # Instrucciones para buscadores
-└── README.md                       # Este archivo
+📁 academia-inversion-publica/
+├── 📄 index.html                    # Página principal
+├── 📁 css/styles.css                # Estilos globales
+├── 📁 js/                           # Scripts interactivos
+├── 📁 data/contenido.json           # 69 métodos + entradas
+├── 📁 pages/                        # Páginas secundarias
+│   ├── servicios-analisis-cuantitativo.html  # ⭐ Guía de métodos
+│   ├── contacto.html, servicios.html, etc.
+│   └── galerias-metodos/            # Galerías por categoría
+├── 📁 images/imagenes_metodo/       # Gráficos de métodos
+├── 📁 docs/pdf/                     # PDFs descargables
+├── 📄 manifest.json                 # PWA
+├── 📄 sitemap.xml                   # SEO
+└── 📄 robots.txt                    # Crawlers
 ```
 
 ---
 
-## 🚀 Características
+## 🚀 Desarrollo Local
 
-### ✨ Actuales
-- ✅ Diseño responsive (mobile-first)
-- ✅ Interfaz limpia y moderna
-- ✅ Navegación intuitiva
-- ✅ Contenido organizado por categorías
-- ✅ Enlaces a redes sociales y contacto
-
-### 🔄 Próximas Mejoras
-- 📱 Instalable como PWA (Progressive Web App)
-- 🔍 Optimización SEO mejorada
-- ♿ Accesibilidad WCAG 2.1 AA
-- 📊 Analytics integrado
-- 🌙 Modo oscuro (opcional)
-
----
-
-## 📝 Instrucciones para Desarrolladores
-
-### Requisitos
-- Un servidor HTTP simple (puede ser local)
-- Navegador moderno (Chrome, Firefox, Safari, Edge)
-
-### Instalación Local
-
-#### Con Python
 ```bash
-# Python 3
+# Python
 python -m http.server 8000
 
-# Python 2
-python -m SimpleHTTPServer 8000
-```
-
-#### Con Node.js
-```bash
+# Node.js
 npx http-server
 ```
 
-#### Con PowerShell (Windows)
-```powershell
-# Usando VS Code
-code --version
-# O directamente
-python -m http.server 8000
-```
-
-Luego accede a `http://localhost:8000`
-
-### Estructura de Desarrollo
-
-1. **HTML**: Páginas en raíz y carpeta `pages/`
-2. **CSS**: Centralizado en `css/styles.css`
-3. **JS**: Scripts específicos en `js/`
-4. **Assets**: Imágenes en `images/`
-
-### Agregar Nueva Página
-
-1. Crear archivo `pages/nueva-pagina.html`
-2. Copiar estructura base de `index.html`
-3. Actualizar meta tags (title, description)
-4. Agregar enlace en la barra de navegación
-5. Actualizar `sitemap.xml`
+Visitar: `http://localhost:8000`
 
 ---
 
-## 🔧 Tecnologías
+## 📊 Categorías de Métodos (69 total)
 
-- **HTML5** - Estructura semántica
-- **CSS3** - Diseño responsivo con Custom Properties
-- **JavaScript** - Interactividad (Sankey, diagramas)
-- **GitHub Pages** - Hosting
-
----
-
-## 📱 Compatibilidad
-
-- ✅ Chrome/Edge (90+)
-- ✅ Firefox (88+)
-- ✅ Safari (14+)
-- ✅ Móviles (iOS, Android)
-
----
-
-## 🔐 SEO y Configuración
-
-El sitio está optimizado para buscadores:
-- `robots.txt` - Instrucciones para crawlers
-- `sitemap.xml` - Mapa del sitio
-- `manifest.json` - Configuración PWA
-- Meta tags Open Graph
-- Meta tags Twitter Card
+| Categoría | Métodos |
+|-----------|---------|
+| 🔗 Correlación | Pearson, Spearman, Parcial |
+| 📈 Regresión | OLS, Logit, Poisson, Cuantílica, Ridge/Lasso |
+| ⚖️ Comparación | T-Test, ANOVA, Chi², Mann-Whitney, Kruskal-Wallis |
+| ✅ Validación | Shapiro-Wilk, Levene, Cronbach, VIF |
+| 🎯 Reducción | PCA, Factorial, MDS, Correspondencia |
+| ⏰ Series Tiempo | ARIMA, SARIMA, VAR, GARCH, Granger |
+| 🏢 Panel/Impacto | DiD, RDD, PSM, Efectos Fijos |
+| 🤖 ML Supervisado | Random Forest, XGBoost, SVM, Redes Neuronales |
+| 🎨 ML No Supervisado | K-Means, DBSCAN, t-SNE, Isolation Forest |
+| 📝 NLP/Texto | Sentiment Analysis, LDA, NER |
+| 🎓 Avanzado | SEM, Bayesiano, Survival, Meta-Analysis |
 
 ---
 
 ## 📞 Contacto
 
-- **Email**: amaruf9523@gmail.com
-- **LinkedIn**: https://www.linkedin.com/in/amarufo/
-- **GitHub**: https://github.com/amarufo
-- **YouTube**: https://www.youtube.com/@amarufo_inversionpublica
-- **WhatsApp**: https://wa.me/51930123005
+- 📧 **Email**: amaruf9523@gmail.com
+- 💬 **WhatsApp**: +51 930 123 005
+- 💼 **LinkedIn**: [@amarufo](https://linkedin.com/in/amarufo)
+- 🐙 **GitHub**: [@amarufo](https://github.com/amarufo)
 
 ---
 
 ## 📄 Licencia
 
-Este proyecto está bajo licencia MIT. Ver el archivo LICENSE para más detalles.
+MIT License - Ver [LICENSE](LICENSE)
 
 ---
 
-**Última actualización**: Noviembre 2025  
-**Versión**: 1.0.0
+<p align="center"><i>Hecho con ❤️ para investigadores en Perú</i></p>
+
+**Última actualización**: Noviembre 2025 | **Versión**: 2.0.0

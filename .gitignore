@@ -1,34 +1,64 @@
+# ==================================
+# .gitignore - Academia de Inversión Pública
+# Solo se sube lo esencial para GitHub Pages
+# ==================================
+
 # Sistema Operativo
 .DS_Store
 Thumbs.db
 *.swp
 *.swo
 *~
+desktop.ini
 
 # IDE y Editores
 .vscode/
 .idea/
 *.sublime-project
 *.sublime-workspace
+.env
 .env.local
+.env.*.local
 
 # Node (si se usa build tools en futuro)
 node_modules/
 npm-debug.log
 yarn-error.log
+package-lock.json
 
 # Archivos temporales
 *.tmp
+*.temp
 *.log
 .cache/
+*.bak
 
-# Archivos de documentación y guías (innecesarios en repo)
+# Archivos de documentación internos (no necesarios en producción)
 GUIA_*.md
 INSTRUCCIONES_*.md
 README_DESCARGAS.md
-README_*.txt
 *.doc
 *.docx
+*.txt
+!robots.txt
 
-# Sistema de versiones
-.git/config
+# Scripts de desarrollo/testing
+verify-improvements.sh
+test*.html
+*.test.js
+
+# Carpetas de desarrollo
+__pycache__/
+.pytest_cache/
+coverage/
+
+# Archivos grandes innecesarios
+*.psd
+*.ai
+*.sketch
+*.fig
+
+# Backups
+*_backup*
+*_old*
+*.orig

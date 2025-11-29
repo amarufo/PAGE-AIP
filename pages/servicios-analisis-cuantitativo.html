@@ -3,174 +3,947 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Guía interactiva de métodos cuantitativos para tesis de postgrado. Encuentra el método perfecto para tu investigación.">
-    <meta name="keywords" content="análisis cuantitativo, tesis postgrado, estadística, métodos de investigación">
+    <meta name="description" content="Guía interactiva de métodos cuantitativos para tesis de postgrado. Encuentra el método perfecto para tu investigación con nuestro asistente inteligente.">
+    <meta name="keywords" content="análisis cuantitativo, tesis postgrado, estadística, métodos de investigación, correlación, regresión, ANOVA, machine learning, Pearson, Spearman">
     <meta name="author" content="Wilbert Amaru Fernández Olmedo">
     
-    <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://amarufo.github.io/pages/servicios-analisis-cuantitativo.html">
     <meta property="og:title" content="Guía de Métodos Cuantitativos | Academia de Inversión Pública">
-    <meta property="og:description" content="Encuentra el método cuantitativo perfecto para tu tesis.">
+    <meta property="og:description" content="Encuentra el método cuantitativo perfecto para tu tesis con nuestro asistente interactivo.">
     <meta property="og:image" content="https://amarufo.github.io/images/icono.webp">
     
     <link rel="manifest" href="../manifest.json">
     <title>Guía de Métodos Cuantitativos | Academia de Inversión Pública</title>
-    <link rel="icon" href="../images/icono2.webp" type="image/png">
+    <link rel="icon" href="../images/icono2.png" type="image/png">
     <link href="../css/styles.css" rel="stylesheet">
     <style>
-        /* Estilos para la guía de métodos */
-        .metodos-grid-compacta {
+        /* Grid de tarjetas */
+        .metodos-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 1rem;
-            margin: 1.5rem 0;
+            margin: 1rem 0;
         }
 
-        .metodo-card-compacta {
-            background: #fff;
-            border-radius: 10px;
-            border: 1.5px solid #e5e5e5;
-            padding: 1.2rem;
-            transition: all 0.2s ease;
-            box-shadow: 0 1px 4px #0001;
-            cursor: pointer;
+        /* Tarjeta de método - COMPACTA */
+        .metodo-card {
+            background: linear-gradient(145deg, #ffffff 0%, #fafafa 100%);
+            border-radius: 12px;
+            border: 1px solid #e5e5e5;
+            padding: 1rem;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+            position: relative;
+            overflow: hidden;
         }
 
-        .metodo-card-compacta:hover {
+        .metodo-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background: linear-gradient(180deg, #b91c1c 0%, #991b1b 100%);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .metodo-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 24px rgba(185, 28, 28, 0.12);
             border-color: #b91c1c;
-            box-shadow: 0 2px 12px #b91c1c20;
-            transform: translateY(-2px);
         }
 
-        .metodo-icono {
-            font-size: 2rem;
-            margin-bottom: 0.5rem;
-            display: block;
+        .metodo-card:hover::before {
+            opacity: 1;
         }
 
-        .metodo-card-compacta h3 {
-            font-size: 1.05rem;
+        /* Header de tarjeta */
+        .metodo-header {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            margin-bottom: 0.6rem;
+        }
+
+        .metodo-emoji {
+            font-size: 1.6rem;
+            line-height: 1;
+            flex-shrink: 0;
+        }
+
+        .metodo-titulo {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .metodo-titulo h3 {
+            font-size: 0.95rem;
             color: #1a1a1a;
+            margin: 0;
+            font-weight: 700;
+            line-height: 1.2;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .metodo-categoria {
+            display: inline-block;
+            font-size: 0.6rem;
+            color: #fff;
+            background: #b91c1c;
+            padding: 0.1rem 0.4rem;
+            border-radius: 8px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+        }
+
+        /* Pregunta guía - compacta */
+        .metodo-pregunta {
+            font-size: 0.82rem;
+            color: #444;
+            line-height: 1.4;
             margin: 0.5rem 0;
+            padding: 0.6rem;
+            background: linear-gradient(135deg, #fef2f2 0%, #fff5f5 100%);
+            border-radius: 8px;
+            border-left: 3px solid #b91c1c;
+        }
+
+        /* Descripción - más compacta */
+        .metodo-descripcion {
+            font-size: 0.78rem;
+            color: #666;
+            line-height: 1.4;
+            margin: 0.4rem 0;
+        }
+
+        /* ===== GALERÍA DE IMÁGENES EN TARJETAS ===== */
+        .metodo-galeria {
+            display: flex;
+            gap: 0.5rem;
+            margin: 0.8rem 0;
+            padding: 0.8rem;
+            background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+            border-radius: 12px;
+            border: 1px solid #e2e8f0;
+            overflow-x: auto;
+            scrollbar-width: thin;
+        }
+
+        .metodo-galeria::-webkit-scrollbar {
+            height: 6px;
+        }
+
+        .metodo-galeria::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 3px;
+        }
+
+        .metodo-galeria::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8;
+        }
+
+        .galeria-thumb {
+            width: 80px;
+            height: 60px;
+            border-radius: 8px;
+            object-fit: cover;
+            cursor: pointer;
+            border: 3px solid #fff;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            flex-shrink: 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .galeria-thumb:hover {
+            border-color: #b91c1c;
+            transform: scale(1.15) translateY(-4px);
+            box-shadow: 0 8px 20px rgba(185, 28, 28, 0.3);
+            z-index: 10;
+        }
+
+        .ver-galeria-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #b91c1c 0%, #991b1b 100%);
+            border-radius: 8px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: #fff;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            flex-shrink: 0;
+            cursor: pointer;
+            box-shadow: 0 2px 8px rgba(185, 28, 28, 0.3);
+        }
+
+        .ver-galeria-btn:hover {
+            background: linear-gradient(135deg, #991b1b 0%, #7f1d1d 100%);
+            transform: scale(1.1);
+            box-shadow: 0 6px 16px rgba(185, 28, 28, 0.4);
+        }
+
+        /* Modal para ver imágenes grandes */
+        .modal-galeria {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.9);
+            z-index: 2000;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+        }
+
+        .modal-galeria.active {
+            display: flex;
+        }
+
+        .modal-galeria img {
+            max-width: 90%;
+            max-height: 90%;
+            object-fit: contain;
+            border-radius: 8px;
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 1rem;
+            right: 1.5rem;
+            color: #fff;
+            font-size: 2rem;
+            cursor: pointer;
+            background: rgba(0,0,0,0.5);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-nav {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #fff;
+            font-size: 2rem;
+            cursor: pointer;
+            background: rgba(0,0,0,0.5);
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-prev { left: 1rem; }
+        .modal-next { right: 1rem; }
+
+        /* Botones de acción - MEJORADOS CON ALTO CONTRASTE */
+        .metodo-acciones {
+            display: flex;
+            gap: 0.6rem;
+            margin-top: 1rem;
+        }
+
+        .btn-metodo {
+            flex: 1;
+            padding: 0.7rem 0.8rem;
+            border-radius: 10px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-decoration: none;
+            text-align: center;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.4rem;
+            border: 2px solid transparent;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Botón PDF - Rojo vibrante */
+        .btn-ejemplo {
+            background: #dc2626;
+            color: #ffffff;
+            border-color: #dc2626;
+            box-shadow: 0 4px 14px rgba(220, 38, 38, 0.35);
+        }
+
+        .btn-ejemplo:hover {
+            background: #b91c1c;
+            border-color: #991b1b;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(185, 28, 28, 0.45);
+            color: #ffffff;
+        }
+
+        /* Botón Pronto - Gris elegante con borde punteado */
+        .btn-pronto {
+            background: #f8fafc;
+            color: #64748b;
+            border: 2px dashed #94a3b8;
+            box-shadow: none;
+            cursor: not-allowed;
+        }
+
+        .btn-pronto:hover {
+            background: #f1f5f9;
+            color: #475569;
+            transform: none;
+        }
+
+        /* Botón Consultar WhatsApp - Verde vibrante */
+        .btn-consultar {
+            background: #22c55e;
+            color: #ffffff;
+            border-color: #22c55e;
+            box-shadow: 0 4px 14px rgba(34, 197, 94, 0.35);
+        }
+
+        .btn-consultar:hover {
+            background: #16a34a;
+            border-color: #15803d;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(22, 163, 74, 0.45);
+            color: #ffffff;
+        }
+
+        /* Sección de categoría */
+        .categoria-seccion {
+            margin: 3rem 0 2rem 0;
+        }
+
+        .categoria-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding-bottom: 1rem;
+            margin-bottom: 1.5rem;
+            border-bottom: 3px solid #b91c1c;
+            position: relative;
+        }
+
+        .categoria-header::after {
+            content: '';
+            position: absolute;
+            bottom: -3px;
+            left: 0;
+            width: 60px;
+            height: 3px;
+            background: #991b1b;
+        }
+
+        .categoria-header h2 {
+            font-size: 1.4rem;
+            color: #1a1a1a;
+            margin: 0;
             font-weight: 700;
         }
 
-        .metodo-pregunta {
+        .categoria-icono {
+            font-size: 1.8rem;
+            filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+        }
+
+        .categoria-contador {
+            background: #f3f4f6;
+            color: #666;
+            font-size: 0.8rem;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-weight: 600;
+        }
+
+        /* Intro hero */
+        .intro-hero {
+            background: linear-gradient(135deg, #fef2f2 0%, #fff 50%, #fef2f2 100%);
+            padding: 2.5rem;
+            border-radius: 20px;
+            margin-bottom: 2rem;
+            border: 1px solid #fecaca;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .intro-hero::before {
+            content: '🎯';
+            position: absolute;
+            top: -20px;
+            right: -20px;
+            font-size: 8rem;
+            opacity: 0.08;
+        }
+
+        .intro-hero h2 {
+            color: #b91c1c;
+            font-size: 1.5rem;
+            margin: 0 0 1rem 0;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .intro-hero p {
+            color: #555;
+            font-size: 1rem;
+            line-height: 1.7;
+            margin: 0;
+            max-width: 700px;
+        }
+
+        .intro-stats {
+            display: flex;
+            gap: 2rem;
+            margin-top: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .stat-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
             font-size: 0.9rem;
             color: #666;
-            font-style: italic;
-            margin: 0.7rem 0;
-            line-height: 1.4;
         }
 
-        .metodo-descripcion {
-            font-size: 0.85rem;
-            color: #555;
-            margin: 0.6rem 0;
-            line-height: 1.35;
+        .stat-item strong {
+            color: #b91c1c;
+            font-size: 1.2rem;
         }
 
-        .metodo-boton {
-            display: inline-block;
-            background: #b91c1c;
+        /* Contacto final */
+        .contacto-final {
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
             color: #fff;
-            text-decoration: none;
-            padding: 0.5rem 1rem;
-            border-radius: 5px;
-            font-size: 0.85rem;
-            font-weight: 600;
-            margin-top: 0.8rem;
+            padding: 3rem;
+            border-radius: 20px;
+            margin-top: 3rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .contacto-final::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #b91c1c, #25d366, #b91c1c);
+        }
+
+        .contacto-final h3 {
+            font-size: 1.5rem;
+            margin: 0 0 1rem 0;
+        }
+
+        .contacto-final p {
+            color: #bbb;
+            margin-bottom: 2rem;
+            font-size: 1rem;
+        }
+
+        .contacto-botones {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .contacto-final .btn-metodo {
+            flex: unset;
+            padding: 1rem 2.5rem;
+            font-size: 1rem;
+        }
+
+        /* ===== WIZARD / ASISTENTE INTERACTIVO ===== */
+        .wizard-container {
+            background: linear-gradient(135deg, #b91c1c 0%, #991b1b 100%);
+            border-radius: 20px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            color: #fff;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 8px 32px rgba(185, 28, 28, 0.3);
+        }
+
+        .wizard-container::before {
+            content: '🧙‍♂️';
+            position: absolute;
+            top: -30px;
+            right: -30px;
+            font-size: 10rem;
+            opacity: 0.15;
+        }
+
+        .wizard-header {
+            text-align: center;
+            margin-bottom: 1.5rem;
+            background: rgba(0,0,0,0.2);
+            padding: 1.5rem;
+            border-radius: 12px;
+        }
+
+        .wizard-header h2 {
+            font-size: 1.5rem;
+            margin: 0 0 0.5rem 0;
+            color: #272424;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.4);
+            font-weight: 700;
+        }
+
+        .wizard-header p {
+            color: #fff;
+            font-size: 0.95rem;
+            margin: 0;
+            font-weight: 500;
+        }
+
+        .wizard-question {
+            background: rgba(255,255,255,0.1);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .wizard-question h3 {
+            color: #fecaca;
+            font-size: 1rem;
+            margin: 0 0 1rem 0;
+        }
+
+        .wizard-options {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 0.8rem;
+        }
+
+        .wizard-option {
+            background: #ffffff;
+            border: 2px solid #e5e5e5;
+            border-radius: 10px;
+            padding: 1rem;
+            cursor: pointer;
             transition: all 0.2s ease;
             text-align: center;
         }
 
-        .metodo-boton:hover {
-            background: #7d1010;
-            transform: translateY(-1px);
+        .wizard-option:hover {
+            background: #fef2f2;
+            border-color: #b91c1c;
+            transform: translateY(-2px);
         }
 
-        .metodo-botones {
-            display: flex;
-            gap: 0.8rem;
+        .wizard-option.selected {
+            background: #b91c1c;
+            border-color: #991b1b;
+        }
+
+        .wizard-option .option-emoji {
+            font-size: 1.8rem;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .wizard-option .option-text {
+            font-size: 0.85rem;
+            color: #333;
+            font-weight: 500;
+        }
+
+        .wizard-option.selected .option-text {
+            color: #fff;
+        }
+
+        .wizard-result {
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+            border-radius: 12px;
+            padding: 1.5rem;
             margin-top: 1rem;
-            flex-wrap: wrap;
+            display: none;
         }
 
-        .metodo-botones .metodo-boton {
-            flex: 1;
-            min-width: 140px;
-            margin-top: 0;
-            padding: 0.6rem 0.8rem;
+        .wizard-result-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1rem;
+            margin: 1rem 0;
         }
 
-        .metodo-boton.metodo-pdf {
-            background: #991b1b;
+        .wizard-rec-card {
+            background: rgba(255,255,255,0.1);
+            border-radius: 10px;
+            padding: 1rem;
+            border-left: 4px solid #25d366;
+            transition: all 0.2s ease;
         }
 
-        .metodo-boton.metodo-pdf:hover {
-            background: #7d1010;
+        .wizard-rec-card:hover {
+            background: rgba(255,255,255,0.15);
+            transform: translateY(-2px);
         }
 
-        .metodo-boton.metodo-whatsapp {
-            background: #25d366;
+        .wizard-rec-card h4 {
+            color: #fff;
+            font-size: 0.95rem;
+            margin: 0 0 0.5rem 0;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
         }
 
-        .metodo-boton.metodo-whatsapp:hover {
-            background: #1fa851;
+        .wizard-rec-card p {
+            color: #bbb;
+            font-size: 0.8rem;
+            margin: 0 0 0.5rem 0;
+            line-height: 1.4;
         }
 
-        .categorias-container {
-            margin-bottom: 2rem;
+        .wizard-rec-card .uso {
+            color: #25d366;
+            font-size: 0.75rem;
+            font-style: italic;
         }
 
-        .categoria-header {
-            font-size: 1.3rem;
-            color: #b91c1c;
+        .wizard-rec-card a {
+            display: inline-block;
+            margin-top: 0.5rem;
+            color: #fecaca;
+            font-size: 0.8rem;
+            text-decoration: none;
+        }
+
+        .wizard-rec-card a:hover {
+            color: #fff;
+            text-decoration: underline;
+        }
+
+        .wizard-result.visible {
+            display: block;
+            animation: fadeIn 0.3s ease;
+        }
+
+        .wizard-result h3 {
+            color: #fff;
+            margin: 0 0 0.5rem 0;
+        }
+
+        .wizard-result p {
+            color: #dcfce7;
+            margin: 0 0 1rem 0;
+        }
+
+        .wizard-result-btn {
+            background: #fff;
+            color: #166534;
+            padding: 0.7rem 1.5rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            display: inline-block;
+            transition: all 0.2s ease;
+        }
+
+        .wizard-result-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+
+        /* ===== WIZARD MEJORADO - BARRA DE PROGRESO ===== */
+        .wizard-progress {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0;
+            margin-bottom: 1.5rem;
+            padding: 1rem;
+        }
+
+        .progress-step {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.2);
+            color: rgba(255,255,255,0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
             font-weight: 700;
-            margin: 1.5rem 0 1rem 0;
-            padding-bottom: 0.5rem;
-            border-bottom: 2px solid #b91c1c;
+            font-size: 1rem;
+            transition: all 0.3s ease;
         }
 
+        .progress-step.active {
+            background: #fff;
+            color: #b91c1c;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+
+        .progress-line {
+            width: 60px;
+            height: 4px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 2px;
+        }
+
+        /* Hint debajo de preguntas */
+        .wizard-hint {
+            color: rgba(255,255,255,0.8);
+            font-size: 0.85rem;
+            margin: 0 0 1rem 0;
+            font-style: italic;
+        }
+
+        /* Grid de opciones 4 columnas para área */
+        .wizard-options-grid {
+            grid-template-columns: repeat(4, 1fr) !important;
+        }
+
+        @media (max-width: 900px) {
+            .wizard-options-grid {
+                grid-template-columns: repeat(2, 1fr) !important;
+            }
+        }
+
+        @media (max-width: 500px) {
+            .wizard-options-grid {
+                grid-template-columns: 1fr !important;
+            }
+        }
+
+        /* Descripción dentro de opciones */
+        .wizard-option .option-desc {
+            display: block;
+            font-size: 0.7rem;
+            color: #666;
+            margin-top: 0.3rem;
+            line-height: 1.3;
+        }
+
+        .wizard-option.selected .option-desc {
+            color: rgba(255,255,255,0.8);
+        }
+
+        /* Ranking en resultados */
+        .wizard-rec-card {
+            position: relative;
+        }
+
+        .rec-rank {
+            position: absolute;
+            top: -8px;
+            left: -8px;
+            background: #25d366;
+            color: #fff;
+            font-size: 0.7rem;
+            font-weight: 700;
+            padding: 0.3rem 0.5rem;
+            border-radius: 6px;
+            box-shadow: 0 2px 8px rgba(37,211,102,0.4);
+        }
+
+        /* ===== BUSCADOR Y FILTROS ===== */
+        .filtros-container {
+            background: #fff;
+            border-radius: 16px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+            border: 1px solid #e5e5e5;
+        }
+
+        .buscador-wrapper {
+            position: relative;
+            margin-bottom: 1rem;
+        }
+
+        .buscador-input {
+            width: 100%;
+            padding: 1rem 1rem 1rem 3rem;
+            border: 2px solid #e5e5e5;
+            border-radius: 12px;
+            font-size: 1rem;
+            transition: all 0.2s ease;
+        }
+
+        .buscador-input:focus {
+            outline: none;
+            border-color: #b91c1c;
+            box-shadow: 0 0 0 3px rgba(185, 28, 28, 0.1);
+        }
+
+        .buscador-icon {
+            position: absolute;
+            left: 1rem;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 1.2rem;
+            color: #999;
+        }
+
+        .filtros-chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .filtro-chip {
+            background: #f3f4f6;
+            border: 2px solid transparent;
+            border-radius: 20px;
+            padding: 0.5rem 1rem;
+            font-size: 0.85rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+        }
+
+        .filtro-chip:hover {
+            background: #fef2f2;
+            border-color: #fecaca;
+        }
+
+        .filtro-chip.active {
+            background: #b91c1c;
+            color: #fff;
+            border-color: #b91c1c;
+        }
+
+        .resultados-info {
+            text-align: center;
+            color: #666;
+            font-size: 0.9rem;
+            padding: 1rem;
+        }
+
+        /* ===== BOTÓN FLOTANTE WHATSAPP ===== */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            background: #25d366;
+            color: #fff;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+            z-index: 1000;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 25px rgba(37, 211, 102, 0.5);
+        }
+
+        .whatsapp-float .tooltip {
+            position: absolute;
+            right: 70px;
+            background: #333;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            white-space: nowrap;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.2s ease;
+        }
+
+        .whatsapp-float:hover .tooltip {
+            opacity: 1;
+        }
+
+        /* ===== ANIMACIONES ===== */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .metodo-card {
+            animation: fadeIn 0.4s ease backwards;
+        }
+
+        /* Stagger animation para las tarjetas */
+        .metodo-card:nth-child(1) { animation-delay: 0.05s; }
+        .metodo-card:nth-child(2) { animation-delay: 0.1s; }
+        .metodo-card:nth-child(3) { animation-delay: 0.15s; }
+        .metodo-card:nth-child(4) { animation-delay: 0.2s; }
+
+        /* Responsive */
         @media (max-width: 768px) {
-            .metodos-grid-compacta {
+            .metodos-grid {
                 grid-template-columns: 1fr;
+            }
+
+            .metodo-acciones {
+                flex-direction: column;
+            }
+
+            .intro-hero {
+                padding: 1.5rem;
+            }
+
+            .intro-stats {
+                flex-direction: column;
                 gap: 0.8rem;
             }
 
-            .metodo-card-compacta {
-                padding: 1rem;
+            .contacto-final {
+                padding: 2rem 1.5rem;
             }
 
-            .metodo-card-compacta h3 {
-                font-size: 1rem;
+            .contacto-botones {
+                flex-direction: column;
             }
-        }
 
-        .intro-compacta {
-            background: #f9f9f9;
-            padding: 1.2rem;
-            border-radius: 10px;
-            margin-bottom: 1.5rem;
-            border-left: 4px solid #b91c1c;
-        }
+            .contacto-final .btn-metodo {
+                width: 100%;
+            }
 
-        .intro-compacta h2 {
-            margin-top: 0;
-            color: #b91c1c;
-        }
+            .wizard-options {
+                grid-template-columns: 1fr 1fr;
+            }
 
-        .intro-compacta p {
-            margin: 0.5rem 0;
-            font-size: 0.95rem;
+            .whatsapp-float {
+                bottom: 1rem;
+                right: 1rem;
+                width: 50px;
+                height: 50px;
+                font-size: 1.5rem;
+            }
         }
     </style>
 </head>
 <body>
 <div class="layout">
     <aside class="sidebar">
-        <a href="../index.html"><img src="../images/rino1.webp" alt="Perfil Amaru" class="profile-img"></a>
+        <a href="../index.html"><img src="../images/rino1.png" alt="Perfil Amaru" class="profile-img"></a>
         <h1>Academia de Inversión Pública</h1>
         <h3>Econ. Wilbert Amaru Fernandez Olmedo</h3>
         <h5>Especialista en Ciencia de Datos aplicada a la Inversión Pública</h5>
@@ -184,124 +957,1087 @@
             <a href="contacto.html">Contacto</a>
         </nav>
         <div class="sidebar-social">
-            <a href="https://www.youtube.com/@amarufo_inversionpublica" target="_blank"><img src="../images/yt.webp" alt="YouTube"></a>
-            <a href="https://www.linkedin.com/in/amarufo/" target="_blank"><img src="../images/in.webp" alt="LinkedIn"></a>
-            <a href="https://github.com/amarufo" target="_blank"><img src="../images/gh.webp" alt="GitHub"></a>
-            <a href="https://wa.me/51930123005?text=Estimado,%20buen%20día..." target="_blank"><img src="../images/wsp.webp" alt="WhatsApp"></a>
-            <a href="mailto:amaruf9523@gmail.com"><img src="../images/mailito.webp" alt="Email"></a>
+            <a href="https://www.youtube.com/@amarufo_inversionpublica" target="_blank"><img src="../images/yt.png" alt="YouTube"></a>
+            <a href="https://www.linkedin.com/in/amarufo/" target="_blank"><img src="../images/gh.png" alt="LinkedIn"></a>
+            <a href="https://github.com/amarufo" target="_blank"><img src="../images/gh.png" alt="GitHub"></a>
+            <a href="https://wa.me/51930123005?text=Estimado,%20buen%20día..." target="_blank"><img src="../images/wsp.png" alt="WhatsApp"></a>
+            <a href="mailto:amaruf9523@gmail.com"><img src="../images/mailito.png" alt="Email"></a>
         </div>
     </aside>
 
     <main class="content">
         <header class="page-header">
-            <h1>GUIA DE MÉTODOS CUANTITATIVOS</h1>
-            <p class="page-subtitle">¿No sabes qué método usar? Encuentra la técnica perfecta según tu investigación.</p>
+            <h1>Guía de Métodos Cuantitativos</h1>
+            <p class="page-subtitle">¿No sabes qué método usar? Encuentra la técnica perfecta según tu pregunta de investigación.</p>
         </header>
 
         <div class="section-publicacion">
-            <div class="intro-compacta">
-                <h2>Selecciona el método que necesitas</h2>
-                <p>Cada tarjeta incluye una pregunta guía para identificar si ese método es el adecuado para tu investigación. Haz clic en "Ver ejemplo" para acceder a un análisis completo en PDF.</p>
+            <!-- WIZARD INTERACTIVO MEJORADO - 4 PREGUNTAS PARA CUBRIR 72 MÉTODOS -->
+            <div class="wizard-container" id="wizard">
+                <div class="wizard-header">
+                    <h2>🧙‍♂️ Asistente Inteligente de Métodos</h2>
+                    <p>Responde 4 preguntas sobre tu tesis y te recomendaré los métodos ideales</p>
+                </div>
+                
+                <!-- Barra de progreso -->
+                <div class="wizard-progress">
+                    <div class="progress-step active" data-step="1">1</div>
+                    <div class="progress-line"></div>
+                    <div class="progress-step" data-step="2">2</div>
+                    <div class="progress-line"></div>
+                    <div class="progress-step" data-step="3">3</div>
+                    <div class="progress-line"></div>
+                    <div class="progress-step" data-step="4">4</div>
+                </div>
+                
+                <!-- PREGUNTA 1: Área de investigación -->
+                <div class="wizard-question" id="q1">
+                    <h3>1️⃣ ¿En qué área es tu investigación?</h3>
+                    <p class="wizard-hint">Esto ayuda a recomendar métodos más usados en tu campo</p>
+                    <div class="wizard-options wizard-options-grid">
+                        <div class="wizard-option" data-value="economia" onclick="selectOption(this, 'area')">
+                            <span class="option-emoji">💰</span>
+                            <span class="option-text">Economía / Finanzas</span>
+                        </div>
+                        <div class="wizard-option" data-value="salud" onclick="selectOption(this, 'area')">
+                            <span class="option-emoji">🏥</span>
+                            <span class="option-text">Salud / Medicina</span>
+                        </div>
+                        <div class="wizard-option" data-value="psicologia" onclick="selectOption(this, 'area')">
+                            <span class="option-emoji">🧠</span>
+                            <span class="option-text">Psicología / Educación</span>
+                        </div>
+                        <div class="wizard-option" data-value="ingenieria" onclick="selectOption(this, 'area')">
+                            <span class="option-emoji">⚙️</span>
+                            <span class="option-text">Ingeniería / Técnico</span>
+                        </div>
+                        <div class="wizard-option" data-value="social" onclick="selectOption(this, 'area')">
+                            <span class="option-emoji">👥</span>
+                            <span class="option-text">Ciencias Sociales</span>
+                        </div>
+                        <div class="wizard-option" data-value="negocios" onclick="selectOption(this, 'area')">
+                            <span class="option-emoji">📊</span>
+                            <span class="option-text">Negocios / Marketing</span>
+                        </div>
+                        <div class="wizard-option" data-value="politicas" onclick="selectOption(this, 'area')">
+                            <span class="option-emoji">🏛️</span>
+                            <span class="option-text">Políticas Públicas</span>
+                        </div>
+                        <div class="wizard-option" data-value="otro" onclick="selectOption(this, 'area')">
+                            <span class="option-emoji">📚</span>
+                            <span class="option-text">Otra área</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PREGUNTA 2: Tipo de datos -->
+                <div class="wizard-question" id="q2" style="display:none;">
+                    <h3>2️⃣ ¿Qué tipo de datos tienes principalmente?</h3>
+                    <p class="wizard-hint">Selecciona el tipo dominante en tu investigación</p>
+                    <div class="wizard-options">
+                        <div class="wizard-option" data-value="numerico" onclick="selectOption(this, 'tipo_dato')">
+                            <span class="option-emoji">🔢</span>
+                            <span class="option-text">Números continuos</span>
+                            <span class="option-desc">Edad, ingresos, temperatura, puntuaciones</span>
+                        </div>
+                        <div class="wizard-option" data-value="categorico" onclick="selectOption(this, 'tipo_dato')">
+                            <span class="option-emoji">🏷️</span>
+                            <span class="option-text">Categorías / Grupos</span>
+                            <span class="option-desc">Género, región, nivel educativo, sí/no</span>
+                        </div>
+                        <div class="wizard-option" data-value="temporal" onclick="selectOption(this, 'tipo_dato')">
+                            <span class="option-emoji">📅</span>
+                            <span class="option-text">Series de tiempo</span>
+                            <span class="option-desc">Datos mensuales, anuales, históricos</span>
+                        </div>
+                        <div class="wizard-option" data-value="texto" onclick="selectOption(this, 'tipo_dato')">
+                            <span class="option-emoji">📝</span>
+                            <span class="option-text">Texto / Documentos</span>
+                            <span class="option-desc">Encuestas abiertas, redes sociales, noticias</span>
+                        </div>
+                        <div class="wizard-option" data-value="encuesta" onclick="selectOption(this, 'tipo_dato')">
+                            <span class="option-emoji">📋</span>
+                            <span class="option-text">Encuestas (Likert)</span>
+                            <span class="option-desc">Escalas 1-5, cuestionarios estructurados</span>
+                        </div>
+                        <div class="wizard-option" data-value="panel" onclick="selectOption(this, 'tipo_dato')">
+                            <span class="option-emoji">🏢</span>
+                            <span class="option-text">Panel (entidades × años)</span>
+                            <span class="option-desc">Países, regiones o empresas en varios años</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PREGUNTA 3: Objetivo de investigación -->
+                <div class="wizard-question" id="q3" style="display:none;">
+                    <h3>3️⃣ ¿Qué quieres lograr con tu análisis?</h3>
+                    <p class="wizard-hint">Este es el objetivo principal de tu investigación</p>
+                    <div class="wizard-options wizard-options-grid">
+                        <div class="wizard-option" data-value="relacion" onclick="selectOption(this, 'objetivo')">
+                            <span class="option-emoji">🔗</span>
+                            <span class="option-text">Medir relación</span>
+                            <span class="option-desc">¿Están relacionadas X e Y?</span>
+                        </div>
+                        <div class="wizard-option" data-value="prediccion" onclick="selectOption(this, 'objetivo')">
+                            <span class="option-emoji">🔮</span>
+                            <span class="option-text">Predecir / Explicar</span>
+                            <span class="option-desc">¿Qué factores explican Y?</span>
+                        </div>
+                        <div class="wizard-option" data-value="comparar" onclick="selectOption(this, 'objetivo')">
+                            <span class="option-emoji">⚖️</span>
+                            <span class="option-text">Comparar grupos</span>
+                            <span class="option-desc">¿Difiere X entre grupos?</span>
+                        </div>
+                        <div class="wizard-option" data-value="agrupar" onclick="selectOption(this, 'objetivo')">
+                            <span class="option-emoji">🎨</span>
+                            <span class="option-text">Segmentar / Agrupar</span>
+                            <span class="option-desc">¿Qué grupos hay en mis datos?</span>
+                        </div>
+                        <div class="wizard-option" data-value="validar" onclick="selectOption(this, 'objetivo')">
+                            <span class="option-emoji">✅</span>
+                            <span class="option-text">Validar supuestos</span>
+                            <span class="option-desc">Normalidad, varianza, escalas</span>
+                        </div>
+                        <div class="wizard-option" data-value="impacto" onclick="selectOption(this, 'objetivo')">
+                            <span class="option-emoji">📐</span>
+                            <span class="option-text">Evaluar impacto</span>
+                            <span class="option-desc">¿Funcionó la intervención?</span>
+                        </div>
+                        <div class="wizard-option" data-value="pronostico" onclick="selectOption(this, 'objetivo')">
+                            <span class="option-emoji">📈</span>
+                            <span class="option-text">Pronosticar futuro</span>
+                            <span class="option-desc">¿Qué pasará en el futuro?</span>
+                        </div>
+                        <div class="wizard-option" data-value="reducir" onclick="selectOption(this, 'objetivo')">
+                            <span class="option-emoji">🎯</span>
+                            <span class="option-text">Reducir / Resumir</span>
+                            <span class="option-desc">Simplificar muchas variables</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PREGUNTA 4: Tamaño de muestra y complejidad -->
+                <div class="wizard-question" id="q4" style="display:none;">
+                    <h3>4️⃣ ¿Cuántos datos tienes y qué tan técnico puede ser?</h3>
+                    <p class="wizard-hint">Esto determina qué métodos son viables y apropiados</p>
+                    <div class="wizard-options">
+                        <div class="wizard-option" data-value="pequena_simple" onclick="selectOption(this, 'muestra')">
+                            <span class="option-emoji">📉</span>
+                            <span class="option-text">Muestra pequeña + Necesito interpretar</span>
+                            <span class="option-desc">Menos de 100 casos, jurado no técnico</span>
+                        </div>
+                        <div class="wizard-option" data-value="mediana_simple" onclick="selectOption(this, 'muestra')">
+                            <span class="option-emoji">📊</span>
+                            <span class="option-text">Muestra mediana + Métodos clásicos</span>
+                            <span class="option-desc">100-500 casos, métodos tradicionales</span>
+                        </div>
+                        <div class="wizard-option" data-value="grande_avanzado" onclick="selectOption(this, 'muestra')">
+                            <span class="option-emoji">📈</span>
+                            <span class="option-text">Muestra grande + Puedo ser técnico</span>
+                            <span class="option-desc">Más de 500 casos, acepto ML/avanzados</span>
+                        </div>
+                        <div class="wizard-option" data-value="bigdata_ml" onclick="selectOption(this, 'muestra')">
+                            <span class="option-emoji">🤖</span>
+                            <span class="option-text">Big Data + Quiero Machine Learning</span>
+                            <span class="option-desc">Miles de datos, máxima precisión</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wizard-result" id="wizard-result">
+                    <h3 style="color:#25d366;margin-bottom:0.5rem;">✅ TOP 5 Métodos recomendados para tu tesis:</h3>
+                    <p style="color:#aaa;font-size:0.9rem;margin-bottom:1rem;">Basado en tus 4 respuestas, estos son los métodos más apropiados:</p>
+                    <div class="wizard-result-grid" id="wizard-result-grid"></div>
+                    <p style="color:#888;font-size:0.85rem;margin-top:1rem;text-align:center;">💡 Haz clic en "Ver detalles" para ir a la tarjeta del método</p>
+                    <div style="text-align:center;margin-top:1rem;">
+                        <button onclick="resetWizard()" style="background:#b91c1c;color:#fff;border:none;padding:0.7rem 1.5rem;border-radius:8px;cursor:pointer;font-weight:600;">🔄 Volver a empezar</button>
+                    </div>
+                </div>
             </div>
 
+            <!-- INTRO -->
+            <div class="intro-hero">
+                <h2>🎯 O explora todos los métodos disponibles</h2>
+                <p>Cada tarjeta incluye una <strong>pregunta guía</strong> para identificar si ese método es el adecuado. Usa el buscador o los filtros para encontrar rápidamente lo que necesitas.</p>
+                <div class="intro-stats">
+                    <div class="stat-item"><strong>69</strong> métodos disponibles</div>
+                    <div class="stat-item"><strong>11</strong> categorías</div>
+                    <div class="stat-item"><strong>✓</strong> Ejemplos con datos reales</div>
+                    <div class="stat-item"><strong>✓</strong> Asesoría personalizada</div>
+                </div>
+            </div>
+
+            <!-- BUSCADOR Y FILTROS -->
+            <div class="filtros-container">
+                <div class="buscador-wrapper">
+                    <span class="buscador-icon">🔍</span>
+                    <input type="text" class="buscador-input" id="buscador" placeholder="Buscar método por nombre o palabra clave..." oninput="filtrarMetodos()">
+                </div>
+                <div class="filtros-chips" id="filtros-chips">
+                    <div class="filtro-chip active" data-categoria="todos" onclick="filtrarPorCategoria(this)">📋 Todos</div>
+                    <div class="filtro-chip" data-categoria="correlacion" onclick="filtrarPorCategoria(this)">🔗 Correlación</div>
+                    <div class="filtro-chip" data-categoria="regresion" onclick="filtrarPorCategoria(this)">📈 Regresión</div>
+                    <div class="filtro-chip" data-categoria="comparacion" onclick="filtrarPorCategoria(this)">⚖️ Comparación</div>
+                    <div class="filtro-chip" data-categoria="validacion" onclick="filtrarPorCategoria(this)">✅ Validación</div>
+                    <div class="filtro-chip" data-categoria="reduccion" onclick="filtrarPorCategoria(this)">🎯 Reducción</div>
+                    <div class="filtro-chip" data-categoria="series" onclick="filtrarPorCategoria(this)">⏰ Series</div>
+                    <div class="filtro-chip" data-categoria="panel" onclick="filtrarPorCategoria(this)">🏢 Panel/Eval</div>
+                    <div class="filtro-chip" data-categoria="ml-supervisado" onclick="filtrarPorCategoria(this)">🤖 ML Supervisado</div>
+                    <div class="filtro-chip" data-categoria="ml-nosupervisado" onclick="filtrarPorCategoria(this)">🎨 ML No Superv.</div>
+                    <div class="filtro-chip" data-categoria="ml-texto" onclick="filtrarPorCategoria(this)">📝 NLP/Texto</div>
+                    <div class="filtro-chip" data-categoria="avanzado" onclick="filtrarPorCategoria(this)">🎓 Avanzado</div>
+                </div>
+            </div>
+
+            <div class="resultados-info" id="resultados-info"></div>
             <div id="metodos-container"></div>
 
-            <div class="contacto-servicios" style="margin-top: 2rem;">
+            <div class="contacto-final">
                 <h3>📞 ¿Aún tienes dudas sobre qué método usar?</h3>
-                <p style="margin-bottom: 1rem;">Contactame para una consulta gratuita. Analizo tu investigación y te recomiendo el método perfecto.</p>
-                <a href="https://wa.me/51930123005?text=Tengo%20dudas%20sobre%20qué%20método%20usar%20en%20mi%20tesis" target="_blank">💬 WhatsApp</a>
-                <a href="mailto:amaruf9523@gmail.com?subject=Consulta%20sobre%20métodos%20cuantitativos">📧 Email</a>
+                <p>Contáctame para una consulta gratuita. Analizo tu investigación y te recomiendo el método perfecto para tu tesis.</p>
+                <div class="contacto-botones">
+                    <a href="https://wa.me/51930123005?text=Tengo%20dudas%20sobre%20qué%20método%20usar%20en%20mi%20tesis" target="_blank" class="btn-metodo btn-consultar">💬 WhatsApp</a>
+                    <a href="mailto:amaruf9523@gmail.com?subject=Consulta%20sobre%20métodos%20cuantitativos" class="btn-metodo btn-ejemplo">📧 Email</a>
+                </div>
             </div>
         </div>
+
+        <!-- BOTÓN FLOTANTE WHATSAPP -->
+        <a href="https://wa.me/51930123005?text=Hola,%20necesito%20ayuda%20para%20elegir%20un%20método%20cuantitativo%20para%20mi%20tesis" target="_blank" class="whatsapp-float" aria-label="Contactar por WhatsApp">
+            💬
+            <span class="tooltip">¿Necesitas ayuda?</span>
+        </a>
     </main>
 
     <script>
-        // Cargar datos desde JSON
+        // ===== WIZARD LOGIC - Sistema de puntuación para 72 métodos =====
+        let wizardAnswers = {};
+        const totalSteps = 4;
+        let currentStep = 1;
+
+        // BASE DE DATOS DE LOS 72 MÉTODOS CON TAGS
+        const metodosDB = {
+            // CORRELACIÓN (3)
+            'correlacion-pearson': { 
+                nombre: 'Correlación de Pearson', emoji: '🔗', 
+                desc: 'Mide fuerza de relación lineal entre variables continuas.',
+                uso: 'Usa cuando ambas variables son numéricas y la relación es lineal.',
+                tags: { area: ['economia','salud','psicologia','social','negocios','politicas','ingenieria','otro'], dato: ['numerico'], objetivo: ['relacion'], muestra: ['pequena_simple','mediana_simple','grande_avanzado','bigdata_ml'] }
+            },
+            'spearman-kendall': { 
+                nombre: 'Spearman / Kendall', emoji: '📊', 
+                desc: 'Correlación para datos ordinales o no lineales.',
+                uso: 'Usa con escalas Likert, outliers o relaciones no lineales.',
+                tags: { area: ['psicologia','salud','social','negocios','otro'], dato: ['encuesta','categorico','numerico'], objetivo: ['relacion'], muestra: ['pequena_simple','mediana_simple','grande_avanzado','bigdata_ml'] }
+            },
+            'correlacion-parcial': { 
+                nombre: 'Correlación Parcial', emoji: '🔀', 
+                desc: 'Mide correlación controlando una tercera variable.',
+                uso: 'Usa cuando sospechas que otra variable afecta la relación.',
+                tags: { area: ['economia','salud','social','politicas','otro'], dato: ['numerico'], objetivo: ['relacion'], muestra: ['mediana_simple','grande_avanzado'] }
+            },
+            
+            // REGRESIÓN (7)
+            'regresion-simple': { 
+                nombre: 'Regresión Lineal Simple', emoji: '📈', 
+                desc: 'Una variable X explica Y.',
+                uso: 'Usa para predecir Y con una sola variable independiente.',
+                tags: { area: ['economia','salud','ingenieria','negocios','politicas','otro'], dato: ['numerico'], objetivo: ['prediccion','relacion'], muestra: ['pequena_simple','mediana_simple','grande_avanzado'] }
+            },
+            'regresion-multiple': { 
+                nombre: 'Regresión Múltiple OLS', emoji: '📉', 
+                desc: 'El más usado: múltiples X explican Y.',
+                uso: 'EL CLÁSICO en tesis. Mide impacto de cada variable.',
+                tags: { area: ['economia','salud','psicologia','social','negocios','politicas','ingenieria','otro'], dato: ['numerico','panel'], objetivo: ['prediccion','relacion'], muestra: ['mediana_simple','grande_avanzado','bigdata_ml'] }
+            },
+            'logit-probit': { 
+                nombre: 'Logit / Probit', emoji: '🎲', 
+                desc: 'Predice probabilidad de evento Sí/No.',
+                uso: 'Usa cuando Y es binario (0/1): deserción, compra, enfermedad.',
+                tags: { area: ['economia','salud','psicologia','negocios','politicas','otro'], dato: ['numerico','categorico','encuesta'], objetivo: ['prediccion'], muestra: ['mediana_simple','grande_avanzado','bigdata_ml'] }
+            },
+            'regresion-poisson': { 
+                nombre: 'Regresión Poisson', emoji: '🔢', 
+                desc: 'Para variable Y que son conteos (0,1,2,3...).',
+                uso: 'Usa para: número de accidentes, visitas, quejas.',
+                tags: { area: ['economia','salud','ingenieria','politicas','otro'], dato: ['numerico'], objetivo: ['prediccion'], muestra: ['mediana_simple','grande_avanzado'] }
+            },
+            'regresion-cuantilica': { 
+                nombre: 'Regresión Cuantílica', emoji: '📊', 
+                desc: 'Analiza diferentes percentiles, no solo la media.',
+                uso: 'Usa para ver si el efecto varía en percentiles 10, 50, 90.',
+                tags: { area: ['economia','salud','social','politicas','otro'], dato: ['numerico'], objetivo: ['prediccion'], muestra: ['grande_avanzado','bigdata_ml'] }
+            },
+            'regresion-ridge-lasso': { 
+                nombre: 'Ridge / Lasso / Elastic Net', emoji: '🎯', 
+                desc: 'Regresión regularizada para muchas variables.',
+                uso: 'Usa con muchas variables o multicolinealidad.',
+                tags: { area: ['economia','ingenieria','negocios','otro'], dato: ['numerico'], objetivo: ['prediccion'], muestra: ['grande_avanzado','bigdata_ml'] }
+            },
+            
+            // COMPARACIÓN (10)
+            't-test': { 
+                nombre: 'T-Test (t de Student)', emoji: '⚖️', 
+                desc: 'Compara promedios de exactamente 2 grupos.',
+                uso: 'EL BÁSICO: hombres vs mujeres, tratado vs control.',
+                tags: { area: ['psicologia','salud','social','economia','negocios','politicas','ingenieria','otro'], dato: ['numerico','categorico'], objetivo: ['comparar'], muestra: ['pequena_simple','mediana_simple','grande_avanzado'] }
+            },
+            't-test-pareado': { 
+                nombre: 'T-Test Pareado', emoji: '👥', 
+                desc: 'Los mismos sujetos medidos ANTES y DESPUÉS.',
+                uso: 'Usa para: pre-test/post-test, antes/después de tratamiento.',
+                tags: { area: ['psicologia','salud','social','otro'], dato: ['numerico'], objetivo: ['comparar','impacto'], muestra: ['pequena_simple','mediana_simple'] }
+            },
+            'anova': { 
+                nombre: 'ANOVA (1 vía)', emoji: '📊', 
+                desc: 'Compara promedios de 3 o más grupos.',
+                uso: 'Usa cuando tienes 3+ grupos: regiones, tratamientos, niveles.',
+                tags: { area: ['psicologia','salud','social','economia','negocios','ingenieria','politicas','otro'], dato: ['numerico','categorico'], objetivo: ['comparar'], muestra: ['pequena_simple','mediana_simple','grande_avanzado'] }
+            },
+            'anova-factorial': { 
+                nombre: 'ANOVA Factorial (2+ vías)', emoji: '🔲', 
+                desc: 'Compara por DOS o más factores a la vez.',
+                uso: 'Usa para analizar interacciones: género×región, edad×tratamiento.',
+                tags: { area: ['psicologia','salud','social','negocios','otro'], dato: ['numerico','categorico'], objetivo: ['comparar'], muestra: ['mediana_simple','grande_avanzado'] }
+            },
+            'ancova': { 
+                nombre: 'ANCOVA', emoji: '📐', 
+                desc: 'Compara grupos controlando una covariable numérica.',
+                uso: 'Usa para comparar controlando edad, ingreso, etc.',
+                tags: { area: ['psicologia','salud','social','politicas','otro'], dato: ['numerico','categorico'], objetivo: ['comparar'], muestra: ['mediana_simple','grande_avanzado'] }
+            },
+            'mann-whitney': { 
+                nombre: 'Mann-Whitney U', emoji: '🔄', 
+                desc: 'T-test NO paramétrico para datos no normales.',
+                uso: 'Usa cuando Shapiro-Wilk indica datos no normales.',
+                tags: { area: ['psicologia','salud','social','otro'], dato: ['numerico','encuesta'], objetivo: ['comparar'], muestra: ['pequena_simple','mediana_simple'] }
+            },
+            'kruskal-wallis': { 
+                nombre: 'Kruskal-Wallis', emoji: '📈', 
+                desc: 'ANOVA NO paramétrico para datos no normales.',
+                uso: 'Usa para comparar 3+ grupos sin normalidad.',
+                tags: { area: ['psicologia','salud','social','otro'], dato: ['numerico','encuesta'], objetivo: ['comparar'], muestra: ['pequena_simple','mediana_simple'] }
+            },
+            'wilcoxon': { 
+                nombre: 'Wilcoxon Signed-Rank', emoji: '🔃', 
+                desc: 'T-test pareado NO paramétrico.',
+                uso: 'Usa para antes/después con datos no normales.',
+                tags: { area: ['psicologia','salud','otro'], dato: ['numerico','encuesta'], objetivo: ['comparar','impacto'], muestra: ['pequena_simple','mediana_simple'] }
+            },
+            'chi-cuadrado': { 
+                nombre: 'Chi-Cuadrado (χ²)', emoji: '🔍', 
+                desc: 'Relación entre dos variables categóricas.',
+                uso: 'Usa para tablas de contingencia: género×preferencia.',
+                tags: { area: ['psicologia','salud','social','negocios','politicas','otro'], dato: ['categorico'], objetivo: ['relacion','comparar'], muestra: ['pequena_simple','mediana_simple','grande_avanzado'] }
+            },
+            'fisher-exact': { 
+                nombre: 'Test Exacto de Fisher', emoji: '🎯', 
+                desc: 'Chi-cuadrado para muestras MUY pequeñas.',
+                uso: 'Usa cuando alguna celda esperada <5.',
+                tags: { area: ['salud','psicologia','otro'], dato: ['categorico'], objetivo: ['relacion','comparar'], muestra: ['pequena_simple'] }
+            },
+            
+            // VALIDACIÓN (7)
+            'shapiro-wilk': { 
+                nombre: 'Shapiro-Wilk', emoji: '🔔', 
+                desc: 'Prueba si tus datos son NORMALES.',
+                uso: 'PRIMER PASO: determina si usar métodos paramétricos.',
+                tags: { area: ['psicologia','salud','economia','social','ingenieria','negocios','politicas','otro'], dato: ['numerico'], objetivo: ['validar'], muestra: ['pequena_simple','mediana_simple'] }
+            },
+            'kolmogorov-smirnov': { 
+                nombre: 'Kolmogorov-Smirnov', emoji: '🔬', 
+                desc: 'Prueba normalidad para muestras grandes.',
+                uso: 'Usa con más de 50 casos.',
+                tags: { area: ['economia','ingenieria','otro'], dato: ['numerico'], objetivo: ['validar'], muestra: ['grande_avanzado','bigdata_ml'] }
+            },
+            'levene': { 
+                nombre: 'Test de Levene', emoji: '📏', 
+                desc: 'Prueba si grupos tienen varianzas iguales.',
+                uso: 'Requisito para ANOVA y t-test.',
+                tags: { area: ['psicologia','salud','social','economia','otro'], dato: ['numerico'], objetivo: ['validar'], muestra: ['pequena_simple','mediana_simple','grande_avanzado'] }
+            },
+            'durbin-watson': { 
+                nombre: 'Durbin-Watson', emoji: '🔁', 
+                desc: 'Detecta autocorrelación en residuos.',
+                uso: 'Esencial en series de tiempo y panel.',
+                tags: { area: ['economia','ingenieria','politicas','otro'], dato: ['temporal','panel','numerico'], objetivo: ['validar'], muestra: ['mediana_simple','grande_avanzado'] }
+            },
+            'vif': { 
+                nombre: 'VIF (Multicolinealidad)', emoji: '🔀', 
+                desc: 'Detecta si variables X están muy correlacionadas.',
+                uso: 'Revisar siempre en regresión múltiple. VIF>10 = problema.',
+                tags: { area: ['economia','negocios','ingenieria','politicas','otro'], dato: ['numerico'], objetivo: ['validar'], muestra: ['mediana_simple','grande_avanzado'] }
+            },
+            'breusch-pagan': { 
+                nombre: 'Breusch-Pagan', emoji: '📊', 
+                desc: 'Detecta heterocedasticidad en regresión.',
+                uso: 'Si falla, usa errores robustos (HC).',
+                tags: { area: ['economia','ingenieria','politicas','otro'], dato: ['numerico','panel'], objetivo: ['validar'], muestra: ['mediana_simple','grande_avanzado'] }
+            },
+            'cronbach-alpha': { 
+                nombre: 'Alfa de Cronbach', emoji: '✅', 
+                desc: 'Mide confiabilidad de escalas/cuestionarios.',
+                uso: 'OBLIGATORIO para encuestas tipo Likert. α>0.7 = aceptable.',
+                tags: { area: ['psicologia','salud','social','negocios','otro'], dato: ['encuesta'], objetivo: ['validar'], muestra: ['pequena_simple','mediana_simple','grande_avanzado'] }
+            },
+            
+            // REDUCCIÓN (5)
+            'pca': { 
+                nombre: 'PCA (Componentes Principales)', emoji: '🎯', 
+                desc: 'Reduce muchas variables a pocas componentes.',
+                uso: 'Usa con 20+ variables. Mantiene 80% de varianza.',
+                tags: { area: ['psicologia','economia','negocios','ingenieria','otro'], dato: ['numerico','encuesta'], objetivo: ['reducir','agrupar'], muestra: ['mediana_simple','grande_avanzado','bigdata_ml'] }
+            },
+            'analisis-factorial': { 
+                nombre: 'Análisis Factorial Exploratorio', emoji: '🧩', 
+                desc: 'Descubre factores latentes en cuestionarios.',
+                uso: 'Usa para: ¿qué dimensiones miden mis 20 preguntas?',
+                tags: { area: ['psicologia','salud','social','negocios','otro'], dato: ['encuesta'], objetivo: ['reducir','validar'], muestra: ['mediana_simple','grande_avanzado'] }
+            },
+            'factorial-confirmatorio': { 
+                nombre: 'Análisis Factorial Confirmatorio', emoji: '✔️', 
+                desc: 'Confirma modelo teórico de factores.',
+                uso: 'Usa después del exploratorio. Reporta CFI, RMSEA.',
+                tags: { area: ['psicologia','salud','social','otro'], dato: ['encuesta'], objetivo: ['validar','reducir'], muestra: ['grande_avanzado'] }
+            },
+            'correspondencia': { 
+                nombre: 'Análisis de Correspondencia', emoji: '🗺️', 
+                desc: 'Visualiza relación entre categorías en mapa 2D.',
+                uso: 'Usa para mapas perceptuales: marcas×atributos.',
+                tags: { area: ['negocios','social','otro'], dato: ['categorico'], objetivo: ['reducir','relacion'], muestra: ['mediana_simple','grande_avanzado'] }
+            },
+            'mds': { 
+                nombre: 'MDS (Escalamiento Multidimensional)', emoji: '📍', 
+                desc: 'Visualiza similitudes en mapa 2D.',
+                uso: 'Usa para mapear percepciones de objetos/marcas.',
+                tags: { area: ['negocios','psicologia','otro'], dato: ['numerico','categorico'], objetivo: ['reducir','agrupar'], muestra: ['mediana_simple','grande_avanzado'] }
+            },
+            
+            // SERIES DE TIEMPO (7)
+            'arima': { 
+                nombre: 'ARIMA', emoji: '⏰', 
+                desc: 'El clásico para pronósticos de series.',
+                uso: 'Predice ventas, demanda, indicadores. Una sola serie.',
+                tags: { area: ['economia','negocios','ingenieria','politicas','otro'], dato: ['temporal'], objetivo: ['pronostico','prediccion'], muestra: ['mediana_simple','grande_avanzado'] }
+            },
+            'sarima': { 
+                nombre: 'SARIMA', emoji: '🔄', 
+                desc: 'ARIMA con estacionalidad (Navidad, verano).',
+                uso: 'Usa cuando hay patrones que se repiten cada año.',
+                tags: { area: ['economia','negocios','ingenieria','otro'], dato: ['temporal'], objetivo: ['pronostico'], muestra: ['mediana_simple','grande_avanzado'] }
+            },
+            'var': { 
+                nombre: 'VAR (Vectorial Autorregresivo)', emoji: '📊', 
+                desc: 'Múltiples series que se afectan entre sí.',
+                uso: 'Modela cómo PIB, inflación, desempleo interactúan.',
+                tags: { area: ['economia','politicas','otro'], dato: ['temporal'], objetivo: ['relacion','pronostico'], muestra: ['grande_avanzado'] }
+            },
+            'descomposicion-temporal': { 
+                nombre: 'Descomposición STL', emoji: '📉', 
+                desc: 'Separa tendencia, estacionalidad y ruido.',
+                uso: 'Usa para entender qué componentes mueven tu serie.',
+                tags: { area: ['economia','negocios','ingenieria','otro'], dato: ['temporal'], objetivo: ['reducir','relacion'], muestra: ['mediana_simple','grande_avanzado'] }
+            },
+            'garch': { 
+                nombre: 'GARCH', emoji: '📈', 
+                desc: 'Modela volatilidad que cambia en el tiempo.',
+                uso: 'Usa para series financieras: acciones, divisas.',
+                tags: { area: ['economia','negocios','otro'], dato: ['temporal'], objetivo: ['pronostico'], muestra: ['grande_avanzado','bigdata_ml'] }
+            },
+            'cointegration': { 
+                nombre: 'Cointegración (Johansen)', emoji: '🔗', 
+                desc: 'Relación de largo plazo entre series no estacionarias.',
+                uso: 'Detecta equilibrios de largo plazo. Evita regresiones espurias.',
+                tags: { area: ['economia','politicas','otro'], dato: ['temporal'], objetivo: ['relacion'], muestra: ['grande_avanzado'] }
+            },
+            'granger': { 
+                nombre: 'Causalidad de Granger', emoji: '➡️', 
+                desc: '¿Una serie PREDICE a otra?',
+                uso: 'Determina precedencia temporal. No es causalidad real.',
+                tags: { area: ['economia','politicas','otro'], dato: ['temporal'], objetivo: ['relacion'], muestra: ['grande_avanzado'] }
+            },
+            
+            // PANEL Y EVALUACIÓN DE IMPACTO (5)
+            'panel-data': { 
+                nombre: 'Panel Data (Efectos Fijos/Aleatorios)', emoji: '🏢', 
+                desc: 'Datos de entidades en varios años.',
+                uso: 'Usa con: regiones×años, empresas×trimestres.',
+                tags: { area: ['economia','politicas','negocios','otro'], dato: ['panel'], objetivo: ['prediccion','relacion'], muestra: ['grande_avanzado','bigdata_ml'] }
+            },
+            'hausman': { 
+                nombre: 'Test de Hausman', emoji: '❓', 
+                desc: 'Decide entre efectos fijos o aleatorios.',
+                uso: 'Obligatorio en panel. p<0.05 → efectos fijos.',
+                tags: { area: ['economia','politicas','otro'], dato: ['panel'], objetivo: ['validar'], muestra: ['grande_avanzado'] }
+            },
+            'did': { 
+                nombre: 'Diferencias en Diferencias (DiD)', emoji: '📐', 
+                desc: 'El gold standard en evaluación de impacto.',
+                uso: 'Compara tratados vs control, antes vs después.',
+                tags: { area: ['economia','politicas','salud','social','otro'], dato: ['panel','numerico'], objetivo: ['impacto'], muestra: ['mediana_simple','grande_avanzado'] }
+            },
+            'rdiseno': { 
+                nombre: 'Regresión Discontinua (RDD)', emoji: '📏', 
+                desc: 'Cuando hay umbral que determina tratamiento.',
+                uso: 'Ejemplo: beca si puntaje>70. Compara arriba vs abajo.',
+                tags: { area: ['economia','politicas','salud','social','otro'], dato: ['numerico'], objetivo: ['impacto'], muestra: ['grande_avanzado'] }
+            },
+            'psm': { 
+                nombre: 'Propensity Score Matching', emoji: '🎯', 
+                desc: 'Simula experimento con datos observacionales.',
+                uso: 'Empareja tratados con controles similares.',
+                tags: { area: ['economia','politicas','salud','social','otro'], dato: ['numerico','categorico'], objetivo: ['impacto'], muestra: ['grande_avanzado','bigdata_ml'] }
+            },
+            
+            // ML SUPERVISADO (8)
+            'arboles-decision': { 
+                nombre: 'Árboles de Decisión', emoji: '🌳', 
+                desc: 'Reglas claras e interpretables.',
+                uso: 'Fácil de explicar: "Si edad>30 Y ingreso>3000 → compra".',
+                tags: { area: ['negocios','salud','ingenieria','otro'], dato: ['numerico','categorico'], objetivo: ['prediccion','agrupar'], muestra: ['mediana_simple','grande_avanzado','bigdata_ml'] }
+            },
+            'random-forest': { 
+                nombre: 'Random Forest', emoji: '🌲', 
+                desc: 'Combina cientos de árboles. TOP precisión.',
+                uso: 'El más robusto para datos tabulares.',
+                tags: { area: ['negocios','salud','ingenieria','economia','otro'], dato: ['numerico','categorico'], objetivo: ['prediccion'], muestra: ['grande_avanzado','bigdata_ml'] }
+            },
+            'xgboost': { 
+                nombre: 'XGBoost / LightGBM', emoji: '⚡', 
+                desc: 'El más potente. Gana competencias Kaggle.',
+                uso: 'Máxima precisión para clasificación/regresión.',
+                tags: { area: ['negocios','ingenieria','economia','otro'], dato: ['numerico','categorico','panel'], objetivo: ['prediccion'], muestra: ['grande_avanzado','bigdata_ml'] }
+            },
+            'svm': { 
+                nombre: 'SVM (Máquinas de Vectores)', emoji: '🎯', 
+                desc: 'Frontera óptima entre clases.',
+                uso: 'Robusto con datos complejos y muchas variables.',
+                tags: { area: ['ingenieria','salud','otro'], dato: ['numerico'], objetivo: ['prediccion','agrupar'], muestra: ['mediana_simple','grande_avanzado'] }
+            },
+            'knn': { 
+                nombre: 'KNN (K-Vecinos)', emoji: '👥', 
+                desc: 'Clasifica según vecinos más cercanos.',
+                uso: 'Simple pero efectivo. Ejemplo: cliente similar a morosos.',
+                tags: { area: ['negocios','salud','otro'], dato: ['numerico'], objetivo: ['prediccion','agrupar'], muestra: ['mediana_simple','grande_avanzado'] }
+            },
+            'naive-bayes': { 
+                nombre: 'Naive Bayes', emoji: '📧', 
+                desc: 'Rápido para texto y categóricos.',
+                uso: 'Spam detection, clasificación de documentos.',
+                tags: { area: ['negocios','ingenieria','otro'], dato: ['texto','categorico'], objetivo: ['prediccion'], muestra: ['mediana_simple','grande_avanzado','bigdata_ml'] }
+            },
+            'redes-neuronales': { 
+                nombre: 'Redes Neuronales (MLP)', emoji: '🧠', 
+                desc: 'Deep learning para patrones complejos.',
+                uso: 'Requiere muchos datos. Patrones muy no lineales.',
+                tags: { area: ['ingenieria','negocios','otro'], dato: ['numerico','texto'], objetivo: ['prediccion'], muestra: ['bigdata_ml'] }
+            },
+            'regresion-logistica-ml': { 
+                nombre: 'Regresión Logística (ML)', emoji: '📈', 
+                desc: 'Baseline obligatorio. Interpretable.',
+                uso: 'SIEMPRE empieza aquí antes de modelos complejos.',
+                tags: { area: ['negocios','salud','economia','social','otro'], dato: ['numerico','categorico'], objetivo: ['prediccion'], muestra: ['pequena_simple','mediana_simple','grande_avanzado','bigdata_ml'] }
+            },
+            
+            // ML NO SUPERVISADO (7)
+            'k-means': { 
+                nombre: 'K-Means', emoji: '🎨', 
+                desc: 'Agrupa en K clusters predefinidos.',
+                uso: 'EL MÁS USADO para segmentación de clientes.',
+                tags: { area: ['negocios','social','salud','otro'], dato: ['numerico'], objetivo: ['agrupar'], muestra: ['mediana_simple','grande_avanzado','bigdata_ml'] }
+            },
+            'dbscan': { 
+                nombre: 'DBSCAN', emoji: '🔵', 
+                desc: 'Clusters de forma irregular + detecta outliers.',
+                uso: 'Usa cuando no sabes cuántos grupos hay.',
+                tags: { area: ['negocios','ingenieria','otro'], dato: ['numerico'], objetivo: ['agrupar'], muestra: ['grande_avanzado','bigdata_ml'] }
+            },
+            'hierarchical': { 
+                nombre: 'Clustering Jerárquico', emoji: '🌲', 
+                desc: 'Visualiza estructura anidada con dendrograma.',
+                uso: 'Útil para taxonomías y estructuras jerárquicas.',
+                tags: { area: ['negocios','social','salud','otro'], dato: ['numerico','categorico'], objetivo: ['agrupar'], muestra: ['pequena_simple','mediana_simple','grande_avanzado'] }
+            },
+            'gmm': { 
+                nombre: 'GMM (Mezcla Gaussianas)', emoji: '🔔', 
+                desc: 'Clusters con diferentes formas y tamaños.',
+                uso: 'Más flexible que K-Means. Probabilidades de pertenencia.',
+                tags: { area: ['negocios','ingenieria','otro'], dato: ['numerico'], objetivo: ['agrupar'], muestra: ['grande_avanzado','bigdata_ml'] }
+            },
+            'isolation-forest': { 
+                nombre: 'Isolation Forest', emoji: '🚨', 
+                desc: 'Detecta anomalías y fraudes.',
+                uso: 'Detección de fraude bancario, intrusiones.',
+                tags: { area: ['negocios','ingenieria','otro'], dato: ['numerico'], objetivo: ['agrupar'], muestra: ['grande_avanzado','bigdata_ml'] }
+            },
+            'tsne-umap': { 
+                nombre: 't-SNE / UMAP', emoji: '🗺️', 
+                desc: 'Visualiza datos de alta dimensión en 2D.',
+                uso: 'Ideal para presentar resultados de clustering.',
+                tags: { area: ['negocios','ingenieria','social','otro'], dato: ['numerico'], objetivo: ['reducir','agrupar'], muestra: ['grande_avanzado','bigdata_ml'] }
+            },
+            'autoencoder': { 
+                nombre: 'Autoencoders', emoji: '🔄', 
+                desc: 'Deep learning para compresión y anomalías.',
+                uso: 'Detecta anomalías cuando reconstrucción es mala.',
+                tags: { area: ['ingenieria','negocios','otro'], dato: ['numerico'], objetivo: ['reducir','agrupar'], muestra: ['bigdata_ml'] }
+            },
+            
+            // NLP / TEXTO (4)
+            'nlp-sentiment': { 
+                nombre: 'Análisis de Sentimientos', emoji: '😊', 
+                desc: 'Clasifica opiniones: positivo/negativo/neutro.',
+                uso: 'Reviews, tweets, comentarios de clientes.',
+                tags: { area: ['negocios','social','politicas','otro'], dato: ['texto'], objetivo: ['prediccion','agrupar'], muestra: ['grande_avanzado','bigdata_ml'] }
+            },
+            'nlp-topic': { 
+                nombre: 'Topic Modeling (LDA)', emoji: '📑', 
+                desc: 'Descubre temas en documentos.',
+                uso: 'Analizar 1000 quejas → 5 temas de insatisfacción.',
+                tags: { area: ['negocios','social','politicas','otro'], dato: ['texto'], objetivo: ['reducir','agrupar'], muestra: ['grande_avanzado','bigdata_ml'] }
+            },
+            'nlp-ner': { 
+                nombre: 'NER (Extracción de Entidades)', emoji: '🏷️', 
+                desc: 'Extrae nombres, lugares, fechas de texto.',
+                uso: 'Estructurar texto no estructurado.',
+                tags: { area: ['negocios','social','politicas','otro'], dato: ['texto'], objetivo: ['reducir'], muestra: ['grande_avanzado','bigdata_ml'] }
+            },
+            'word-embeddings': { 
+                nombre: 'Word Embeddings', emoji: '📝', 
+                desc: 'Convierte palabras a vectores numéricos.',
+                uso: 'Word2Vec, GloVe. Base del NLP moderno.',
+                tags: { area: ['negocios','ingenieria','otro'], dato: ['texto'], objetivo: ['reducir','prediccion'], muestra: ['bigdata_ml'] }
+            },
+            
+            // AVANZADOS (7)
+            'sem': { 
+                nombre: 'SEM (Ecuaciones Estructurales)', emoji: '🔀', 
+                desc: 'Modelos causales con variables latentes.',
+                uso: 'Probar modelos teóricos: satisfacción→compromiso→productividad.',
+                tags: { area: ['psicologia','social','negocios','otro'], dato: ['encuesta'], objetivo: ['relacion','validar'], muestra: ['grande_avanzado'] }
+            },
+            'meta-analysis': { 
+                nombre: 'Meta-Análisis', emoji: '📚', 
+                desc: 'Combina resultados de múltiples estudios.',
+                uso: 'Revisiones sistemáticas. Efecto global de 50 estudios.',
+                tags: { area: ['salud','psicologia','social','otro'], dato: ['numerico'], objetivo: ['relacion'], muestra: ['grande_avanzado'] }
+            },
+            'bayes': { 
+                nombre: 'Estadística Bayesiana', emoji: '🎲', 
+                desc: 'Incorpora conocimiento previo.',
+                uso: 'Actualiza probabilidades. Intervalos de credibilidad.',
+                tags: { area: ['salud','economia','ingenieria','otro'], dato: ['numerico'], objetivo: ['prediccion','relacion'], muestra: ['mediana_simple','grande_avanzado'] }
+            },
+            'bootstrap': { 
+                nombre: 'Bootstrap', emoji: '🔁', 
+                desc: 'Intervalos de confianza sin supuestos.',
+                uso: 'Ideal para muestras pequeñas o estadísticos complejos.',
+                tags: { area: ['economia','salud','social','otro'], dato: ['numerico'], objetivo: ['validar'], muestra: ['pequena_simple','mediana_simple'] }
+            },
+            'survival': { 
+                nombre: 'Análisis de Supervivencia', emoji: '⏱️', 
+                desc: 'Modela tiempo hasta un evento.',
+                uso: 'Tiempo hasta: deserción, falla, cancelación.',
+                tags: { area: ['salud','negocios','ingenieria','otro'], dato: ['numerico','temporal'], objetivo: ['prediccion','pronostico'], muestra: ['mediana_simple','grande_avanzado'] }
+            },
+            'conjoint': { 
+                nombre: 'Análisis Conjoint', emoji: '🛒', 
+                desc: 'Qué atributos valoran más los consumidores.',
+                uso: 'Diseño de productos: ¿precio o calidad?',
+                tags: { area: ['negocios','otro'], dato: ['encuesta','categorico'], objetivo: ['relacion'], muestra: ['mediana_simple','grande_avanzado'] }
+            },
+            'multinivel': { 
+                nombre: 'Modelos Multinivel (HLM)', emoji: '🏛️', 
+                desc: 'Datos anidados: alumnos en escuelas.',
+                uso: 'OBLIGATORIO con estructura jerárquica.',
+                tags: { area: ['psicologia','social','salud','politicas','otro'], dato: ['numerico','panel'], objetivo: ['prediccion','comparar'], muestra: ['grande_avanzado'] }
+            }
+        };
+
+        function selectOption(element, questionType) {
+            const parent = element.parentElement;
+            parent.querySelectorAll('.wizard-option').forEach(opt => opt.classList.remove('selected'));
+            element.classList.add('selected');
+            
+            wizardAnswers[questionType] = element.dataset.value;
+            
+            // Actualizar progreso visual
+            updateProgress();
+            
+            // Mostrar siguiente pregunta
+            if (questionType === 'area') {
+                document.getElementById('q2').style.display = 'block';
+                document.getElementById('q2').scrollIntoView({ behavior: 'smooth', block: 'center' });
+                currentStep = 2;
+            } else if (questionType === 'tipo_dato') {
+                document.getElementById('q3').style.display = 'block';
+                document.getElementById('q3').scrollIntoView({ behavior: 'smooth', block: 'center' });
+                currentStep = 3;
+            } else if (questionType === 'objetivo') {
+                document.getElementById('q4').style.display = 'block';
+                document.getElementById('q4').scrollIntoView({ behavior: 'smooth', block: 'center' });
+                currentStep = 4;
+            } else if (questionType === 'muestra') {
+                showWizardResult();
+            }
+            
+            updateProgress();
+        }
+
+        function updateProgress() {
+            document.querySelectorAll('.progress-step').forEach((step, i) => {
+                if (i + 1 <= currentStep) {
+                    step.classList.add('active');
+                } else {
+                    step.classList.remove('active');
+                }
+            });
+        }
+
+        function showWizardResult() {
+            const { area, tipo_dato, objetivo, muestra } = wizardAnswers;
+            
+            // Calcular puntuación para cada método
+            const puntuaciones = [];
+            
+            Object.entries(metodosDB).forEach(([id, metodo]) => {
+                let score = 0;
+                
+                // Puntuación por área (3 puntos)
+                if (metodo.tags.area.includes(area)) score += 3;
+                
+                // Puntuación por tipo de dato (4 puntos - más importante)
+                if (metodo.tags.dato.includes(tipo_dato)) score += 4;
+                
+                // Puntuación por objetivo (5 puntos - el más importante)
+                if (metodo.tags.objetivo.includes(objetivo)) score += 5;
+                
+                // Puntuación por muestra (2 puntos)
+                if (metodo.tags.muestra.includes(muestra)) score += 2;
+                
+                if (score > 0) {
+                    puntuaciones.push({ id, ...metodo, score });
+                }
+            });
+            
+            // Ordenar por puntuación y tomar top 5
+            puntuaciones.sort((a, b) => b.score - a.score);
+            const top5 = puntuaciones.slice(0, 5);
+            
+            // Renderizar resultados
+            const grid = document.getElementById('wizard-result-grid');
+            grid.innerHTML = top5.map((rec, i) => `
+                <div class="wizard-rec-card">
+                    <span class="rec-rank">#${i + 1}</span>
+                    <h4>${rec.emoji} ${rec.nombre}</h4>
+                    <p>${rec.desc}</p>
+                    <p class="uso">💡 ${rec.uso}</p>
+                    <a href="#" onclick="scrollToMetodo('${rec.id}');return false;">Ver detalles →</a>
+                </div>
+            `).join('');
+            
+            const result = document.getElementById('wizard-result');
+            result.classList.add('visible');
+            result.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+
+        function resetWizard() {
+            wizardAnswers = {};
+            currentStep = 1;
+            document.querySelectorAll('.wizard-option').forEach(opt => opt.classList.remove('selected'));
+            document.getElementById('q2').style.display = 'none';
+            document.getElementById('q3').style.display = 'none';
+            document.getElementById('q4').style.display = 'none';
+            document.getElementById('wizard-result').classList.remove('visible');
+            document.getElementById('wizard').scrollIntoView({ behavior: 'smooth' });
+            updateProgress();
+        }
+
+        function scrollToMetodo(id) {
+            const card = document.querySelector(`[data-metodo-id="${id}"]`);
+            if (card) {
+                card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                card.style.animation = 'none';
+                setTimeout(() => {
+                    card.style.animation = 'pulse 0.5s ease 2';
+                }, 10);
+            }
+        }
+
+        // ===== FILTROS Y BÚSQUEDA =====
+        let categoriaActiva = 'todos';
+        let todosLosMetodos = [];
+
+        function filtrarPorCategoria(chip) {
+            document.querySelectorAll('.filtro-chip').forEach(c => c.classList.remove('active'));
+            chip.classList.add('active');
+            categoriaActiva = chip.dataset.categoria;
+            filtrarMetodos();
+        }
+
+        function filtrarMetodos() {
+            const busqueda = document.getElementById('buscador').value.toLowerCase();
+            let visibles = 0;
+            
+            document.querySelectorAll('.categoria-seccion').forEach(seccion => {
+                const catId = seccion.querySelector('.metodos-grid').id.replace('grid-', '');
+                const matchCategoria = categoriaActiva === 'todos' || catId === categoriaActiva;
+                
+                if (!matchCategoria) {
+                    seccion.style.display = 'none';
+                    return;
+                }
+                
+                seccion.style.display = 'block';
+                const cards = seccion.querySelectorAll('.metodo-card');
+                let seccionVisible = false;
+                
+                cards.forEach(card => {
+                    const texto = card.textContent.toLowerCase();
+                    const matchBusqueda = !busqueda || texto.includes(busqueda);
+                    
+                    if (matchBusqueda) {
+                        card.style.display = 'block';
+                        seccionVisible = true;
+                        visibles++;
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+                
+                seccion.style.display = seccionVisible ? 'block' : 'none';
+            });
+            
+            const info = document.getElementById('resultados-info');
+            if (busqueda || categoriaActiva !== 'todos') {
+                info.textContent = `Mostrando ${visibles} método${visibles !== 1 ? 's' : ''}`;
+            } else {
+                info.textContent = '';
+            }
+        }
+
+        // Categorías de métodos
+        const categorias = {
+            'correlacion': {
+                icono: '🔗',
+                nombre: 'Correlación',
+                metodos: ['correlacion-pearson', 'spearman-kendall', 'correlacion-parcial']
+            },
+            'regresion': {
+                icono: '📈',
+                nombre: 'Regresión',
+                metodos: ['regresion-simple', 'regresion-multiple', 'logit-probit', 'regresion-poisson', 'regresion-cuantilica', 'regresion-ridge-lasso']
+            },
+            'comparacion': {
+                icono: '⚖️',
+                nombre: 'Comparación de Grupos',
+                metodos: ['t-test', 't-test-pareado', 'anova', 'anova-factorial', 'ancova', 'mann-whitney', 'kruskal-wallis', 'wilcoxon', 'chi-cuadrado', 'fisher-exact']
+            },
+            'validacion': {
+                icono: '✅',
+                nombre: 'Validación y Diagnóstico',
+                metodos: ['shapiro-wilk', 'kolmogorov-smirnov', 'levene', 'durbin-watson', 'vif', 'breusch-pagan', 'cronbach-alpha']
+            },
+            'reduccion': {
+                icono: '🎯',
+                nombre: 'Reducción de Dimensionalidad',
+                metodos: ['pca', 'analisis-factorial', 'factorial-confirmatorio', 'correspondencia', 'mds']
+            },
+            'series': {
+                icono: '⏰',
+                nombre: 'Series de Tiempo',
+                metodos: ['arima', 'sarima', 'var', 'descomposicion-temporal', 'garch', 'cointegration', 'granger']
+            },
+            'panel': {
+                icono: '🏢',
+                nombre: 'Panel y Evaluación de Impacto',
+                metodos: ['panel-data', 'hausman', 'did', 'rdiseno', 'psm']
+            },
+            'ml-supervisado': {
+                icono: '🤖',
+                nombre: 'ML Supervisado',
+                metodos: ['arboles-decision', 'random-forest', 'xgboost', 'svm', 'knn', 'naive-bayes', 'redes-neuronales', 'regresion-logistica-ml']
+            },
+            'ml-nosupervisado': {
+                icono: '🎨',
+                nombre: 'ML No Supervisado',
+                metodos: ['k-means', 'dbscan', 'hierarchical', 'gmm', 'isolation-forest', 'tsne-umap', 'autoencoder']
+            },
+            'ml-texto': {
+                icono: '📝',
+                nombre: 'NLP / Análisis de Texto',
+                metodos: ['nlp-sentiment', 'nlp-topic', 'nlp-ner', 'word-embeddings']
+            },
+            'avanzado': {
+                icono: '🎓',
+                nombre: 'Métodos Avanzados',
+                metodos: ['sem', 'meta-analysis', 'bayes', 'bootstrap', 'survival', 'conjoint', 'multinivel']
+            }
+        };
+
+        // Variables para modal de galería
+        let currentImages = [];
+        let currentImageIndex = 0;
+
         async function cargarMetodos() {
+            const container = document.getElementById('metodos-container');
+            
             try {
                 const response = await fetch('../data/contenido.json');
-                const data = await response.json();
-                const metodos = data.metodos_cuantitativos;
-
-                // Organizar métodos por categorías
-                const categorias = {
-                    'relaciones': {
-                        nombre: '📊 ¿Quieres encontrar relaciones entre variables?',
-                        metodos: metodos.slice(0, 4)
-                    },
-                    'comparacion': {
-                        nombre: '🔬 ¿Quieres comparar grupos o poblaciones?',
-                        metodos: metodos.slice(4, 9)
-                    },
-                    'reduccion': {
-                        nombre: '🎯 ¿Tienes muchas variables y quieres simplificar?',
-                        metodos: metodos.slice(9, 12)
-                    },
-                    'prediccion': {
-                        nombre: '🤖 ¿Quieres predecir o clasificar?',
-                        metodos: metodos.slice(12, 17)
-                    },
-                    'series': {
-                        nombre: '⏰ ¿Trabajas con datos en el tiempo?',
-                        metodos: metodos.slice(17, 20)
-                    },
-                    'panel': {
-                        nombre: '🏢 ¿Tienes datos de múltiples entidades en el tiempo?',
-                        metodos: metodos.slice(20, 21)
-                    }
-                };
-
-                const container = document.getElementById('metodos-container');
+                if (!response.ok) throw new Error('Error cargando datos');
                 
-                // Renderizar categorías
-                Object.values(categorias).forEach(categoria => {
-                    // Crear header de categoría
-                    const headerDiv = document.createElement('div');
-                    headerDiv.className = 'categorias-container';
+                const data = await response.json();
+                const metodos = data.metodos_cuantitativos || [];
+
+                // Agrupar métodos por categoría del JSON
+                const metodosPorCategoria = {};
+                metodos.forEach(m => {
+                    const cat = m.categoria || 'otros';
+                    if (!metodosPorCategoria[cat]) {
+                        metodosPorCategoria[cat] = [];
+                    }
+                    metodosPorCategoria[cat].push(m);
+                });
+
+                // Renderizar por categorías definidas
+                Object.entries(categorias).forEach(([catId, cat]) => {
+                    const metodosCategoria = metodosPorCategoria[catId] || [];
+
+                    if (metodosCategoria.length === 0) return;
+
+                    const seccion = document.createElement('div');
+                    seccion.className = 'categoria-seccion';
                     
-                    const header = document.createElement('div');
-                    header.className = 'categoria-header';
-                    header.textContent = categoria.nombre;
-                    headerDiv.appendChild(header);
+                    seccion.innerHTML = `
+                        <div class="categoria-header">
+                            <span class="categoria-icono">${cat.icono}</span>
+                            <h2>${cat.nombre}</h2>
+                            <span class="categoria-contador">${metodosCategoria.length} método${metodosCategoria.length > 1 ? 's' : ''}</span>
+                        </div>
+                        <div class="metodos-grid" id="grid-${catId}"></div>
+                    `;
                     
-                    // Crear grid de métodos
-                    const grid = document.createElement('div');
-                    grid.className = 'metodos-grid-compacta';
-                    
-                    categoria.metodos.forEach(metodo => {
+                    container.appendChild(seccion);
+                    const grid = seccion.querySelector(`#grid-${catId}`);
+
+                    metodosCategoria.forEach(metodo => {
                         const card = document.createElement('div');
-                        card.className = 'metodo-card-compacta';
+                        card.className = 'metodo-card';
+                        card.setAttribute('data-metodo-id', metodo.id);
+                        
+                        // Determinar si tiene ejemplo PDF disponible
+                        const tieneEjemplo = metodo.pdf_drive && metodo.pdf_drive.length > 10 && !metodo.pdf_drive.includes('EJEMPLO_ID');
+                        const btnEjemploHTML = tieneEjemplo 
+                            ? `<a href="${metodo.pdf_drive}" target="_blank" class="btn-metodo btn-ejemplo">📄 PDF</a>`
+                            : `<span class="btn-metodo btn-pronto" title="Próximamente">📄 Pronto</span>`;
+                        
+                        // Generar galería de imágenes si existen
+                        let galeriaHTML = '';
+                        if (metodo.imagenes && metodo.imagenes.length > 0) {
+                            const thumbs = metodo.imagenes.slice(0, 3).map((img, i) => 
+                                `<img src="../images/imagenes_metodo/${img}" 
+                                      alt="Ejemplo ${i+1}" 
+                                      class="galeria-thumb" 
+                                      loading="lazy"
+                                      onclick="abrirModal('${metodo.id}', ${i})">`
+                            ).join('');
+                            
+                            const masBtn = metodo.imagenes.length > 3 
+                                ? `<span class="ver-galeria-btn" onclick="abrirModal('${metodo.id}', 0)">+${metodo.imagenes.length - 3}</span>` 
+                                : '';
+                            
+                            galeriaHTML = `<div class="metodo-galeria" data-imagenes='${JSON.stringify(metodo.imagenes)}'>${thumbs}${masBtn}</div>`;
+                        }
+                        
+                        // Construir URL de WhatsApp correctamente
+                        const waText = `Hola, quiero usar ${metodo.nombre} en mi tesis. ¿Puedes ayudarme?`;
+                        const waUrl = `https://wa.me/51930123005?text=${encodeURIComponent(waText)}`;
                         
                         card.innerHTML = `
-                            <span class="metodo-icono">${metodo.emoji}</span>
-                            <h3>${metodo.nombre}</h3>
+                            <div class="metodo-header">
+                                <span class="metodo-emoji">${metodo.emoji}</span>
+                                <div class="metodo-titulo">
+                                    <h3>${metodo.nombre}</h3>
+                                    <span class="metodo-categoria">${cat.nombre}</span>
+                                </div>
+                            </div>
                             <p class="metodo-pregunta">${metodo.pregunta}</p>
                             <p class="metodo-descripcion">${metodo.descripcion}</p>
-                            <div class="metodo-botones">
-                                <a href="${metodo.pdf_drive}" target="_blank" class="metodo-boton metodo-pdf">📄 Ver ejemplo</a>
-                                <a href="https://wa.me/51930123005?text=Quiero%20usar%20${encodeURIComponent(metodo.nombre)}" class="metodo-boton metodo-whatsapp">💬 Consultar</a>
+                            ${galeriaHTML}
+                            <div class="metodo-acciones">
+                                ${btnEjemploHTML}
+                                <a href="${waUrl}" target="_blank" class="btn-metodo btn-consultar">💬 Consultar</a>
                             </div>
                         `;
                         
                         grid.appendChild(card);
+                        todosLosMetodos.push({ element: card, metodo, categoria: catId });
                     });
-                    
-                    headerDiv.appendChild(grid);
-                    container.appendChild(headerDiv);
                 });
 
             } catch (error) {
-                console.error('Error al cargar métodos:', error);
-                document.getElementById('metodos-container').innerHTML = '<p>Error al cargar los métodos. Intenta recargar la página.</p>';
+                console.error('Error:', error);
+                container.innerHTML = '<p style="color: #c00; padding: 2rem; text-align: center;">Error al cargar los métodos. Por favor recarga la página.</p>';
             }
         }
 
-        // Cargar métodos cuando la página esté lista
+        // Funciones del modal de galería
+        function abrirModal(metodoId, index) {
+            const card = document.querySelector(`[data-metodo-id="${metodoId}"]`);
+            if (!card) {
+                console.error('Tarjeta no encontrada:', metodoId);
+                return;
+            }
+            const galeria = card.querySelector('.metodo-galeria');
+            if (!galeria || !galeria.dataset.imagenes) {
+                console.error('Galería no encontrada para:', metodoId);
+                return;
+            }
+            
+            try {
+                currentImages = JSON.parse(galeria.dataset.imagenes);
+                currentImageIndex = Math.min(index, currentImages.length - 1);
+                if (currentImages.length > 0) {
+                    mostrarImagenModal();
+                    document.getElementById('modal-galeria').classList.add('active');
+                }
+            } catch (e) {
+                console.error('Error parseando imágenes:', e);
+            }
+        }
+
+        function mostrarImagenModal() {
+            const modal = document.getElementById('modal-galeria');
+            const img = modal.querySelector('img');
+            img.src = '../images/imagenes_metodo/' + currentImages[currentImageIndex];
+        }
+
+        function cerrarModal() {
+            document.getElementById('modal-galeria').classList.remove('active');
+        }
+
+        function navegarModal(dir) {
+            currentImageIndex = (currentImageIndex + dir + currentImages.length) % currentImages.length;
+            mostrarImagenModal();
+        }
+
+        // Cerrar modal con Escape o click fuera
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') cerrarModal();
+            if (e.key === 'ArrowLeft') navegarModal(-1);
+            if (e.key === 'ArrowRight') navegarModal(1);
+        });
+
         document.addEventListener('DOMContentLoaded', cargarMetodos);
     </script>
 
-
+    <!-- Modal para galería de imágenes -->
+    <div class="modal-galeria" id="modal-galeria" onclick="if(event.target === this) cerrarModal()">
+        <span class="modal-close" onclick="cerrarModal()">×</span>
+        <span class="modal-nav modal-prev" onclick="navegarModal(-1)">‹</span>
+        <img src="" alt="Ejemplo de gráfico">
+        <span class="modal-nav modal-next" onclick="navegarModal(1)">›</span>
+    </div>
 </div>
 </body>
 </html>
-

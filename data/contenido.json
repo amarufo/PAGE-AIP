@@ -117,169 +117,644 @@
       "id": "correlacion-pearson",
       "emoji": "🔗",
       "nombre": "Correlación de Pearson",
-      "pregunta": "¿Tienes dos variables numéricas (números, no categorías)? ¿Quieres saber si suben/bajan juntas? Ej: ¿aumenta inversión = aumenta empleo? ¿más horas de estudio = mejores notas?",
-      "descripcion": "Mide la fuerza de la relación lineal entre dos variables continuas.",
-      "pdf_drive": "https://drive.google.com/file/d/1pJ8kL9mN2oP3qR4sT5uV6wX7yZ8aB9cD/view?usp=sharing"
-    },
-    {
-      "id": "regresion-simple",
-      "emoji": "📈",
-      "nombre": "Regresión Lineal Simple",
-      "pregunta": "¿Tienes UNA variable que explica a otra? ¿Quieres predecir? Ej: Conoces AÑOS DE EXPERIENCIA y quieres predecir SALARIO. O: TEMPERATURA predice CONSUMO DE CERVEZA.",
-      "descripcion": "Predice una variable dependiente a partir de una variable independiente.",
-      "pdf_drive": "https://drive.google.com/file/d/EJEMPLO_ID_2/view"
-    },
-    {
-      "id": "regresion-multiple",
-      "emoji": "🔗",
-      "nombre": "Regresión Múltiple OLS",
-      "pregunta": "¿Tienes MUCHAS variables numéricas (3, 5, 10)? ¿Quieres saber cuál es la más importante? Ej: ¿EDAD + AÑOS_EDUCACION + EXPERIENCIA + GÉNERO = SALARIO?",
-      "descripcion": "Analiza cómo múltiples factores impactan una variable de resultado.",
-      "pdf_drive": "https://drive.google.com/file/d/EJEMPLO_ID_3/view"
+      "pregunta": "¿Dos variables numéricas suben/bajan juntas?",
+      "descripcion": "📌 IDEAL PARA: Explorar si existe relación lineal. ✅ Ejemplo tesis: \"A mayor inversión pública, ¿mayor empleo?\" | Resultado: coeficiente de -1 a +1.",
+      "pdf_drive": "https://drive.google.com/file/d/14cfBYH1X0bjzBvphqJhV34szifTJQ9NT/view?usp=sharing",
+      "categoria": "correlacion",
+      "imagenes": ["01_Correlacion_Pearson/01_matriz_correlaciones.png", "01_Correlacion_Pearson/02_scatter_relaciones.png", "01_Correlacion_Pearson/03_correlaciones_parciales.png"]
     },
     {
       "id": "spearman-kendall",
       "emoji": "📊",
       "nombre": "Spearman / Kendall",
-      "pregunta": "¿Tus variables NO son numéricas sino RANGOS u ÓRDENES? Ej: Satisfacción (Muy Bajo-Bajo-Medio-Alto-Muy Alto) Y Ingresos (categorías). ¿O datos que rompen la linealidad?",
-      "descripcion": "Correlación para datos no lineales u ordinales.",
-      "pdf_drive": "https://drive.google.com/file/d/EJEMPLO_ID_4/view"
+      "pregunta": "¿Variables ordinales o rangos? ¿Datos no lineales?",
+      "descripcion": "📌 IDEAL PARA: Datos con escalas tipo Likert o con outliers. ✅ Ejemplo: satisfacción (1-5) vs frecuencia de compra. No requiere normalidad.",
+      "pdf_drive": "",
+      "categoria": "correlacion",
+      "imagenes": ["01_Correlacion_Pearson/04_ranking_correlaciones.png", "01_Correlacion_Pearson/05_violines_cuartiles.png"]
+    },
+    {
+      "id": "correlacion-parcial",
+      "emoji": "🔀",
+      "nombre": "Correlación Parcial",
+      "pregunta": "¿Quieres medir correlación controlando una tercera variable?",
+      "descripcion": "📌 IDEAL PARA: Eliminar efectos confusores. ✅ Ejemplo: relación edad-salario controlando años de experiencia. Aísla el efecto real.",
+      "pdf_drive": "",
+      "categoria": "correlacion",
+      "imagenes": ["01_Correlacion_Pearson/03_correlaciones_parciales.png"]
+    },
+    {
+      "id": "regresion-simple",
+      "emoji": "📈",
+      "nombre": "Regresión Lineal Simple",
+      "pregunta": "¿UNA variable explica/predice otra?",
+      "descripcion": "📌 IDEAL PARA: Predecir Y usando 1 sola X. ✅ Ejemplo tesis: \"¿Cuánto aumenta el salario por cada año de experiencia?\" | Obtén ecuación predictiva.",
+      "pdf_drive": "https://drive.google.com/file/d/1Hj491_t7jSODdommODlxpd7JFpoxnWzO/view?usp=sharing",
+      "categoria": "regresion",
+      "imagenes": ["03_Regresion_Lineal_Simple/01_scatter_regresion.png", "03_Regresion_Lineal_Simple/02_residuos.png", "03_Regresion_Lineal_Simple/03_bandas_prediccion.png", "03_Regresion_Lineal_Simple/04_diagnosticos.png"]
+    },
+    {
+      "id": "regresion-multiple",
+      "emoji": "📉",
+      "nombre": "Regresión Múltiple OLS",
+      "pregunta": "¿Múltiples variables explican un resultado?",
+      "descripcion": "📌 EL MÁS USADO en tesis. ✅ Ejemplo: \"El salario depende de edad + educación + experiencia + género\". Mide impacto de cada variable controlando las demás.",
+      "pdf_drive": "https://drive.google.com/file/d/1AHy8EipYEwdT1GWVJ2gWwLIWkPdgxAqp/view?usp=sharing",
+      "categoria": "regresion",
+      "imagenes": ["04_Regresion_Multiple_OLS/01_coeficientes_ic.png", "04_Regresion_Multiple_OLS/02_residuos_ajustados.png", "04_Regresion_Multiple_OLS/03_matriz_correlacion.png", "04_Regresion_Multiple_OLS/04_importancia_relativa.png"]
+    },
+    {
+      "id": "logit-probit",
+      "emoji": "🎲",
+      "nombre": "Logit / Probit",
+      "pregunta": "¿Predecir evento SÍ/NO con probabilidad?",
+      "descripcion": "📌 IDEAL PARA: Variable dependiente binaria (0/1). ✅ Ejemplo tesis: \"¿Qué factores aumentan probabilidad de deserción escolar?\" | Resultado en % de probabilidad.",
+      "pdf_drive": "",
+      "categoria": "regresion",
+      "imagenes": ["10_Machine_Learning/04_curvas_roc.png", "10_Machine_Learning/05_matrices_confusion.png"]
+    },
+    {
+      "id": "regresion-poisson",
+      "emoji": "🔢",
+      "nombre": "Regresión Poisson",
+      "pregunta": "¿Tu variable dependiente son CONTEOS (0,1,2,3...)?",
+      "descripcion": "📌 IDEAL PARA: Contar eventos discretos. ✅ Ejemplo: número de accidentes por intersección, visitas médicas al mes, quejas de clientes.",
+      "pdf_drive": "",
+      "categoria": "regresion"
+    },
+    {
+      "id": "regresion-cuantilica",
+      "emoji": "📊",
+      "nombre": "Regresión Cuantílica",
+      "pregunta": "¿Quieres analizar diferentes percentiles, no solo la media?",
+      "descripcion": "📌 IDEAL PARA: Ver efectos en toda la distribución. ✅ Ejemplo: \"¿La educación afecta igual a salarios bajos que altos?\" | Analiza percentiles 10, 50, 90.",
+      "pdf_drive": "",
+      "categoria": "regresion"
+    },
+    {
+      "id": "regresion-ridge-lasso",
+      "emoji": "🎯",
+      "nombre": "Ridge / Lasso / Elastic Net",
+      "pregunta": "¿Muchas variables correlacionadas? ¿Necesitas selección automática?",
+      "descripcion": "📌 IDEAL PARA: Evitar sobreajuste con muchas variables. ✅ Lasso elimina variables irrelevantes automáticamente. Útil con +20 variables predictoras.",
+      "pdf_drive": "",
+      "categoria": "regresion"
     },
     {
       "id": "t-test",
-      "emoji": "📊",
+      "emoji": "⚖️",
       "nombre": "T-Test (t de Student)",
-      "pregunta": "¿Tienes DOS GRUPOS distintos (hombres/mujeres, antes/después, control/tratamiento)? ¿Quieres saber si sus promedios son DIFERENTES? Ej: ¿Ganan diferente los hombres vs mujeres?",
-      "descripcion": "Compara promedios entre DOS grupos.",
-      "pdf_drive": "https://drive.google.com/file/d/EJEMPLO_ID_5/view"
+      "pregunta": "¿Comparar promedios de DOS grupos?",
+      "descripcion": "📌 MUY COMÚN en tesis. ✅ Ejemplo: \"¿El rendimiento de hombres es diferente al de mujeres?\" | Compara medias y da significancia estadística.",
+      "pdf_drive": "",
+      "categoria": "comparacion",
+      "imagenes": ["06_ANOVA/01_boxplots_distribucion.png", "06_ANOVA/02_medias_ic.png"]
+    },
+    {
+      "id": "t-test-pareado",
+      "emoji": "👥",
+      "nombre": "T-Test Pareado",
+      "pregunta": "¿Los MISMOS sujetos medidos ANTES y DESPUÉS?",
+      "descripcion": "📌 IDEAL PARA: Medir cambio en el mismo grupo. ✅ Ejemplo tesis: \"¿El programa de capacitación mejoró las notas?\" Antes vs después del tratamiento.",
+      "pdf_drive": "",
+      "categoria": "comparacion"
     },
     {
       "id": "anova",
+      "emoji": "📊",
+      "nombre": "ANOVA (1 vía)",
+      "pregunta": "¿Comparar promedios de 3+ GRUPOS?",
+      "descripcion": "📌 ESENCIAL cuando tienes múltiples grupos. ✅ Ejemplo: \"¿Difiere el ingreso entre las 4 regiones del país?\" | Identifica diferencias significativas.",
+      "pdf_drive": "https://drive.google.com/file/d/1SjNExBfOHamq4QEgAfh4GbRX8gw3v2uJ/view?usp=sharing",
+      "categoria": "comparacion",
+      "imagenes": ["06_ANOVA/01_boxplots_distribucion.png", "06_ANOVA/02_medias_ic.png", "06_ANOVA/02_tukey_heatmap.png", "06_ANOVA/03_tukey_intervalos.png", "06_ANOVA/04_violin_plot.png"]
+    },
+    {
+      "id": "anova-factorial",
+      "emoji": "🔲",
+      "nombre": "ANOVA Factorial (2+ vías)",
+      "pregunta": "¿Comparar grupos por DOS o más factores a la vez?",
+      "descripcion": "📌 IDEAL PARA: Analizar interacciones. ✅ Ejemplo: \"¿El efecto del género en salarios varía según región?\" | Detecta efectos combinados.",
+      "pdf_drive": "",
+      "categoria": "comparacion",
+      "imagenes": ["06_ANOVA/02_tukey_heatmap.png", "06_ANOVA/04_violin_plot.png"]
+    },
+    {
+      "id": "ancova",
+      "emoji": "📐",
+      "nombre": "ANCOVA",
+      "pregunta": "¿Comparar grupos controlando una covariable numérica?",
+      "descripcion": "📌 IDEAL PARA: Controlar variables confusoras. ✅ Ejemplo: comparar notas entre colegios controlando nivel socioeconómico de alumnos.",
+      "pdf_drive": "",
+      "categoria": "comparacion"
+    },
+    {
+      "id": "mann-whitney",
+      "emoji": "🔄",
+      "nombre": "Mann-Whitney U",
+      "pregunta": "¿Comparar 2 grupos pero datos NO normales?",
+      "descripcion": "📌 ALTERNATIVA al t-test sin normalidad. ✅ Usa cuando Shapiro-Wilk indica datos no normales. Compara rangos en lugar de medias.",
+      "pdf_drive": "",
+      "categoria": "comparacion"
+    },
+    {
+      "id": "kruskal-wallis",
       "emoji": "📈",
-      "nombre": "ANOVA",
-      "pregunta": "¿Tienes 3 O MÁS GRUPOS diferentes? ¿Quieres comparar si sus promedios difieren significativamente? Ej: ¿Rendimiento diferente en 5 universidades? ¿Ingresos por región (Norte/Centro/Sur/Este)?",
-      "descripcion": "Compara promedios entre TRES o más grupos.",
-      "pdf_drive": "https://drive.google.com/file/d/EJEMPLO_ID_6/view"
+      "nombre": "Kruskal-Wallis",
+      "pregunta": "¿Comparar 3+ grupos con datos NO normales?",
+      "descripcion": "📌 ALTERNATIVA a ANOVA sin normalidad. ✅ Usa cuando tus datos son muy sesgados o tienes muestras pequeñas. No paramétrico.",
+      "pdf_drive": "",
+      "categoria": "comparacion"
+    },
+    {
+      "id": "wilcoxon",
+      "emoji": "🔃",
+      "nombre": "Wilcoxon Signed-Rank",
+      "pregunta": "¿Comparar antes/después con datos NO normales?",
+      "descripcion": "📌 ALTERNATIVA al t-test pareado. ✅ Ideal para muestras pequeñas (<30) o datos muy sesgados. Compara diferencias con rangos.",
+      "pdf_drive": "",
+      "categoria": "comparacion"
     },
     {
       "id": "chi-cuadrado",
       "emoji": "🔍",
-      "nombre": "Chi-Cuadrado",
-      "pregunta": "¿Tus variables son CATEGORÍAS (texto, no números)? Ej: ¿Género (M/F) + Preferencia (SÍ/NO)? ¿Región (zona1/zona2) + Compra (Sí/No)? ¿Tus datos son conteos o frecuencias?",
-      "descripcion": "Compara variables categóricas (categorías, no números).",
-      "pdf_drive": "https://drive.google.com/file/d/EJEMPLO_ID_7/view"
+      "nombre": "Chi-Cuadrado (χ²)",
+      "pregunta": "¿Relación entre dos variables CATEGÓRICAS?",
+      "descripcion": "📌 MUY USADO con encuestas. ✅ Ejemplo: \"¿Hay relación entre género y preferencia política?\" | Para tablas de contingencia 2×2 o mayores.",
+      "pdf_drive": "",
+      "categoria": "comparacion"
+    },
+    {
+      "id": "fisher-exact",
+      "emoji": "🎯",
+      "nombre": "Test Exacto de Fisher",
+      "pregunta": "¿Chi-cuadrado pero con muestras MUY pequeñas?",
+      "descripcion": "📌 USA CUANDO Chi² falla. ✅ Necesario si alguna celda esperada <5. Más preciso con muestras pequeñas.",
+      "pdf_drive": "",
+      "categoria": "comparacion"
     },
     {
       "id": "shapiro-wilk",
-      "emoji": "📊",
-      "nombre": "Shapiro-Wilk / Normalidad",
-      "pregunta": "¿No sabes si tus datos son \"normales\" (distribuidos como campana)? ¿Necesitas verificar condiciones antes de hacer otros análisis? ¿Datos sospechosos o muy sesgados?",
-      "descripcion": "Valida si los datos cumplen supuestos estadísticos.",
-      "pdf_drive": "https://drive.google.com/file/d/EJEMPLO_ID_8/view"
+      "emoji": "🔔",
+      "nombre": "Shapiro-Wilk",
+      "pregunta": "¿Tus datos siguen distribución NORMAL?",
+      "descripcion": "📌 PRIMER PASO obligatorio. ✅ Si p>0.05 = datos normales → usa t-test/ANOVA. Si p<0.05 → usa Mann-Whitney/Kruskal-Wallis.",
+      "pdf_drive": "",
+      "categoria": "validacion"
     },
     {
       "id": "kolmogorov-smirnov",
       "emoji": "🔬",
       "nombre": "Kolmogorov-Smirnov",
-      "pregunta": "¿Quieres verificar si tus datos REALMENTE siguen un patrón específico (Normal, Uniforme, Exponencial)? ¿O comparar dos distribuciones de datos?",
-      "descripcion": "Prueba de bondad de ajuste para distribuciones.",
-      "pdf_drive": "https://drive.google.com/file/d/EJEMPLO_ID_9/view"
+      "pregunta": "¿Comparar tu distribución con una teórica?",
+      "descripcion": "📌 IDEAL PARA: Muestras grandes (>50). ✅ Prueba si tus datos siguen distribución normal, uniforme, exponencial u otra teórica.",
+      "pdf_drive": "",
+      "categoria": "validacion"
+    },
+    {
+      "id": "levene",
+      "emoji": "📏",
+      "nombre": "Test de Levene",
+      "pregunta": "¿Los grupos tienen VARIANZAS iguales?",
+      "descripcion": "📌 REQUISITO para ANOVA y t-test. ✅ Si p>0.05 = varianzas iguales (homocedasticidad). Si falla, usa Welch t-test.",
+      "pdf_drive": "",
+      "categoria": "validacion"
+    },
+    {
+      "id": "durbin-watson",
+      "emoji": "🔁",
+      "nombre": "Durbin-Watson",
+      "pregunta": "¿Hay AUTOCORRELACIÓN en tus residuos?",
+      "descripcion": "📌 ESENCIAL en series de tiempo. ✅ Valor ideal ≈2. Si detecta autocorrelación, considera ARIMA o añadir rezagos.",
+      "pdf_drive": "",
+      "categoria": "validacion"
+    },
+    {
+      "id": "vif",
+      "emoji": "🔀",
+      "nombre": "VIF (Multicolinealidad)",
+      "pregunta": "¿Tus variables independientes están MUY correlacionadas?",
+      "descripcion": "📌 REVISAR en regresión múltiple. ✅ Si VIF>10 hay problema. Solución: eliminar variable o usar Ridge/Lasso.",
+      "pdf_drive": "",
+      "categoria": "validacion"
+    },
+    {
+      "id": "breusch-pagan",
+      "emoji": "📊",
+      "nombre": "Breusch-Pagan",
+      "pregunta": "¿La varianza de errores es CONSTANTE?",
+      "descripcion": "📌 VALIDA homocedasticidad en regresión. ✅ Si p<0.05 hay heterocedasticidad → usa errores robustos (HC) o transforma variables.",
+      "pdf_drive": "",
+      "categoria": "validacion"
+    },
+    {
+      "id": "cronbach-alpha",
+      "emoji": "✅",
+      "nombre": "Alfa de Cronbach",
+      "pregunta": "¿Tu escala/cuestionario es CONFIABLE?",
+      "descripcion": "📌 OBLIGATORIO para encuestas. ✅ α>0.7 = aceptable, α>0.8 = bueno. Mide si las preguntas miden lo mismo.",
+      "pdf_drive": "",
+      "categoria": "validacion"
     },
     {
       "id": "pca",
-      "emoji": "🔍",
-      "nombre": "PCA (Análisis de Componentes)",
-      "pregunta": "¿Tienes MUCHAS variables (20, 30, 50) y quieres RESUMIR sin perder información? Ej: Encuesta con 50 preguntas → quieres 5 factores principales. ¿Datos abrumadores?",
-      "descripcion": "Reduce dimensionalidad mientras mantiene varianza importante.",
-      "pdf_drive": "https://drive.google.com/file/d/EJEMPLO_ID_10/view"
+      "emoji": "🎯",
+      "nombre": "PCA (Componentes Principales)",
+      "pregunta": "¿Muchas variables (20, 50, 100)? ¿Quieres RESUMIR?",
+      "descripcion": "📌 REDUCE dimensiones sin perder información. ✅ Ejemplo: 50 indicadores económicos → 5 componentes que explican 80% de varianza.",
+      "pdf_drive": "https://drive.google.com/file/d/1NFku6HS9_3eXxEiyVqDp9qSnIe5YM_iK/view?usp=sharing",
+      "categoria": "reduccion",
+      "imagenes": ["10_Machine_Learning/09_pca_clusters.png", "00_Estadistica_Descriptiva/fig-pca.png"]
     },
     {
       "id": "analisis-factorial",
-      "emoji": "📊",
-      "nombre": "Análisis Factorial",
-      "pregunta": "¿Múltiples variables miden LO MISMO (factor latente)? Ej: 5 preguntas diferentes que miden \"SATISFACCIÓN\" o \"CALIDAD DE VIDA\". ¿Quieres resumir en un solo índice?",
-      "descripcion": "Identifica factores subyacentes en tus variables.",
-      "pdf_drive": "https://drive.google.com/file/d/EJEMPLO_ID_11/view"
+      "emoji": "🧩",
+      "nombre": "Análisis Factorial Exploratorio",
+      "pregunta": "¿Múltiples preguntas miden UN factor latente?",
+      "descripcion": "📌 DESCUBRE estructura oculta. ✅ Ejemplo tesis: 20 preguntas de encuesta → 4 dimensiones (satisfacción, lealtad, confianza, etc.)",
+      "pdf_drive": "",
+      "categoria": "reduccion",
+      "imagenes": ["00_Estadistica_Descriptiva/fig-corr-cluster.png"]
+    },
+    {
+      "id": "factorial-confirmatorio",
+      "emoji": "✔️",
+      "nombre": "Análisis Factorial Confirmatorio",
+      "pregunta": "¿Quieres CONFIRMAR tu modelo teórico de factores?",
+      "descripcion": "📌 VALIDA tu modelo propuesto. ✅ Usa después del exploratorio. Reporta CFI, RMSEA, SRMR. Parte de modelos SEM.",
+      "pdf_drive": "",
+      "categoria": "reduccion"
     },
     {
       "id": "correspondencia",
-      "emoji": "🎯",
-      "nombre": "Correspondencia",
-      "pregunta": "¿Tienes DOS variables categóricas y quieres visualizar su relación? Ej: Región (Norte/Sur/Centro) vs Marca preferida (A/B/C). ¿Datos de tabla de contingencia?",
-      "descripcion": "Análisis para variables cualitativas complejas.",
-      "pdf_drive": "https://drive.google.com/file/d/EJEMPLO_ID_12/view"
+      "emoji": "🗺️",
+      "nombre": "Análisis de Correspondencia",
+      "pregunta": "¿Visualizar relación entre dos variables CATEGÓRICAS?",
+      "descripcion": "📌 CREA mapas perceptuales. ✅ Ejemplo: ¿cómo se posicionan marcas vs atributos? Visualiza asociaciones en 2D.",
+      "pdf_drive": "",
+      "categoria": "reduccion"
     },
     {
-      "id": "logit-probit",
-      "emoji": "📈",
-      "nombre": "Logit / Probit",
-      "pregunta": "¿Quieres PREDECIR un evento SÍ/NO? Ej: ¿Compra el cliente? ¿Aprueba el crédito? ¿Se enferma? ¿Renuncia el empleado? ¿Con probabilidades reales?",
-      "descripcion": "Predicción de eventos binarios con probabilidades.",
-      "pdf_drive": "https://drive.google.com/file/d/EJEMPLO_ID_13/view"
-    },
-    {
-      "id": "arboles-decision",
-      "emoji": "🌳",
-      "nombre": "Árboles de Decisión",
-      "pregunta": "¿Quieres REGLAS CLARAS que expliquen tus datos? Ej: \"Si edad > 30 Y ingresos > 1000 ENTONCES compra\". ¿Necesitas comprensible, no una \"caja negra\"?",
-      "descripcion": "Predicciones interpretables con reglas claras.",
-      "pdf_drive": "https://drive.google.com/file/d/EJEMPLO_ID_14/view"
-    },
-    {
-      "id": "random-forest",
-      "emoji": "🌲",
-      "nombre": "Random Forest",
-      "pregunta": "¿Necesitas MÁXIMA PRECISIÓN en predicciones? ¿Tienes datos complejos? ¿No importa si no entiendes cómo funciona? ¿Querés resultados impresionantes?",
-      "descripcion": "Ensamble de árboles para predicciones más precisas.",
-      "pdf_drive": "https://drive.google.com/file/d/EJEMPLO_ID_15/view"
-    },
-    {
-      "id": "xgboost",
-      "emoji": "⚡",
-      "nombre": "XGBoost",
-      "pregunta": "¿Quieres GANAR UNA COMPETENCIA? ¿Maximizar precisión a todo costo? ¿Impresionar en tu defensa de tesis? ¿Datos muy difíciles o confusos?",
-      "descripcion": "Algoritmo de predicción más avanzado disponible.",
-      "pdf_drive": "https://drive.google.com/file/d/EJEMPLO_ID_16/view"
-    },
-    {
-      "id": "k-means",
-      "emoji": "🎯",
-      "nombre": "K-Means (Segmentación)",
-      "pregunta": "¿Quieres AGRUPAR o SEGMENTAR? Ej: Clientes en 3 tipos (VIP/Premium/Regular), ciudades por pobreza, estudiantes por desempeño. ¿Tipos o clusters en tus datos?",
-      "descripcion": "Agrupa observaciones en clusters automáticamente.",
-      "pdf_drive": "https://drive.google.com/file/d/EJEMPLO_ID_17/view"
+      "id": "mds",
+      "emoji": "📍",
+      "nombre": "MDS (Escalamiento Multidimensional)",
+      "pregunta": "¿Visualizar SIMILARIDADES entre objetos en un mapa?",
+      "descripcion": "📌 IDEAL PARA: Mapas de percepción. ✅ Ejemplo: ¿qué ciudades se perciben similares? Representa distancias en espacio 2D.",
+      "pdf_drive": "",
+      "categoria": "reduccion"
     },
     {
       "id": "arima",
       "emoji": "⏰",
       "nombre": "ARIMA",
-      "pregunta": "¿Tus datos son SERIES TEMPORALES? (eventos ordenados en tiempo: mensual, anual, diario) ¿Quieres PRONOSTICAR futuros valores? Ej: Ventas 2025, inflación próximos meses, demanda futura.",
-      "descripcion": "Pronósticos de series temporales con componentes AR, I, MA.",
-      "pdf_drive": "https://drive.google.com/file/d/EJEMPLO_ID_18/view"
+      "pregunta": "¿Pronosticar UNA serie temporal?",
+      "descripcion": "📌 EL CLÁSICO para pronósticos. ✅ Predice ventas, inflación, demanda. Requiere serie estacionaria. Incluye intervalos de confianza.",
+      "pdf_drive": "https://drive.google.com/file/d/1PKqXTdQHtXRaB3pJoYMyz5Ohv9s6vc2X/view?usp=sharing",
+      "categoria": "series",
+      "imagenes": ["05_Series_Temporales_ARIMA/01_serie_temporal.png", "05_Series_Temporales_ARIMA/02_acf_pacf.png", "05_Series_Temporales_ARIMA/03_pronostico_arima.png", "05_Series_Temporales_ARIMA/04_diagnostico_residuos.png"]
     },
     {
-      "id": "descomposicion-temporal",
-      "emoji": "📈",
-      "nombre": "Descomposición Temporal",
-      "pregunta": "¿Tus datos tienen PATRONES (sube en diciembre, baja en junio)? ¿TENDENCIA a largo plazo? ¿Variaciones aleatorias? ¿Quieres entender qué mueve tus datos?",
-      "descripcion": "Separa componentes de una serie temporal.",
-      "pdf_drive": "https://drive.google.com/file/d/EJEMPLO_ID_19/view"
+      "id": "sarima",
+      "emoji": "🔄",
+      "nombre": "SARIMA",
+      "pregunta": "¿Serie temporal con ESTACIONALIDAD (patrones repetitivos)?",
+      "descripcion": "📌 ARIMA + patrones estacionales. ✅ Ideal para: ventas navideñas, turismo de verano, consumo eléctrico mensual.",
+      "pdf_drive": "",
+      "categoria": "series",
+      "imagenes": ["05_Series_Temporales_ARIMA/01_serie_temporal_forecast.png", "05_Series_Temporales_ARIMA/02_acf_pacf_diagnosticos.png"]
     },
     {
       "id": "var",
       "emoji": "📊",
-      "nombre": "VAR (Autorregresión)",
-      "pregunta": "¿MÚLTIPLES variables evolucionan JUNTAS en el tiempo? Ej: Inflación Y desempleo Y tipo de cambio evolucionan juntos. ¿Una variable afecta la otra?",
-      "descripcion": "Relaciones dinámicas entre múltiples series.",
-      "pdf_drive": "https://drive.google.com/file/d/EJEMPLO_ID_20/view"
+      "nombre": "VAR (Vectorial Autorregresivo)",
+      "pregunta": "¿MÚLTIPLES series se afectan entre sí?",
+      "descripcion": "📌 MODELA interacciones entre series. ✅ Ejemplo: ¿cómo inflación, tipo de cambio y desempleo se afectan mutuamente? Impulso-respuesta.",
+      "pdf_drive": "https://drive.google.com/file/d/1VGiKRQHlbOut9_7CWk2dy1IljVpipxdR/view?usp=sharing",
+      "categoria": "series",
+      "imagenes": ["00_Estadistica_Descriptiva/fig-tendencias-temporales.png"]
+    },
+    {
+      "id": "descomposicion-temporal",
+      "emoji": "📉",
+      "nombre": "Descomposición STL",
+      "pregunta": "¿Separar TENDENCIA, ESTACIONALIDAD y RUIDO?",
+      "descripcion": "📌 ENTIENDE qué mueve tu serie. ✅ Ejemplo: ventas = tendencia creciente + pico en diciembre + ruido aleatorio. Visualiza componentes.",
+      "pdf_drive": "",
+      "categoria": "series",
+      "imagenes": ["00_Estadistica_Descriptiva/01_series_principales.png", "00_Estadistica_Descriptiva/fig-heatmap-temporal.png"]
+    },
+    {
+      "id": "garch",
+      "emoji": "📈",
+      "nombre": "GARCH",
+      "pregunta": "¿Modelar VOLATILIDAD que cambia en el tiempo?",
+      "descripcion": "📌 PARA mercados financieros. ✅ Modela períodos de alta/baja volatilidad. Usado en: acciones, divisas, commodities.",
+      "pdf_drive": "",
+      "categoria": "series"
+    },
+    {
+      "id": "cointegration",
+      "emoji": "🔗",
+      "nombre": "Cointegración (Johansen)",
+      "pregunta": "¿Dos series no estacionarias tienen relación de LARGO PLAZO?",
+      "descripcion": "📌 DETECTA equilibrios de largo plazo. ✅ Ejemplo: precios y salarios divergen temporalmente pero convergen. Evita regresiones espurias.",
+      "pdf_drive": "",
+      "categoria": "series"
+    },
+    {
+      "id": "granger",
+      "emoji": "➡️",
+      "nombre": "Causalidad de Granger",
+      "pregunta": "¿Una serie CAUSA (predice) a otra?",
+      "descripcion": "📌 DETERMINA precedencia temporal. ✅ Ejemplo: ¿El PIB predice el empleo o viceversa? No es causalidad real, es predictiva.",
+      "pdf_drive": "",
+      "categoria": "series"
     },
     {
       "id": "panel-data",
-      "emoji": "📊",
+      "emoji": "🏢",
       "nombre": "Panel Data (Efectos Fijos/Aleatorios)",
-      "pregunta": "¿Tienes datos de MÚLTIPLES ENTIDADES (países, ciudades, empresas) EN VARIOS AÑOS? Ej: 10 universidades, 20 años de datos. ¿Quieres medir impacto de política pública?",
-      "descripcion": "Captura heterogeneidad observada y no observada entre entidades.",
-      "pdf_drive": "https://drive.google.com/file/d/EJEMPLO_ID_21/view"
+      "pregunta": "¿Datos de ENTIDADES en VARIOS AÑOS?",
+      "descripcion": "📌 COMBINA corte transversal + tiempo. ✅ Ejemplo: 25 regiones × 10 años. Controla heterogeneidad no observable entre entidades.",
+      "pdf_drive": "https://drive.google.com/file/d/1YDwNBQx4nKqiIcz7RMrVBXih-eLXMZ6O/view?usp=sharing",
+      "categoria": "panel"
+    },
+    {
+      "id": "hausman",
+      "emoji": "❓",
+      "nombre": "Test de Hausman",
+      "pregunta": "¿Usar efectos FIJOS o ALEATORIOS en panel?",
+      "descripcion": "📌 DECIDE el modelo correcto. ✅ Si p<0.05 → usa Efectos Fijos. Si p>0.05 → puedes usar Efectos Aleatorios (más eficiente).",
+      "pdf_drive": "",
+      "categoria": "panel"
+    },
+    {
+      "id": "did",
+      "emoji": "📐",
+      "nombre": "Diferencias en Diferencias (DiD)",
+      "pregunta": "¿Evaluar impacto de política/intervención?",
+      "descripcion": "📌 EL GOLD STANDARD en evaluación de impacto. ✅ Compara tratados vs control, antes vs después. Requiere tendencias paralelas.",
+      "pdf_drive": "",
+      "categoria": "panel"
+    },
+    {
+      "id": "rdiseno",
+      "emoji": "📏",
+      "nombre": "Regresión Discontinua (RDD)",
+      "pregunta": "¿Hay un UMBRAL que determina tratamiento?",
+      "descripcion": "📌 IDEAL cuando hay corte claro. ✅ Ejemplo: beca si puntaje>70. Compara justo arriba vs justo abajo del umbral.",
+      "pdf_drive": "",
+      "categoria": "panel"
+    },
+    {
+      "id": "psm",
+      "emoji": "🎯",
+      "nombre": "Propensity Score Matching",
+      "pregunta": "¿Comparar tratados vs no tratados SIN experimento?",
+      "descripcion": "📌 SIMULA experimento con datos observacionales. ✅ Empareja tratados con controles similares. Reduce sesgo de selección.",
+      "pdf_drive": "",
+      "categoria": "panel"
+    },
+    {
+      "id": "arboles-decision",
+      "emoji": "🌳",
+      "nombre": "Árboles de Decisión",
+      "pregunta": "¿Necesitas REGLAS claras e interpretables?",
+      "descripcion": "📌 FÁCIL de explicar a no técnicos. ✅ Genera reglas como: \"Si edad>30 Y ingresos>S/.3000 → alta probabilidad de compra\".",
+      "pdf_drive": "",
+      "categoria": "ml-supervisado",
+      "imagenes": ["10_Machine_Learning/06_importancia_features.png"]
+    },
+    {
+      "id": "random-forest",
+      "emoji": "🌲",
+      "nombre": "Random Forest",
+      "pregunta": "¿Máxima precisión con datos tabulares?",
+      "descripcion": "📌 TOP en precisión y robustez. ✅ Combina cientos de árboles. Funciona bien sin mucho ajuste. Da importancia de variables.",
+      "pdf_drive": "",
+      "categoria": "ml-supervisado",
+      "imagenes": ["10_Machine_Learning/03_comparacion_modelos.png", "10_Machine_Learning/04_curvas_roc.png", "10_Machine_Learning/05_matrices_confusion.png", "10_Machine_Learning/06_importancia_features.png"]
+    },
+    {
+      "id": "xgboost",
+      "emoji": "⚡",
+      "nombre": "XGBoost / LightGBM",
+      "pregunta": "¿El modelo MÁS potente para datos tabulares?",
+      "descripcion": "📌 GANA competencias de Kaggle. ✅ Gradient boosting optimizado. El más usado en la industria para clasificación/regresión.",
+      "pdf_drive": "",
+      "categoria": "ml-supervisado",
+      "imagenes": ["10_Machine_Learning/03_comparacion_modelos.png", "10_Machine_Learning/04_curvas_roc.png", "10_Machine_Learning/06_importancia_features.png"]
+    },
+    {
+      "id": "svm",
+      "emoji": "🎯",
+      "nombre": "SVM (Máquinas de Vectores)",
+      "pregunta": "¿Clasificar con márgenes óptimos?",
+      "descripcion": "📌 ROBUSTO con datos complejos. ✅ Encuentra frontera óptima entre clases. Funciona bien con muchas variables y datos no lineales.",
+      "pdf_drive": "",
+      "categoria": "ml-supervisado",
+      "imagenes": ["10_Machine_Learning/05_matrices_confusion.png"]
+    },
+    {
+      "id": "knn",
+      "emoji": "👥",
+      "nombre": "KNN (K-Vecinos)",
+      "pregunta": "¿Clasificar según vecinos más cercanos?",
+      "descripcion": "📌 SIMPLE pero efectivo. ✅ Clasifica según los K casos más parecidos. Ejemplo: un nuevo cliente se parece a 5 clientes morosos → alto riesgo.",
+      "pdf_drive": "",
+      "categoria": "ml-supervisado"
+    },
+    {
+      "id": "naive-bayes",
+      "emoji": "📧",
+      "nombre": "Naive Bayes",
+      "pregunta": "¿Clasificar TEXTO o datos categóricos?",
+      "descripcion": "📌 RÁPIDO para texto. ✅ Detecta spam, clasifica sentimientos, categoriza documentos. Funciona bien incluso con pocos datos.",
+      "pdf_drive": "",
+      "categoria": "ml-supervisado"
+    },
+    {
+      "id": "redes-neuronales",
+      "emoji": "🧠",
+      "nombre": "Redes Neuronales (MLP)",
+      "pregunta": "¿Patrones muy complejos y NO lineales?",
+      "descripcion": "📌 BASE del deep learning. ✅ Captura relaciones muy complejas. Requiere muchos datos. Perceptrón multicapa para clasificación/regresión.",
+      "pdf_drive": "",
+      "categoria": "ml-supervisado",
+      "imagenes": ["10_Machine_Learning/07_distribuciones_predicciones.png"]
+    },
+    {
+      "id": "regresion-logistica-ml",
+      "emoji": "📈",
+      "nombre": "Regresión Logística (ML)",
+      "pregunta": "¿Clasificación binaria con interpretabilidad?",
+      "descripcion": "📌 BASELINE obligatorio. ✅ Siempre empieza aquí antes de modelos complejos. Coeficientes interpretables como odds ratios.",
+      "pdf_drive": "",
+      "categoria": "ml-supervisado",
+      "imagenes": ["10_Machine_Learning/04_curvas_roc.png", "10_Machine_Learning/05_matrices_confusion.png"]
+    },
+    {
+      "id": "k-means",
+      "emoji": "🎨",
+      "nombre": "K-Means",
+      "pregunta": "¿Agrupar en K clusters predefinidos?",
+      "descripcion": "📌 EL MÁS USADO para segmentación. ✅ Ejemplo tesis: segmentar clientes en 4 grupos según comportamiento de compra. Usa método del codo.",
+      "pdf_drive": "",
+      "categoria": "ml-nosupervisado",
+      "imagenes": ["10_Machine_Learning/08_metodo_elbow.png", "10_Machine_Learning/09_pca_clusters.png"]
+    },
+    {
+      "id": "dbscan",
+      "emoji": "🔵",
+      "nombre": "DBSCAN",
+      "pregunta": "¿Clusters de forma irregular? ¿Detectar outliers?",
+      "descripcion": "📌 NO necesita definir K. ✅ Encuentra clusters por densidad. Detecta automáticamente puntos anómalos. Ideal si no sabes cuántos grupos hay.",
+      "pdf_drive": "",
+      "categoria": "ml-nosupervisado"
+    },
+    {
+      "id": "hierarchical",
+      "emoji": "🌲",
+      "nombre": "Clustering Jerárquico",
+      "pregunta": "¿Ver estructura ANIDADA de grupos?",
+      "descripcion": "📌 VISUALIZA estructura con dendrograma. ✅ Ejemplo: ver cómo países se agrupan por regiones, luego por continentes. Útil para taxonomías.",
+      "pdf_drive": "",
+      "categoria": "ml-nosupervisado"
+    },
+    {
+      "id": "gmm",
+      "emoji": "🔔",
+      "nombre": "GMM (Mezcla Gaussianas)",
+      "pregunta": "¿Clusters con diferentes formas y tamaños?",
+      "descripcion": "📌 MÁS FLEXIBLE que K-Means. ✅ Clusters elípticos, de diferentes tamaños. Cada punto tiene % de pertenencia a cada grupo.",
+      "pdf_drive": "",
+      "categoria": "ml-nosupervisado"
+    },
+    {
+      "id": "isolation-forest",
+      "emoji": "🚨",
+      "nombre": "Isolation Forest",
+      "pregunta": "¿Detectar ANOMALÍAS o FRAUDES?",
+      "descripcion": "📌 DETECTA outliers automáticamente. ✅ Usado en: detección de fraude bancario, intrusiones de red, productos defectuosos.",
+      "pdf_drive": "",
+      "categoria": "ml-nosupervisado"
+    },
+    {
+      "id": "tsne-umap",
+      "emoji": "🗺️",
+      "nombre": "t-SNE / UMAP",
+      "pregunta": "¿Visualizar datos de ALTA dimensión en 2D?",
+      "descripcion": "📌 VISUALIZA clusters en 100+ variables. ✅ Reduce a 2D manteniendo estructura. Ideal para presentar resultados de clustering.",
+      "pdf_drive": "",
+      "categoria": "ml-nosupervisado"
+    },
+    {
+      "id": "autoencoder",
+      "emoji": "🔄",
+      "nombre": "Autoencoders",
+      "pregunta": "¿Comprimir datos o detectar anomalías con deep learning?",
+      "descripcion": "📌 DEEP LEARNING para compresión. ✅ Aprende representación compacta. Detecta anomalías cuando reconstrucción es mala.",
+      "pdf_drive": "",
+      "categoria": "ml-nosupervisado"
+    },
+    {
+      "id": "nlp-sentiment",
+      "emoji": "😊",
+      "nombre": "Análisis de Sentimientos",
+      "pregunta": "¿Clasificar opiniones: positivo/negativo/neutro?",
+      "descripcion": "📌 ANALIZA opiniones masivamente. ✅ Reviews de Amazon, tweets sobre marca, comentarios de clientes. ¿Qué sienten sobre tu producto?",
+      "pdf_drive": "",
+      "categoria": "ml-texto"
+    },
+    {
+      "id": "nlp-topic",
+      "emoji": "📑",
+      "nombre": "Topic Modeling (LDA)",
+      "pregunta": "¿Descubrir TEMAS en documentos?",
+      "descripcion": "📌 DESCUBRE temas automáticamente. ✅ Ejemplo: analizar 1000 quejas de clientes → detectar 5 temas principales de insatisfacción.",
+      "pdf_drive": "",
+      "categoria": "ml-texto"
+    },
+    {
+      "id": "nlp-ner",
+      "emoji": "🏷️",
+      "nombre": "NER (Extracción de Entidades)",
+      "pregunta": "¿Extraer nombres, lugares, fechas de texto?",
+      "descripcion": "📌 EXTRAE entidades automáticamente. ✅ Identifica personas, empresas, ubicaciones, fechas en documentos. Estructurar texto no estructurado.",
+      "pdf_drive": "",
+      "categoria": "ml-texto"
+    },
+    {
+      "id": "word-embeddings",
+      "emoji": "📝",
+      "nombre": "Word Embeddings",
+      "pregunta": "¿Convertir palabras a vectores numéricos?",
+      "descripcion": "📌 REPRESENTACIÓN numérica de palabras. ✅ Word2Vec, GloVe. Captura semántica: \"rey-hombre+mujer=reina\". Base de NLP moderno.",
+      "pdf_drive": "",
+      "categoria": "ml-texto"
+    },
+    {
+      "id": "sem",
+      "emoji": "🔀",
+      "nombre": "SEM (Ecuaciones Estructurales)",
+      "pregunta": "¿Modelar relaciones CAUSALES complejas?",
+      "descripcion": "📌 MODELOS teóricos con variables latentes. ✅ Ejemplo tesis: \"satisfacción laboral → compromiso → productividad\". Paths causales + AFC.",
+      "pdf_drive": "",
+      "categoria": "avanzado"
+    },
+    {
+      "id": "meta-analysis",
+      "emoji": "📚",
+      "nombre": "Meta-Análisis",
+      "pregunta": "¿Combinar resultados de MÚLTIPLES estudios?",
+      "descripcion": "📌 SINTETIZA toda la evidencia. ✅ Combina 50 estudios previos para obtener efecto global. Estándar en revisiones sistemáticas.",
+      "pdf_drive": "",
+      "categoria": "avanzado"
+    },
+    {
+      "id": "bayes",
+      "emoji": "🎲",
+      "nombre": "Estadística Bayesiana",
+      "pregunta": "¿Incorporar conocimiento PREVIO en tu análisis?",
+      "descripcion": "📌 COMBINA datos + conocimiento previo. ✅ Actualiza probabilidades. Intervalos de credibilidad (no confianza). Más intuitivo.",
+      "pdf_drive": "",
+      "categoria": "avanzado"
+    },
+    {
+      "id": "bootstrap",
+      "emoji": "🔁",
+      "nombre": "Bootstrap",
+      "pregunta": "¿Estimar intervalos de confianza sin supuestos?",
+      "descripcion": "📌 NO requiere normalidad. ✅ Remuestrea tus datos 1000+ veces. Ideal para muestras pequeñas o estadísticos sin fórmula cerrada.",
+      "pdf_drive": "",
+      "categoria": "avanzado"
+    },
+    {
+      "id": "survival",
+      "emoji": "⏱️",
+      "nombre": "Análisis de Supervivencia",
+      "pregunta": "¿Modelar TIEMPO hasta un evento?",
+      "descripcion": "📌 MODELA duración. ✅ Ejemplos: tiempo hasta deserción escolar, falla de equipo, cancelación de cliente. Kaplan-Meier + Cox.",
+      "pdf_drive": "",
+      "categoria": "avanzado"
+    },
+    {
+      "id": "conjoint",
+      "emoji": "🛒",
+      "nombre": "Análisis Conjoint",
+      "pregunta": "¿Qué ATRIBUTOS valoran más los consumidores?",
+      "descripcion": "📌 DISEÑO de productos óptimo. ✅ ¿Clientes prefieren precio bajo o mejor calidad? ¿Cuánto pagarían por característica X?",
+      "pdf_drive": "",
+      "categoria": "avanzado"
+    },
+    {
+      "id": "multinivel",
+      "emoji": "🏛️",
+      "nombre": "Modelos Multinivel (HLM)",
+      "pregunta": "¿Datos ANIDADOS (alumnos en escuelas, empleados en empresas)?",
+      "descripcion": "📌 OBLIGATORIO con datos jerárquicos. ✅ Ejemplo: 500 alumnos en 20 escuelas. Separa efecto alumno vs efecto escuela.",
+      "pdf_drive": "",
+      "categoria": "avanzado"
     }
   ]
 }

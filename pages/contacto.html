@@ -22,13 +22,13 @@
     
     <link rel="manifest" href="../manifest.json">
     <title>Contacto | Academia de Inversión Pública</title>
-    <link rel="icon" href="../images/icono2.webp" type="image/png">
+    <link rel="icon" href="../images/icono2.png" type="image/png">
     <link href="../css/styles.css" rel="stylesheet">
 </head>
 <body>
 <div class="layout">
     <aside class="sidebar">
-        <a href="../index.html"><img src="../images/rino1.webp" alt="Perfil Amaru" class="profile-img"></a>
+        <a href="../index.html"><img src="../images/rino1.png" alt="Perfil Amaru" class="profile-img"></a>
         <h1>Academia de Inversión Pública</h1>
         <h3>Econ. Wilbert Amaru Fernandez Olmedo</h3>
         <h5>Especialista en Ciencia de Datos aplicada a la Inversión Pública</h5>
@@ -42,20 +42,74 @@
             <a href="contacto.html"><b>Contacto</b></a>
         </nav>
         <div class="sidebar-social">
-            <a href="https://www.youtube.com/@amarufo_inversionpublica" target="_blank"><img src="../images/yt.webp" alt="YouTube"></a>
-            <a href="https://www.linkedin.com/in/amarufo/" target="_blank"><img src="../images/in.webp" alt="LinkedIn"></a>
-            <a href="https://github.com/amarufo" target="_blank"><img src="../images/gh.webp" alt="GitHub"></a>
-            <a href="https://wa.me/51930123005?text=Estimado,%20buen%20día..." target="_blank"><img src="../images/wsp.webp" alt="WhatsApp"></a>
-            <a href="mailto:amaruf9523@gmail.com"><img src="../images/mailito.webp" alt="Email"></a>
+            <a href="https://www.youtube.com/@amarufo_inversionpublica" target="_blank"><img src="../images/yt.png" alt="YouTube"></a>
+            <a href="https://www.linkedin.com/in/amarufo/" target="_blank"><img src="../images/gh.png" alt="LinkedIn"></a>
+            <a href="https://github.com/amarufo" target="_blank"><img src="../images/gh.png" alt="GitHub"></a>
+            <a href="https://wa.me/51930123005?text=Estimado,%20buen%20día..." target="_blank"><img src="../images/wsp.png" alt="WhatsApp"></a>
+            <a href="mailto:amaruf9523@gmail.com"><img src="../images/mailito.png" alt="Email"></a>
         </div>
     </aside>
 
     <main class="content">
         <header class="page-header">
             <h1>Contacto</h1>
+            <p class="page-subtitle">¿Tienes un proyecto en mente? Estoy listo para ayudarte.</p>
         </header>
 
         <section class="section-publicacion">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-bottom: 2rem;">
+                <!-- WhatsApp -->
+                <div style="background: linear-gradient(135deg, #25d366 0%, #128c7e 100%); border-radius: 16px; padding: 2rem; color: #fff; text-align: center;">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">💬</div>
+                    <h3 style="margin: 0 0 0.5rem 0; color: #fff;">WhatsApp</h3>
+                    <p style="margin: 0 0 1rem 0; opacity: 0.9; font-size: 0.9rem;">Respuesta rápida en horario laboral</p>
+                    <a href="https://wa.me/51930123005?text=Hola%20Wilbert,%20me%20gustaría%20consultar%20sobre%20tus%20servicios" target="_blank" style="background: #fff; color: #128c7e; padding: 0.8rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: 600; display: inline-block;">+51 930 123 005</a>
+                </div>
+
+                <!-- Email -->
+                <div style="background: linear-gradient(135deg, #b91c1c 0%, #991b1b 100%); border-radius: 16px; padding: 2rem; color: #fff; text-align: center;">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">📧</div>
+                    <h3 style="margin: 0 0 0.5rem 0; color: #fff;">Email</h3>
+                    <p style="margin: 0 0 1rem 0; opacity: 0.9; font-size: 0.9rem;">Para consultas detalladas y formales</p>
+                    <a href="mailto:amaruf9523@gmail.com?subject=Consulta%20desde%20web" style="background: #fff; color: #991b1b; padding: 0.8rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: 600; display: inline-block;">amaruf9523@gmail.com</a>
+                </div>
+
+                <!-- LinkedIn -->
+                <div style="background: linear-gradient(135deg, #0077b5 0%, #005885 100%); border-radius: 16px; padding: 2rem; color: #fff; text-align: center;">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">💼</div>
+                    <h3 style="margin: 0 0 0.5rem 0; color: #fff;">LinkedIn</h3>
+                    <p style="margin: 0 0 1rem 0; opacity: 0.9; font-size: 0.9rem;">Conectemos profesionalmente</p>
+                    <a href="https://www.linkedin.com/in/amarufo/" target="_blank" style="background: #fff; color: #005885; padding: 0.8rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: 600; display: inline-block;">@amarufo</a>
+                </div>
+            </div>
+
+            <!-- Formulario rápido -->
+            <div style="background: #f9fafb; border-radius: 16px; padding: 2rem; border: 1px solid #e5e7eb;">
+                <h2 style="color: #b91c1c; margin: 0 0 0.5rem 0; font-size: 1.3rem;">📝 Formulario de contacto rápido</h2>
+                <p style="color: #666; margin: 0 0 1.5rem 0; font-size: 0.9rem;">Cuéntame brevemente tu proyecto y te responderé en menos de 24 horas.</p>
+                
+                <form action="https://formspree.io/f/xrgwpwwq" method="POST" style="display: grid; gap: 1rem;">
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                        <input type="text" name="nombre" placeholder="Tu nombre" required style="padding: 0.8rem 1rem; border: 2px solid #e5e7eb; border-radius: 8px; font-size: 1rem; transition: border-color 0.2s;">
+                        <input type="email" name="email" placeholder="Tu email" required style="padding: 0.8rem 1rem; border: 2px solid #e5e7eb; border-radius: 8px; font-size: 1rem; transition: border-color 0.2s;">
+                    </div>
+                    <select name="servicio" style="padding: 0.8rem 1rem; border: 2px solid #e5e7eb; border-radius: 8px; font-size: 1rem; background: #fff;">
+                        <option value="">Selecciona un servicio</option>
+                        <option value="tesis">Asesoría de tesis / Métodos cuantitativos</option>
+                        <option value="pip">Formulación de PIPs</option>
+                        <option value="datos">Análisis de datos personalizado</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                    <textarea name="mensaje" placeholder="Describe brevemente tu proyecto o consulta..." rows="4" required style="padding: 0.8rem 1rem; border: 2px solid #e5e7eb; border-radius: 8px; font-size: 1rem; resize: vertical;"></textarea>
+                    <button type="submit" style="background: linear-gradient(135deg, #b91c1c 0%, #991b1b 100%); color: #fff; padding: 1rem 2rem; border: none; border-radius: 8px; font-size: 1rem; font-weight: 600; cursor: pointer; transition: all 0.2s;">Enviar mensaje →</button>
+                </form>
+            </div>
+
+            <!-- Horarios -->
+            <div style="margin-top: 2rem; text-align: center; color: #666; font-size: 0.9rem;">
+                <p style="margin: 0 0 0.5rem 0;"><strong>🕐 Horario de atención:</strong> Lunes a Viernes, 9:00 AM - 6:00 PM (hora Perú)</p>
+                <p style="margin: 0;">Tiempo de respuesta promedio: menos de 24 horas</p>
+            </div>
         </section>
     </main>
 </div>
