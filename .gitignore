@@ -51,6 +51,7 @@ test*.html
 __pycache__/
 .pytest_cache/
 coverage/
+brochure
 
 # Archivos grandes innecesarios
 *.psd

@@ -7,18 +7,10 @@
         "descripcion": "Herramienta interactiva con 69 métodos cuantitativos organizados en 11 categorías. Incluye un asistente (wizard) inteligente que en 4 preguntas te recomienda los mejores métodos según tu tipo de investigación, datos disponibles y objetivos. Cada método tiene pregunta guía, ejemplos reales y enlaces a galerías de análisis.",
         "categoria": "guia-interactiva",
         "tipo": "guia-metodologica",
-        "imagen": "images/programas.webp",
+        "imagen": "images/07_series_principales.webp",
         "icono": "images/bd.webp",
         "contenido": "<h2>Guía Completa de Métodos Cuantitativos</h2><p>Una herramienta exhaustiva diseñada para investigadores, tesistas y analistas que necesitan elegir el método cuantitativo correcto para su investigación.</p><h3>Características Principales</h3><ul><li><strong>69 métodos cuantitativos</strong> organizados en 11 categorías temáticas</li><li><strong>Asistente Inteligente (Wizard):</strong> Responde 4 preguntas y recibe top 5 recomendaciones</li><li><strong>Buscador avanzado</strong> y filtros por categoría, tipo de dato y objetivo</li><li><strong>Pregunta guía en cada método</strong> para identificar si es el adecuado</li><li><strong>Ejemplos con datos reales</strong> aplicados a casos peruanos</li><li><strong>Galeríassinterpretativas</strong> con visualizaciones de cada método</li></ul><h3>Métodos Cubiertos</h3><ul><li><strong>Correlación y Asociación:</strong> Pearson, Spearman, Correlación Parcial (3)</li><li><strong>Regresión:</strong> Simple, Múltiple, Logit/Probit, Poisson, Cuantílica, Ridge/Lasso (7)</li><li><strong>Comparación:</strong> T-test, ANOVA, Mann-Whitney, Kruskal-Wallis, Chi-Cuadrado, Fisher (10)</li><li><strong>Validación:</strong> Shapiro-Wilk, Kolmogorov-Smirnov, Levene, Durbin-Watson, VIF, Cronbach (7)</li><li><strong>Reducción Dimensional:</strong> PCA, Análisis Factorial Exploratorio/Confirmatorio, Correspondencia (5)</li><li><strong>Series de Tiempo:</strong> ARIMA, SARIMA, VAR, STL, GARCH, Cointegración, Causalidad Granger (7)</li><li><strong>Panel Data y Evaluación:</strong> Efectos Fijos/Aleatorios, Test Hausman, DiD, RDD, PSM (5)</li><li><strong>Machine Learning Supervisado:</strong> Árboles, Random Forest, XGBoost, SVM, KNN (8)</li><li><strong>Machine Learning No Supervisado:</strong> K-Means, Clustering jerárquico, DBSCAN (3)</li><li><strong>NLP y Análisis de Texto:</strong> Bag of Words, TF-IDF, Word2Vec, BERT, Topic Modeling (4)</li><li><strong>Métodos Avanzados:</strong> Análisis de Supervivencia, Modelos Multinivel, Análisis Conjoint (3)</li></ul><h3>¿Cómo Usar?</h3><ol><li><strong>Opción 1 - Rápido:</strong> Usa el Asistente Inteligente. Responde 4 preguntas y obtén recomendaciones personalizadas</li><li><strong>Opción 2 - Exploración:</strong> Navega por categorías, busca por palabra clave o filtra por tipo de dato</li><li><strong>Opción 3 - Asesoría:</strong> ¿Aún indeciso? Contáctanos para consulta gratuita</li></ol><h3>Contacto y Asesoría</h3><p>Si tienes dudas sobre cuál método usar en tu investigación, contáctame para una consulta personalizada. Analizo tu proyecto y te recomiendo la estrategia estadística óptima.</p>",
         "url_web": "pages/servicios-analisis-cuantitativo.html",
-        "descargas": [
-            {
-                "nombre": "Acceder a la Guía Interactiva",
-                "url": "pages/servicios-analisis-cuantitativo.html",
-                "tipo": "web",
-                "acceso": "libre"
-            }
-        ],
         "fecha_publicacion": "2025-11-29",
         "autor": "Wilbert Amaru Fernández",
         "paginas_destino": [
