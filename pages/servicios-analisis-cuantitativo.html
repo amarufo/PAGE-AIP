@@ -960,7 +960,6 @@
             <a href="https://www.youtube.com/@amarufo_inversionpublica" target="_blank"><img src="../images/yt.png" alt="YouTube"></a>
             <a href="https://www.linkedin.com/in/amarufo/" target="_blank"><img src="../images/gh.png" alt="LinkedIn"></a>
             <a href="https://github.com/amarufo" target="_blank"><img src="../images/gh.png" alt="GitHub"></a>
-            <a href="https://wa.me/51930123005?text=Estimado,%20buen%20día..." target="_blank"><img src="../images/wsp.png" alt="WhatsApp"></a>
             <a href="mailto:amaruf9523@gmail.com"><img src="../images/mailito.png" alt="Email"></a>
         </div>
     </aside>
@@ -972,6 +971,13 @@
         </header>
 
         <div class="section-publicacion">
+            <!-- CUADRO DE PROYECTOS DE INVERSIÓN -->
+            <div style="background: linear-gradient(135deg, #dcfce7 0%, #ecfdf5 100%); padding: 2rem; border-radius: 15px; border-left: 5px solid #22c55e; margin-bottom: 2rem; box-shadow: 0 4px 12px rgba(34, 197, 94, 0.15);">
+                <h3 style="color: #15803d; margin-top: 0; display: flex; align-items: center; gap: 0.5rem;"><span style="font-size: 1.5rem;">💰</span> ¿Realizas una investigación en Proyectos de Inversión?</h3>
+                <p style="color: #166534; font-size: 1rem; margin-bottom: 1.5rem; font-weight: 500;">¡Somos especialistas en ello! Contamos con documentos, ejemplos y modelos específicos para tus análisis.</p>
+                <a href="https://drive.google.com/file/d/1VyEn0DR5VU_MAQlNa4fZVfKihumGIcrb/view?usp=drive_link" target="_blank" style="display: inline-block; background: #22c55e; color: white; padding: 0.8rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 2px 8px rgba(34, 197, 94, 0.3);" onmouseover="this.style.background='#16a34a'; this.style.boxShadow='0 6px 16px rgba(34, 197, 94, 0.4)';" onmouseout="this.style.background='#22c55e'; this.style.boxShadow='0 2px 8px rgba(34, 197, 94, 0.3)';">📄 Ver Documentos</a>
+            </div>
+
             <!-- WIZARD INTERACTIVO MEJORADO - 4 PREGUNTAS PARA CUBRIR 72 MÉTODOS -->
             <div class="wizard-container" id="wizard">
                 <div class="wizard-header">
@@ -1196,15 +1202,14 @@
                 <h3>📞 ¿Aún tienes dudas sobre qué método usar?</h3>
                 <p>Contáctame para una consulta gratuita. Analizo tu investigación y te recomiendo el método perfecto para tu tesis.</p>
                 <div class="contacto-botones">
-                    <a href="https://wa.me/51930123005?text=Tengo%20dudas%20sobre%20qué%20método%20usar%20en%20mi%20tesis" target="_blank" class="btn-metodo btn-consultar">💬 WhatsApp</a>
-                    <a href="mailto:amaruf9523@gmail.com?subject=Consulta%20sobre%20métodos%20cuantitativos" class="btn-metodo btn-ejemplo">📧 Email</a>
+                    <a href="mailto:amaruf9523@gmail.com?subject=Consulta%20sobre%20métodos%20cuantitativos" class="btn-metodo btn-ejemplo">📧 Contáctame</a>
                 </div>
             </div>
         </div>
 
-        <!-- BOTÓN FLOTANTE WHATSAPP -->
-        <a href="https://wa.me/51930123005?text=Hola,%20necesito%20ayuda%20para%20elegir%20un%20método%20cuantitativo%20para%20mi%20tesis" target="_blank" class="whatsapp-float" aria-label="Contactar por WhatsApp">
-            💬
+        <!-- BOTÓN FLOTANTE EMAIL -->
+        <a href="mailto:amaruf9523@gmail.com?subject=Necesito%20ayuda%20para%20elegir%20un%20método%20cuantitativo" class="whatsapp-float" aria-label="Contactar por Email">
+            ✉️
             <span class="tooltip">¿Necesitas ayuda?</span>
         </a>
     </main>
@@ -1949,9 +1954,10 @@
                             galeriaHTML = `<div class="metodo-galeria" data-imagenes='${JSON.stringify(metodo.imagenes)}'>${thumbs}${masBtn}</div>`;
                         }
                         
-                        // Construir URL de WhatsApp correctamente
-                        const waText = `Hola, quiero usar ${metodo.nombre} en mi tesis. ¿Puedes ayudarme?`;
-                        const waUrl = `https://wa.me/51930123005?text=${encodeURIComponent(waText)}`;
+                        // Construir URL de Email correctamente
+                        const emailSubject = `Consulta: ${metodo.nombre}`;
+                        const emailBody = `Hola,%20quiero%20usar%20${encodeURIComponent(metodo.nombre)}%20en%20mi%20tesis.%20¿Puedes%20ayudarme?`;
+                        const emailUrl = `mailto:amaruf9523@gmail.com?subject=${encodeURIComponent(emailSubject)}&body=${emailBody}`;
                         
                         card.innerHTML = `
                             <div class="metodo-header">
@@ -1966,7 +1972,7 @@
                             ${galeriaHTML}
                             <div class="metodo-acciones">
                                 ${btnEjemploHTML}
-                                <a href="${waUrl}" target="_blank" class="btn-metodo btn-consultar">💬 Consultar</a>
+                                <a href="${emailUrl}" class="btn-metodo btn-consultar">📧 Consultar</a>
                             </div>
                         `;
                         
