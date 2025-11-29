@@ -38,7 +38,7 @@
             "Actualización constante de métodos",
             "Asesoría gratuita disponible"
         ],
-        "contacto": "https://wa.me/51930123005?text=Hola,%20tengo%20dudas%20sobre%20qué%20método%20cuantitativo%20usar%20en%20mi%20tesis"
+        "contacto": "mailto:amaruf9523@gmail.com"
     },
     {
         "id": "pob-2007-2040",
@@ -104,7 +104,7 @@
             "validacion": "Verificación de duplicados y consistencia de estructura etaria",
             "automatizacion": "Reproducibilidad con notebooks Python"
         },
-        "contacto": "https://wa.me/51930123005?text=Hola,%20estoy%20interesado%20en%20las%20proyecciones%20de%20poblaci%C3%B3n%20por%20edades%20y%20territorio",
+        "contacto": "mailto:amaruf9523@gmail.com",
         "ventajas": [
             "Datos organizados, limpios y listos para análisis",
             "Ahorra horas de limpieza y procesamiento",
@@ -163,7 +163,7 @@
             "visualizacion": "Generación de mapa interactivo a nivel distrital",
             "resultado": "Base única consolidada y lista para análisis"
         },
-        "contacto": "https://wa.me/51930123005?text=Hola,%20estoy%20interesado%20en%20las%20datos%20descriptivos%20a%20nivel%20distrital",
+        "contacto": "mailto:amaruf9523@gmail.com",
         "ventajas": [
             "Datos organizados, limpios y listos para análisis",
             "Ahorra horas de limpieza y procesamiento",
@@ -231,7 +231,7 @@
             ],
             "VaR": "5%"
         },
-        "contacto": "https://wa.me/51930123005?text=Hola,%20estoy%20interesado%20en%20la%20aplicación%20EVA%20PIPS%20EBR",
+        "contacto": "mailto:amaruf9523@gmail.com",
         "ventajas": [
             "Automatización de evaluación económica bajo Invierte.pe",
             "Análisis probabilístico con simulación Monte Carlo",
@@ -267,7 +267,7 @@
         "precio": "Gratuito",
         "estado": "Beta",
         "licencia": "CC BY-NC-SA 4.0",
-        "contacto": "https://wa.me/51930123005?text=Hola,%20estoy%20interesado%20en%20el%20módulo%20de%20cálculo%20de%20demanda"
+        "contacto": "mailto:amaruf9523@gmail.com"
     }
   ],
   "metodos_cuantitativos": [
