@@ -1,115 +1,281 @@
 {
   "entradas": [
     {
-      "id": "pob-2007-2040",
-      "titulo": "Proyección demográfica 2007-2040",
-      "subtitulo": "Población por edad, distrito, provincia y departamento",
-      "descripcion": "Proyecciones de población por edad, distrito, provincia y departamento (2007-2040), útiles para dimensionar demanda de servicios en proyectos de inversión.",
-      "categoria": "base-datos",
-      "tipo": "base-datos",
-      "imagen": "images/pub001_proypob.webp",
-      "icono": "images/bd.webp",
-      "contenido": "<h2>Proyección Demográfica</h2><p>Datos proyectados desde 2007 hasta 2040 a nivel de distrito, provincia y departamento.</p><h3>Características</h3><ul><li>Cobertura nacional completa</li><li>Desagregación territorial</li><li>Proyecciones por grupos de edad</li><li>Metodología INEI</li></ul>",
-      "descargas": [
-        {
-          "nombre": "Proyecciones en Excel",
-          "url": "https://ejemplo.com/descargas/proyecciones_2007_2040.xlsx",
-          "tipo": "xlsx"
-        }
-      ],
-      "fecha_publicacion": "2025-05-22",
-      "autor": "Wilbert Amaru Fernández",
-      "paginas_destino": ["articulos"]
+        "id": "guia-metodos-cuantitativos",
+        "titulo": "Guía Interactiva de Métodos Cuantitativos",
+        "subtitulo": "Asistente inteligente para elegir el método perfecto según tu tesis",
+        "descripcion": "Herramienta interactiva con 69 métodos cuantitativos organizados en 11 categorías. Incluye un asistente (wizard) inteligente que en 4 preguntas te recomienda los mejores métodos según tu tipo de investigación, datos disponibles y objetivos. Cada método tiene pregunta guía, ejemplos reales y enlaces a galerías de análisis.",
+        "categoria": "guia-interactiva",
+        "tipo": "guia-metodologica",
+        "imagen": "images/programas.webp",
+        "icono": "images/bd.webp",
+        "contenido": "<h2>Guía Completa de Métodos Cuantitativos</h2><p>Una herramienta exhaustiva diseñada para investigadores, tesistas y analistas que necesitan elegir el método cuantitativo correcto para su investigación.</p><h3>Características Principales</h3><ul><li><strong>69 métodos cuantitativos</strong> organizados en 11 categorías temáticas</li><li><strong>Asistente Inteligente (Wizard):</strong> Responde 4 preguntas y recibe top 5 recomendaciones</li><li><strong>Buscador avanzado</strong> y filtros por categoría, tipo de dato y objetivo</li><li><strong>Pregunta guía en cada método</strong> para identificar si es el adecuado</li><li><strong>Ejemplos con datos reales</strong> aplicados a casos peruanos</li><li><strong>Galeríassinterpretativas</strong> con visualizaciones de cada método</li></ul><h3>Métodos Cubiertos</h3><ul><li><strong>Correlación y Asociación:</strong> Pearson, Spearman, Correlación Parcial (3)</li><li><strong>Regresión:</strong> Simple, Múltiple, Logit/Probit, Poisson, Cuantílica, Ridge/Lasso (7)</li><li><strong>Comparación:</strong> T-test, ANOVA, Mann-Whitney, Kruskal-Wallis, Chi-Cuadrado, Fisher (10)</li><li><strong>Validación:</strong> Shapiro-Wilk, Kolmogorov-Smirnov, Levene, Durbin-Watson, VIF, Cronbach (7)</li><li><strong>Reducción Dimensional:</strong> PCA, Análisis Factorial Exploratorio/Confirmatorio, Correspondencia (5)</li><li><strong>Series de Tiempo:</strong> ARIMA, SARIMA, VAR, STL, GARCH, Cointegración, Causalidad Granger (7)</li><li><strong>Panel Data y Evaluación:</strong> Efectos Fijos/Aleatorios, Test Hausman, DiD, RDD, PSM (5)</li><li><strong>Machine Learning Supervisado:</strong> Árboles, Random Forest, XGBoost, SVM, KNN (8)</li><li><strong>Machine Learning No Supervisado:</strong> K-Means, Clustering jerárquico, DBSCAN (3)</li><li><strong>NLP y Análisis de Texto:</strong> Bag of Words, TF-IDF, Word2Vec, BERT, Topic Modeling (4)</li><li><strong>Métodos Avanzados:</strong> Análisis de Supervivencia, Modelos Multinivel, Análisis Conjoint (3)</li></ul><h3>¿Cómo Usar?</h3><ol><li><strong>Opción 1 - Rápido:</strong> Usa el Asistente Inteligente. Responde 4 preguntas y obtén recomendaciones personalizadas</li><li><strong>Opción 2 - Exploración:</strong> Navega por categorías, busca por palabra clave o filtra por tipo de dato</li><li><strong>Opción 3 - Asesoría:</strong> ¿Aún indeciso? Contáctanos para consulta gratuita</li></ol><h3>Contacto y Asesoría</h3><p>Si tienes dudas sobre cuál método usar en tu investigación, contáctame para una consulta personalizada. Analizo tu proyecto y te recomiendo la estrategia estadística óptima.</p>",
+        "url_web": "pages/servicios-analisis-cuantitativo.html",
+        "descargas": [
+            {
+                "nombre": "Acceder a la Guía Interactiva",
+                "url": "pages/servicios-analisis-cuantitativo.html",
+                "tipo": "web",
+                "acceso": "libre"
+            }
+        ],
+        "fecha_publicacion": "2025-01-15",
+        "autor": "Wilbert Amaru Fernández",
+        "paginas_destino": [
+            "inicio",
+            "servicios"
+        ],
+        "precio": "Gratuito (acceso en línea)",
+        "estado": "Disponible",
+        "keywords": [
+            "análisis cuantitativo",
+            "métodos estadísticos",
+            "regresión",
+            "ANOVA",
+            "correlación",
+            "machine learning",
+            "tesis",
+            "investigación",
+            "ciencia de datos"
+        ],
+        "ventajas": [
+            "Elige el método adecuado en minutos",
+            "Más de 69 métodos en un solo lugar",
+            "Asistente inteligente y personalizado",
+            "Ejemplos aplicados a contexto peruano",
+            "Actualización constante de métodos",
+            "Asesoría gratuita disponible"
+        ],
+        "contacto": "https://wa.me/51930123005?text=Hola,%20tengo%20dudas%20sobre%20qué%20método%20cuantitativo%20usar%20en%20mi%20tesis"
     },
     {
-      "id": "datos-distritales",
-      "titulo": "Datos descriptivos a nivel distrital",
-      "subtitulo": "Ubigeo, macroregión, superficie, altitud, población",
-      "descripcion": "Ubigeo, macroregión, superficie, altitud, población (censos 2007 y 2017, INEI) y otras variables clave para análisis territoriales y proyectos de inversión.",
-      "categoria": "base-datos",
-      "tipo": "base-datos",
-      "imagen": "images/pub002_generales_dist.webp",
-      "icono": "images/bd.webp",
-      "contenido": "<h2>Datos Distritales</h2><p>Información geográfica y demográfica desagregada a nivel de distrito.</p><h3>Variables Incluidas</h3><ul><li>UBIGEO</li><li>Macroregión</li><li>Superficie territorial</li><li>Altitud</li><li>Población censal 2007</li><li>Población censal 2017</li></ul>",
-      "descargas": [
-        {
-          "nombre": "Datos en Excel",
-          "url": "https://ejemplo.com/descargas/datos_distritales.xlsx",
-          "tipo": "xlsx"
-        }
-      ],
-      "fecha_publicacion": "2025-05-23",
-      "autor": "Wilbert Amaru Fernández",
-      "paginas_destino": ["articulos"]
+        "id": "pob-2007-2040",
+        "titulo": "Data poblacional por edades, distritos, provincias y departamentos",
+        "subtitulo": "Proyecciones demográficas 2007-2040 a nivel distrital",
+        "descripcion": "Población total por nivel de edad, distrito, provincia y departamento en los años 2007 al 2040, calculado a partir de las estimaciones del INEI (2007 y 2017) usando tasas de crecimiento intercensal geométrico.",
+        "categoria": "base-datos",
+        "tipo": "base-datos",
+        "imagen": "images/pub001_proypob.webp",
+        "icono": "images/bd.webp",
+        "contenido": "<h2>Proyección Demográfica</h2><p>Datos proyectados desde 2007 hasta 2040 a nivel de distrito, provincia y departamento.</p><h3>Características</h3><ul><li>Cobertura nacional: 1,874 distritos del Perú</li><li>Desagregación territorial completa (distrito, provincia, departamento)</li><li>Proyecciones por edad individual (0-114 años)</li><li>Metodología: tasas de crecimiento intercensal (TIC) geométrico</li><li>Base censal: INEI 2007 y 2017</li><li>Período cubierto: 2007-2040 (34 años)</li></ul><h3>Metodología</h3><ul><li>Cálculo de TIC geométrico por edad, distrito, provincia y departamento</li><li>Manejo de distritos con variaciones extremas (promedio provincial/departamental)</li><li>Imputación de tasas faltantes con promedio geométrico por niveles</li><li>Validación de 115 edades por distrito y año</li><li>Automatización y reproducibilidad con notebooks Python</li></ul>",
+        "url_web": null,
+        "descargas": [
+            {
+                "nombre": "ACCESO LIBRE: Provincia de San Pablo - Cajamarca (2007-2040)",
+                "url": "https://drive.google.com/drive/folders/1Rv603xKK_vO2F20fS-iC1f3ygsY-Mtp0?usp=sharing",
+                "tipo": "xlsx",
+                "acceso": "libre"
+            },
+            {
+                "nombre": "Ver distritos disponibles",
+                "url": "https://docs.google.com/spreadsheets/d/1I7fqYOiW4el11JEl13YzDOTxxeUmtB9L/edit?usp=sharing&ouid=101071215248574138623&rtpof=true&sd=true",
+                "tipo": "spreadsheet",
+                "acceso": "consulta"
+            }
+        ],
+        "fecha_publicacion": "2025-05-22",
+        "autor": "Wilbert Amaru Fernández",
+        "paginas_destino": [
+            "articulos"
+        ],
+        "precio": "Gratuito (acceso libre) / Consultar (base completa)",
+        "estado": "Disponible",
+        "licencia": "CC BY-NC-SA 4.0",
+        "fuentes": {
+            "censos": [
+                "Censos Nacionales de Población y Vivienda 2007 y 2017 (INEI)"
+            ],
+            "ubigeos": "Ubigeos oficiales INEI 2022",
+            "cobertura_territorial": "1,874 distritos del Perú"
+        },
+        "metodologia": {
+            "metodo": "Tasas de crecimiento intercensal (TIC) geométrico",
+            "formula_tic": "TIC = (Pob2017 / Pob2007)^(1/10) - 1",
+            "edades_cubierto": "0 a 114 años (115 edades)",
+            "periodo_base": "2007-2017 (censos)",
+            "periodo_proyeccion": "2008-2040",
+            "niveles_desagregacion": [
+                "Distrito",
+                "Provincia",
+                "Departamento"
+            ],
+            "ajustes_especiales": [
+                "Distritos con decremento: TIC forzada a cero",
+                "Variaciones extremas: promedio geométrico provincial/departamental",
+                "Edades sin datos censales: imputación como cero",
+                "Imputación de TIC faltantes: promedio geométrico por niveles jerárquicos"
+            ]
+        },
+        "procesamiento": {
+            "limpieza": "Unificación de nombres, códigos y eliminación de registros inconsistentes",
+            "estandarizacion": "Cruce con base actualizada de ubigeos INEI",
+            "validacion": "Verificación de duplicados y consistencia de estructura etaria",
+            "automatizacion": "Reproducibilidad con notebooks Python"
+        },
+        "contacto": "https://wa.me/51930123005?text=Hola,%20estoy%20interesado%20en%20las%20proyecciones%20de%20poblaci%C3%B3n%20por%20edades%20y%20territorio",
+        "ventajas": [
+            "Datos organizados, limpios y listos para análisis",
+            "Ahorra horas de limpieza y procesamiento",
+            "Incluye metodología y soporte",
+            "Actualizaciones anuales garantizadas",
+            "Perfecto para proyectos de inversión pública, diagnósticos y análisis territorial"
+        ]
     },
     {
-      "id": "victimizacion-distrital",
-      "titulo": "Indicador de victimización distrital",
-      "subtitulo": "Porcentaje de personas víctimas de delitos urbanos",
-      "descripcion": "Porcentaje de personas de 15 a 98 años en zonas urbanas que han sido víctimas de algún hecho delictivo en los últimos 12 meses.",
-      "categoria": "analisis",
-      "tipo": "analisis",
-      "imagen": "images/250620_victimizacion.webp",
-      "icono": "images/bd.webp",
-      "contenido": "<h2>Indicador de Victimización</h2><p>Medición de prevalencia de victimización delictiva en zonas urbanas por distrito.</p><h3>Metodología</h3><ul><li>Población objetivo: 15-98 años</li><li>Áreas: zonas urbanas</li><li>Período: últimos 12 meses</li><li>Fuente: Encuestas de victimización</li></ul>",
-      "descargas": [],
-      "fecha_publicacion": "2025-06-19",
-      "autor": "Wilbert Amaru Fernández",
-      "paginas_destino": ["articulos"]
+        "id": "datos-distritales",
+        "titulo": "Datos generales a nivel distrital",
+        "subtitulo": "Ubigeo, macroregión, superficie, altitud, población",
+        "descripcion": "Datos descriptivos por distrito: ubigeo, macroregión, superficie, altitud y población (censos 2007 y 2017, INEI). Base de datos integrada, limpia y lista para análisis territorial y proyectos de inversión pública.",
+        "categoria": "base-datos",
+        "tipo": "base-datos",
+        "imagen": "images/pub002_generales_dist.webp",
+        "icono": "images/bd.webp",
+        "contenido": "<h2>Datos Distritales Descriptivos</h2><p>Información geográfica y demográfica desagregada a nivel de distrito, provincia y departamento.</p><h3>Variables Incluidas</h3><ul><li>UBIGEO (código oficial INEI)</li><li>Nombre de distrito, provincia y departamento</li><li>Macroregión</li><li>Superficie territorial (km²)</li><li>Altitud (metros)</li><li>Población censal 2007 (INEI)</li><li>Población censal 2017 (INEI)</li><li>Límites geográficos (shapefiles)</li></ul><h3>Características</h3><ul><li>Cobertura nacional: 1,874 distritos del Perú</li><li>Desagregación territorial completa (distrito, provincia, departamento)</li><li>Datos limpios y estandarizados</li><li>Validación de duplicados y consistencia</li><li>Incluye mapa interactivo de visualización</li></ul><h3>Metodología</h3><ul><li>Integración de datos: recopilación de bases oficiales INEI</li><li>Limpieza y validación: depuración de duplicados, imputación de valores faltantes (superficies y altitudes)</li><li>Estandarización de códigos ubigeo</li><li>Búsqueda manual complementaria en municipalidades y documentos oficiales</li><li>Visualización: mapa interactivo de distritos</li></ul>",
+        "url_web": null,
+        "descargas": [
+            {
+                "nombre": "Datos descriptivos a nivel distrital",
+                "url": "https://docs.google.com/spreadsheets/d/13jf3lJpp9SqFKXKsM32-7zQVbfj-fk02/edit?usp=sharing&ouid=101071215248574138623&rtpof=true&sd=true",
+                "tipo": "spreadsheet",
+                "acceso": "libre",
+                "ambito": "Distrital, Departamental y Provincial"
+            }
+        ],
+        "fecha_publicacion": "2025-05-23",
+        "autor": "Wilbert Amaru Fernández",
+        "paginas_destino": [
+            "articulos"
+        ],
+        "precio": "Gratuito",
+        "estado": "Disponible",
+        "licencia": "CC BY-NC-SA 4.0",
+        "fuentes": {
+            "censos": [
+                "Censos Nacionales de Población y Vivienda 2007 y 2017 (INEI)",
+                "Proyecciones oficiales INEI",
+                "Shapefiles de límites distritales INEI"
+            ],
+            "ubigeos": "Tabla oficial de ubigeos INEI",
+            "complementarios": [
+                "Datos de altitud y superficie de municipalidades",
+                "Información de Google",
+                "Documentos oficiales complementarios"
+            ],
+            "shapefiles": "https://www.geogpsperu.com/",
+            "cobertura_territorial": "1,874 distritos del Perú"
+        },
+        "procesamiento": {
+            "integracion": "Recopilación y unificación de bases oficiales de población, ubigeos, superficies y altitudes",
+            "limpieza": "Depuración de duplicados, imputación de valores faltantes (superficies, altitudes), estandarización de códigos ubigeo",
+            "validacion": "Verificación de consistencia territorial y eliminación de registros inconsistentes",
+            "visualizacion": "Generación de mapa interactivo a nivel distrital",
+            "resultado": "Base única consolidada y lista para análisis"
+        },
+        "contacto": "https://wa.me/51930123005?text=Hola,%20estoy%20interesado%20en%20las%20datos%20descriptivos%20a%20nivel%20distrital",
+        "ventajas": [
+            "Datos organizados, limpios y listos para análisis",
+            "Ahorra horas de limpieza y procesamiento",
+            "Incluye metodología y soporte",
+            "Actualizaciones anuales garantizadas",
+            "Perfecto para proyectos de inversión pública, diagnósticos y análisis territorial",
+            "Integra información complementaria (altitud, superficie) no fácil de obtener"
+        ]
     },
     {
-      "id": "app-eva-pips-ebr",
-      "titulo": "App EVA PIPS EBR",
-      "subtitulo": "Evaluación de proyectos de inversión en educación básica",
-      "descripcion": "Aplicación de escritorio para evaluación de proyectos de inversión pública en educación básica regular: primaria y secundaria.",
-      "categoria": "app-escritorio",
-      "tipo": "aplicacion",
-      "imagen": "images/250705_app_evapipedu.webp",
-      "icono": "images/programas.webp",
-      "contenido": "<h2>Aplicación EVA PIPS EBR</h2><p>Herramienta de escritorio para evaluación rápida de PIPs en educación.</p><h3>Características</h3><ul><li>Interfaz intuitiva</li><li>Cálculos automáticos</li><li>Generación de reportes</li><li>Compatible Windows/Mac</li></ul>",
-      "descargas": [
-        {
-          "nombre": "Descargar aplicación (Windows)",
-          "url": "https://ejemplo.com/descargas/EVA_PIPS_EBR_v1.exe",
-          "tipo": "exe"
-        }
-      ],
-      "fecha_publicacion": "2025-07-05",
-      "autor": "Wilbert Amaru Fernández",
-      "paginas_destino": ["proyectos"],
-      "precio": "Gratuito"
+        "id": "app-eva-pips-ebr",
+        "titulo": "[Beta] App de escritorio - Evaluación automática de Proyectos Educativos",
+        "subtitulo": "Evaluación económica automática para proyectos de Educación Primaria y Secundaria",
+        "descripcion": "Aplicación de escritorio para la evaluación automática de proyectos de inversión pública en Educación Primaria y Secundaria, con análisis de indicadores de costo-efectividad, simulación Monte Carlo y benchmarking.",
+        "categoria": "app-escritorio",
+        "tipo": "aplicacion-escritorio",
+        "imagen": "images/250705_app_evapipedu.webp",
+        "icono": "images/programas.webp",
+        "contenido": "<h2>Aplicación EVA PIPS EBR</h2><p>Herramienta de escritorio para evaluación automática de proyectos de inversión pública en educación.</p><h3>Indicadores principales</h3><ul><li>VACS (Valor Actual de Costos Sociales)</li><li>CAE (Costo Anual Equivalente)</li><li>Costo por Beneficiario</li><li>Costo-Efectividad</li><li>Simulación Monte Carlo (10,000 escenarios)</li><li>Benchmarking por tipología y región</li><li>Mapa de calor de sensibilidad</li></ul><h3>Características técnicas</h3><ul><li>Stack: Python 3.11, Tkinter, Pandas, NumPy, Matplotlib, PyInstaller</li><li>Validación automática de entradas</li><li>Importación desde Excel</li><li>Exportación de resultados</li><li>Compatible Windows 10+</li><li>No requiere instalación de Python</li></ul><h3>Flujo funcional</h3><ul><li>Ingreso de datos generales (nombre, horizonte, tasas, montos, departamento)</li><li>Registro de costos incrementales anuales</li><li>Validación de costos O&M y beneficiarios</li><li>Cálculo automático de indicadores</li><li>Análisis probabilístico Monte Carlo</li><li>Visualización gráfica y comparativo benchmarking</li></ul>",
+        "url_web": null,
+        "url_descarga": "https://drive.google.com/file/d/1kFvVQuWzwbyoum2GyKN6C3Cr4w-rUSQD/view?usp=sharing",
+        "descargas": [
+            {
+                "nombre": "Aplicación de Escritorio - Evaluación automática de Proyectos Educativos",
+                "url": "https://drive.google.com/file/d/1kFvVQuWzwbyoum2GyKN6C3Cr4w-rUSQD/view?usp=sharing",
+                "tipo": "ejecutable",
+                "version": "Beta",
+                "ambito": "Educación Primaria y Secundaria"
+            }
+        ],
+        "fecha_publicacion": "2025-07-05",
+        "autor": "Wilbert Amaru Fernández Olmedo",
+        "paginas_destino": [
+            "proyectos"
+        ],
+        "precio": "Gratuito",
+        "estado": "Beta",
+        "licencia": "CC BY-NC-SA 4.0",
+        "tecnologia": {
+            "lenguaje": "Python 3.11",
+            "stack": [
+                "Tkinter",
+                "Pandas",
+                "NumPy",
+                "Matplotlib",
+                "PyInstaller"
+            ],
+            "plataforma": "Windows 10+",
+            "requisitos": "Sin instalación de Python requerida"
+        },
+        "indicadores": {
+            "VACS": "Valor Actual de Costos Sociales",
+            "CAE": "Costo Anual Equivalente",
+            "CE": "Costo-Efectividad",
+            "MonteC_escenarios": 10000,
+            "MonteC_parametros": {
+                "media_mu": 0.0028,
+                "desv_sigma": 0.0057,
+                "fuente": "Índice de Precios de Materiales de Construcción"
+            },
+            "percentiles": [
+                "P10",
+                "P50",
+                "P90"
+            ],
+            "VaR": "5%"
+        },
+        "contacto": "https://wa.me/51930123005?text=Hola,%20estoy%20interesado%20en%20la%20aplicación%20EVA%20PIPS%20EBR",
+        "ventajas": [
+            "Automatización de evaluación económica bajo Invierte.pe",
+            "Análisis probabilístico con simulación Monte Carlo",
+            "Benchmarking visual por tipología y región",
+            "Validación automática de datos",
+            "Resultados reproducibles y exportables",
+            "Interfaz intuitiva sin requerimientos de instalación"
+        ]
     },
     {
-      "id": "app-calculo-demanda",
-      "titulo": "App web: cálculo de demanda",
-      "subtitulo": "Cálculo de demanda de servicios educativos",
-      "descripcion": "Aplicación web para el cálculo de demanda de servicios educativos, útil en la formulación de proyectos de infraestructura y servicios.",
-      "categoria": "app-web",
-      "tipo": "aplicacion-web",
-      "imagen": "images/app_calculo_demanda2.webp",
-      "icono": "images/programas.webp",
-      "contenido": "<h2>Calculadora de Demanda</h2><p>Herramienta web para proyectar demanda de servicios educativos.</p><h3>Funcionalidades</h3><ul><li>Ingreso de datos de población</li><li>Cálculo automático de demanda</li><li>Proyecciones por año</li><li>Exportar resultados</li></ul>",
-      "url_web": "https://ejemplo.com/apps/calculadora-demanda",
-      "descargas": [],
-      "fecha_publicacion": "2025-09-25",
-      "autor": "Wilbert Amaru Fernández",
-      "paginas_destino": ["proyectos"],
-      "precio": "Desde $10/mes"
-    },
-    {
-      "id": "articulo-pip-educacion",
-      "titulo": "La importancia de PIPs en educación",
-      "subtitulo": "Opinión sobre inversión pública en infraestructura educativa",
-      "descripcion": "Artículo de opinión sobre la relevancia de los proyectos de inversión pública en el mejoramiento de la calidad educativa nacional.",
-      "categoria": "articulo",
-      "tipo": "articulo",
-      "imagen": "images/icono.webp",
-      "icono": "images/bd.webp",
-      "contenido": "<h2>La importancia de PIPs en educación</h2><p>La inversión pública en educación es fundamental para el desarrollo del país...</p><p>Este artículo analiza los principales desafíos y oportunidades...</p>",
-      "descargas": [],
-      "fecha_publicacion": "2025-11-28",
-      "autor": "Wilbert Amaru Fernández",
-      "paginas_destino": ["articulos"]
+        "id": "app-calculo-demanda",
+        "titulo": "[Beta] App web - Módulo de cálculo de demanda educativa",
+        "subtitulo": "Proyección de demanda educativa y población para EBR",
+        "descripcion": "Aplicación web para estimar demanda educativa y proyectar población en proyectos de Educación Básica Regular (EBR) mediante tasa intercensal de crecimiento geométrico.",
+        "categoria": "app-web",
+        "tipo": "aplicacion-web",
+        "imagen": "images/app_calculo_demanda2.webp",
+        "icono": "images/programas.webp",
+        "contenido": "<h2>Módulo de Estimación de Demanda</h2><p>Herramienta web para proyectar demanda de servicios educativos en proyectos de Educación Básica Regular.</p><h3>Funcionalidades</h3><ul><li>Recolección y validación de datos censales</li><li>Proyección de población por tasa intercensal (TICg)</li><li>Cálculo de demanda efectiva sin y con proyecto</li><li>Estimación de infraestructura (aulas requeridas)</li><li>Exportación de reportes y análisis</li><li>Trazabilidad y reproducibilidad garantizada</li></ul><h3>Metodología</h3><ul><li>Datos: Población censal y matrícula histórica</li><li>Proyección: Cálculo geométrico de población</li><li>Demanda: Ajuste por tasas de transición entre grados</li><li>Infraestructura: Aulas por edad, turno y parámetros del proyecto</li></ul>",
+        "url_web": "https://zero1-modulo-calculo-demanda.onrender.com/",
+        "descargas": [
+            {
+                "nombre": "Resumen Metodológico (PDF)",
+                "url": "https://drive.google.com/file/d/1kFvVQuWzwbyoum2GyKN6C3Cr4w-rUSQD/view?usp=sharing",
+                "tipo": "pdf"
+            }
+        ],
+        "fecha_publicacion": "2025-07-05",
+        "autor": "Wilbert Amaru Fernández Olmedo",
+        "paginas_destino": [
+            "proyectos"
+        ],
+        "precio": "Gratuito",
+        "estado": "Beta",
+        "licencia": "CC BY-NC-SA 4.0",
+        "contacto": "https://wa.me/51930123005?text=Hola,%20estoy%20interesado%20en%20el%20módulo%20de%20cálculo%20de%20demanda"
     }
   ],
   "metodos_cuantitativos": [
