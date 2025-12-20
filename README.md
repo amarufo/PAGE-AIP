@@ -1,111 +1,56 @@
-# 🏛️ Academia de Inversión Pública
+# 🏛️ Academia de Inversión Pública — Página Personal
 
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen?logo=github)](https://amarufo.github.io/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-
-**Portal web especializado en ciencia de datos aplicada a inversión pública en el Perú.**
-
-🌐 **Sitio Web**: [https://amarufo.github.io/](https://amarufo.github.io/)  
-👤 **Autor**: Econ. Wilbert Amaru Fernandez Olmedo
+🌐 [amarufo.github.io](https://amarufo.github.io/)
+👤 Autor: Econ. Wilbert Amaru Fernández Olmedo
 
 ---
 
-## 📋 Descripción
+## Descripció
 
-Academia de Inversión Pública es un portal que ofrece:
-
-- 📊 **69 métodos cuantitativos** con guías interactivas y ejemplos
-- 🧙‍♂️ **Asistente inteligente** para elegir el método correcto para tu tesis
-- 📚 **Bases de datos** de análisis demográfico, victimización y proyecciones
-- 📖 **Guías técnicas** para formulación de Proyectos de Inversión Pública (PIP)
-- 💼 **Servicios profesionales** de consultoría en análisis de datos
+Sitio web personal orientado a la difusión de recursos, guías y herramientas para la investigación cuantitativa, formulación de proyectos de inversión pública y análisis de datos en Perú. Incluye servicios de consultoría, bases de datos, apps, y un asistente inteligente para elegir métodos estadísticos.
 
 ---
 
-## ✨ Características Principales
+## Funcionalidades y recursos disponibles
 
-### 🎯 Guía de Métodos Cuantitativos
-- **69 métodos** organizados en 11 categorías
-- **Wizard de 4 preguntas** que recomienda el método ideal según tu tesis
-- Sistema de puntuación inteligente basado en área, tipo de datos, objetivo y muestra
-- Tarjetas con ejemplos reales, PDFs descargables e imágenes
-
-### 📱 Experiencia de Usuario
-- ✅ Diseño responsive (mobile-first)
-- ✅ Navegación intuitiva con filtros y buscador
-- ✅ Galerías de imágenes con modal interactivo
-- ✅ Botón flotante de WhatsApp para consultas rápidas
+- Guía interactiva con **69 métodos cuantitativos** organizados en 11 categorías
+- **Asistente inteligente** (wizard) que recomienda métodos según tu tesis o proyecto
+- **Bases de datos**: demografía, victimización, proyecciones y datos distritales
+- **Apps**: cálculo de demanda educativa, evaluación automática de proyectos educativos
+- **Galerías de análisis** y ejemplos reales aplicados a casos peruanos
+- **Buscador avanzado** y filtros por categoría, tipo de dato y objetivo
+- **Formulario de contacto** integrado vía Formspree
+- **SEO optimizado** (robots.txt, sitemap.xml, manifest.json)
+- **Actualización constante** de métodos, recursos y bases de datos
 
 ---
 
-## 🗂️ Estructura del Proyecto
+## Cambios y actualizaciones recientes (2025)
 
-```
-📁 academia-inversion-publica/
-├── 📄 index.html                    # Página principal
-├── 📁 css/styles.css                # Estilos globales
-├── 📁 js/                           # Scripts interactivos
-├── 📁 data/contenido.json           # 69 métodos + entradas
-├── 📁 pages/                        # Páginas secundarias
-│   ├── servicios-analisis-cuantitativo.html  # ⭐ Guía de métodos
-│   ├── contacto.html, servicios.html, etc.
-│   └── galerias-metodos/            # Galerías por categoría
-├── 📁 images/imagenes_metodo/       # Gráficos de métodos
-├── 📁 docs/pdf/                     # PDFs descargables
-├── 📄 manifest.json                 # PWA
-├── 📄 sitemap.xml                   # SEO
-└── 📄 robots.txt                    # Crawlers
-```
+- Centralización de publicaciones y recursos en `data/contenido.json` para gestión automática
+- Mejora de la lógica de publicaciones en inicio (filtrado por `paginas_destino`)
+- Actualización de `.gitignore` para mantener solo archivos esenciales en producción
+- Integración de formulario de contacto rápido con Formspree
+- Optimización de estructura de carpetas y limpieza de archivos innecesarios
+- Mejoras en la visualización y navegación de métodos y recursos
 
 ---
 
-## 🚀 Desarrollo Local
+## Contacto
 
-```bash
-# Python
-python -m http.server 8000
-
-# Node.js
-npx http-server
-```
-
-Visitar: `http://localhost:8000`
+- 📧 Email: amaruf9523@gmail.com
+- 💬 WhatsApp: +51 934 657 378
+- 💼 LinkedIn: [@amarufo](https://linkedin.com/in/amarufo)
+- 🐙 GitHub: [@amarufo](https://github.com/amarufo)
 
 ---
 
-## 📊 Categorías de Métodos (69 total)
+## Licencia
 
-| Categoría | Métodos |
-|-----------|---------|
-| 🔗 Correlación | Pearson, Spearman, Parcial |
-| 📈 Regresión | OLS, Logit, Poisson, Cuantílica, Ridge/Lasso |
-| ⚖️ Comparación | T-Test, ANOVA, Chi², Mann-Whitney, Kruskal-Wallis |
-| ✅ Validación | Shapiro-Wilk, Levene, Cronbach, VIF |
-| 🎯 Reducción | PCA, Factorial, MDS, Correspondencia |
-| ⏰ Series Tiempo | ARIMA, SARIMA, VAR, GARCH, Granger |
-| 🏢 Panel/Impacto | DiD, RDD, PSM, Efectos Fijos |
-| 🤖 ML Supervisado | Random Forest, XGBoost, SVM, Redes Neuronales |
-| 🎨 ML No Supervisado | K-Means, DBSCAN, t-SNE, Isolation Forest |
-| 📝 NLP/Texto | Sentiment Analysis, LDA, NER |
-| 🎓 Avanzado | SEM, Bayesiano, Survival, Meta-Analysis |
+MIT License — Ver [LICENSE](LICENSE)
 
 ---
 
-## 📞 Contacto
+<p align="center"><i>Hecho con ❤️ para investigadores y gestores públicos en Perú</i></p>
 
-- 📧 **Email**: amaruf9523@gmail.com
-- 💬 **WhatsApp**: +51 930 123 005
-- 💼 **LinkedIn**: [@amarufo](https://linkedin.com/in/amarufo)
-- 🐙 **GitHub**: [@amarufo](https://github.com/amarufo)
-
----
-
-## 📄 Licencia
-
-MIT License - Ver [LICENSE](LICENSE)
-
----
-
-<p align="center"><i>Hecho con ❤️ para investigadores en Perú</i></p>
-
-**Última actualización**: Noviembre 2025 | **Versión**: 2.0.0
+**Última actualización:** Diciembre 2025
