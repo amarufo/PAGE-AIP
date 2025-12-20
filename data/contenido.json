@@ -1,11 +1,51 @@
 {
   "entradas": [
     {
+        "id": "invierteia-beta",
+        "titulo": "Automatización de estudios de preinversión - InvierteIA (Beta)",
+        "subtitulo": "29 motores automáticos para análisis y reportes de preinversión",
+        "descripcion": "InvierteIA es una herramienta avanzada que automatiza los análisis requeridos en estudios de preinversión bajo la metodología Invierte.pe. Incluye 29 motores automáticos para cálculos, gráficos y reportes listos para incorporar en documentos oficiales.",
+        "categoria": "app-web",
+        "tipo": "app-web",
+        "imagen": "images/fondo_fb.png",
+        "icono": "images/programas.webp",
+        "contenido": "<h2>Automatización de estudios de preinversión</h2><p>InvierteIA está diseñada para especialistas, consultores y entidades públicas que requieren agilizar y estandarizar los análisis técnicos y económicos en proyectos de inversión pública.</p><h3>Características principales</h3><ul><li><strong>29 motores automáticos</strong> para análisis de demanda, oferta, brechas, costos, riesgos y más.</li><li><strong>Reportes listos para Word y Excel</strong> con tablas, gráficos y mapas.</li><li><strong>Interfaz web intuitiva</strong> y fácil de usar, sin necesidad de instalar software adicional.</li><li><strong>Actualización constante</strong> de motores y metodologías según normativa Invierte.pe.</li><li><strong>Ejemplos aplicados</strong> a proyectos reales del Perú.</li></ul><h3>¿Cómo usar?</h3><ol><li><strong>Opción 1 - Rápido:</strong> Selecciona el motor de análisis, identifica las corrdenadas de análisis o ubigeo del distrito y descarga el reporte.</li><li><strong>Opción 2 - Asesoría:</strong> ¿Dudas con tu análisis? Contáctanos para soporte especializado.</li></ol><h3>Contacto y asesoría</h3><p>¿Necesitas ayuda para estructurar tu estudio de preinversión? Escríbenos para una asesoría personalizada y recomendaciones según tu proyecto.</p>",
+        "url_web": "https://invierteia.streamlit.app/",
+        "fecha_publicacion": "2025-12-20",
+        "autor": "Amaru Fernandez Olmedo",
+        "paginas_destino": [
+            "proyectos",
+            "inicio"
+        ],
+        "precio": "Gratuito (acceso en línea)",
+        "estado": "Disponible",
+        "keywords": [
+            "preinversión",
+            "invierte.pe",
+            "análisis de proyectos",
+            "automatización",
+            "motores automáticos",
+            "inversión pública",
+            "reportes",
+            "consultoría",
+            "gestión pública"
+        ],
+        "ventajas": [
+            "Automatiza análisis en minutos",
+            "29 motores en un solo lugar",
+            "Reportes listos para Word y Excel",
+            "Ejemplos aplicados a proyectos peruanos",
+            "Actualización constante según normativa",
+            "Asesoría gratuita disponible"
+        ],
+        "contacto": "mailto:amaruf9523@gmail.com"
+    },
+    {
         "id": "guia-metodos-cuantitativos",
         "titulo": "Guía Interactiva de Métodos Cuantitativos",
         "subtitulo": "Asistente inteligente para elegir el método perfecto según tu tesis",
         "descripcion": "Herramienta interactiva con 69 métodos cuantitativos organizados en 11 categorías. Incluye un asistente (wizard) inteligente que en 4 preguntas te recomienda los mejores métodos según tu tipo de investigación, datos disponibles y objetivos. Cada método tiene pregunta guía, ejemplos reales y enlaces a galerías de análisis.",
-        "categoria": "guia-interactiva",
+        "categoria": "especial",
         "tipo": "guia-metodologica",
         "imagen": "images/07_series_principales.webp",
         "icono": "images/bd.webp",
@@ -68,7 +108,8 @@
         "fecha_publicacion": "2025-05-22",
         "autor": "Wilbert Amaru Fernández",
         "paginas_destino": [
-            "articulos"
+            "articulos",
+            "inicio"
         ],
         "precio": "Gratuito (acceso libre) / Consultar (base completa)",
         "estado": "Disponible",
@@ -136,7 +177,8 @@
         "fecha_publicacion": "2025-05-23",
         "autor": "Wilbert Amaru Fernández",
         "paginas_destino": [
-            "articulos"
+            "articulos",
+            "inicio"
         ],
         "precio": "Gratuito",
         "estado": "Disponible",
@@ -197,7 +239,8 @@
         "fecha_publicacion": "2025-07-05",
         "autor": "Wilbert Amaru Fernández Olmedo",
         "paginas_destino": [
-            "proyectos"
+            "proyectos",
+            "inicio"
         ],
         "precio": "Gratuito",
         "estado": "Beta",
@@ -262,7 +305,8 @@
         "fecha_publicacion": "2025-07-05",
         "autor": "Wilbert Amaru Fernández Olmedo",
         "paginas_destino": [
-            "proyectos"
+            "proyectos",
+            "inicio"
         ],
         "precio": "Gratuito",
         "estado": "Beta",

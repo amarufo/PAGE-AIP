@@ -1,66 +1,37 @@
-# ==================================
-# .gitignore - Academia de Inversión Pública
-# Solo se sube lo esencial para GitHub Pages
-# ==================================
+# === CARPETAS NO NECESARIAS PARA PRODUCCIÓN ===
 
-# Sistema Operativo
-.DS_Store
-Thumbs.db
-*.swp
-*.swo
-*~
-desktop.ini
+# Archivos descartados y pruebas
+papelera/
 
-# IDE y Editores
-.vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
+# Documentación interna y guías
+GUIA_CONTENIDO.md
+INSTRUCCIONES_METODOS_CUANTITATIVOS.md
+README.md
+
+# Herramientas y scripts internos
+tools/
+verify-improvements.sh
+
+# Archivos de desarrollo y sesiones
+brochure/
+whatsapp_session/
+docs/
+
+# Sistema y dependencias
+node_modules/
+*.log
+*.DS_Store
 .env
 .env.local
-.env.*.local
 
-# Node (si se usa build tools en futuro)
-node_modules/
-npm-debug.log
-yarn-error.log
-package-lock.json
-
-# Archivos temporales
-*.tmp
-*.temp
-*.log
-.cache/
-*.bak
-
-# Archivos de documentación internos (no necesarios en producción)
-GUIA_*.md
-INSTRUCCIONES_*.md
-README_DESCARGAS.md
-*.doc
-*.docx
-*.txt
-!robots.txt
-
-# Scripts de desarrollo/testing
-verify-improvements.sh
-test*.html
-*.test.js
-
-# Carpetas de desarrollo
-__pycache__/
-.pytest_cache/
-coverage/
-brochure/
-tools/
-
-# Archivos grandes innecesarios
-*.psd
-*.ai
-*.sketch
-*.fig
-
-# Backups
-*_backup*
-*_old*
-*.orig
+# === MANTENER EN PRODUCCIÓN ===
+# index.html
+# pages/
+# css/
+# js/
+# data/
+# images/
+# manifest.json
+# robots.txt
+# sitemap.xml
+# .git/

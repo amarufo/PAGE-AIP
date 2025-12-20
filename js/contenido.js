@@ -98,19 +98,20 @@ function renderizarProyectos() {
  * Renderiza últimas 3 entradas en inicio (index.html)
  */
 function renderizarUltimosEnInicio() {
-  const contenedor = document.getElementById('ultimas-entradas');
-  if (!contenedor) return;
+    const contenedor = document.getElementById('ultimas-entradas');
+    if (!contenedor) return;
   
-  // Ordenar por fecha, más recientes primero
-  const ultimas = todasLasEntradas.entradas
-    .sort((a, b) => new Date(b.fecha_publicacion) - new Date(a.fecha_publicacion))
-    .slice(0, 3);
+    // Filtrar solo las entradas que tienen "inicio" en paginas_destino
+    const ultimas = todasLasEntradas.entradas
+      .filter(e => e.paginas_destino && e.paginas_destino.includes('inicio'))
+      .sort((a, b) => new Date(b.fecha_publicacion) - new Date(a.fecha_publicacion))
+      .slice(0, 10); // O el número que desees mostrar
   
-  contenedor.innerHTML = '';
-  ultimas.forEach(entrada => {
-    contenedor.appendChild(crearTarjeta(entrada));
-  });
-}
+    contenedor.innerHTML = '';
+    ultimas.forEach(entrada => {
+      contenedor.appendChild(crearTarjeta(entrada));
+    });
+  }
 
 /**
  * Crea una tarjeta visual para una entrada
@@ -196,7 +197,8 @@ function obtenerLabelCategoria(categoria) {
     'app-escritorio': '💻 App Escritorio',
     'app-web': '🌐 App Web',
     'script': '⚙️ Script',
-    'articulo': '📰 Artículo'
+    'articulo': '📰 Artículo',
+    'especial': '✨ Especial'
   };
   return labels[categoria] || categoria;
 }
