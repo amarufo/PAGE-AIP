@@ -1,17 +1,61 @@
 {
   "entradas": [
     {
+        "id": "ponencia-ia-invierte",
+        "titulo": "Ponencia: Ciencia de Datos e IA para la Inversión Pública",
+        "subtitulo": "Aplicaciones, simulaciones y automatización en proyectos Invierte.pe",
+        "descripcion": "Presentación académica sobre el uso de ciencia de datos e inteligencia artificial en la gestión de proyectos de inversión pública en Perú. Incluye casos internacionales, replicación de análisis de riesgo (@Risk, Crystal Ball), simulaciones Monte Carlo, modelado de incertidumbre y automatización con InvierteIA.",
+        "categoria": "articulo",
+        "tipo": "articulo",
+        "imagen": "images/material1.png",
+        "icono": "images/articulo.webp",
+        "contenido": "<h2>Ciencia de Datos e IA para la Inversión Pública</h2><ul><li>Contexto global y nacional de la adopción de IA</li><li>Aplicaciones internacionales en gestión pública y presupuestaria</li><li>Desafíos y oportunidades en Invierte.pe</li><li>Replicación de análisis de riesgo y simulaciones Monte Carlo</li><li>Modelado de incertidumbre en costos y riesgos sísmicos</li><li>Análisis de sensibilidad y segmentación de riesgos con IA</li><li>Presentación de la app InvierteIA para automatización de estudios de preinversión</li></ul><h3>Materiales incluidos</h3><ul><li>Slides en PDF y LaTeX</li><li>Tablas y gráficos de simulaciones</li><li>Ejemplos de código y resultados reales</li></ul>",
+        "url_web": null,
+        "descargas": [
+            {
+                "nombre": "Presentación PDF",
+                "url": "https://drive.google.com/file/d/1ebUeiigtAlPtrQiTIBf0edAKIja7g35f/view?usp=sharing",
+                "tipo": "pdf"
+            }
+        ],
+        "fecha_publicacion": "2025-12-27",
+        "autor": "Wilbert Amaru Fernández Olmedo",
+        "paginas_destino": [
+            "articulos",
+            "inicio"
+        ],
+        "precio": "Gratuito",
+        "estado": "Disponible",
+        "keywords": [
+            "inteligencia artificial",
+            "ciencia de datos",
+            "inversión pública",
+            "Invierte.pe",
+            "simulación Monte Carlo",
+            "análisis de riesgo",
+            "automatización",
+            "presentación académica"
+        ],
+        "ventajas": [
+            "Ejemplos reales aplicados a proyectos peruanos",
+            "Material descargable y reproducible",
+            "Explicaciones claras de simulaciones y modelado",
+            "Integración de IA en gestión pública"
+        ],
+        "contacto": "mailto:amaruf9523@gmail.com"
+    },    
+    {
         "id": "invierteia-beta",
         "titulo": "Automatización de estudios de preinversión - InvierteIA (Beta)",
-        "subtitulo": "29 motores automáticos para análisis y reportes de preinversión",
-        "descripcion": "InvierteIA es una herramienta avanzada que automatiza los análisis requeridos en estudios de preinversión bajo la metodología Invierte.pe. Incluye 29 motores automáticos para cálculos, gráficos y reportes listos para incorporar en documentos oficiales.",
+        "subtitulo": "¡31 motores automáticos - Actualizado 2025-12-27!",
+        "descripcion": "InvierteIA es una herramienta avanzada que automatiza los análisis requeridos en estudios de preinversión bajo la metodología Invierte.pe. Incluye 31 motores automáticos para cálculos, gráficos y reportes listos para incorporar en documentos oficiales.",
         "categoria": "app-web",
         "tipo": "app-web",
         "imagen": "images/fondo_fb.png",
         "icono": "images/programas.webp",
         "contenido": "<h2>Automatización de estudios de preinversión</h2><p>InvierteIA está diseñada para especialistas, consultores y entidades públicas que requieren agilizar y estandarizar los análisis técnicos y económicos en proyectos de inversión pública.</p><h3>Características principales</h3><ul><li><strong>29 motores automáticos</strong> para análisis de demanda, oferta, brechas, costos, riesgos y más.</li><li><strong>Reportes listos para Word y Excel</strong> con tablas, gráficos y mapas.</li><li><strong>Interfaz web intuitiva</strong> y fácil de usar, sin necesidad de instalar software adicional.</li><li><strong>Actualización constante</strong> de motores y metodologías según normativa Invierte.pe.</li><li><strong>Ejemplos aplicados</strong> a proyectos reales del Perú.</li></ul><h3>¿Cómo usar?</h3><ol><li><strong>Opción 1 - Rápido:</strong> Selecciona el motor de análisis, identifica las corrdenadas de análisis o ubigeo del distrito y descarga el reporte.</li><li><strong>Opción 2 - Asesoría:</strong> ¿Dudas con tu análisis? Contáctanos para soporte especializado.</li></ol><h3>Contacto y asesoría</h3><p>¿Necesitas ayuda para estructurar tu estudio de preinversión? Escríbenos para una asesoría personalizada y recomendaciones según tu proyecto.</p>",
         "url_web": "https://invierteia.streamlit.app/",
-        "fecha_publicacion": "2025-12-20",
+        "fecha_publicacion": "2025-12-27",
         "autor": "Amaru Fernandez Olmedo",
         "paginas_destino": [
             "proyectos",
