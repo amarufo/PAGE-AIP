@@ -66,7 +66,7 @@
       <div class="sidebar-overlay" id="sidebar-overlay" aria-hidden="true"></div>
       <aside class="sidebar" id="sidebar-aside" role="complementary" aria-label="Navegación principal">
         <a href="${ROOT}index.html" aria-label="Ir a inicio" class="sidebar-logo-link">
-          <img src="${ROOT}images/amaru.jpeg" alt="Perfil Amaru" class="profile-img" loading="eager">
+          <img src="${ROOT}images/amaru_1.png" alt="Perfil Amaru" class="profile-img" loading="eager">
         </a>
         <div class="sidebar-identity">
           <h1 class="sidebar-title">Academia de Inversión Pública</h1>
