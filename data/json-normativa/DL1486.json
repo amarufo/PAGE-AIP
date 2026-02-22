@@ -8,7 +8,11 @@
   "fecha_publicacion": "2020-05-10",
   "entidad_emisora": "Presidencia de la República / Ministerio de Economía y Finanzas",
   "estado": "vigente",
-  "fase_ciclo_inversion": ["ejecucion", "funcionamiento", "transversal"],
+  "fase_ciclo_inversion": [
+    "ejecucion",
+    "funcionamiento",
+    "transversal"
+  ],
   "temas_clave": [
     "optimización de la ejecución de inversiones públicas",
     "reactivación económica COVID-19",
@@ -306,6 +310,8 @@
     "fecha_analisis": "2026-02-21",
     "analizado_por": "GitHub Copilot (Claude Sonnet 4.5) - análisis directo del texto del PDF",
     "version_schema": "1.0",
-    "notas": "El PDF es una página del Diario Oficial El Peruano del 10-05-2020 que contiene múltiples normas. La primera parte de la página 1 corresponde al remate de otro DL (ampliación de REACTIVA PERÚ). El DL 1486 inicia aproximadamente en la mitad de la página 1 y culmina en la página 5. Firmado en Lima el 9 de mayo de 2020 por Martín Alberto Vizcarra Cornejo (Presidente), Vicente Antonio Zeballos Salinas (PCM), Sonia Guillén Oneeglio (Cultura), María Antonieta Alva Luperdi (MEF) y Rodolfo Yañez Wendorff (Vivienda). El texto de la DCM Cuarta puede presentar ambigüedad en su numeración por el formato a dos columnas del Diario Oficial; puede contener la regulación de adecuaciones SEACE y la incorporación a la Ley 28056 bajo el mismo numeral."
+    "notas": "El PDF es una página del Diario Oficial El Peruano del 10-05-2020 que contiene múltiples normas. La primera parte de la página 1 corresponde al remate de otro DL (ampliación de REACTIVA PERÚ). El DL 1486 inicia aproximadamente en la mitad de la página 1 y culmina en la página 5. Firmado en Lima el 9 de mayo de 2020 por Martín Alberto Vizcarra Cornejo (Presidente), Vicente Antonio Zeballos Salinas (PCM), Sonia Guillén Oneeglio (Cultura), María Antonieta Alva Luperdi (MEF) y Rodolfo Yañez Wendorff (Vivienda). El texto de la DCM Cuarta puede presentar ambigüedad en su numeración por el formato a dos columnas del Diario Oficial; puede contener la regulación de adecuaciones SEACE y la incorporación a la Ley 28056 bajo el mismo numeral.",
+    "version_esquema": "3",
+    "fuente": "DL1486.pdf"
   }
 }

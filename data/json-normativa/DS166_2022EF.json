@@ -8,7 +8,9 @@
   "fecha_publicacion": "2022-07-20",
   "entidad_emisora": "Ministerio de Economía y Finanzas",
   "estado": "vigente",
-  "fase_ciclo_inversion": ["ejecucion"],
+  "fase_ciclo_inversion": [
+    "ejecucion"
+  ],
   "temas_clave": [
     "Proyectos Especiales de Inversión Pública (PEIP)",
     "sustento de capacidad presupuestal (RD 019-2021-EF/50.01)",
@@ -110,6 +112,8 @@
     "fecha_analisis": "2026-02-21",
     "analizado_por": "GitHub Copilot (Claude Sonnet 4.5) - análisis directo del texto del PDF",
     "version_schema": "1.0",
-    "notas": "Firmado el 19 de julio de 2022 por José Pedro Castillo Terrones (Presidente) y Oscar Graham Yamahuchi (Ministro de Economía y Finanzas). El PDF tiene 2 páginas en formato El Peruano de dos columnas. Las primeras líneas del PDF corresponden a una Resolución Directoral del Programa Nacional de Asistencia Solidaria 'Pensión 65' (2088116-1) — norma ajena, no incluida en este JSON. A partir de la sección 'ECONOMÍA Y FINANZAS' comienza el DS 166-2022-EF. Las páginas 2 del PDF continúan con un DS del sector Energía y Minas (DS 008-2022-EM, sobre formalización minera — REINFO — DS 018-2017-EM), norma distinta no incluida en este JSON. El DS 166-2022-EF es un modificatorio puntual del DS 119-2020-EF: perfecciona la cadena de aprobaciones para garantizar la verificación de la capacidad presupuestal en todos los procesos de implementación y expansión del modelo PEIP."
+    "notas": "Firmado el 19 de julio de 2022 por José Pedro Castillo Terrones (Presidente) y Oscar Graham Yamahuchi (Ministro de Economía y Finanzas). El PDF tiene 2 páginas en formato El Peruano de dos columnas. Las primeras líneas del PDF corresponden a una Resolución Directoral del Programa Nacional de Asistencia Solidaria 'Pensión 65' (2088116-1) — norma ajena, no incluida en este JSON. A partir de la sección 'ECONOMÍA Y FINANZAS' comienza el DS 166-2022-EF. Las páginas 2 del PDF continúan con un DS del sector Energía y Minas (DS 008-2022-EM, sobre formalización minera — REINFO — DS 018-2017-EM), norma distinta no incluida en este JSON. El DS 166-2022-EF es un modificatorio puntual del DS 119-2020-EF: perfecciona la cadena de aprobaciones para garantizar la verificación de la capacidad presupuestal en todos los procesos de implementación y expansión del modelo PEIP.",
+    "version_esquema": "3",
+    "fuente": "DS166_2022EF.pdf"
   }
 }

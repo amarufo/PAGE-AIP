@@ -8,7 +8,11 @@
   "fecha_publicacion": "2019-01-04",
   "entidad_emisora": "Ministerio de Economía y Finanzas",
   "estado": "vigente",
-  "fase_ciclo_inversion": ["programacion", "formulacion_evaluacion", "ejecucion"],
+  "fase_ciclo_inversion": [
+    "programacion",
+    "formulacion_evaluacion",
+    "ejecucion"
+  ],
   "temas_clave": [
     "Fondo Invierte para el Desarrollo Territorial (FIDT)",
     "financiamiento y cofinanciamiento de inversiones de GR y GL",
@@ -362,6 +366,8 @@
     "fecha_analisis": "2026-02-21",
     "analizado_por": "GitHub Copilot (Claude Sonnet 4.5) - análisis directo del texto del PDF",
     "version_schema": "1.0",
-    "notas": "Firmado el 3 de enero de 2019 por Martín Alberto Vizcarra Cornejo (Presidente), César Villanueva Arévalo (PCM), Carlos Oliva Neyra (MEF) y Liliana del Carmen La Rosa Huertas (MIDIS). El PDF contiene 16 páginas: las primeras 2 son el cuerpo del Decreto Supremo y la DCD; las páginas 3 a 16 son el texto del Reglamento con sus 17 artículos y 4 DCFs. Este DS es el Reglamento del DL 1435 (FIDT), que reestructuró el FONIPREL y liquidó el FONIE."
+    "notas": "Firmado el 3 de enero de 2019 por Martín Alberto Vizcarra Cornejo (Presidente), César Villanueva Arévalo (PCM), Carlos Oliva Neyra (MEF) y Liliana del Carmen La Rosa Huertas (MIDIS). El PDF contiene 16 páginas: las primeras 2 son el cuerpo del Decreto Supremo y la DCD; las páginas 3 a 16 son el texto del Reglamento con sus 17 artículos y 4 DCFs. Este DS es el Reglamento del DL 1435 (FIDT), que reestructuró el FONIPREL y liquidó el FONIE.",
+    "version_esquema": "3",
+    "fuente": "DS001_2019EF.pdf"
   }
 }

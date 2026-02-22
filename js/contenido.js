@@ -60,9 +60,23 @@ function renderizarUltimosEnInicio() {
 }
 
 function crearTarjeta(entrada) {
+  // Comprobar si es publicación reciente (≤ 30 días)
+  const diasDesdePublicacion = entrada.fecha_publicacion
+    ? Math.floor((Date.now() - new Date(entrada.fecha_publicacion)) / 86400000)
+    : 999;
+  const esNuevo = diasDesdePublicacion <= 30;
+
   const panel = document.createElement('div');
-  panel.className = 'panel animate-fade-in';
+  panel.className = 'panel animate-fade-in' + (esNuevo ? ' panel--nuevo' : '');
   panel.dataset.categoria = entrada.categoria;
+
+  // Badge "Nuevo" flotante
+  if (esNuevo) {
+    const badgeNuevo = document.createElement('span');
+    badgeNuevo.className = 'badge-nuevo';
+    badgeNuevo.textContent = '🆕 Nuevo';
+    panel.appendChild(badgeNuevo);
+  }
 
   // Sticker
   const icono = document.createElement('img');

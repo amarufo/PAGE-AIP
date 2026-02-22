@@ -1,184 +1,136 @@
 {
+  "id": "DS389_2020EF",
+  "archivo_pdf": "DS389_2020EF.pdf",
   "tipo_norma": "decreto_supremo",
   "numero": "389-2020-EF",
   "titulo_oficial": "Decreto Supremo que modifica el Reglamento de Proyectos Especiales de Inversión Pública en el marco del Decreto de Urgencia N° 021-2020, aprobado por el Decreto Supremo N° 119-2020-EF",
+  "titulo_corto": "DS 389-2020-EF — Modifica Reglamento PEIP: OA, creación, umbral 600k UIT",
   "fecha_publicacion": "2020-12-12",
-  "diario_oficial": "El Peruano",
+  "entidad_emisora": "Ministerio de Economía y Finanzas",
   "estado": "vigente",
-  "firmantes": [
-    "Francisco Rafael Sagasti Hochhausler (Presidente de la República)",
-    "Waldo Mendoza Bellido (Ministro de Economía y Finanzas)"
+  "fase_ciclo_inversion": [
+    "ejecucion"
   ],
-  "objeto": "Modificar el Reglamento de PEIP (DS 119-2020-EF) para: (1) incorporar la Oficina de Administración (OA) como nuevo actor del modelo PEIP; (2) reformular completamente el proceso de creación del PEIP (Art. 6) incluyendo requisitos de disponibilidad presupuestaria, comité de selección del Director/a Ejecutivo/a y contratación de la ATEGI; (3) actualizar los criterios de incorporación de inversiones al PEIP elevando el umbral de ≥350,000 UIT a ≥600,000 UIT y añadiendo criterios de ejecutabilidad; (4) regular la Estrategia de Contratación; (5) establecer que el PEIP es responsable de las modificaciones y registros de ejecución (excluyendo la aplicación de la regla general del DS 284-2018-EF para el PEIP).",
-  "antecedentes": "El DS 119-2020-EF y su modificación por DS 179-2020-EF. Este DS adecúa el modelo PEIP al contexto generado por el COVID-19 e impulsa la reactivación económica mediante la ejecución de inversiones públicas de gran envergadura.",
-  "norma_que_modifica": {
-    "norma": "DS 119-2020-EF",
-    "descripcion": "Reglamento de PEIP en el marco del DU 021-2020"
-  },
-  "normas_relacionadas": [
+  "temas_clave": [
+    "Proyectos Especiales de Inversión Pública (PEIP)",
+    "Oficina de Administración (OA) — nuevo actor del PEIP",
+    "Proceso de creación del PEIP — requisitos, comité de selección, ATEGI",
+    "Umbral de monto: elevación de ≥350,000 UIT a ≥600,000 UIT para incorporación al PEIP",
+    "Estrategia de Contratación del PEIP",
+    "ATEGI (Asistencia Técnica Especializada en Gestión de Inversiones)",
+    "Disponibilidad presupuestaria — requisito previo a la creación del PEIP"
+  ],
+  "resumen_ejecutivo": "El DS 389-2020-EF es la segunda modificatoria del Reglamento de PEIP (DS 119-2020-EF, primera modificada por DS 179-2020-EF). Profundiza el modelo PEIP en cuatro aspectos: (1) Incorpora la Oficina de Administración (OA) como nuevo órgano del modelo, con funciones de estrategia de contratación, gestión administrativa de contratos y adquisiciones para la operatividad del PEIP. (2) Reformula completamente el proceso de creación del PEIP (Art. 6), añadiendo requisitos de disponibilidad y sostenibilidad presupuestaria multianual, la creación de un comité de selección tripartito para el Director/a Ejecutivo/a (titular del Sector + SERVIR + MEF), y la contratación de la ATEGI (vía contrato estandarizado o DS 236-2020-EF/SATE). (3) Eleva significativamente el umbral de monto de inversión para acceder al PEIP: de ≥350,000 UIT a ≥600,000 UIT, añadiendo criterios de ejecutabilidad. (4) Establece la Estrategia de Contratación como herramienta de planificación de adquisiciones del PEIP, y aclara que el PEIP es directamente responsable de los registros de modificación durante la ejecución, excluyendo la regla general del Art. 12.3.9 del DS 284-2018-EF. Esta modificatoria refleja el contexto de reactivación económica post-COVID-19.",
+  "objetivo": "Fortalecer el modelo PEIP incorporando la OA como nuevo órgano, reformulando el proceso de creación con requisitos de sostenibilidad presupuestaria, elevando el umbral de acceso a 600,000 UIT y estableciendo la Estrategia de Contratación.",
+  "ambito_aplicacion": "Proyectos Especiales de Inversión Pública (PEIP) creados en el marco del Decreto de Urgencia N° 021-2020.",
+  "normas_que_modifica": [
+    "DS 119-2020-EF — Reglamento de PEIP (DU 021-2020): modifica Arts. 5.6, 6, 7 e incorpora nuevos artículos sobre OA, Estrategia de Contratación y registros de ejecución"
+  ],
+  "normas_que_deroga": [],
+  "normas_referenciadas": [
+    "DU 021-2020 — Norma principal del modelo PEIP",
+    "DS 119-2020-EF — Reglamento de PEIP cuyo Art. 5, 6 y 7 se modifican",
+    "DS 179-2020-EF — Primera modificatoria del DS 119-2020-EF (incorporó la Octava DCF); anterior a este DS",
+    "DS 236-2020-EF — Aprueba el SATE; alternativa de contratación de ATEGI cuando no se usa contrato estandarizado",
+    "DS 166-2022-EF — Modifica posteriormente el DS 119-2020-EF; deroga el Art. 12.5 incorporado por este DS",
+    "DS 284-2018-EF — Su Art. 12.3.9 queda excluido de aplicación para el PEIP conforme al Art. 12.4 modificado por este DS",
+    "Ley 29158 (Ley Orgánica del Poder Ejecutivo) — Art. 38: crea el PEIP como decreto supremo del Poder Ejecutivo"
+  ],
+  "estructura": [
     {
-      "norma": "DU 021-2020",
-      "relacion": "Norma principal del modelo PEIP"
+      "tipo": "articulo",
+      "numero": "Art. 1",
+      "titulo": "Modificación de disposiciones del Reglamento de PEIP (DS 119-2020-EF)",
+      "contenido_resumen": "Realiza múltiples cambios al DS 119-2020-EF: (A) Art. 5.6 — define e incorpora la Oficina de Administración (OA) como actor del PEIP con 5 funciones. (B) Art. 6 — reformulación completa del proceso de creación del PEIP en 8 numerales, incluyendo requisitos de sostenibilidad presupuestaria multianual, comité de selección del Director/a Ejecutivo/a y contratación de ATEGI. (C) Art. 7 — eleva umbral de monto de ≥350,000 UIT a ≥600,000 UIT y añade criterios de ejecutabilidad. (D) Estrategia de Contratación — nueva figura de planificación de adquisiciones a cargo de la OA con propuesta de la ATEGI. (E) Art. 12.4 — aclara que el PEIP asume directamente los registros de modificación en ejecución, excluyendo el Art. 12.3.9 del DS 284-2018-EF.",
+      "hijos": []
     },
     {
-      "norma": "DS 119-2020-EF",
-      "relacion": "Reglamento de PEIP que este DS modifica"
-    },
-    {
-      "norma": "DS 179-2020-EF",
-      "relacion": "Primera modificación del DS 119-2020-EF (incorporó la Octava DCF); anterior a este DS"
-    },
-    {
-      "norma": "DS 236-2020-EF",
-      "relacion": "Aprueba el procedimiento SATE; referenciado como alternativa de contratación de ATEGI cuando no se use contrato estandarizado (Art. 6.8)"
-    },
-    {
-      "norma": "DS 166-2022-EF",
-      "relacion": "Modifica el DS 119-2020-EF posteriormente; deroga el Art. 12.5 incorporado por este DS"
-    },
-    {
-      "norma": "DS 284-2018-EF",
-      "relacion": "Su numeral 9 del párrafo 12.3 del Art. 12 (registros en ejecución) queda excluido de aplicación para el PEIP conforme al Art. 12.4 modificado"
+      "tipo": "articulo",
+      "numero": "Art. 2",
+      "titulo": "Refrendo",
+      "contenido_resumen": "Refrendado por el Ministro de Economía y Finanzas.",
+      "hijos": []
     }
   ],
-  "estructura": {
-    "articulos": [
-      {
-        "numero": "Art. 1",
-        "titulo": "Modificación de disposiciones del Reglamento de PEIP (DS 119-2020-EF)",
-        "disposiciones_modificadas": [
-          {
-            "disposicion": "Art. 5.6 — Oficina de Administración (OA)",
-            "descripcion": "Se define la OA como actor del modelo. Funciones: (a) Proponer la Estrategia de contratación al/a la Director/a Ejecutivo/a, en base a la propuesta del equipo ATEGI; (b) Programar, ejecutar y controlar los procedimientos de contratación de bienes y servicios para la ejecución del PI o Cartera de Inversiones, en base a los requerimientos de los órganos del PEIP; (c) Efectuar la gestión administrativa de los contratos del PI o Cartera de Inversiones en coordinación con la OI y el equipo ATEGI; (d) Gestionar la adquisición de bienes y servicios para la operatividad de los órganos del PEIP; (e) Otras funciones que se establezcan en los Lineamientos y/o Manual de Operaciones"
-          },
-          {
-            "disposicion": "Art. 6 — Solicitud para la autorización de creación del PEIP y proceso de implementación",
-            "descripcion": "Reformulación completa del proceso de creación del PEIP:",
-            "numerales": [
-              {
-                "numeral": "6.1",
-                "contenido": "El Titular de la Entidad responsable del PEIP presenta al MEF: (a) sustento de cumplimiento de criterios del Art. 7; (b) propuesta de vigencia del PEIP, plazo de ejecución y cierre del PI o Cartera de Inversiones; (c) proyecto de Manual de Operaciones del PEIP; (d) Informe técnico de la Oficina de Presupuesto sustentando disponibilidad y sostenibilidad presupuestaria por todo el plazo de ejecución del PI o Cartera por toda fuente de financiamiento + disponibilidad y sostenibilidad presupuestaria multianual para operatividad del PEIP + programación presupuestaria multianual de la Entidad responsable del PEIP incluyendo gastos de todos los años de vigencia; (e) propuesta de terna y criterios de evaluación para el cargo de Director/a Ejecutivo/a"
-              },
-              {
-                "numeral": "6.2",
-                "contenido": "Si la inversión es de competencia de otra entidad o multisectorial, adicionalmente se presentan los convenios para la ejecución por parte del PEIP. Dichos convenios se suscriben sin perjuicio que el PEIP, una vez implementado, suscriba convenios específicos con las Entidades responsables de las inversiones transferidas al PEIP"
-              },
-              {
-                "numeral": "6.3",
-                "contenido": "El MEF, a través de la DGPMI, verifica la información y sustentos presentados. La DGPP evalúa el sustento de disponibilidad y sostenibilidad presupuestaria del PEIP en base al literal d del 6.1"
-              },
-              {
-                "numeral": "6.4",
-                "contenido": "Con la opinión favorable del MEF, la Entidad responsable del PEIP queda autorizada para gestionar la creación del PEIP conforme al Art. 38 de la Ley 29158 (Ley Orgánica del Poder Ejecutivo), precisando el objeto, funciones, vigencia/temporalidad y financiamiento del PEIP"
-              },
-              {
-                "numeral": "6.5",
-                "contenido": "La entrada en vigencia de la norma que aprueba la creación del PEIP habilita a: (a) aprobar el Manual de Operaciones del PEIP mediante resolución ministerial de la Entidad responsable del PEIP; (b) designar al/a la Director/a Ejecutivo/a mediante comité de selección integrado por: 1 representante de la Entidad responsable del PEIP + 1 representante de SERVIR + 1 representante del MEF; el mismo comité aprueba la propuesta de cese del/de la Director/a Ejecutivo/a; (c) solicitar el registro como UE ante la DGPP del MEF"
-              },
-              {
-                "numeral": "6.6",
-                "contenido": "El/la Director/a Ejecutivo/a propone a la Entidad responsable del PEIP la designación o contratación de los puestos directivos requeridos, pudiendo ser servidores de categoría F5 (Ley 29806) o CAS (Ley 29849); deben cumplir el perfil mínimo del Reglamento"
-              },
-              {
-                "numeral": "6.7",
-                "contenido": "El PEIP efectúa las contrataciones de otro tipo de personal para su operatividad, conforme al marco normativo vigente"
-              },
-              {
-                "numeral": "6.8",
-                "contenido": "El PEIP contrata la ATEGI, pudiendo emplear un Contrato estandarizado (contratado conforme al procedimiento del Reglamento y los Lineamientos). Cuando la ATEGI no se contrate a través de un Contrato estandarizado, se emplea el procedimiento del DS 236-2020-EF (SATE), o la norma que lo reemplace"
-              }
-            ]
-          },
-          {
-            "disposicion": "Art. 7 — Criterios y condiciones para la incorporación del PI o Cartera de Inversiones al PEIP",
-            "descripcion": "Importante elevación del umbral de monto de inversión de ≥350,000 UIT a ≥600,000 UIT. Restructuración de los criterios:",
-            "criterios_PI_individual": [
-              "(a) Contar con declaración de viabilidad y estar en el PMI por todo el período de ejecución",
-              "(b) Ser rentable y sostenible",
-              "(c) Tener monto total de inversión a precios de mercado ≥ 600,000 UIT",
-              "(d) Determinar la magnitud del cierre de brechas de infraestructura y de acceso a servicios públicos",
-              "(e) Requerir procesos constructivos con tecnología o ingeniería altamente especializada",
-              "(f) Tener impacto significativo en el PBI"
-            ],
-            "criterios_cartera_de_inversiones": [
-              "Criterios individuales del 7.1.1 para cada inversión de la Cartera",
-              "(c) Monto total de la Cartera ≥ 600,000 UIT",
-              "(f) Estado homogéneo para empaquetamiento de contratación + al menos uno de: f.1 mejoran servicios relacionados entre sí; f.2 tecnología homogénea/especializada; f.3 mismo espacio territorial o colindantes; f.4 forman parte de una red de servicios"
-            ],
-            "condiciones_ejecutabilidad": [
-              "(a) Saneamiento físico legal o cumplir criterios del Art. 12.2 para inversiones con componentes de obra",
-              "(b) No tener contratos vigentes relacionados directamente con la ejecución física de la obra o infraestructura",
-              "(c) No tener controversias o arbitrajes vigentes relacionados directamente con la ejecución física"
-            ],
-            "nota": "7.3 La DGPMI puede desarrollar el alcance de los criterios señalados en los párrafos precedentes"
-          },
-          {
-            "disposicion": "Art. 12.4 (modificación)",
-            "descripcion": "El PEIP es responsable por las modificaciones y los registros en la ejecución del PI o Cartera de Inversiones del PEIP. No es aplicable lo establecido en el numeral 9 del párrafo 12.3 del Art. 12 del DS 284-2018-EF (Reglamento general del SNPMGI), reconociendo que el PEIP tiene un modelo de ejecución distinto al estándar"
-          },
-          {
-            "disposicion": "Art. 14.3 párrafo 1 literal a — Comité de Selección del equipo ATEGI",
-            "descripcion": "Conformación del Comité de Selección del equipo de ATEGI: Director/a Ejecutivo/a del PEIP + responsable de la OGP + responsable de la OI (antes el Art. 14 del DS 119-2020-EF tenía una composición diferente)"
-          },
-          {
-            "disposicion": "Primera DCF — Incorporación excepcional de inversiones a un PEIP ya creado",
-            "descripcion": "Excepcionalmente se pueden incorporar a un PEIP ya creado PI, programas de inversión y/o IOARR, si: (1) cumplen los criterios del Art. 7, (2) no afectan el plazo de vigencia del PEIP, y (3) se cuenta con opinión favorable del MEF. El PEIP suscribe convenio/s con el titular de la entidad del GN y/o GR y/o Municipalidad Metropolitana de Lima para la ejecución de las inversiones a través del PEIP. Nota: DS 287-2024-EF modificó esta DCF para incluir todos los GL"
-          }
-        ]
-      },
-      {
-        "numero": "Art. 2",
-        "titulo": "Incorporación de disposiciones en el Reglamento de PEIP (DS 119-2020-EF)",
-        "disposiciones_incorporadas": [
-          {
-            "disposicion": "Art. 8.3 (nuevo numeral)",
-            "contenido": "Los procesos y procedimientos de contratación se regulan en la Estrategia de Contratación, debiendo las funciones y procesos contenidos en el Manual de Operaciones del PEIP actualizarse en función a la Estrategia de Contratación, de corresponder"
-          },
-          {
-            "disposicion": "Art. 12.5 (nuevo numeral)",
-            "contenido": "Si las modificaciones a las que hace referencia el numeral 12.4 y las modificaciones en los costos de operatividad del PEIP impliquen variaciones al monto total del presupuesto autorizado al PEIP en la solicitud de creación, estas se sujetan a la opinión del MEF de acuerdo al procedimiento establecido. Nota: este numeral fue derogado por DS 166-2022-EF"
-          }
-        ]
-      },
-      {
-        "numero": "Art. 3",
-        "titulo": "Derogación del literal b. del artículo 3 del Reglamento de PEIP (DS 119-2020-EF)",
-        "contenido": "Deroga el literal b. del artículo 3 del Reglamento de PEIP. El Art. 3 del DS 119-2020-EF regula el modelo de ejecución de inversiones públicas y sus características; el literal b que se deroga establecía uno de los criterios específicos de ese modelo (texto no visible en el extracto del PDF)"
-      },
-      {
-        "numero": "Art. 4",
-        "titulo": "Refrendo",
-        "contenido": "El Decreto Supremo es refrendado por el Ministro de Economía y Finanzas"
-      }
-    ]
-  },
   "conceptos_clave": [
-    "OA (Oficina de Administración del PEIP) — nuevo actor del modelo con funciones de contratación y gestión administrativa",
-    "Estrategia de Contratación del PEIP — regula los procesos y procedimientos de contratación (Art. 8.3)",
-    "Umbral modificado a ≥600,000 UIT — monto mínimo para la incorporación de un PI o Cartera de Inversiones al PEIP (antes ≥350,000 UIT en el DS 119-2020-EF)",
-    "Cartera de Inversiones del PEIP — debe estar en estado homogéneo para empaquetamiento de contratación",
-    "Condiciones de ejecutabilidad — saneamiento físico legal; sin contratos vigentes de ejecución; sin controversias o arbitrajes vigentes",
-    "Proceso de creación del PEIP — opinión favorable del MEF (DGPMI verifica, DGPP evalúa presupuesto) → norma de creación (Art. 38 Ley 29158)",
-    "Comité de selección del Director/a Ejecutivo/a — 1 Entidad + 1 SERVIR + 1 MEF",
-    "ATEGI contratada mediante Contrato estandarizado o por el procedimiento DS 236-2020-EF (SATE)",
-    "PEIP responsable de modificaciones y registros en ejecución (excluye la aplicación del Art. 12.3.9 del DS 284-2018-EF)",
-    "Incorporación excepcional de inversiones al PEIP — sin afectar el plazo de vigencia; con opinión favorable del MEF; convenios con GN, GR o MML"
+    {
+      "termino": "OA (Oficina de Administración del PEIP)",
+      "definicion": "Nuevo órgano incorporado al modelo PEIP por este DS. Funciones: proponer la Estrategia de Contratación al Director/a Ejecutivo/a; programar, ejecutar y controlar procedimientos de contratación de bienes y servicios; gestión administrativa de contratos; adquisiciones para la operatividad del PEIP.",
+      "articulo_fuente": "Art. 1 (incorpora Art. 5.6 al DS 119-2020-EF)"
+    },
+    {
+      "termino": "Umbral de monto para PEIP (≥600,000 UIT)",
+      "definicion": "Criterio de incorporación al PEIP elevado de ≥350,000 UIT a ≥600,000 UIT por este DS. El PI individual o la Cartera de Inversiones deben tener un monto total de inversión a precios de mercado ≥ 600,000 UIT.",
+      "articulo_fuente": "Art. 1 (modifica Art. 7 del DS 119-2020-EF)"
+    },
+    {
+      "termino": "Estrategia de Contratación",
+      "definicion": "Herramienta de planificación de adquisiciones del PEIP elaborada por la ATEGI y propuesta por la OA al Director/a Ejecutivo/a. Define el enfoque y los mecanismos de contratación para la ejecución del PI o Cartera de Inversiones.",
+      "articulo_fuente": "Art. 1"
+    },
+    {
+      "termino": "ATEGI (Asistencia Técnica Especializada en Gestión de Inversiones)",
+      "definicion": "Empresas o consorcios contratados por el PEIP para brindar asistencia técnica especializada en gestión de inversiones. Pueden contratarse mediante contrato estandarizado del Reglamento o conforme al DS 236-2020-EF (SATE).",
+      "articulo_fuente": "Art. 1 (modifica Art. 6.8 del DS 119-2020-EF)"
+    },
+    {
+      "termino": "Comité de selección del Director/a Ejecutivo/a del PEIP",
+      "definicion": "Órgano colegiado tripartito para designar al Director/a Ejecutivo/a: 1 representante del titular de la entidad responsable del PEIP + 1 representante de SERVIR + 1 representante del MEF. El mismo comité aprueba la propuesta de cese.",
+      "articulo_fuente": "Art. 1 (modifica Art. 6.5 del DS 119-2020-EF)"
+    },
+    {
+      "termino": "Disponibilidad y sostenibilidad presupuestaria multianual del PEIP",
+      "definicion": "Requisito previo a la creación del PEIP: la Oficina de Presupuesto de la entidad responsable debe emitir un informe técnico sustentando la disponibilidad presupuestaria por todo el plazo de ejecución del PI o Cartera, para todas las fuentes de financiamiento y todos los años de vigencia del PEIP.",
+      "articulo_fuente": "Art. 1 (modifica Art. 6.1.d del DS 119-2020-EF)"
+    },
+    {
+      "termino": "Criterios de incorporación al PEIP — ejecutabilidad",
+      "definicion": "Junto al umbral de monto ≥600,000 UIT, se añaden como criterios de incorporación: que el PI sea rentable y sostenible, que su complejidad requiera ingeniería altamente especializada, y que la Entidad responsable demuestre capacidad presupuestaria para su ejecución.",
+      "articulo_fuente": "Art. 1 (modifica Art. 7 del DS 119-2020-EF)"
+    },
+    {
+      "termino": "Exclusión del Art. 12.3.9 del DS 284-2018-EF para el PEIP",
+      "definicion": "El PEIP asume directamente los registros de modificación durante la ejecución física de inversiones; no aplica la regla general del Art. 12.3.9 del Reglamento del SNPMGI que regula registros de modificación entre la UF y UEI estándar.",
+      "articulo_fuente": "Art. 1 (modifica Art. 12.4 del DS 119-2020-EF)"
+    },
+    {
+      "termino": "Contrato estandarizado del PEIP",
+      "definicion": "Modalidad de contratación de la ATEGI a través de un procedimiento especial previsto en el Reglamento de PEIP y sus Lineamientos. Alternativa al procedimiento del DS 236-2020-EF (SATE).",
+      "articulo_fuente": "Art. 1 (modifica Art. 6.8 del DS 119-2020-EF)"
+    }
   ],
-  "fase_ciclo_inversion": "ejecucion",
-  "ambito": "Proyectos Especiales de Inversión Pública (PEIP) en el marco del DU 021-2020",
+  "actores_institucionales": [
+    {
+      "nombre": "OA (Oficina de Administración del PEIP)",
+      "tipo": "unidad_ejecutora",
+      "rol_en_norma": "Nuevo órgano incorporado al modelo PEIP: propone la Estrategia de Contratación, programa y controla las contrataciones de bienes y servicios, gestiona administrativamente los contratos y las adquisiciones para la operatividad del PEIP."
+    },
+    {
+      "nombre": "Director/a Ejecutivo/a del PEIP",
+      "tipo": "organo_resolutivo",
+      "rol_en_norma": "Aprueba la Estrategia de Contratación a propuesta de la OA/ATEGI. Es designado por el comité de selección tripartito. Designa o contrata los puestos directivos requeridos."
+    },
+    {
+      "nombre": "DGPMI (Dirección General de Programación Multianual de Inversiones)",
+      "tipo": "organismo_rector",
+      "rol_en_norma": "Verifica la información y sustento presentados en la solicitud de creación del PEIP; emite opinión favorable como requisito para autorizar la creación."
+    },
+    {
+      "nombre": "DGPP (Dirección General de Presupuesto Público)",
+      "tipo": "entidad_publica",
+      "rol_en_norma": "Evalúa el sustento de disponibilidad y sostenibilidad presupuestaria del PEIP; emite opinión favorable como requisito para autorizar la creación."
+    },
+    {
+      "nombre": "ATEGI (Asistencia Técnica Especializada en Gestión de Inversiones)",
+      "tipo": "otro",
+      "rol_en_norma": "Empresa o consorcio privado contratado por el PEIP para brindar asistencia técnica en gestión de inversiones. Propone la Estrategia de Contratación a la OA. Puede contratarse vía contrato estandarizado o SATE (DS 236-2020-EF)."
+    }
+  ],
+  "plazos_importantes": [],
   "metadata_analisis": {
-    "fuente": "Texto completo del PDF DS389_2020EF.pdf",
-    "paginas_pdf": 3,
-    "lineas_texto": 269,
-    "notas": [
-      "El PDF es de El Peruano (formato multi-norma). El DS 389-2020-EF ocupa las páginas 14-16 de la edición del 12 de diciembre de 2020. Las normas adicionales del PDF (RS 020-2020-EF sobre designación de Viceministra de Economía; RM 516-2020-MINEDU sobre designación en Minedu) no son relevantes y no se incluyen",
-      "Este es el tercer decreto que modifica el DS 119-2020-EF (Reglamento de PEIP), después del DS 179-2020-EF (julio 2020) y antes de DS 166-2022-EF (julio 2022), DS 286-2021-EF (octubre 2021) y DS 287-2024-EF (diciembre 2024)",
-      "El cambio más significativo es la elevación del umbral de ≥350,000 UIT a ≥600,000 UIT para la incorporación de PI o Cartera de Inversiones al PEIP, lo que restringe el modelo a proyectos de mayor envergadura",
-      "El Art. 12.5 incorporado por este DS (modificaciones al presupuesto del PEIP requieren opinión del MEF) fue posteriormente derogado por DS 166-2022-EF",
-      "La reformulación completa del Art. 6 establece un proceso de creación del PEIP más robusto, con requisitos claros de sostenibilidad presupuestaria y un comité de selección del Director/a Ejecutivo/a con participación del MEF y SERVIR",
-      "El DS 287-2024-EF modificó posteriormente la Primera DCF para extender la posibilidad de suscripción de convenios a todos los GL (no solo a la MML)"
-    ],
-    "fecha_analisis": "2025-07-16",
-    "version_esquema": "1.0"
+    "version_esquema": "3",
+    "fecha_analisis": "2026-02-21",
+    "fuente": "DS389_2020EF.pdf",
+    "observaciones": "Archivo migrado de esquema v1.0 a v3. Segunda modificatoria del DS 119-2020-EF (después del DS 179-2020-EF). Emitido en el contexto de reactivación económica post-COVID-19. El DS 166-2022-EF deroga posteriormente el Art. 12.5 incorporado por este DS. No se incluyen plazos en días/meses explícitos en los artículos analizados (el plazo más relevante es el umbral de 600,000 UIT que es un criterio de monto, no de tiempo)."
   }
 }

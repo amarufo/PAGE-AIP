@@ -8,7 +8,10 @@
   "fecha_publicacion": "2022-03-26",
   "entidad_emisora": "Presidencia de la República / Ministerio de Economía y Finanzas",
   "estado": "parcialmente_derogado",
-  "fase_ciclo_inversion": ["ejecucion", "formulacion_evaluacion"],
+  "fase_ciclo_inversion": [
+    "ejecucion",
+    "formulacion_evaluacion"
+  ],
   "temas_clave": [
     "licencias de habilitación urbana y edificación para obras públicas",
     "inicio de ejecución de obras con cargo de recepción de licencia",
@@ -155,6 +158,8 @@
     "fecha_analisis": "2026-02-21",
     "analizado_por": "GitHub Copilot (Claude Sonnet 4.5) - análisis directo del texto del PDF",
     "version_schema": "1.0",
-    "notas": "El PDF es una página del Diario Oficial El Peruano del 26-03-2022 que contiene múltiples normas. El DL 1538 ocupa la página 1 completa (en 2 columnas) y el inicio de la página 2. Firmado el 25 de marzo de 2022 por José Pedro Castillo Terrones (Presidente), Aníbal Torres Vásquez (PCM), Modesto Montoya Zavaleta (Ambiente), Oscar Graham Yamahuchi (MEF) y Geiner Alvarado López (Vivienda). Los artículos 1-5 y la DCF Única tenían vigencia temporal hasta el 31/12/2022 (ya vencida). La DCM Única y la DCD Única son de vigencia permanente y modifican la Ley 31313. El estado 'parcialmente_derogado' refleja el vencimiento de las disposiciones temporales."
+    "notas": "El PDF es una página del Diario Oficial El Peruano del 26-03-2022 que contiene múltiples normas. El DL 1538 ocupa la página 1 completa (en 2 columnas) y el inicio de la página 2. Firmado el 25 de marzo de 2022 por José Pedro Castillo Terrones (Presidente), Aníbal Torres Vásquez (PCM), Modesto Montoya Zavaleta (Ambiente), Oscar Graham Yamahuchi (MEF) y Geiner Alvarado López (Vivienda). Los artículos 1-5 y la DCF Única tenían vigencia temporal hasta el 31/12/2022 (ya vencida). La DCM Única y la DCD Única son de vigencia permanente y modifican la Ley 31313. El estado 'parcialmente_derogado' refleja el vencimiento de las disposiciones temporales.",
+    "version_esquema": "3",
+    "fuente": "DL1538.pdf"
   }
 }

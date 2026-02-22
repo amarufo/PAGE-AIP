@@ -1,167 +1,185 @@
 {
+  "id": "DS287_2024EF",
+  "archivo_pdf": "DS287_2024EF.pdf",
   "tipo_norma": "decreto_supremo",
   "numero": "287-2024-EF",
-  "titulo_oficial": "Decreto Supremo que modifica el Reglamento del Decreto Legislativo N° 1252 (Reglamento del SNPMGI, aprobado por DS 284-2018-EF) y el Reglamento de Proyectos Especiales de Inversión Pública en el marco del Decreto de Urgencia N° 021-2020 (aprobado por DS 119-2020-EF)",
+  "titulo_oficial": "Decreto Supremo que modifica el Reglamento del Decreto Legislativo N° 1252, Decreto Legislativo que crea el Sistema Nacional de Programación Multianual y Gestión de Inversiones, aprobado por Decreto Supremo N° 284-2018-EF, y el Reglamento de Proyectos Especiales de Inversión Pública en el marco del Decreto de Urgencia N° 021-2020, aprobado por Decreto Supremo N° 119-2020-EF",
+  "titulo_corto": "DS 287-2024-EF — Cuarta modif. DS 284-2018-EF + modif. DS 119-2020-EF",
   "fecha_publicacion": "2024-12-27",
-  "diario_oficial": "El Peruano",
+  "entidad_emisora": "Ministerio de Economía y Finanzas",
   "estado": "vigente",
-  "firmantes": [
-    "Dina Ercilia Boluarte Zegarra (Presidenta de la República)",
-    "José Berley Arista Arbildo (Ministro de Economía y Finanzas)"
+  "fase_ciclo_inversion": [
+    "ejecucion",
+    "funcionamiento",
+    "transversal"
   ],
-  "objeto": "Modificar simultáneamente el Reglamento del DL 1252 (DS 284-2018-EF) y el Reglamento de PEIP (DS 119-2020-EF) para: (1) asignar la responsabilidad de la fase de Funcionamiento al OR/titular de la entidad y la función de cierre de oficio a las UEI; (2) fortalecer las funciones de seguimiento del desempeño de los PEIP a cargo de la DGPMI, Director/a Ejecutivo/a y OGP; (3) establecer el plazo máximo de cierre del PEIP (18 meses); (4) extender la posibilidad de encomienda de inversiones a los PEIP a todos los GL (no solo a la Municipalidad Metropolitana de Lima); e (5) incorporar criterios BIM en la evaluación del modelo PEIP.",
+  "temas_clave": [
+    "Responsabilidad del OR/titular en la fase de Funcionamiento",
+    "Cierre ordinario y de oficio de inversiones (UEI)",
+    "Plazo máximo de cierre del PEIP (18 meses)",
+    "GL puede encargar inversiones al PEIP (extensión más allá de la MML)",
+    "Seguimiento al desempeño de los PEIP por la DGPMI",
+    "Acceso BIM de la DGPMI al entorno de datos comunes del PEIP",
+    "Informe anual del Director/a Ejecutivo/a del PEIP",
+    "Reportes trimestrales del Director/a Ejecutivo/a a la DGPMI"
+  ],
+  "resumen_ejecutivo": "El DS 287-2024-EF modifica simultáneamente el Reglamento del DL 1252 (DS 284-2018-EF) — cuarta modificatoria — y el Reglamento de PEIP (DS 119-2020-EF). En el Reglamento del SNPMGI: incorpora los numerales 7 y 8 al párrafo 9.3 del Art. 9 asignando la responsabilidad de la fase de Funcionamiento al OR/titular de la entidad a cargo de la prestación del servicio y habilitando el procedimiento de cierre de oficio; e incorpora los numerales 9 y 10 al párrafo 13.3 del Art. 13 encargando a las UEI el cierre ordinario y de oficio de las inversiones bajo su responsabilidad. En el Reglamento de PEIP: amplía la definición de 'entidad responsable de las inversiones transferidas al PEIP' para incluir GR y GL; fortalece las funciones de seguimiento de la DGPMI, Director/a Ejecutivo/a y OGP e incorpora criterios BIM; establece el plazo máximo de 18 meses para el cierre del PEIP tras culminar la ejecución (prorrogable una vez con opinión del Sector y DGPMI); y extiende la posibilidad de encomendar inversiones al PEIP a todos los GL (no solo la Municipalidad Metropolitana de Lima), implementando la Segunda DCM del DL 1553.",
+  "objetivo": "Fortalecer la fase de Funcionamiento y el cierre de inversiones en el SNPMGI asignando responsabilidades explícitas al OR y a las UEI; y optimizar el modelo PEIP en seguimiento, cierre y expansión a GL.",
+  "ambito_aplicacion": "Entidades sujetas al SNPMGI (para los cambios al DS 284-2018-EF) y Proyectos Especiales de Inversión Pública — PEIP (para los cambios al DS 119-2020-EF).",
   "normas_que_modifica": [
+    "DS 284-2018-EF — Reglamento del DL 1252 (SNPMGI): incorpora numerales 7 y 8 al Art. 9.3, y numerales 9 y 10 al Art. 13.3",
+    "DS 119-2020-EF — Reglamento de PEIP: modifica Arts. 3, 5.1, 5.2, 5.3, 13.1, 19.1 y Primera DCF; incorpora literales h e i al Art. 5.2"
+  ],
+  "normas_que_deroga": [],
+  "normas_referenciadas": [
+    "DL 1252 — Ley base del SNPMGI cuyo Reglamento se modifica",
+    "DU 021-2020 — Norma base del modelo PEIP cuyo Reglamento se modifica",
+    "DL 1553 — Crea las EGP; su Segunda DCM modificó la Sexta DCF del DU 021-2020 permitiendo a GL encargar inversiones al PEIP; este DS lo implementa",
+    "DS 203-2024-EF — Plan Nacional de Competitividad y Productividad 2024-2030; Medida de Política 1.5 (PEIP) que motiva este DS",
+    "DS 289-2019-EF y DS 108-2021-EF — Normas BIM; se incorporan criterios BIM en el seguimiento del modelo PEIP"
+  ],
+  "estructura": [
     {
-      "norma": "DS 284-2018-EF",
-      "descripcion": "Reglamento del DL 1252 (SNPMGI) — modifica Arts. 9 y 13"
+      "tipo": "articulo",
+      "numero": "Art. 1",
+      "titulo": "Modificaciones al Reglamento del DL 1252 (DS 284-2018-EF): Art. 9.3 numerales 7 y 8; Art. 13.3 numerales 9 y 10",
+      "contenido_resumen": "Incorpora 4 nuevos numerales: (1) Art. 9.3 numeral 7 — el OR/titular es responsable de la fase de Funcionamiento; (2) Art. 9.3 numeral 8 — el OR/titular aprueba el procedimiento de cierre de oficio (delegable); (3) Art. 13.3 numeral 9 — la UEI realiza el cierre ordinario bajo responsabilidad conforme a la DGPMI; (4) Art. 13.3 numeral 10 — la UEI realiza el cierre de oficio bajo responsabilidad conforme al procedimiento del OR/titular.",
+      "hijos": []
     },
     {
-      "norma": "DS 119-2020-EF",
-      "descripcion": "Reglamento de PEIP — modifica Arts. 3, 5, 13, 19 y Primera DCF; incorpora nuevos literales al Art. 5.2"
+      "tipo": "articulo",
+      "numero": "Art. 2",
+      "titulo": "Modificaciones al Reglamento de PEIP (DS 119-2020-EF): Arts. 3, 5.1, 5.2, 5.3, 13.1, 19.1 y Primera DCF",
+      "contenido_resumen": "Art. 3 literal i — amplía la definición de 'entidad responsable de las inversiones transferidas al PEIP' para incluir GR y GL. Art. 5.1.d y 5.1.e — fortalece funciones de seguimiento de la DGPMI e incorpora criterios BIM. Art. 5.2.f — Director/a Ejecutivo/a presenta informe anual al titular del Sector (60 días) con copia a DGPMI. Art. 5.3.f — OGP efectúa seguimiento de costos y registra en aplicativos SNPMGI. Art. 13.1 — plazo máximo de 18 meses para el cierre del PEIP (prorrogable una vez). Art. 19.1 — incorpora criterios BIM en la evaluación del modelo PEIP. Primera DCF — extiende convenios de encomienda al PEIP a todos los GN, GR y GL.",
+      "hijos": []
+    },
+    {
+      "tipo": "articulo",
+      "numero": "Art. 3",
+      "titulo": "Incorporación de literales h e i al Art. 5.2 del Reglamento de PEIP (DS 119-2020-EF)",
+      "contenido_resumen": "Literal h — Director/a Ejecutivo/a presenta reportes trimestrales a la DGPMI (planificación, ingeniería, contrataciones, riesgos, avances, SATE) dentro de los primeros 5 días calendario del mes siguiente al trimestre. Literal i — Director/a Ejecutivo/a proporciona a la DGPMI acceso permanente al entorno de datos comunes y al sistema de información del PEIP respecto a PI que usen metodología BIM.",
+      "hijos": []
+    },
+    {
+      "tipo": "articulo",
+      "numero": "Art. 4",
+      "titulo": "Refrendo",
+      "contenido_resumen": "Refrendado por el Ministro de Economía y Finanzas.",
+      "hijos": []
+    },
+    {
+      "tipo": "articulo",
+      "numero": "Art. 5",
+      "titulo": "Publicación",
+      "contenido_resumen": "Publicado en el Diario Oficial El Peruano y en la sede digital del MEF el mismo día de publicación.",
+      "hijos": []
     }
   ],
-  "normas_relacionadas": [
-    {
-      "norma": "DL 1252",
-      "relacion": "Ley base del SNPMGI cuyo Reglamento se modifica"
-    },
-    {
-      "norma": "DU 021-2020",
-      "relacion": "Norma base del modelo PEIP cuyo Reglamento se modifica"
-    },
-    {
-      "norma": "DL 1553",
-      "relacion": "Segunda DCM modificó la Sexta DCF del DU 021-2020, habilitando a GL (no solo MML) a encargar inversiones al PEIP; este DS implementa dicha modificación"
-    },
-    {
-      "norma": "DS 203-2024-EF",
-      "relacion": "Aprobó la actualización del Plan Nacional de Competitividad y Productividad 2024-2030, que introduce la Medida de Política 1.5 (PEIP); este DS es respuesta a dicha actualización"
-    },
-    {
-      "norma": "DS 289-2019-EF y DS 108-2021-EF",
-      "relacion": "Normas BIM; se incorpora la metodología BIM como criterio de seguimiento y evaluación del modelo PEIP en este DS"
-    }
-  ],
-  "estructura": {
-    "articulos": [
-      {
-        "numero": "Art. 1",
-        "titulo": "Incorporación de los numerales 7 y 8 al párrafo 9.3 del Art. 9, y los numerales 9 y 10 al párrafo 13.3 del Art. 13 del Reglamento del DL 1252 (DS 284-2018-EF)",
-        "cambios": [
-          {
-            "disposicion": "Art. 9.3, numeral 7 (nuevo - OR)",
-            "texto": "El OR o el titular de la entidad a cargo de la prestación del servicio, según corresponda, es responsable de la fase de Funcionamiento"
-          },
-          {
-            "disposicion": "Art. 9.3, numeral 8 (nuevo - OR)",
-            "texto": "El OR o el titular de la entidad a cargo de la ejecución de la inversión aprueba el procedimiento para realizar el cierre de oficio de las inversiones. Dicha función puede ser objeto de delegación en la máxima autoridad administrativa de la entidad"
-          },
-          {
-            "disposicion": "Art. 13.3, numeral 9 (nuevo - UEI)",
-            "texto": "Realizar el cierre de las inversiones, bajo responsabilidad, conforme a las disposiciones que emita la DGPMI"
-          },
-          {
-            "disposicion": "Art. 13.3, numeral 10 (nuevo - UEI)",
-            "texto": "Realizar el cierre de oficio, bajo responsabilidad, conforme al procedimiento aprobado por el OR o el titular de la entidad a cargo de la ejecución de la inversión, o en quien delegue"
-          }
-        ],
-        "razon": "Optimizar las funciones de los órganos del SNPMGI: asignar la responsabilidad de la fase de Funcionamiento al OR/titular y la función de cierre de inversiones (ordinario y de oficio) a las UEI"
-      },
-      {
-        "numero": "Art. 2",
-        "titulo": "Modificación del Reglamento de PEIP (DS 119-2020-EF): Art. 3 literal i; Art. 5 literales d y e del párrafo 5.1, literal f del párrafo 5.2, literal f del párrafo 5.3; Art. 13 párrafo 13.1; Art. 19 párrafo 19.1; Primera DCF",
-        "cambios": [
-          {
-            "disposicion": "Art. 3, literal i — Definición de 'Entidad responsable de las inversiones transferidas al PEIP'",
-            "texto_nuevo": "Entidad pública del Gobierno Nacional y/o entidad pública del Gobierno Regional y/o Gobierno Local que transfiere a un PEIP un proyecto de inversión y/o programa de inversión viables, y/o IOARR aprobadas para su ejecución",
-            "cambio": "Se amplía la definición para incluir GR y GL (no solo entidades del Gobierno Nacional)"
-          },
-          {
-            "disposicion": "Art. 5.1, literal d — Función de la DGPMI (seguimiento al desempeño de los PEIP)",
-            "texto_nuevo": "Efectúa el seguimiento al desempeño de los PEIP de acuerdo a la información reportada por los mismos, la información registrada en los aplicativos informáticos del SNPMGI y/o a la información requerida por la DGPMI a los PEIP. Para PI que empleen la metodología BIM, la DGPMI cuenta con acceso permanente al entorno de datos comunes y al sistema de información del PEIP"
-          },
-          {
-            "disposicion": "Art. 5.1, literal e — Función de la DGPMI (informe anual)",
-            "texto_nuevo": "Presenta el informe anual consolidado sobre la evaluación de la aplicación del modelo de ejecución de inversiones públicas, en base a la información reportada por los PEIP, la registrada en los aplicativos del SNPMGI, la requerida a los PEIP, y la del entorno de datos comunes de los PI que empleen metodología BIM"
-          },
-          {
-            "disposicion": "Art. 5.2, literal f — Función del Director/a Ejecutivo/a (informe anual)",
-            "texto_nuevo": "Aprobar y presentar un informe anual sobre la aplicación del modelo de ejecución de inversiones públicas y avances de la ejecución al titular del Sector, con copia a la DGPMI, dentro de los primeros 60 días calendario del año"
-          },
-          {
-            "disposicion": "Art. 5.3, literal f — Función de la OGP (seguimiento de costos y presupuesto)",
-            "texto_nuevo": "Efectuar el seguimiento de los costos y del presupuesto del PI o Cartera de Inversiones, así como registrar la información en los aplicativos informáticos del SNPMGI"
-          },
-          {
-            "disposicion": "Art. 13.1 — Cierre del PEIP (nuevo plazo máximo)",
-            "texto_nuevo": "Una vez culminada la ejecución del PI o Cartera de Inversiones, el PEIP tiene como plazo máximo hasta 18 meses para efectuar el cierre del PEIP. Dicho plazo puede ampliarse, por única vez, a propuesta del/la Director/a Ejecutivo/a, previa opinión favorable del Sector y de la DGPMI",
-            "razon": "Establecer un plazo máximo para el cierre del PEIP que antes no existía explícitamente"
-          },
-          {
-            "disposicion": "Art. 19.1 — Evaluación del modelo de ejecución de inversiones públicas",
-            "texto_nuevo": "La DGPMI evalúa el modelo de ejecución de inversiones públicas y su aplicación práctica en los PEIP, usando: información reportada por los PEIP; información de los aplicativos del SNPMGI; información requerida por la DGPMI a los PEIP; información del entorno de datos comunes de PI que emplean metodología BIM y el sistema de información del PEIP. Criterios: ejecución en términos de alcance, costos, cronogramas, nivel de avance físico y financiero u otros que determine la DGPMI",
-            "cambio": "Se incorporan criterios BIM en la evaluación del modelo PEIP"
-          },
-          {
-            "disposicion": "Primera DCF — Incorporación de inversiones para la ejecución a través del PEIP",
-            "texto_nuevo": "El PEIP suscribe el/los convenio/s respectivos con el titular de la entidad pública del Gobierno Nacional y/o del Gobierno Regional y/o Gobierno Local, para la ejecución de las inversiones a través del PEIP",
-            "cambio": "Se extiende la posibilidad de suscribir convenios para encargar inversiones al PEIP a todos los GR y GL, no solo a la MML; implementa la Segunda DCM del DL 1553 que modificó la Sexta DCF del DU 021-2020"
-          }
-        ]
-      },
-      {
-        "numero": "Art. 3",
-        "titulo": "Incorporación de los literales h e i al párrafo 5.2 del Art. 5 del Reglamento de PEIP (DS 119-2020-EF) — nuevas funciones del Director/a Ejecutivo/a",
-        "cambios": [
-          {
-            "disposicion": "Art. 5.2, literal h (nuevo) — Reportes trimestrales del Director/a Ejecutivo/a a la DGPMI",
-            "texto": "Presentar a la DGPMI reportes trimestrales sobre: planificación; gestión de diseños de ingeniería o especificaciones técnicas; contrataciones para la gestión y ejecución de inversiones; gestión de riesgos; avances de ejecución de inversiones; y evaluación del SATE (de corresponder). Los reportes se presentan dentro de los primeros 5 días calendario del mes siguiente al trimestre"
-          },
-          {
-            "disposicion": "Art. 5.2, literal i (nuevo) — Acceso BIM de la DGPMI",
-            "texto": "Proporcionar a la DGPMI acceso permanente al entorno de datos comunes y al sistema de información del PEIP respecto a los PI que utilicen la metodología BIM, así como otros sistemas de información que apoyen la gestión de dichos proyectos"
-          }
-        ]
-      },
-      {
-        "numero": "Art. 4",
-        "titulo": "Refrendo",
-        "contenido": "El Decreto Supremo es refrendado por el Ministro de Economía y Finanzas"
-      },
-      {
-        "numero": "Art. 5",
-        "titulo": "Publicación",
-        "contenido": "Publicado en el Diario Oficial El Peruano y en la sede digital del MEF (www.gob.pe/mef) el mismo día de publicación"
-      }
-    ]
-  },
   "conceptos_clave": [
-    "Fase de Funcionamiento — responsabilidad asignada expresamente al OR/titular de la entidad a cargo de la prestación del servicio",
-    "Cierre de inversiones — función asignada a la UEI bajo responsabilidad conforme a disposiciones de la DGPMI",
-    "Cierre de oficio de inversiones — UEI lo realiza bajo responsabilidad conforme al procedimiento que aprueba el OR/titular (delegable)",
-    "Plazo máximo de cierre del PEIP — 18 meses desde culminación de la ejecución; prorrogable una vez con opinión del Sector y la DGPMI",
-    "Gobierno Local (GL) puede encargar inversiones al PEIP mediante convenio (extensión más allá de la MML)",
-    "DGPMI con acceso permanente al entorno de datos comunes BIM de los PEIP",
-    "Informe anual del Director/a Ejecutivo/a — primeros 60 días del año, al titular del Sector con copia a la DGPMI",
-    "Reportes trimestrales del Director/a Ejecutivo/a a la DGPMI — dentro de los primeros 5 días del mes siguiente al trimestre",
-    "Plan Nacional de Competitividad y Productividad 2024-2030 — Medida de Política 1.5 (PEIP)",
-    "Entidad responsable de las inversiones transferidas al PEIP — incluye GN, GR y GL",
-    "Evaluación del modelo PEIP — incorpora criterios BIM (entorno de datos comunes)"
+    {
+      "termino": "Fase de Funcionamiento — responsabilidad del OR/titular",
+      "definicion": "El OR o el titular de la entidad a cargo de la prestación del servicio es responsable de la fase de Funcionamiento. Asignación explícita incorporada por este DS al Art. 9.3 del Reglamento del SNPMGI.",
+      "articulo_fuente": "Art. 1 (incorpora Art. 9.3 numeral 7 del DS 284-2018-EF)"
+    },
+    {
+      "termino": "Cierre ordinario de inversiones (UEI)",
+      "definicion": "Función de la UEI de realizar el cierre de las inversiones bajo responsabilidad, conforme a las disposiciones que emita la DGPMI.",
+      "articulo_fuente": "Art. 1 (incorpora Art. 13.3 numeral 9 del DS 284-2018-EF)"
+    },
+    {
+      "termino": "Cierre de oficio de inversiones (UEI)",
+      "definicion": "Función de la UEI de realizar el cierre de oficio bajo responsabilidad, conforme al procedimiento aprobado por el OR/titular (o quien delegue).",
+      "articulo_fuente": "Art. 1 (incorpora Art. 13.3 numeral 10 del DS 284-2018-EF)"
+    },
+    {
+      "termino": "Plazo máximo de cierre del PEIP",
+      "definicion": "18 meses desde la culminación de la ejecución del PI o Cartera de Inversiones del PEIP. Ampliable por única vez a propuesta del Director/a Ejecutivo/a con opinión favorable del Sector y la DGPMI.",
+      "articulo_fuente": "Art. 2 (modifica Art. 13.1 del DS 119-2020-EF)"
+    },
+    {
+      "termino": "GL puede encargar inversiones al PEIP",
+      "definicion": "Extensión de la posibilidad de suscribir convenios para encargar inversiones al PEIP a todos los Gobiernos Locales (no solo la MML). Implementa la Segunda DCM del DL 1553.",
+      "articulo_fuente": "Art. 2 (modifica Primera DCF del DS 119-2020-EF)"
+    },
+    {
+      "termino": "Acceso BIM de la DGPMI al entorno de datos comunes del PEIP",
+      "definicion": "Para PI que empleen metodología BIM, la DGPMI cuenta con acceso permanente al entorno de datos comunes y al sistema de información del PEIP. El Director/a Ejecutivo/a debe garantizar dicho acceso.",
+      "articulo_fuente": "Art. 2 (modifica Art. 5.1.d) y Art. 3 (incorpora Art. 5.2.i del DS 119-2020-EF)"
+    },
+    {
+      "termino": "Informe anual del Director/a Ejecutivo/a del PEIP",
+      "definicion": "El Director/a Ejecutivo/a aprueba y presenta un informe anual sobre la aplicación del modelo PEIP y avances al titular del Sector (con copia a la DGPMI) dentro de los primeros 60 días calendario del año.",
+      "articulo_fuente": "Art. 2 (modifica Art. 5.2.f del DS 119-2020-EF)"
+    },
+    {
+      "termino": "Reportes trimestrales del Director/a Ejecutivo/a a la DGPMI",
+      "definicion": "El Director/a Ejecutivo/a presenta a la DGPMI reportes trimestrales sobre planificación, ingeniería, contrataciones, gestión de riesgos, avances de ejecución y evaluación del SATE. Plazo: primeros 5 días calendario del mes siguiente al trimestre.",
+      "articulo_fuente": "Art. 3 (incorpora Art. 5.2.h del DS 119-2020-EF)"
+    },
+    {
+      "termino": "Entidad responsable de las inversiones transferidas al PEIP",
+      "definicion": "Con este DS se amplía para incluir entidades del GN, GR y GL (antes solo GN) que transfieren a un PEIP un PI, programa de inversión viable y/o IOARR aprobadas para su ejecución.",
+      "articulo_fuente": "Art. 2 (modifica Art. 3 literal i del DS 119-2020-EF)"
+    },
+    {
+      "termino": "Evaluación del modelo PEIP con criterios BIM",
+      "definicion": "La DGPMI evalúa el modelo PEIP usando, adicionalmente, información del entorno de datos comunes de PI que aplican metodología BIM y del sistema de información del PEIP.",
+      "articulo_fuente": "Art. 2 (modifica Art. 19.1 del DS 119-2020-EF)"
+    },
+    {
+      "termino": "Plan Nacional de Competitividad y Productividad 2024-2030 — Medida 1.5",
+      "definicion": "Marco de política que introduce el PEIP como herramienta de dinamización de la inversión pública; motiva las modificaciones al Reglamento de PEIP que realiza este DS.",
+      "articulo_fuente": "Preámbulo (DS 203-2024-EF)"
+    }
   ],
-  "fase_ciclo_inversion": "ejecucion_y_funcionamiento",
-  "ambito": "Sistema Nacional de Programación Multianual y Gestión de Inversiones (SNPMGI) y Proyectos Especiales de Inversión Pública (PEIP) en el marco del DU 021-2020",
+  "actores_institucionales": [
+    {
+      "nombre": "OR / Titular de la entidad",
+      "tipo": "organo_resolutivo",
+      "rol_en_norma": "Responsable de la fase de Funcionamiento (Art. 9.3 numeral 7 del DS 284-2018-EF). Aprueba el procedimiento de cierre de oficio de inversiones, función delegable en la máxima autoridad administrativa (Art. 9.3 numeral 8)."
+    },
+    {
+      "nombre": "UEI (Unidad Ejecutora de Inversiones)",
+      "tipo": "unidad_ejecutora",
+      "rol_en_norma": "Realiza el cierre ordinario y de oficio de las inversiones bajo responsabilidad (Arts. 13.3 numerales 9 y 10 del DS 284-2018-EF)."
+    },
+    {
+      "nombre": "DGPMI (Dirección General de Programación Multianual de Inversiones)",
+      "tipo": "organismo_rector",
+      "rol_en_norma": "Emite disposiciones para el cierre de inversiones (SNPMGI); efectúa seguimiento al desempeño de los PEIP con acceso al entorno BIM; recibe reportes trimestrales e informe anual del PEIP; emite opinión para prórroga del plazo de cierre del PEIP."
+    },
+    {
+      "nombre": "Director/a Ejecutivo/a del PEIP",
+      "tipo": "organo_resolutivo",
+      "rol_en_norma": "Aprueba y presenta informe anual al titular del Sector (60 días); presenta reportes trimestrales a la DGPMI (5 días); garantiza acceso BIM de la DGPMI; propone prórroga del plazo de cierre del PEIP."
+    },
+    {
+      "nombre": "OGP (Oficina de Gestión del Proyecto del PEIP)",
+      "tipo": "unidad_ejecutora",
+      "rol_en_norma": "Efectúa el seguimiento de los costos y del presupuesto del PI o Cartera de Inversiones del PEIP, y registra la información en los aplicativos informáticos del SNPMGI."
+    }
+  ],
+  "plazos_importantes": [
+    {
+      "accion": "Cierre del PEIP tras culminar la ejecución",
+      "descripcion": "El PEIP tiene un plazo máximo de 18 meses desde la culminación de la ejecución del PI o Cartera de Inversiones para efectuar el cierre. Ampliable por única vez con opinión favorable del Sector y la DGPMI.",
+      "articulo_fuente": "Art. 2 (modifica Art. 13.1 del DS 119-2020-EF)"
+    },
+    {
+      "accion": "Informe anual del Director/a Ejecutivo/a del PEIP al titular del Sector",
+      "descripcion": "Dentro de los primeros 60 días calendario del año. Con copia a la DGPMI.",
+      "articulo_fuente": "Art. 2 (modifica Art. 5.2.f del DS 119-2020-EF)"
+    },
+    {
+      "accion": "Reportes trimestrales del Director/a Ejecutivo/a a la DGPMI",
+      "descripcion": "Dentro de los primeros 5 días calendario del mes siguiente al cierre de cada trimestre. Contenido: planificación, ingeniería, contrataciones, riesgos, avances, SATE.",
+      "articulo_fuente": "Art. 3 (incorpora Art. 5.2.h del DS 119-2020-EF)"
+    }
+  ],
   "metadata_analisis": {
-    "fuente": "Texto completo del PDF DS287_2024EF.pdf",
-    "paginas_pdf": 3,
-    "lineas_texto": 248,
-    "notas": [
-      "El PDF es de El Peruano (formato multi-norma). El DS 287-2024-EF ocupa las páginas 25-27 (dentro de la edición del 27 de diciembre de 2024). Una norma adicional (RM 401-2024-EF/43, contratación del estudio Foley Hoag LLP) aparece al final del texto y no es relevante para este análisis",
-      "Este DS modifica simultáneamente dos reglamentos: el DS 284-2018-EF (Reglamento principal del SNPMGI) y el DS 119-2020-EF (Reglamento de PEIP). Es uno de los cuatro decretos que modifican el DS 284-2018-EF junto con DS 179-2020-EF, DS 231-2022-EF y DS 074-2023-EF",
-      "El cambio más estructural para el SNPMGI general (no solo PEIP) es la asignación explícita de responsabilidades de cierre de inversiones: OR/titular de la entidad aprueba el procedimiento de cierre de oficio, y la UEI ejecuta ambos tipos de cierre (ordinario y de oficio)",
-      "La extensión del modelo PEIP a todos los GL (no solo MML) es una consecuencia directa de la Segunda DCM del DL 1553 que modificó la Sexta DCF del DU 021-2020; este DS operacionaliza esa modificación en el Reglamento de PEIP",
-      "La incorporación de criterios BIM (entorno de datos comunes, acceso de la DGPMI al sistema de información del PEIP) refleja la madurez del Sistema BIM en el Perú después del DS 289-2019-EF y DS 108-2021-EF"
-    ],
-    "fecha_analisis": "2025-07-16",
-    "version_esquema": "1.0"
+    "version_esquema": "3",
+    "fecha_analisis": "2026-02-21",
+    "fuente": "DS287_2024EF.pdf",
+    "observaciones": "Archivo migrado de esquema v1.0 a v3. DS de doble modificación: afecta simultáneamente al Reglamento del SNPMGI (DS 284-2018-EF) y al Reglamento de PEIP (DS 119-2020-EF). Es la cuarta modificatoria del DS 284-2018-EF. Implementa la Segunda DCM del DL 1553 que extendió la encomienda de inversiones al PEIP a todos los GL."
   }
 }

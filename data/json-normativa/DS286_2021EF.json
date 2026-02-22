@@ -1,82 +1,121 @@
 {
+  "id": "DS286_2021EF",
+  "archivo_pdf": "DS286_2021EF.pdf",
   "tipo_norma": "decreto_supremo",
   "numero": "286-2021-EF",
   "titulo_oficial": "Decreto Supremo que modifica el Reglamento de Proyectos Especiales de Inversión Pública en el marco del Decreto de Urgencia N° 021-2020, aprobado mediante Decreto Supremo N° 119-2020-EF",
+  "titulo_corto": "DS 286-2021-EF — Modifica Reglamento de PEIP (DS 119-2020-EF)",
   "fecha_publicacion": "2021-10-22",
-  "diario_oficial": "El Peruano",
+  "entidad_emisora": "Ministerio de Economía y Finanzas",
   "estado": "vigente",
-  "firmantes": [
-    "José Pedro Castillo Terrones (Presidente de la República)",
-    "Pedro Francke Ballvé (Ministro de Economía y Finanzas)"
+  "fase_ciclo_inversion": [
+    "ejecucion"
   ],
-  "objeto": "Modificar el Reglamento de PEIP (DS 119-2020-EF) para: (1) adecuar la función de la Oficina de Infraestructura (OI) respecto al registro de información en el Banco de Inversiones durante la ejecución, eliminando la función de realizar la consistencia del PI; y (2) establecer un marco legal que habilite la modificación del plazo de vigencia de los PEIP con un límite acumulado del 50%.",
-  "norma_que_modifica": {
-    "norma": "DS 119-2020-EF",
-    "descripcion": "Reglamento de Proyectos Especiales de Inversión Pública en el marco del DU 021-2020"
-  },
-  "normas_relacionadas": [
+  "temas_clave": [
+    "Proyectos Especiales de Inversión Pública (PEIP)",
+    "Oficina de Infraestructura (OI) — función de registro en Banco de Inversiones",
+    "Plazo de vigencia del PEIP — modificación con límite acumulado del 50%",
+    "Opinión favorable del MEF (DGPMI + DGPP) para modificar plazo",
+    "Banco de Inversiones — registro durante la fase de Ejecución del PEIP"
+  ],
+  "resumen_ejecutivo": "El DS 286-2021-EF realiza dos modificaciones puntuales al Reglamento de Proyectos Especiales de Inversión Pública (DS 119-2020-EF). Primero, adecúa la función de la Oficina de Infraestructura (OI) respecto al registro de información en el Banco de Inversiones durante la ejecución: el texto anterior obligaba a la OI a 'efectuar la consistencia del proyecto de inversión o Cartera de Inversiones del PEIP y registrarla en el Banco de Inversiones', mientras que el texto nuevo simplifica esa función a únicamente 'registrar información en el Banco de Inversiones durante la fase de Ejecución'. Este ajuste reconoce que el modelo PEIP tiene instrumentos y facilidades propias que hacen innecesaria la función de consistencia entre la UF y la UEI propia de la ejecución estándar. Segundo, incorpora un nuevo numeral 8.4 al Art. 8 del Reglamento de PEIP, que establece un marco legal para la modificación del plazo de vigencia del PEIP: requiere opinión favorable del MEF (DGPMI y DGPP) previa a la aprobación, y fija un límite acumulado del 50% sobre el plazo de vigencia original del PEIP contenido en su norma de creación. El DS 166-2022-EF modificó posteriormente el Art. 8.4 incorporado por este decreto.",
+  "objetivo": "Adecuar la función de la OI del PEIP respecto al Banco de Inversiones y establecer un marco legal para la modificación del plazo de vigencia del PEIP, con un límite acumulado del 50%.",
+  "ambito_aplicacion": "Proyectos Especiales de Inversión Pública (PEIP) creados en el marco del Decreto de Urgencia N° 021-2020.",
+  "normas_que_modifica": [
+    "DS 119-2020-EF — Reglamento de PEIP en el marco del DU 021-2020 (modifica Art. 5.4.d e incorpora Art. 8.4)"
+  ],
+  "normas_que_deroga": [],
+  "normas_referenciadas": [
+    "DU 021-2020 — Norma que crea el modelo de ejecución de inversiones públicas a través de PEIP",
+    "DS 119-2020-EF — Reglamento de PEIP cuyo Art. 5.4.d se modifica y al que se incorpora el Art. 8.4",
+    "DS 166-2022-EF — Modifica posteriormente el Art. 8.4 incorporado por este DS"
+  ],
+  "estructura": [
     {
-      "norma": "DU 021-2020",
-      "relacion": "Norma principal que creó el modelo de ejecución de inversiones públicas a través de PEIP"
+      "tipo": "articulo",
+      "numero": "Art. 1",
+      "titulo": "Modificación e incorporación al Reglamento de PEIP (DS 119-2020-EF)",
+      "contenido_resumen": "Realiza dos cambios: (A) Modifica Art. 5.4.d — simplifica la función de la OI a solo 'registrar información en el Banco de Inversiones durante la fase de Ejecución', eliminando la función de consistencia del PI o Cartera. (B) Incorpora numeral 8.4 al Art. 8 — establece que la modificación del plazo de vigencia del PEIP requiere opinión favorable de DGPMI y DGPP, y que las modificaciones no pueden superar, acumuladamente, el 50% del plazo de vigencia original.",
+      "hijos": []
     },
     {
-      "norma": "DS 119-2020-EF",
-      "relacion": "Reglamento de PEIP que este DS modifica (Arts. 5.4(d) y nuevo Art. 8.4)"
-    },
-    {
-      "norma": "DS 166-2022-EF",
-      "relacion": "Decreto posterior que también modifica el DS 119-2020-EF, incluyendo ajustes al Art. 8.4 incorporado por este DS"
+      "tipo": "articulo",
+      "numero": "Art. 2",
+      "titulo": "Refrendo",
+      "contenido_resumen": "Refrendado por el Ministro de Economía y Finanzas.",
+      "hijos": []
     }
   ],
-  "estructura": {
-    "articulos": [
-      {
-        "numero": "Art. 1",
-        "titulo": "Modificación del literal d) del numeral 5.4 del Art. 5 e incorporación del numeral 8.4 al Art. 8 del DS 119-2020-EF",
-        "contenido": "Realiza dos cambios al Reglamento de PEIP: (A) Modifica Art. 5.4(d) — función de la OI; (B) Incorpora numeral 8.4 al Art. 8 — modificación del plazo de vigencia del PEIP",
-        "modificaciones_detalladas": [
-          {
-            "disposicion_modificada": "Art. 5.4(d) — Función de la Oficina de Infraestructura (OI)",
-            "texto_nuevo": "Registrar información en el Banco de Inversiones sobre el proyecto de inversión o Cartera de Inversiones del PEIP, durante la fase de Ejecución de dichas inversiones",
-            "cambio_respecto_al_texto_anterior": "El texto anterior establecía que la OI 'efectúa la consistencia del proyecto de inversión o Cartera de Inversiones del PEIP y la registra en el Banco de Inversiones, así como registra otra información que requiera el SNPMGI durante la fase de Ejecución'. El texto nuevo elimina la función de realizar la consistencia y simplifica a únicamente registrar información en el Banco de Inversiones durante la fase de Ejecución",
-            "razon_del_cambio": "Los procesos realizados al interior del PEIP son diferentes a los realizados entre la UF y la UEI en un proceso de ejecución estándar; el modelo de ejecución del PEIP cuenta con instrumentos y facilidades propias que hacen innecesaria la función de consistencia en la OI"
-          },
-          {
-            "disposicion_modificada": "Art. 8.4 (nuevo numeral incorporado)",
-            "titulo": "Modificación del plazo de vigencia del PEIP",
-            "contenido": "En caso de propuesta de modificación al plazo de vigencia del PEIP, previo a su aprobación, se debe contar con la opinión favorable del MEF (a través de la DGPMI y de la DGPP). El/la Director/a Ejecutivo/a del PEIP presenta su solicitud sustentada. Las modificaciones no pueden superar, de manera acumulada, el 50% del plazo de vigencia del PEIP (que incluye el plazo de ejecución y cierre del PI o Cartera de Inversiones del PEIP) contenido en la norma de creación del PEIP"
-          }
-        ]
-      },
-      {
-        "numero": "Art. 2",
-        "titulo": "Refrendo",
-        "contenido": "El Decreto Supremo es refrendado por el Ministro de Economía y Finanzas"
-      }
-    ]
-  },
   "conceptos_clave": [
-    "PEIP (Proyecto Especial de Inversión Pública)",
-    "OI (Oficina de Infraestructura del PEIP) — responsable de la fase de Ejecución del PI o Cartera de Inversiones del PEIP",
-    "Banco de Inversiones — registro de información de la Cartera de Inversiones del PEIP durante la Ejecución",
-    "Plazo de vigencia del PEIP — modificable con requisitos; límite acumulado del 50%",
-    "Opinión favorable del MEF (DGPMI + DGPP) — requisito previo para modificar el plazo de vigencia del PEIP",
-    "Director/a Ejecutivo/a del PEIP — responsable de presentar la solicitud de modificación de plazo sustentada",
-    "Cartera de Inversiones del PEIP"
+    {
+      "termino": "PEIP (Proyecto Especial de Inversión Pública)",
+      "definicion": "Unidad ejecutora especial creada en el marco del DU 021-2020 para la ejecución acelerada de inversiones públicas de gran envergadura, con organización y modelo de gestión propios.",
+      "articulo_fuente": "Preámbulo"
+    },
+    {
+      "termino": "OI (Oficina de Infraestructura del PEIP)",
+      "definicion": "Órgano del PEIP responsable de registrar información en el Banco de Inversiones sobre el proyecto de inversión o Cartera de Inversiones del PEIP durante la fase de Ejecución. Con este DS se elimina su función de 'consistencia' del PI.",
+      "articulo_fuente": "Art. 1 (modifica Art. 5.4.d del DS 119-2020-EF)"
+    },
+    {
+      "termino": "Cartera de Inversiones del PEIP",
+      "definicion": "Conjunto de proyectos de inversión y/o programas de inversión viables y/o IOARR aprobadas que agrupa y ejecuta un PEIP.",
+      "articulo_fuente": "Art. 1"
+    },
+    {
+      "termino": "Plazo de vigencia del PEIP",
+      "definicion": "Período establecido en la norma de creación del PEIP que incluye el plazo de ejecución y cierre del PI o Cartera. Puede modificarse con opinión favorable del MEF, con un límite acumulado del 50% del plazo original.",
+      "articulo_fuente": "Art. 1 (incorpora Art. 8.4 al DS 119-2020-EF)"
+    },
+    {
+      "termino": "Opinión favorable del MEF (DGPMI + DGPP)",
+      "definicion": "Requisito previo para aprobar la modificación del plazo de vigencia del PEIP. La DGPMI emite opinión técnica sobre el SNPMGI; la DGPP evalúa la disponibilidad presupuestal.",
+      "articulo_fuente": "Art. 1 (incorpora Art. 8.4)"
+    },
+    {
+      "termino": "Límite acumulado del 50%",
+      "definicion": "Las modificaciones al plazo de vigencia del PEIP no pueden superar, de manera acumulada, el 50% del plazo de vigencia original contenido en la norma de creación del PEIP.",
+      "articulo_fuente": "Art. 1 (incorpora Art. 8.4)"
+    },
+    {
+      "termino": "Director/a Ejecutivo/a del PEIP",
+      "definicion": "Máxima autoridad del PEIP responsable de presentar la solicitud sustentada para la modificación del plazo de vigencia al MEF.",
+      "articulo_fuente": "Art. 1 (incorpora Art. 8.4)"
+    }
   ],
-  "fase_ciclo_inversion": "ejecucion",
-  "ambito": "Proyectos Especiales de Inversión Pública (PEIP) creados en el marco del DU 021-2020",
+  "actores_institucionales": [
+    {
+      "nombre": "DGPMI (Dirección General de Programación Multianual de Inversiones)",
+      "tipo": "organismo_rector",
+      "rol_en_norma": "Emite opinión favorable previa a la aprobación de la modificación del plazo de vigencia del PEIP."
+    },
+    {
+      "nombre": "DGPP (Dirección General de Presupuesto Público)",
+      "tipo": "entidad_publica",
+      "rol_en_norma": "Emite opinión favorable previa a la aprobación de la modificación del plazo de vigencia del PEIP, evaluando la sostenibilidad presupuestaria."
+    },
+    {
+      "nombre": "OI (Oficina de Infraestructura del PEIP)",
+      "tipo": "unidad_ejecutora",
+      "rol_en_norma": "Registra información en el Banco de Inversiones sobre el PI o Cartera de Inversiones del PEIP durante la fase de Ejecución (función simplificada por este DS, se elimina la consistencia)."
+    },
+    {
+      "nombre": "Director/a Ejecutivo/a del PEIP",
+      "tipo": "organo_resolutivo",
+      "rol_en_norma": "Presenta al MEF la solicitud sustentada de modificación del plazo de vigencia del PEIP."
+    }
+  ],
+  "plazos_importantes": [
+    {
+      "accion": "Límite máximo acumulado para modificaciones al plazo de vigencia del PEIP",
+      "descripcion": "Las modificaciones al plazo de vigencia no pueden superar, de manera acumulada, el 50% del plazo de vigencia del PEIP (que incluye el plazo de ejecución y cierre del PI o Cartera) contenido en la norma de creación del PEIP.",
+      "articulo_fuente": "Art. 1 (incorpora Art. 8.4 al DS 119-2020-EF)"
+    }
+  ],
   "metadata_analisis": {
-    "fuente": "Texto completo del PDF DS286_2021EF.pdf",
-    "paginas_pdf": 2,
-    "lineas_texto": 181,
-    "notas": [
-      "El PDF es de El Peruano (formato multi-norma). Solo se analiza el DS 286-2021-EF (páginas 11-12 de la edición). Las demás normas del PDF (RM 302-2021-EF/52 sobre el Programa de Garantía del GN a Empresas del Sistema Financiero) no son relevantes y no se incluyen",
-      "El cambio principal es la adecuación del rol de la OI: antes hacía la 'consistencia' del PI y la registraba en el Banco de Inversiones; ahora solo registra información en el Banco de Inversiones. Esto reconoce que el PEIP tiene un modelo de ejecución con instrumentos propios diferentes al proceso estándar (UF → UEI)",
-      "El Art. 8.4 que se incorpora es la base legal para modificar el plazo de vigencia del PEIP; el DS 166-2022-EF (julio 2022) posteriormente ajustó esta disposición para vincularla también al sustento de la capacidad presupuestal (RD 019-2021-EF/50.01)",
-      "El Art. 8 del DS 119-2020-EF regula la organización y vigencia del PEIP; el nuevo numeral 8.4 se añade después del numeral 8.3 (que limitaba las modificaciones acumuladas al 50% del plazo de vigencia según DS 166-2022-EF; es posible que DS 166-2022-EF haya modificado este mismo Art. 8.4)"
-    ],
-    "fecha_analisis": "2025-07-16",
-    "version_esquema": "1.0"
+    "version_esquema": "3",
+    "fecha_analisis": "2026-02-21",
+    "fuente": "DS286_2021EF.pdf",
+    "observaciones": "Archivo migrado de esquema v1.0 a v3. El DS 166-2022-EF (jul 2022) modificó posteriormente el Art. 8.4 incorporado por este DS. El PDF de El Peruano contiene otras normas (RM 302-2021-EF/52) que no son parte de este análisis."
   }
 }

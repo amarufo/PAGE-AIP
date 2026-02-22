@@ -1074,6 +1074,34 @@ textarea:focus-visible {
   margin-bottom: 0.35rem;
 }
 
+/* Badge "Nuevo" flotante para publicaciones recientes */
+.badge-nuevo {
+  position: absolute;
+  top: 0.6rem;
+  right: 0.6rem;
+  z-index: 2;
+  background: #16a34a;
+  color: #fff;
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 0.18rem 0.6rem;
+  border-radius: 100px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  box-shadow: 0 2px 6px rgba(22,163,74,0.25);
+  pointer-events: none;
+}
+
+/* Panel destacado para publicaciones nuevas */
+.panel--nuevo {
+  border-color: #16a34a;
+  box-shadow: 0 0 0 2px rgba(22,163,74,0.12), var(--shadow-sm);
+}
+.panel--nuevo:hover {
+  border-color: #15803d;
+  box-shadow: 0 0 0 2px rgba(22,163,74,0.22), var(--shadow-red);
+}
+
 /* Badges de categoría */
 .badge-categoria {
   display: inline-block;

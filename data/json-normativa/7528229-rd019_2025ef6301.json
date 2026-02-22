@@ -8,7 +8,11 @@
   "fecha_publicacion": "2025-12-17",
   "entidad_emisora": "Dirección General de Programación Multianual de Inversiones (DGPMI) - MEF",
   "estado": "vigente",
-  "fase_ciclo_inversion": ["formulacion_evaluacion", "ejecucion", "transversal"],
+  "fase_ciclo_inversion": [
+    "formulacion_evaluacion",
+    "ejecucion",
+    "transversal"
+  ],
   "temas_clave": [
     "BIM (Building Information Modeling) en la inversión pública",
     "Lineamientos para adopción progresiva de BIM",
@@ -156,6 +160,8 @@
     "fecha_analisis": "2026-02-21",
     "analizado_por": "GitHub Copilot (Claude Sonnet 4.5) - análisis directo del texto del PDF",
     "version_schema": "1.0",
-    "notas": "El PDF es una página del Diario Oficial El Peruano del 17-12-2025 (páginas 25-27) que contiene múltiples normas. La RD 0019-2025-EF/63.01 ocupa las páginas 25 (parcial), 26 y 27 (parcial). Los Anexos 1-4 no están en el PDF; se publicaron por separado en www.gob.pe/mef. Firmada por David Guillermo Miranda Herrera, Director General de la DGPMI."
+    "notas": "El PDF es una página del Diario Oficial El Peruano del 17-12-2025 (páginas 25-27) que contiene múltiples normas. La RD 0019-2025-EF/63.01 ocupa las páginas 25 (parcial), 26 y 27 (parcial). Los Anexos 1-4 no están en el PDF; se publicaron por separado en www.gob.pe/mef. Firmada por David Guillermo Miranda Herrera, Director General de la DGPMI.",
+    "version_esquema": "3",
+    "fuente": "7528229-rd019_2025ef6301.pdf"
   }
 }

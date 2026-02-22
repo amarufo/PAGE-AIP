@@ -8,7 +8,9 @@
   "fecha_publicacion": "2024-09-24",
   "entidad_emisora": "Presidencia de la República / Ministerio de Economía y Finanzas",
   "estado": "vigente",
-  "fase_ciclo_inversion": ["transversal"],
+  "fase_ciclo_inversion": [
+    "transversal"
+  ],
   "temas_clave": [
     "modificación de los principios rectores del Sistema Invierte.pe",
     "Lineamientos de Política Nacional de Inversión Pública",
@@ -175,6 +177,8 @@
     "fecha_analisis": "2026-02-21",
     "analizado_por": "GitHub Copilot (Claude Sonnet 4.5) - análisis directo del texto del PDF",
     "version_schema": "1.0",
-    "notas": "El PDF es una página del Diario Oficial El Peruano del 24-09-2024 (páginas 20-22). El DL 1664 ocupa parte de la página 1 (que tiene el final de otro DL sobre impuesto a la renta), la página 2 completa y al inicio de la página 3 (donde luego comienza el DL 1665 sobre sistemas de pagos). Firmado el 21 de septiembre de 2024 por Dina Boluarte Zegarra (Presidenta), Gustavo Adrianzén Olaya (PCM) y José Berley Arista Arbildo (MEF). Este DL es de gran relevancia para el sistema Invierte.pe porque reemplaza completamente el artículo 3 (principios) del DL 1252, ampliándolos de 9 a 12 principios con texto más detallado, y crea el nuevo artículo 3-A sobre los Lineamientos de Política como instrumento quinquenal de orientación estratégica."
+    "notas": "El PDF es una página del Diario Oficial El Peruano del 24-09-2024 (páginas 20-22). El DL 1664 ocupa parte de la página 1 (que tiene el final de otro DL sobre impuesto a la renta), la página 2 completa y al inicio de la página 3 (donde luego comienza el DL 1665 sobre sistemas de pagos). Firmado el 21 de septiembre de 2024 por Dina Boluarte Zegarra (Presidenta), Gustavo Adrianzén Olaya (PCM) y José Berley Arista Arbildo (MEF). Este DL es de gran relevancia para el sistema Invierte.pe porque reemplaza completamente el artículo 3 (principios) del DL 1252, ampliándolos de 9 a 12 principios con texto más detallado, y crea el nuevo artículo 3-A sobre los Lineamientos de Política como instrumento quinquenal de orientación estratégica.",
+    "version_esquema": "3",
+    "fuente": "DL_1664.pdf"
   }
 }

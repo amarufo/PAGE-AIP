@@ -8,7 +8,10 @@
   "fecha_publicacion": "2020-08-21",
   "entidad_emisora": "Ministerio de Economía y Finanzas",
   "estado": "vigente",
-  "fase_ciclo_inversion": ["formulacion_evaluacion", "ejecucion"],
+  "fase_ciclo_inversion": [
+    "formulacion_evaluacion",
+    "ejecucion"
+  ],
   "temas_clave": [
     "Servicio de Asistencia Técnica Especializada (SATE) para la gestión de inversiones",
     "PERÚ COMPRAS — encargo de procedimiento de selección del SATE",
@@ -233,6 +236,8 @@
     "fecha_analisis": "2026-02-21",
     "analizado_por": "GitHub Copilot (Claude Sonnet 4.5) - análisis directo del texto del PDF",
     "version_schema": "1.0",
-    "notas": "Firmado el 20 de agosto de 2020 por Martín Alberto Vizcarra Cornejo (Presidente) y María Antonieta Alva Luperdi (Ministra de Economía y Finanzas). El PDF tiene 3 páginas en formato El Peruano de dos columnas. Las primeras líneas corresponden a una Resolución Ministerial del Ministerio de Desarrollo e Inclusión Social (designación del señor Guzmán Niño como asesor; 1878868-1) — norma ajena, no incluida en este JSON. El DS 236-2020-EF tiene el código 1878878-1. Deroga el DS 288-2019-EF. Esta norma regula la contratación del SATE para entidades fuera del ámbito PEIP/DU 021-2020 (para las cuales el DS 119-2020-EF ya regulaba la ATEGI): PNIC, inversiones ≥ S/ 200M y entidades en réplica parcial del modelo. Es la norma antecesora del DS 286-2021-EF (que también la modifica). Nota: el DS 231-2022-EF (Art. 20, párrafo 20.3 del DS 119-2020-EF) establece que la réplica parcial del modelo PEIP puede usar el DS 288-2019-EF, pero este ya fue derogado por el DS 236-2020-EF, por lo que se debe leer como referencia al DS 236-2020-EF."
+    "notas": "Firmado el 20 de agosto de 2020 por Martín Alberto Vizcarra Cornejo (Presidente) y María Antonieta Alva Luperdi (Ministra de Economía y Finanzas). El PDF tiene 3 páginas en formato El Peruano de dos columnas. Las primeras líneas corresponden a una Resolución Ministerial del Ministerio de Desarrollo e Inclusión Social (designación del señor Guzmán Niño como asesor; 1878868-1) — norma ajena, no incluida en este JSON. El DS 236-2020-EF tiene el código 1878878-1. Deroga el DS 288-2019-EF. Esta norma regula la contratación del SATE para entidades fuera del ámbito PEIP/DU 021-2020 (para las cuales el DS 119-2020-EF ya regulaba la ATEGI): PNIC, inversiones ≥ S/ 200M y entidades en réplica parcial del modelo. Es la norma antecesora del DS 286-2021-EF (que también la modifica). Nota: el DS 231-2022-EF (Art. 20, párrafo 20.3 del DS 119-2020-EF) establece que la réplica parcial del modelo PEIP puede usar el DS 288-2019-EF, pero este ya fue derogado por el DS 236-2020-EF, por lo que se debe leer como referencia al DS 236-2020-EF.",
+    "version_esquema": "3",
+    "fuente": "DS236_2020EF.pdf"
   }
 }

@@ -8,7 +8,10 @@
   "fecha_publicacion": "2024-07-27",
   "entidad_emisora": "Presidencia de la República / Ministerio de Economía y Finanzas",
   "estado": "vigente",
-  "fase_ciclo_inversion": ["ejecucion", "formulacion_evaluacion"],
+  "fase_ciclo_inversion": [
+    "ejecucion",
+    "formulacion_evaluacion"
+  ],
   "temas_clave": [
     "ampliación de plazos del Decreto Legislativo N° 1553",
     "licencias de habilitación urbana y edificación para inversiones públicas",
@@ -97,6 +100,8 @@
     "fecha_analisis": "2026-02-21",
     "analizado_por": "GitHub Copilot (Claude Sonnet 4.5) - análisis directo del texto del PDF",
     "version_schema": "1.0",
-    "notas": "El PDF es una página del Diario Oficial El Peruano del 27-07-2024 (página 5). Firmado en Lima el 26 de julio de 2024 por Dina Ercilia Boluarte Zegarra (Presidenta), Gustavo Lino Adrianzén Olaya (PCM), Juan Carlos Castro Vargas (Ambiente), José Berley Arista Arbildo (MEF) y Hania Pérez de Cuéllar Lubienska (MVCS). Es una norma de modificación simple cuyo único propósito es extender los plazos del DL 1553. El artículo 3 (extensión hasta 31/08/2025 del art. 5 DL 1553) ya expiró; el artículo 2 (extensión hasta 31/12/2026 de los arts. 3 y 4 DL 1553) continúa vigente al momento del análisis (21/02/2026)."
+    "notas": "El PDF es una página del Diario Oficial El Peruano del 27-07-2024 (página 5). Firmado en Lima el 26 de julio de 2024 por Dina Ercilia Boluarte Zegarra (Presidenta), Gustavo Lino Adrianzén Olaya (PCM), Juan Carlos Castro Vargas (Ambiente), José Berley Arista Arbildo (MEF) y Hania Pérez de Cuéllar Lubienska (MVCS). Es una norma de modificación simple cuyo único propósito es extender los plazos del DL 1553. El artículo 3 (extensión hasta 31/08/2025 del art. 5 DL 1553) ya expiró; el artículo 2 (extensión hasta 31/12/2026 de los arts. 3 y 4 DL 1553) continúa vigente al momento del análisis (21/02/2026).",
+    "version_esquema": "3",
+    "fuente": "DL_1622.pdf"
   }
 }

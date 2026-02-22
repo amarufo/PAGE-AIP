@@ -1,5 +1,5 @@
 {
-  "_comment": "Índice de documentos normativos. Añade el nombre del archivo JSON aquí cuando agregues un nuevo documento.",
+  "_comment": "Índice de documentos normativos. Añadir el nombre del archivo .json aquí para que el Explorador lo cargue automáticamente.",
   "archivos": [
     "200981-dl1252.json",
     "7528229-rd019_2025ef6301.json",

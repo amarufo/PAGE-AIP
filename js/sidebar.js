@@ -17,7 +17,6 @@
     { href: ROOT + 'pages/sobre-mi.html',       label: 'Sobre mí',                  id: 'sobre-mi'   },
     { href: ROOT + 'pages/servicios.html',      label: 'Servicios',                 id: 'servicios'  },
     { href: ROOT + 'pages/proyectos.html',      label: 'Proyectos',                 id: 'proyectos'  },
-    { href: ROOT + 'pages/normativa.html',      label: '📜 Explorador de Normativa', id: 'normativa'  },
     { href: ROOT + 'pages/articulos.html',      label: 'Artículos y bases de datos', id: 'articulos' },
     { href: ROOT + 'pages/guias-pip.html',      label: 'Guías PIP',                 id: 'guias-pip'  },
     { href: ROOT + 'pages/contacto.html',       label: 'Contacto',                  id: 'contacto'   },

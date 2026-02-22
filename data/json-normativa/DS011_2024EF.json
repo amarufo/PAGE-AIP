@@ -8,7 +8,11 @@
   "fecha_publicacion": "2024-02-10",
   "entidad_emisora": "Ministerio de Economía y Finanzas",
   "estado": "vigente",
-  "fase_ciclo_inversion": ["programacion", "formulacion_evaluacion", "ejecucion"],
+  "fase_ciclo_inversion": [
+    "programacion",
+    "formulacion_evaluacion",
+    "ejecucion"
+  ],
   "temas_clave": [
     "Obras por Impuestos (Ley 29230)",
     "CIPRL (Certificado de Inversión Pública Regional y Local - Tesoro Público)",
@@ -498,6 +502,8 @@
     "fecha_analisis": "2026-02-21",
     "analizado_por": "GitHub Copilot (Claude Sonnet 4.5) - análisis directo del texto del PDF",
     "version_schema": "1.0",
-    "notas": "Firmado el 9 de febrero de 2024 por Dina Ercilia Boluarte Zegarra (Presidenta de la República) y Alex Alonso Contreras Miranda (Ministro de Economía y Finanzas). El PDF tiene 9 páginas en formato El Peruano de dos columnas (páginas 21 a 29 del diario). El DS 011-2024-EF es una modificación amplia y sustancial del Reglamento OxI (DS 210-2022-EF), implementando las reformas introducidas por la Ley 31735 y la Ley 31912 a la Ley 29230. En las últimas páginas del PDF (página 9) aparece el inicio de otra norma distinta (RM 042-2024-EF/43, sobre el FAG) que no forma parte del DS 011-2024-EF y no ha sido incluida en este JSON."
+    "notas": "Firmado el 9 de febrero de 2024 por Dina Ercilia Boluarte Zegarra (Presidenta de la República) y Alex Alonso Contreras Miranda (Ministro de Economía y Finanzas). El PDF tiene 9 páginas en formato El Peruano de dos columnas (páginas 21 a 29 del diario). El DS 011-2024-EF es una modificación amplia y sustancial del Reglamento OxI (DS 210-2022-EF), implementando las reformas introducidas por la Ley 31735 y la Ley 31912 a la Ley 29230. En las últimas páginas del PDF (página 9) aparece el inicio de otra norma distinta (RM 042-2024-EF/43, sobre el FAG) que no forma parte del DS 011-2024-EF y no ha sido incluida en este JSON.",
+    "version_esquema": "3",
+    "fuente": "DS011_2024EF.pdf"
   }
 }

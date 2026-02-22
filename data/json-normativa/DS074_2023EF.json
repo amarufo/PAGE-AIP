@@ -8,7 +8,9 @@
   "fecha_publicacion": "2023-04-26",
   "entidad_emisora": "Ministerio de Economía y Finanzas",
   "estado": "vigente",
-  "fase_ciclo_inversion": ["ejecucion"],
+  "fase_ciclo_inversion": [
+    "ejecucion"
+  ],
   "temas_clave": [
     "modificación del Reglamento del DL 1252 (DS 284-2018-EF)",
     "Órgano Resolutivo (OR) — delegación de presidencia del Comité de Seguimiento",
@@ -102,32 +104,49 @@
     {
       "nombre": "Órgano Resolutivo (OR) — Sector",
       "rol": "Máxima autoridad ejecutiva del Sector; preside el Comité de Seguimiento de Inversiones (delegable en la MAA)",
-      "funciones_clave": ["Seguimiento de inversiones en la fase de Ejecución", "Conformar y presidir el Comité de Seguimiento (delegable en el Sector)"]
+      "funciones_clave": [
+        "Seguimiento de inversiones en la fase de Ejecución",
+        "Conformar y presidir el Comité de Seguimiento (delegable en el Sector)"
+      ]
     },
     {
       "nombre": "OPMI del Sector",
       "rol": "Oficina de Programación Multianual de Inversiones del Sector",
-      "funciones_clave": ["Verificar alineamiento de inversiones con el PMI y criterios de priorización sectoriales", "Verificar cumplimiento de metodologías del SNPMGI y normas técnicas cuando se requiera financiamiento"]
+      "funciones_clave": [
+        "Verificar alineamiento de inversiones con el PMI y criterios de priorización sectoriales",
+        "Verificar cumplimiento de metodologías del SNPMGI y normas técnicas cuando se requiera financiamiento"
+      ]
     },
     {
       "nombre": "Unidad Ejecutora de Inversiones (UEI)",
       "rol": "Ejecuta el proyecto de inversión en la fase de Ejecución; elabora el expediente técnico",
-      "funciones_clave": ["Elaborar el ET sujetándose a la concepción técnica, económica y dimensionamiento de la viabilidad", "Comunicar al OCI cuando la variación del costo del ET supera el umbral de la DGPMI", "Remitir sustento a la UF para el registro de modificaciones de proyectos de inversión", "Registrar directamente en el SNPMGI las modificaciones de IOARR"]
+      "funciones_clave": [
+        "Elaborar el ET sujetándose a la concepción técnica, económica y dimensionamiento de la viabilidad",
+        "Comunicar al OCI cuando la variación del costo del ET supera el umbral de la DGPMI",
+        "Remitir sustento a la UF para el registro de modificaciones de proyectos de inversión",
+        "Registrar directamente en el SNPMGI las modificaciones de IOARR"
+      ]
     },
     {
       "nombre": "Unidad Formuladora (UF)",
       "rol": "Registra modificaciones de proyectos de inversión antes de la aprobación del ET",
-      "funciones_clave": ["Registrar en los aplicativos del SNPMGI las modificaciones de proyectos de inversión (previas al ET) con el sustento de la UEI"]
+      "funciones_clave": [
+        "Registrar en los aplicativos del SNPMGI las modificaciones de proyectos de inversión (previas al ET) con el sustento de la UEI"
+      ]
     },
     {
       "nombre": "Órgano de Control Institucional (OCI)",
       "rol": "Control gubernamental de la entidad",
-      "funciones_clave": ["Recibir comunicación de la UEI cuando la variación de costo del ET supera el umbral de la DGPMI"]
+      "funciones_clave": [
+        "Recibir comunicación de la UEI cuando la variación de costo del ET supera el umbral de la DGPMI"
+      ]
     },
     {
       "nombre": "DGPMI-MEF",
       "rol": "Ente rector del SNPMGI; fija el porcentaje de variación de costo del ET que activa la comunicación al OCI",
-      "funciones_clave": ["Establecer el porcentaje de variación de costo del ET que configura la comunicación al OCI"]
+      "funciones_clave": [
+        "Establecer el porcentaje de variación de costo del ET que configura la comunicación al OCI"
+      ]
     }
   ],
   "plazos_importantes": [],
@@ -135,6 +154,8 @@
     "fecha_analisis": "2026-02-21",
     "analizado_por": "GitHub Copilot (Claude Sonnet 4.5) - análisis directo del texto del PDF",
     "version_schema": "1.0",
-    "notas": "Firmado el 25 de abril de 2023 por Dina Ercilia Boluarte Zegarra (Presidenta) y Alex Alonso Contreras Miranda (Ministro de Economía y Finanzas). El PDF contiene 2 páginas en formato de El Peruano de dos columnas. La página 1 contiene principalmente un DS de Transferencia de Partidas a favor de 5 gobiernos locales (vinculado al FONDES — distinto al DS 074-2023-EF). El DS 074-2023-EF comienza al final de la página 1 y continúa en la página 2. La página 2 también contiene el inicio del DS 075-2023-EF (Crédito Suplementario FIDT 2022), que no forma parte del DS 074-2023-EF y no fue incluido en este JSON."
+    "notas": "Firmado el 25 de abril de 2023 por Dina Ercilia Boluarte Zegarra (Presidenta) y Alex Alonso Contreras Miranda (Ministro de Economía y Finanzas). El PDF contiene 2 páginas en formato de El Peruano de dos columnas. La página 1 contiene principalmente un DS de Transferencia de Partidas a favor de 5 gobiernos locales (vinculado al FONDES — distinto al DS 074-2023-EF). El DS 074-2023-EF comienza al final de la página 1 y continúa en la página 2. La página 2 también contiene el inicio del DS 075-2023-EF (Crédito Suplementario FIDT 2022), que no forma parte del DS 074-2023-EF y no fue incluido en este JSON.",
+    "version_esquema": "3",
+    "fuente": "DS074_2023EF.pdf"
   }
 }

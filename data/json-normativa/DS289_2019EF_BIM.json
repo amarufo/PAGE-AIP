@@ -1,171 +1,143 @@
 {
+  "id": "DS289_2019EF_BIM",
+  "archivo_pdf": "DS289_2019EF_BIM.pdf",
   "tipo_norma": "decreto_supremo",
   "numero": "289-2019-EF",
   "titulo_oficial": "Decreto Supremo que aprueba disposiciones para la incorporación progresiva de BIM en la inversión pública",
+  "titulo_corto": "DS 289-2019-EF — Marco BIM para la inversión pública (Plan BIM Perú)",
   "fecha_publicacion": "2019-09-08",
-  "diario_oficial": "El Peruano",
+  "entidad_emisora": "Ministerio de Economía y Finanzas",
   "estado": "parcialmente_modificado",
-  "firmantes": [
-    "Martín Alberto Vizcarra Cornejo (Presidente de la República)",
-    "Carlos Oliva Neyra (Ministro de Economía y Finanzas)"
+  "fase_ciclo_inversion": [
+    "programacion",
+    "formulacion_evaluacion",
+    "ejecucion",
+    "funcionamiento",
+    "transversal"
   ],
-  "objeto": "Establecer disposiciones para la incorporación progresiva de BIM (Building Information Modeling) en los procesos de inversión pública de las entidades y empresas públicas sujetas al SNPMGI, y crear el marco para la elaboración e implementación del Plan BIM Perú.",
-  "base_legal": [
-    "Reglamento del DL 1252 (DS 284-2018-EF): Art. 8.2.4 (DGPMI emite metodologías colaborativas de modelamiento digital) y Cuarta DCF (implementación progresiva de metodologías BIM)",
-    "TUO de la Ley N° 30225 (DS 082-2019-EF): Décimo Primera DCF (entidades ejecutan obras considerando la eficiencia en el ciclo de vida; DS establece criterios para incorporación progresiva obligatoria de herramientas de modelamiento digital)",
-    "Política Nacional de Competitividad y Productividad (DS 345-2018-EF): Objetivo Prioritario 1 — Infraestructura económica y social de calidad",
-    "Plan Nacional de Competitividad y Productividad 2019-2030 (DS 237-2019-EF): Medida de política — incorporación progresiva de BIM en el sector público"
+  "temas_clave": [
+    "BIM (Building Information Modeling) en la inversión pública",
+    "Plan BIM Perú / Plan de implementación y Hoja de Ruta (modificado por DS 108-2021-EF)",
+    "Incorporación progresiva de metodologías BIM al SNPMGI",
+    "Principios BIM: eficiencia, calidad, colaboración, transparencia, coordinación",
+    "Criterios de incorporación BIM: progresividad, condiciones de la organización, integralidad, características",
+    "Estándar BIM, Modelo BIM, Plan de Ejecución BIM",
+    "DGPMI como entidad emisora de metodologías y estándares BIM"
   ],
-  "normas_que_lo_modifican": [
+  "resumen_ejecutivo": "El DS 289-2019-EF establece el marco normativo para la incorporación progresiva de BIM (Building Information Modeling) en los procesos de inversión pública de las entidades y empresas públicas sujetas al SNPMGI (DL 1252). Define 6 términos BIM, establece 5 principios rectores (eficiencia, calidad, colaboración, transparencia y coordinación) y 4 criterios de incorporación (progresividad, condiciones de la organización, integralidad y características de la infraestructura). Encarga a la DGPMI elaborar el Plan BIM Perú, posteriormente renombrado a 'Plan de implementación y Hoja de Ruta' por el DS 108-2021-EF. Su base legal son el Art. 8.2.4 y la Cuarta DCF del DS 284-2018-EF, que ordenan a la DGPMI emitir metodologías colaborativas de modelamiento digital e implementarlas progresivamente. Ha sido modificado parcialmente por el DS 108-2021-EF (may 2021), que reformuló completamente el Art. 5 (Plan de implementación) y actualizó 5 de las 6 definiciones del Art. 2.",
+  "objetivo": "Establecer las disposiciones para la incorporación progresiva de BIM en los procesos de inversión pública sujetos al SNPMGI, y crear el marco para la elaboración e implementación del Plan BIM Perú.",
+  "ambito_aplicacion": "Entidades y empresas públicas sujetas al SNPMGI (DL 1252) que ejecuten inversiones con fondos públicos.",
+  "normas_que_modifica": [],
+  "normas_que_deroga": [],
+  "normas_referenciadas": [
+    "DS 284-2018-EF — Reglamento del SNPMGI: Art. 8.2.4 (DGPMI emite metodologías BIM) y Cuarta DCF (implementación progresiva); base legal directa de este DS",
+    "DS 082-2019-EF (TUO Ley 30225 Contrataciones del Estado) — Décimo Primera DCF: entidades consideran eficiencia en el ciclo de vida; DS establece criterios BIM",
+    "DS 345-2018-EF (Política Nacional de Competitividad y Productividad) — Obj. Prioritario 1: infraestructura económica y social de calidad",
+    "DS 237-2019-EF (Plan Nacional de Competitividad y Productividad 2019-2030) — Medida de política: incorporación progresiva de BIM en el sector público",
+    "DS 108-2021-EF — Modifica este DS: reformula Art. 5 y actualiza 5 definiciones del Art. 2",
+    "RD 0019-2025-EF/63.01 — Aprueba 4 documentos técnicos BIM en el marco de este DS (modificado por DS 108-2021-EF)"
+  ],
+  "estructura": [
     {
-      "norma": "DS 108-2021-EF",
-      "fecha": "2021-05-15",
-      "descripcion": "Modifica 5 definiciones del Art. 2 (BIM, Plan BIM Perú, Modelo de información, Nivel de información necesaria, Plan de Ejecución BIM), reformula completamente el Art. 5 (Plan de implementación y Hoja de Ruta: 4 líneas estratégicas en vez de Plan BIM Perú con 9 elementos; aprobado por RD de la DGPMI), e incorpora 2 nuevas definiciones en el Art. 2 (Contenedor de información, Plan de implementación y Hoja de Ruta)"
-    }
-  ],
-  "normas_relacionadas": [
-    {
-      "norma": "DS 284-2018-EF",
-      "relacion": "Reglamento del SNPMGI que otorga a la DGPMI la función de emitir metodologías BIM (Art. 8.2.4) y la Cuarta DCF que habilita la implementación progresiva de dichas metodologías; base legal de este DS"
+      "tipo": "articulo",
+      "numero": "Art. 1",
+      "titulo": "Objeto",
+      "contenido_resumen": "Establece disposiciones para la incorporación progresiva de BIM en los procesos de inversión pública de las entidades y empresas públicas sujetas al SNPMGI.",
+      "hijos": []
     },
     {
-      "norma": "RD 0019-2025-EF/63.01",
-      "relacion": "Aprueba 4 documentos técnicos BIM en el marco del DS 289-2019-EF (modificado por DS 108-2021-EF); deroga la RD 0007-2022-EF/63.01"
+      "tipo": "articulo",
+      "numero": "Art. 2",
+      "titulo": "Definiciones (6 términos BIM; 5 modificados por DS 108-2021-EF)",
+      "contenido_resumen": "Define 6 términos: BIM, Plan BIM Perú (→Plan de implementación y Hoja de Ruta por DS 108), Estándar BIM (vigente sin cambio), Modelo BIM (vigente sin cambio), Nivel de información o desarrollo (→Nivel de información necesaria por DS 108) y Plan de Ejecución BIM (modificado por DS 108). El DS 108-2021-EF incorporó además 2 nuevos términos: Contenedor de información y Plan de implementación y Hoja de Ruta.",
+      "hijos": []
     },
     {
-      "norma": "RD 0020-2025-EF/63.01",
-      "relacion": "Norma relacionada con BIM (aún por analizar)"
+      "tipo": "articulo",
+      "numero": "Art. 3",
+      "titulo": "Principios para la adopción y uso de BIM",
+      "contenido_resumen": "5 principios: (1) Eficiencia — generar ahorros en el ciclo de inversión reduciendo sobrecostos y atrasos; (2) Calidad — garantizar que la infraestructura se ejecute con estándares de calidad y niveles de servicio; (3) Colaboración — máxima participación e intercambio de información entre agentes; (4) Transparencia — hacer explícitas las decisiones y la información de los agentes; (5) Coordinación — integrar sector público, privado y academia.",
+      "hijos": []
+    },
+    {
+      "tipo": "articulo",
+      "numero": "Art. 4",
+      "titulo": "Criterios y articulación para la incorporación de BIM",
+      "contenido_resumen": "Define 4 criterios: (1) Progresividad — incorporación gradual y ordenada con requerimientos BIM homogéneos; (2) Condiciones de la organización — considera experiencia BIM y recursos técnicos/humanos de la entidad; (3) Integralidad — trazabilidad de información desde las fases iniciales a lo largo del ciclo de inversión; (4) Características de la infraestructura — complejidad, monto de inversión y modalidad de ejecución.",
+      "hijos": []
+    },
+    {
+      "tipo": "articulo",
+      "numero": "Art. 5",
+      "titulo": "Plan de implementación y Hoja de Ruta (texto actual según DS 108-2021-EF)",
+      "contenido_resumen": "Texto original: Plan BIM Perú con 9 elementos, elaborado y publicado por la DGPMI. Texto vigente (DS 108-2021-EF): Plan de implementación y Hoja de Ruta aprobado por Resolución Directoral de la DGPMI, con 4 líneas estratégicas (Política y normativa; Adopción en inversión pública; Capacidades y formación; Investigación e innovación). La DGPMI monitorea y actualiza el Plan.",
+      "hijos": []
     }
   ],
-  "estructura": {
-    "articulos": [
-      {
-        "numero": "Art. 1",
-        "titulo": "Objeto",
-        "contenido": "Establece disposiciones para la incorporación progresiva de BIM en los procesos de inversión pública de las entidades y empresas públicas sujetas al SNPMGI (DL 1252)"
-      },
-      {
-        "numero": "Art. 2",
-        "titulo": "Definiciones",
-        "contenido": "Define 6 términos BIM (algunos modificados posteriormente por DS 108-2021-EF):",
-        "definiciones_originales": [
-          {
-            "termino": "BIM (Building Information Modeling)",
-            "definicion_original": "Conjunto de metodologías, tecnologías y estándares que permiten formular, diseñar, construir, operar y mantener una infraestructura pública de forma colaborativa en un espacio virtual",
-            "estado": "modificado_por_DS108_2021EF"
-          },
-          {
-            "termino": "Plan BIM Perú",
-            "definicion_original": "Documento de política que define la estrategia nacional para la implementación progresiva de la adopción y uso de BIM en los procesos de inversión de las entidades y empresas públicas, de manera articulada y concertada, y en coordinación con el sector privado y la academia",
-            "estado": "modificado_por_DS108_2021EF"
-          },
-          {
-            "termino": "Estándar BIM",
-            "definicion_original": "Conjunto de acuerdos sobre cómo compartir e intercambiar información de manera estructurada y consistente entre todos los agentes involucrados en el desarrollo de una infraestructura pública, a lo largo del ciclo de inversión, fomentando el trabajo colaborativo e interdisciplinario",
-            "estado": "vigente_sin_modificacion"
-          },
-          {
-            "termino": "Modelo BIM",
-            "definicion_original": "Representación digital de los elementos de una infraestructura pública que incluye su geometría e información. Un modelo BIM puede generarse y/o gestionarse durante cualquier etapa y/o fase del ciclo de inversión",
-            "estado": "vigente_sin_modificacion"
-          },
-          {
-            "termino": "Nivel de información o desarrollo",
-            "definicion_original": "Grados de profundidad que puede tener tanto la información geométrica como no geométrica contenida en los elementos de los modelos BIM, según el estado de avance de la información de los modelos en que se requiera",
-            "estado": "modificado_por_DS108_2021EF (renombrado a 'Nivel de información necesaria')"
-          },
-          {
-            "termino": "Plan de Ejecución BIM",
-            "definicion_original": "Documento en el que se define cómo serán llevados a cabo los aspectos del modelado y gestión de la información de una infraestructura pública en particular",
-            "estado": "modificado_por_DS108_2021EF"
-          }
-        ],
-        "definiciones_incorporadas_por_DS108_2021EF": [
-          "Contenedor de información",
-          "Plan de implementación y Hoja de Ruta"
-        ]
-      },
-      {
-        "numero": "Art. 3",
-        "titulo": "Principios para la adopción y uso de BIM",
-        "contenido": "5 principios que rigen la adopción y uso de BIM en la inversión pública:",
-        "principios": [
-          {
-            "nombre": "Eficiencia",
-            "descripcion": "BIM debe generar ahorros en el uso de fondos públicos a lo largo del ciclo de inversión, en términos de reducción de sobrecostos y atrasos en la ejecución, y uso racional de recursos para O&M"
-          },
-          {
-            "nombre": "Calidad",
-            "descripcion": "Las aplicaciones BIM deben garantizar que la infraestructura pública se ejecute acorde con los estándares de calidad y niveles de servicio en beneficio de la población"
-          },
-          {
-            "nombre": "Colaboración",
-            "descripcion": "La adopción y uso de BIM debe garantizar la máxima participación, comunicación e intercambio de información entre los diversos agentes involucrados en el desarrollo de la infraestructura pública, en cada una de las diferentes etapas y fases del ciclo de inversión"
-          },
-          {
-            "nombre": "Transparencia",
-            "descripcion": "Debe hacer explícitas las diferentes decisiones que toman todos los agentes involucrados en el desarrollo de infraestructura pública a lo largo del ciclo de inversión, así como la información que emplean"
-          },
-          {
-            "nombre": "Coordinación",
-            "descripcion": "Debe promover e integrar la participación del sector público, privado y la academia para garantizar las condiciones normativas e institucionales que faciliten su aplicación nacional y aseguren la sostenibilidad en el tiempo"
-          }
-        ]
-      },
-      {
-        "numero": "Art. 4",
-        "titulo": "Criterios y articulación para la incorporación de BIM",
-        "contenido": "4.1 Define 4 criterios para la incorporación de BIM: (1) Progresividad — incorporación progresiva y ordenada con requerimientos BIM comunes y homogéneos según complejidad; (2) Condiciones de la organización — se considera experiencia en BIM y recursos técnicos/humanos; (3) Integralidad — información desde las fases iniciales para trazabilidad a lo largo del ciclo de inversión; (4) Características de la infraestructura — se considera complejidad, monto de inversión y modalidad de ejecución. 4.2 Las disposiciones para la aplicación de BIM en el sector público se enmarcan en lo previsto en este DS"
-      },
-      {
-        "numero": "Art. 5",
-        "titulo": "Aprobación e implementación del Plan BIM Perú (texto original) / Plan de implementación y Hoja de Ruta (texto modificado por DS 108-2021-EF)",
-        "texto_original": {
-          "descripcion": "El Plan BIM Perú tiene como propósito reducir sobrecostos y atrasos en la ejecución de infraestructura pública, hacer más eficiente la O&M, y propiciar la transparencia en los procesos de IP. Contiene 9 elementos: (1) diagnóstico y línea de base; (2) líneas de acción y objetivos prioritarios; (3) estrategia de implementación de estándares BIM; (4) estrategia de desarrollo de capacidades; (5) estrategia de estandarización de requerimientos BIM; (6) lineamientos para incorporación de tecnologías habilitantes; (7) estrategia para bibliotecas de objetos e intercambio de información; (8) metas para la adopción obligatoria; (9) estrategia de comunicación y difusión. Elaborado por el MEF y aprobado mediante Decreto Supremo. El MEF establece espacios de participación del sector público, privado y la academia"
-        },
-        "nota": "Este artículo fue completamente reformulado por DS 108-2021-EF. El texto vigente establece el Plan de implementación y Hoja de Ruta con 4 líneas estratégicas, aprobado por Resolución Directoral de la DGPMI (ya no por DS)"
-      },
-      {
-        "numero": "Art. 6",
-        "titulo": "Financiamiento",
-        "contenido": "Los gastos para la adopción y uso de BIM, y para la elaboración e implementación del Plan BIM Perú, se financian con cargo al presupuesto institucional de las respectivas entidades públicas, sin demandar recursos adicionales al Tesoro Público, en el marco de las leyes anuales de presupuesto"
-      },
-      {
-        "numero": "Art. 7",
-        "titulo": "Refrendo",
-        "contenido": "El Decreto Supremo es refrendado por el Ministro de Economía y Finanzas"
-      }
-    ]
-  },
   "conceptos_clave": [
-    "BIM (Building Information Modeling) — metodologías, tecnologías y estándares para la gestión digital colaborativa de la infraestructura pública",
-    "Plan BIM Perú (texto original) — documento de política para la implementación progresiva de BIM; elaborado por MEF; aprobado por DS",
-    "Plan de implementación y Hoja de Ruta (texto vigente post DS 108-2021-EF) — 4 líneas estratégicas; aprobado por RD de la DGPMI",
-    "Estándar BIM — conjunto de acuerdos para el intercambio de información estructurada y consistente entre agentes",
-    "Modelo BIM — representación digital de elementos de la infraestructura pública con geometría e información",
-    "Nivel de información o desarrollo (original) / Nivel de información necesaria (vigente) — grados de profundidad de la información geométrica y no geométrica",
-    "Plan de Ejecución BIM — documento que define cómo se lleva a cabo el modelado y gestión de la información de una infraestructura particular",
-    "Contenedor de información (incorporado por DS 108-2021-EF)",
-    "5 principios BIM: Eficiencia, Calidad, Colaboración, Transparencia, Coordinación",
-    "4 criterios de incorporación BIM: Progresividad, Condiciones de la organización, Integralidad, Características de la infraestructura",
-    "Incorporación progresiva y obligatoria de BIM en los procesos de inversión pública",
-    "Ciclo de vida de la infraestructura pública como ámbito de aplicación BIM",
-    "Cuarta DCF del DS 284-2018-EF como habilitación legal de este DS"
+    {
+      "termino": "BIM (Building Information Modeling)",
+      "definicion": "Conjunto de metodologías, tecnologías y estándares que permiten formular, diseñar, construir, operar y mantener una infraestructura pública de forma colaborativa en un espacio virtual. Definición actualizada por DS 108-2021-EF.",
+      "articulo_fuente": "Art. 2"
+    },
+    {
+      "termino": "Plan de implementación y Hoja de Ruta",
+      "definicion": "Documento aprobado por Resolución Directoral de la DGPMI que define la estrategia nacional para la implementación progresiva de BIM en el sector público, con 4 líneas estratégicas. Renombrado del 'Plan BIM Perú' por el DS 108-2021-EF.",
+      "articulo_fuente": "Art. 5 (modificado por DS 108-2021-EF)"
+    },
+    {
+      "termino": "Estándar BIM",
+      "definicion": "Conjunto de acuerdos sobre cómo compartir e intercambiar información de manera estructurada y consistente entre todos los agentes involucrados en el desarrollo de una infraestructura pública, a lo largo del ciclo de inversión.",
+      "articulo_fuente": "Art. 2"
+    },
+    {
+      "termino": "Modelo BIM",
+      "definicion": "Representación digital de los elementos de una infraestructura pública que incluye su geometría e información. Puede generarse y/o gestionarse durante cualquier etapa y/o fase del ciclo de inversión.",
+      "articulo_fuente": "Art. 2"
+    },
+    {
+      "termino": "Nivel de información necesaria",
+      "definicion": "Grados de profundidad que puede tener la información geométrica y no geométrica de los elementos de los modelos BIM, según el estado de avance de la información requerida. Renombrado de 'Nivel de información o desarrollo' por DS 108-2021-EF.",
+      "articulo_fuente": "Art. 2 (actualizado por DS 108-2021-EF)"
+    },
+    {
+      "termino": "Plan de Ejecución BIM",
+      "definicion": "Documento que define cómo serán llevados a cabo los aspectos del modelado y gestión de la información de una infraestructura pública en particular. Actualizado por DS 108-2021-EF.",
+      "articulo_fuente": "Art. 2"
+    },
+    {
+      "termino": "Contenedor de información",
+      "definicion": "Término incorporado por DS 108-2021-EF al Art. 2. Conjunto nombrado y estructurado de información persistente recuperable desde un sistema de ficheros.",
+      "articulo_fuente": "Art. 2 (incorporado por DS 108-2021-EF)"
+    },
+    {
+      "termino": "Incorporación progresiva de BIM",
+      "definicion": "Adopción gradual y ordenada de BIM en la inversión pública, considerando la complejidad de las infraestructuras, el monto de inversión, las capacidades institucionales y las etapas del ciclo de inversión. Principio rector de este DS.",
+      "articulo_fuente": "Arts. 3 y 4"
+    },
+    {
+      "termino": "Entorno de datos comunes (CDE)",
+      "definicion": "Repositorio único y acordado de información para recopilar, gestionar y difundir documentación, modelos de información gráfica y datos de un proyecto. Concepto vinculado al Contenedor de información.",
+      "articulo_fuente": "Art. 2 (ámbito del DS 108-2021-EF y DS 287-2024-EF)"
+    }
   ],
-  "fase_ciclo_inversion": "todas_las_fases",
-  "ambito": "Entidades y empresas públicas sujetas al Sistema Nacional de Programación Multianual y Gestión de Inversiones (SNPMGI) creado por el DL 1252",
+  "actores_institucionales": [
+    {
+      "nombre": "DGPMI (Dirección General de Programación Multianual de Inversiones)",
+      "tipo": "organismo_rector",
+      "rol_en_norma": "Rectora de BIM en la inversión pública: elabora y actualiza el Plan de implementación y Hoja de Ruta; emite metodologías BIM; aprueba estándares y requerimientos BIM; monitorea la implementación del Plan. Base legal en Art. 8.2.4 y Cuarta DCF del DS 284-2018-EF."
+    },
+    {
+      "nombre": "Entidades y empresas públicas sujetas al SNPMGI",
+      "tipo": "entidad_publica",
+      "rol_en_norma": "Adoptan progresivamente BIM en sus procesos de inversión pública conforme a los criterios, requerimientos BIM y el Plan de implementación y Hoja de Ruta emitidos por la DGPMI."
+    }
+  ],
+  "plazos_importantes": [],
   "metadata_analisis": {
-    "fuente": "Texto completo del PDF DS289_2019EF_BIM.pdf",
-    "paginas_pdf": 4,
-    "lineas_texto": 169,
-    "notas": [
-      "Este es el decreto base del Sistema BIM peruano en el ámbito de la inversión pública. Define el marco conceptual, principios y criterios para la incorporación progresiva de BIM, y ordena la elaboración del Plan BIM Perú",
-      "La base legal principal es el inciso 4 del párrafo 8.2 del Art. 8 y la Cuarta DCF del DS 284-2018-EF, que otorgan a la DGPMI la facultad de emitir metodologías colaborativas de modelamiento digital de la información",
-      "DS 108-2021-EF (mayo 2021) realizó modificaciones significativas al Art. 2 (redefinición de BIM, Plan BIM Perú, Nivel de información y Plan de Ejecución BIM; incorporación de 2 nuevas definiciones) y al Art. 5 (abandona el sistema del Plan BIM Perú aprobado por DS; pasa al Plan de implementación y Hoja de Ruta con 4 líneas estratégicas aprobado por RD de la DGPMI). Ver JSON de DS108_2021EF para el detalle",
-      "La RD 0019-2025-EF/63.01 (ya procesada como 7528229-rd019_2025ef6301.json) aprobó 4 documentos técnicos BIM en el marco de este DS",
-      "El PDF incluye solo el DS 289-2019-EF, sin otras normas adyacentes del El Peruano, lo cual es inusual para el formato de esta colección"
-    ],
-    "fecha_analisis": "2025-07-16",
-    "version_esquema": "1.0"
+    "version_esquema": "3",
+    "fecha_analisis": "2026-02-21",
+    "fuente": "DS289_2019EF_BIM.pdf",
+    "observaciones": "Archivo migrado de esquema v1.0 a v3. Modificado parcialmente por DS 108-2021-EF (reformuló el Art. 5 completo y 5 definiciones del Art. 2). La 'estructura' describe el estado actual (texto vigente) con nota sobre los cambios. El Art. 5 original ('Plan BIM Perú' con 9 elementos) fue reemplazado por el 'Plan de implementación y Hoja de Ruta' con 4 líneas estratégicas."
   }
 }

@@ -8,7 +8,9 @@
   "fecha_publicacion": "2016-12-01",
   "entidad_emisora": "Presidencia de la República / Ministerio de Economía y Finanzas",
   "estado": "modificado",
-  "fase_ciclo_inversion": ["transversal"],
+  "fase_ciclo_inversion": [
+    "transversal"
+  ],
   "temas_clave": [
     "creación del sistema Invierte.pe",
     "ciclo de inversión pública",
@@ -377,6 +379,8 @@
     "fecha_analisis": "2026-02-21",
     "analizado_por": "GitHub Copilot (Claude Sonnet 4.5) - análisis directo del texto del PDF",
     "version_schema": "1.0",
-    "notas": "El número '12521' en el PDF es un artefacto de la extracción: el '1' al final es la nota al pie 1 superpuesta al número de la norma. El número correcto es 1252. Se analizó el texto consolidado con todas las modificaciones hasta la Ley N° 32425 (publicada el 20-08-2025). Vigente desde el 24-02-2017."
+    "notas": "El número '12521' en el PDF es un artefacto de la extracción: el '1' al final es la nota al pie 1 superpuesta al número de la norma. El número correcto es 1252. Se analizó el texto consolidado con todas las modificaciones hasta la Ley N° 32425 (publicada el 20-08-2025). Vigente desde el 24-02-2017.",
+    "version_esquema": "3",
+    "fuente": "200981-dl1252.pdf"
   }
 }

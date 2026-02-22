@@ -8,7 +8,12 @@
   "fecha_publicacion": "2022-10-04",
   "entidad_emisora": "Ministerio de Economía y Finanzas",
   "estado": "vigente",
-  "fase_ciclo_inversion": ["programacion", "formulacion_evaluacion", "ejecucion", "funcionamiento"],
+  "fase_ciclo_inversion": [
+    "programacion",
+    "formulacion_evaluacion",
+    "ejecucion",
+    "funcionamiento"
+  ],
   "temas_clave": [
     "modificación del Reglamento del DL 1252 (DS 284-2018-EF)",
     "aplicativos informáticos del SNPMGI (Banco de Inversiones, SSI)",
@@ -477,6 +482,8 @@
     "fecha_analisis": "2026-02-21",
     "analizado_por": "GitHub Copilot (Claude Sonnet 4.5) - análisis directo del texto del PDF",
     "version_schema": "1.0",
-    "notas": "Firmado el 3 de octubre de 2022 por José Pedro Castillo Terrones (Presidente) y Kurt Burneo Farfán (Ministro de Economía y Finanzas). El PDF tiene 5 páginas en formato El Peruano de dos columnas. Las primeras líneas del PDF corresponden a una sección previa (posiblemente el inicio de otra norma — el pie de página de la norma de refrendo del Decreto Supremo Nº cuya firma corresponde al mismo Presidente Castillo con el Ministro de EF Kurt Burneo Farfán; código 2112104-1). Desde la sección 'Modifican Reglamento del Decreto Legislativo N° 1252...' comienza el DS 231-2022-EF (código 2112104-2). La última página del PDF corresponde al inicio de una Resolución Ministerial del sector Energía y Minas (RM 358-2022-MINEM/DM sobre transferencia financiera a PROFONANPE para remediación ambiental de sitios de hidrocarburos) — norma distinta no incluida en este JSON. El DS 231-2022-EF es el modificatorio más amplio al DS 284-2018-EF hasta la fecha de la modificación; predecesor del DS 284-2018-EF original y posterior al DS 074-2023-EF (que modifica 4 artículos específicos) y al DS 287-2024-EF."
+    "notas": "Firmado el 3 de octubre de 2022 por José Pedro Castillo Terrones (Presidente) y Kurt Burneo Farfán (Ministro de Economía y Finanzas). El PDF tiene 5 páginas en formato El Peruano de dos columnas. Las primeras líneas del PDF corresponden a una sección previa (posiblemente el inicio de otra norma — el pie de página de la norma de refrendo del Decreto Supremo Nº cuya firma corresponde al mismo Presidente Castillo con el Ministro de EF Kurt Burneo Farfán; código 2112104-1). Desde la sección 'Modifican Reglamento del Decreto Legislativo N° 1252...' comienza el DS 231-2022-EF (código 2112104-2). La última página del PDF corresponde al inicio de una Resolución Ministerial del sector Energía y Minas (RM 358-2022-MINEM/DM sobre transferencia financiera a PROFONANPE para remediación ambiental de sitios de hidrocarburos) — norma distinta no incluida en este JSON. El DS 231-2022-EF es el modificatorio más amplio al DS 284-2018-EF hasta la fecha de la modificación; predecesor del DS 284-2018-EF original y posterior al DS 074-2023-EF (que modifica 4 artículos específicos) y al DS 287-2024-EF.",
+    "version_esquema": "3",
+    "fuente": "DS231_2022EF.pdf"
   }
 }

@@ -8,7 +8,12 @@
   "fecha_publicacion": "2025-02-15",
   "entidad_emisora": "Ministerio de Economía y Finanzas",
   "estado": "vigente",
-  "fase_ciclo_inversion": ["programacion", "formulacion_evaluacion", "ejecucion", "funcionamiento"],
+  "fase_ciclo_inversion": [
+    "programacion",
+    "formulacion_evaluacion",
+    "ejecucion",
+    "funcionamiento"
+  ],
   "temas_clave": [
     "Lineamientos de Política Nacional de Inversión Pública (LPNIP)",
     "articulación territorial de proyectos de inversión",
@@ -110,109 +115,306 @@
               "tipo": "lineamiento",
               "numero": "I",
               "titulo": "Lineamiento para la articulación territorial de los proyectos de inversión",
-              "principios_rectores": ["Alineamiento de inversiones en función al cierre de brechas y al planeamiento estratégico", "complementariedad", "eficiencia", "eficacia"],
+              "principios_rectores": [
+                "Alineamiento de inversiones en función al cierre de brechas y al planeamiento estratégico",
+                "complementariedad",
+                "eficiencia",
+                "eficacia"
+              ],
               "medidas": [
-                { "numero": "1.1", "descripcion": "Formular e implementar proyectos de inversión articulados con los servicios prioritarios en los LPNIP, desarrollando carteras estratégicas de inversiones coordinadas entre los tres niveles de gobierno que puedan ser incluidas en la programación multianual de inversiones y que incentiven polos de desarrollo en el territorio." },
-                { "numero": "1.2", "descripcion": "Asegurar que los servicios prioritarios señalados en los LPNIP, en lo referido a la inversión pública, sean considerados en el PNI, conforme a la metodología del referido Plan." },
-                { "numero": "1.3", "descripcion": "Asegurar el alineamiento estratégico de los proyectos de inversión al Plan Estratégico de Desarrollo Nacional y a los objetivos y acciones estratégicas de los planes sectoriales, planes de desarrollo concertado regional y planes de desarrollo concertado local, según corresponda." },
-                { "numero": "1.4", "descripcion": "Promover proyectos de inversión con articulación territorial multisectorial y multinivel, aprovechando economías de escala en la provisión del servicio: (i) proyectos complementarios como los proyectos en red y los programas de inversión; y (ii) proyectos que generen sinergias como los proyectos multipropósitos u otras modalidades." },
-                { "numero": "1.5", "descripcion": "La DGPMI promueve que los fondos concursables se orienten a la ejecución de proyectos en redes, programas de inversión, proyectos multipropósito u otras modalidades." },
-                { "numero": "1.6", "descripcion": "Realizar diagnósticos de brechas con enfoque prospectivo de las necesidades y oportunidades en el mediano y largo plazo, considerando los servicios prioritarios con articulación territorial realizados en sus planes y políticas por los sectores y gobiernos regionales y locales en el marco del SINAPLAN." },
-                { "numero": "1.7", "descripcion": "Impulsar, a través de los programas o proyectos de inversión, la innovación de los servicios que brinda el Estado, considerando los instrumentos de ordenamiento, planificación territorial y gestión ambiental." },
-                { "numero": "1.8", "descripcion": "Impulsar el desarrollo de los programas o proyectos de inversión en los corredores logísticos, viales, económicos, turísticos, entre otros, según su potencial de articulación comercial nacional o internacional." }
+                {
+                  "numero": "1.1",
+                  "descripcion": "Formular e implementar proyectos de inversión articulados con los servicios prioritarios en los LPNIP, desarrollando carteras estratégicas de inversiones coordinadas entre los tres niveles de gobierno que puedan ser incluidas en la programación multianual de inversiones y que incentiven polos de desarrollo en el territorio."
+                },
+                {
+                  "numero": "1.2",
+                  "descripcion": "Asegurar que los servicios prioritarios señalados en los LPNIP, en lo referido a la inversión pública, sean considerados en el PNI, conforme a la metodología del referido Plan."
+                },
+                {
+                  "numero": "1.3",
+                  "descripcion": "Asegurar el alineamiento estratégico de los proyectos de inversión al Plan Estratégico de Desarrollo Nacional y a los objetivos y acciones estratégicas de los planes sectoriales, planes de desarrollo concertado regional y planes de desarrollo concertado local, según corresponda."
+                },
+                {
+                  "numero": "1.4",
+                  "descripcion": "Promover proyectos de inversión con articulación territorial multisectorial y multinivel, aprovechando economías de escala en la provisión del servicio: (i) proyectos complementarios como los proyectos en red y los programas de inversión; y (ii) proyectos que generen sinergias como los proyectos multipropósitos u otras modalidades."
+                },
+                {
+                  "numero": "1.5",
+                  "descripcion": "La DGPMI promueve que los fondos concursables se orienten a la ejecución de proyectos en redes, programas de inversión, proyectos multipropósito u otras modalidades."
+                },
+                {
+                  "numero": "1.6",
+                  "descripcion": "Realizar diagnósticos de brechas con enfoque prospectivo de las necesidades y oportunidades en el mediano y largo plazo, considerando los servicios prioritarios con articulación territorial realizados en sus planes y políticas por los sectores y gobiernos regionales y locales en el marco del SINAPLAN."
+                },
+                {
+                  "numero": "1.7",
+                  "descripcion": "Impulsar, a través de los programas o proyectos de inversión, la innovación de los servicios que brinda el Estado, considerando los instrumentos de ordenamiento, planificación territorial y gestión ambiental."
+                },
+                {
+                  "numero": "1.8",
+                  "descripcion": "Impulsar el desarrollo de los programas o proyectos de inversión en los corredores logísticos, viales, económicos, turísticos, entre otros, según su potencial de articulación comercial nacional o internacional."
+                }
               ]
             },
             {
               "tipo": "lineamiento",
               "numero": "II",
               "titulo": "Lineamiento para el cierre de brechas de infraestructura o de acceso a servicios",
-              "principios_rectores": ["Alineamiento de inversiones en función al cierre de brechas y al planeamiento estratégico", "complementariedad", "priorización", "oportunidad", "sostenibilidad", "gestión de riesgos", "eficacia"],
+              "principios_rectores": [
+                "Alineamiento de inversiones en función al cierre de brechas y al planeamiento estratégico",
+                "complementariedad",
+                "priorización",
+                "oportunidad",
+                "sostenibilidad",
+                "gestión de riesgos",
+                "eficacia"
+              ],
               "medidas": [
-                { "numero": "2.1", "descripcion": "Las inversiones públicas consideran los servicios prioritarios de los LPNIP." },
-                { "numero": "2.2", "descripcion": "Las entidades del Gobierno Nacional, en coordinación con los GR y GL, establecen metas para el cierre de brechas de infraestructura o de acceso a servicios a nivel nacional de los servicios prioritarios, vinculantes para las inversiones que ingresan a la programación multianual." },
-                { "numero": "2.3", "descripcion": "Las entidades de los tres niveles de gobierno basan la programación multianual de inversiones de nuevos proyectos en criterios de optimización de la oferta existente, sostenibilidad, calidad y cumplimiento de los LPNIP, teniendo en cuenta el espacio fiscal disponible (luego de asegurar recursos para culminar proyectos en ejecución). La programación de nuevas inversiones tiene un orden de prioridad en el PMI, diferenciándola de las inversiones en ejecución. Las entidades deben considerar en la Asignación Presupuestaria Multianual los recursos para la continuidad de inversiones nuevas y su operación y mantenimiento." },
-                { "numero": "2.4", "descripcion": "La DGPMI promueve que los incentivos que se aprueben estén orientados a la calidad y al cierre de brechas de infraestructura y de acceso a servicios." },
-                { "numero": "2.5", "descripcion": "Se prioriza el cierre de brechas de infraestructura o de acceso a servicios complementarios en zonas de frontera y de pobreza extrema, alineados a los objetivos nacionales del Plan Estratégico de Desarrollo Nacional." },
-                { "numero": "2.6", "descripcion": "La DGPMI coordina y acuerda con los GR y GL carteras de proyectos de inversión, sobre la base de una revisión independiente del PMI, para incrementar el impacto de la inversión pública e impulsar el desarrollo nacional, regional y local. Dicha cartera se financia con cargo a la Asignación Presupuestaria Multianual, por toda fuente de financiamiento." }
+                {
+                  "numero": "2.1",
+                  "descripcion": "Las inversiones públicas consideran los servicios prioritarios de los LPNIP."
+                },
+                {
+                  "numero": "2.2",
+                  "descripcion": "Las entidades del Gobierno Nacional, en coordinación con los GR y GL, establecen metas para el cierre de brechas de infraestructura o de acceso a servicios a nivel nacional de los servicios prioritarios, vinculantes para las inversiones que ingresan a la programación multianual."
+                },
+                {
+                  "numero": "2.3",
+                  "descripcion": "Las entidades de los tres niveles de gobierno basan la programación multianual de inversiones de nuevos proyectos en criterios de optimización de la oferta existente, sostenibilidad, calidad y cumplimiento de los LPNIP, teniendo en cuenta el espacio fiscal disponible (luego de asegurar recursos para culminar proyectos en ejecución). La programación de nuevas inversiones tiene un orden de prioridad en el PMI, diferenciándola de las inversiones en ejecución. Las entidades deben considerar en la Asignación Presupuestaria Multianual los recursos para la continuidad de inversiones nuevas y su operación y mantenimiento."
+                },
+                {
+                  "numero": "2.4",
+                  "descripcion": "La DGPMI promueve que los incentivos que se aprueben estén orientados a la calidad y al cierre de brechas de infraestructura y de acceso a servicios."
+                },
+                {
+                  "numero": "2.5",
+                  "descripcion": "Se prioriza el cierre de brechas de infraestructura o de acceso a servicios complementarios en zonas de frontera y de pobreza extrema, alineados a los objetivos nacionales del Plan Estratégico de Desarrollo Nacional."
+                },
+                {
+                  "numero": "2.6",
+                  "descripcion": "La DGPMI coordina y acuerda con los GR y GL carteras de proyectos de inversión, sobre la base de una revisión independiente del PMI, para incrementar el impacto de la inversión pública e impulsar el desarrollo nacional, regional y local. Dicha cartera se financia con cargo a la Asignación Presupuestaria Multianual, por toda fuente de financiamiento."
+                }
               ]
             },
             {
               "tipo": "lineamiento",
               "numero": "III",
               "titulo": "Lineamiento para la formación del capital humano en materia de inversión pública",
-              "principios_rectores": ["Capacidad técnica", "calidad de las inversiones"],
+              "principios_rectores": [
+                "Capacidad técnica",
+                "calidad de las inversiones"
+              ],
               "medidas": [
-                { "numero": "3.1", "descripcion": "Las entidades aseguran que los operadores de los órganos del SNPMGI, así como los equipos de las áreas vinculadas con el desarrollo de las inversiones, cuenten con capacidades técnicas y cumplan con los perfiles en materia de inversión pública." },
-                { "numero": "3.2", "descripcion": "La DGPMI asegura la oferta de formación de capacidades en los operadores del SNPMGI en materia de inversión pública, involucrando a la academia, organismos de cooperación técnica y expertos descentralizados como socios técnicos en los territorios." },
-                { "numero": "3.3", "descripcion": "Los operadores del SNPMGI deben contar con certificación de los programas formativos brindados por la DGPMI, relacionados al Ciclo de Inversión, así como su articulación con otros sistemas administrativos para el adecuado desempeño de sus funciones." },
-                { "numero": "3.4", "descripcion": "La DGPMI promueve la gestión del conocimiento y buenas prácticas a lo largo del Ciclo del Inversión basados en los resultados y la promoción del aprendizaje." },
-                { "numero": "3.5", "descripcion": "La DGPMI establece los lineamientos y procedimientos para la certificación de los funcionarios y servidores que integran los órganos del SNPMGI." }
+                {
+                  "numero": "3.1",
+                  "descripcion": "Las entidades aseguran que los operadores de los órganos del SNPMGI, así como los equipos de las áreas vinculadas con el desarrollo de las inversiones, cuenten con capacidades técnicas y cumplan con los perfiles en materia de inversión pública."
+                },
+                {
+                  "numero": "3.2",
+                  "descripcion": "La DGPMI asegura la oferta de formación de capacidades en los operadores del SNPMGI en materia de inversión pública, involucrando a la academia, organismos de cooperación técnica y expertos descentralizados como socios técnicos en los territorios."
+                },
+                {
+                  "numero": "3.3",
+                  "descripcion": "Los operadores del SNPMGI deben contar con certificación de los programas formativos brindados por la DGPMI, relacionados al Ciclo de Inversión, así como su articulación con otros sistemas administrativos para el adecuado desempeño de sus funciones."
+                },
+                {
+                  "numero": "3.4",
+                  "descripcion": "La DGPMI promueve la gestión del conocimiento y buenas prácticas a lo largo del Ciclo del Inversión basados en los resultados y la promoción del aprendizaje."
+                },
+                {
+                  "numero": "3.5",
+                  "descripcion": "La DGPMI establece los lineamientos y procedimientos para la certificación de los funcionarios y servidores que integran los órganos del SNPMGI."
+                }
               ]
             },
             {
               "tipo": "lineamiento",
               "numero": "IV",
               "titulo": "Lineamiento para el financiamiento",
-              "principios_rectores": ["Alineamiento de inversiones en función al cierre de brechas y al planeamiento estratégico", "complementariedad", "sostenibilidad", "priorización", "oportunidad"],
+              "principios_rectores": [
+                "Alineamiento de inversiones en función al cierre de brechas y al planeamiento estratégico",
+                "complementariedad",
+                "sostenibilidad",
+                "priorización",
+                "oportunidad"
+              ],
               "medidas": [
-                { "numero": "4.1", "descripcion": "Asegurar la articulación entre la planificación, el PMI y el presupuesto para cerrar la brecha entre la priorización y la formulación y la ejecución del presupuesto de inversión pública, buscando que las carteras de inversiones generen mejores impactos en el cierre de brechas." },
-                { "numero": "4.2", "descripcion": "El financiamiento de proyectos o programas de inversión a través de transferencias, fondos concursables, gobierno a gobierno, APPs cofinanciadas y obras por impuestos se ajusta a las reglas fiscales y a la evaluación de capacidad presupuestal, de corresponder." },
-                { "numero": "4.3", "descripcion": "El financiamiento a través de endeudamiento interno y externo se orienta a programas de inversión o proyectos de alta complejidad o de envergadura vinculados a los servicios prioritarios de los LPNIP. La DGPMI, en coordinación con la DGTP, brinda asistencia técnica previa a estos programas y proyectos. Requieren opinión de la DGTP para su incorporación en el PMI." },
-                { "numero": "4.4", "descripcion": "El financiamiento de inversiones nuevas en el PIA o PIM se limita a inversiones que cumplan con los criterios del numeral 2.3 del Lineamiento 2 y la prioridad definida en el PMI vigente. Las inversiones nuevas que se incorporen en el PMI serán revisadas previamente por la DGPMI y se limitan a las disposiciones del Sistema Nacional de Presupuesto Público." },
-                { "numero": "4.5", "descripcion": "La DGPMI identifica a las entidades que mediante modificaciones presupuestarias durante la fase de ejecución presupuestal desfinancien inversiones, generando la postergación de la provisión del servicio." },
-                { "numero": "4.6", "descripcion": "Las entidades priorizan el financiamiento para la continuidad de las inversiones en ejecución hasta su culminación y cierre, para que la población acceda a los servicios oportunamente. Programan como mínimo las previsiones presupuestales que garanticen el financiamiento hasta la culminación (teniendo en cuenta el costo actualizado del proyecto)." },
-                { "numero": "4.7", "descripcion": "Los GR y GL acceden al financiamiento de estudios de preinversión y a la ejecución de proyectos de inversión a través del FIDT, priorizando la articulación territorial." },
-                { "numero": "4.8", "descripcion": "Los proyectos o programas de inversión financiados con endeudamiento externo se ejecutan implementando herramientas de dirección de proyectos a través de buenas prácticas y estándares internacionales, para contribuir a la eficacia del proyecto." }
+                {
+                  "numero": "4.1",
+                  "descripcion": "Asegurar la articulación entre la planificación, el PMI y el presupuesto para cerrar la brecha entre la priorización y la formulación y la ejecución del presupuesto de inversión pública, buscando que las carteras de inversiones generen mejores impactos en el cierre de brechas."
+                },
+                {
+                  "numero": "4.2",
+                  "descripcion": "El financiamiento de proyectos o programas de inversión a través de transferencias, fondos concursables, gobierno a gobierno, APPs cofinanciadas y obras por impuestos se ajusta a las reglas fiscales y a la evaluación de capacidad presupuestal, de corresponder."
+                },
+                {
+                  "numero": "4.3",
+                  "descripcion": "El financiamiento a través de endeudamiento interno y externo se orienta a programas de inversión o proyectos de alta complejidad o de envergadura vinculados a los servicios prioritarios de los LPNIP. La DGPMI, en coordinación con la DGTP, brinda asistencia técnica previa a estos programas y proyectos. Requieren opinión de la DGTP para su incorporación en el PMI."
+                },
+                {
+                  "numero": "4.4",
+                  "descripcion": "El financiamiento de inversiones nuevas en el PIA o PIM se limita a inversiones que cumplan con los criterios del numeral 2.3 del Lineamiento 2 y la prioridad definida en el PMI vigente. Las inversiones nuevas que se incorporen en el PMI serán revisadas previamente por la DGPMI y se limitan a las disposiciones del Sistema Nacional de Presupuesto Público."
+                },
+                {
+                  "numero": "4.5",
+                  "descripcion": "La DGPMI identifica a las entidades que mediante modificaciones presupuestarias durante la fase de ejecución presupuestal desfinancien inversiones, generando la postergación de la provisión del servicio."
+                },
+                {
+                  "numero": "4.6",
+                  "descripcion": "Las entidades priorizan el financiamiento para la continuidad de las inversiones en ejecución hasta su culminación y cierre, para que la población acceda a los servicios oportunamente. Programan como mínimo las previsiones presupuestales que garanticen el financiamiento hasta la culminación (teniendo en cuenta el costo actualizado del proyecto)."
+                },
+                {
+                  "numero": "4.7",
+                  "descripcion": "Los GR y GL acceden al financiamiento de estudios de preinversión y a la ejecución de proyectos de inversión a través del FIDT, priorizando la articulación territorial."
+                },
+                {
+                  "numero": "4.8",
+                  "descripcion": "Los proyectos o programas de inversión financiados con endeudamiento externo se ejecutan implementando herramientas de dirección de proyectos a través de buenas prácticas y estándares internacionales, para contribuir a la eficacia del proyecto."
+                }
               ]
             },
             {
               "tipo": "lineamiento",
               "numero": "V",
               "titulo": "Lineamiento para la sostenibilidad de las inversiones",
-              "principios_rectores": ["Complementariedad", "sostenibilidad", "gestión de riesgos"],
+              "principios_rectores": [
+                "Complementariedad",
+                "sostenibilidad",
+                "gestión de riesgos"
+              ],
               "medidas": [
-                { "numero": "5.1", "descripcion": "Desde la fase de Formulación y Evaluación se identifican los sistemas de entrega disponibles para la ejecución de los proyectos de inversión en correspondencia con su nivel de complejidad, de forma que el sistema seleccionado evidencie un balance óptimo en términos de costo, tiempo y calidad (rentabilidad, ejecutabilidad, gestión de riesgos y sostenibilidad)." },
-                { "numero": "5.2", "descripcion": "Las oficinas de presupuesto, en coordinación con las oficinas de abastecimiento, programan los recursos para la operación y mantenimiento de los activos durante su vida útil, evitando su deterioro anticipado, teniendo en cuenta las inversiones que culminan y entran en operación." },
-                { "numero": "5.3", "descripcion": "La viabilidad de los proyectos de inversión se sujeta a la disponibilidad y sostenibilidad presupuestaria de recursos para el financiamiento futuro de la operación y el mantenimiento de los activos (incluyendo los gastos de funcionamiento de activos existentes). Para proyectos cuya operación se financia con tarifas, se requiere un análisis del impacto en las tarifas." },
-                { "numero": "5.4", "descripcion": "Las entidades fomentan la formación de activos resilientes que puedan soportar los efectos del cambio climático a largo plazo y prevenir el daño operativo, financiero, ambiental y social; e identifican y formulan proyectos de inversión que generan externalidades positivas en el medio ambiente." },
-                { "numero": "5.5", "descripcion": "Las entidades aplican un modelo de gestión de activos de inversiones públicas definido por la DGPMI para la entrega de bienes y servicios a lo largo de la vida útil de los activos." }
+                {
+                  "numero": "5.1",
+                  "descripcion": "Desde la fase de Formulación y Evaluación se identifican los sistemas de entrega disponibles para la ejecución de los proyectos de inversión en correspondencia con su nivel de complejidad, de forma que el sistema seleccionado evidencie un balance óptimo en términos de costo, tiempo y calidad (rentabilidad, ejecutabilidad, gestión de riesgos y sostenibilidad)."
+                },
+                {
+                  "numero": "5.2",
+                  "descripcion": "Las oficinas de presupuesto, en coordinación con las oficinas de abastecimiento, programan los recursos para la operación y mantenimiento de los activos durante su vida útil, evitando su deterioro anticipado, teniendo en cuenta las inversiones que culminan y entran en operación."
+                },
+                {
+                  "numero": "5.3",
+                  "descripcion": "La viabilidad de los proyectos de inversión se sujeta a la disponibilidad y sostenibilidad presupuestaria de recursos para el financiamiento futuro de la operación y el mantenimiento de los activos (incluyendo los gastos de funcionamiento de activos existentes). Para proyectos cuya operación se financia con tarifas, se requiere un análisis del impacto en las tarifas."
+                },
+                {
+                  "numero": "5.4",
+                  "descripcion": "Las entidades fomentan la formación de activos resilientes que puedan soportar los efectos del cambio climático a largo plazo y prevenir el daño operativo, financiero, ambiental y social; e identifican y formulan proyectos de inversión que generan externalidades positivas en el medio ambiente."
+                },
+                {
+                  "numero": "5.5",
+                  "descripcion": "Las entidades aplican un modelo de gestión de activos de inversiones públicas definido por la DGPMI para la entrega de bienes y servicios a lo largo de la vida útil de los activos."
+                }
               ]
             },
             {
               "tipo": "lineamiento",
               "numero": "VI",
               "titulo": "Lineamiento para la calidad de los proyectos de inversión",
-              "principios_rectores": ["Calidad de las inversiones", "complementariedad", "evaluación social y económica", "capacidad técnica", "gestión de riesgos"],
+              "principios_rectores": [
+                "Calidad de las inversiones",
+                "complementariedad",
+                "evaluación social y económica",
+                "capacidad técnica",
+                "gestión de riesgos"
+              ],
               "medidas": [
-                { "numero": "6.1", "descripcion": "Se realiza la opinión independiente de proyectos de alta complejidad con participación del MEF (DGPMI y DGPP) y de mediana complejidad con participación de los Sectores, como condición previa y vinculante para su declaración de viabilidad, en términos de pertinencia, rentabilidad, ejecutabilidad, sostenibilidad, capacidad presupuestal y capacidad organizacional." },
-                { "numero": "6.2", "descripcion": "Para la evaluación ex ante de proyectos de mediana y alta complejidad de infraestructura económica se utiliza el análisis costo beneficio como la metodología que refleja el valor por dinero a lo largo del Ciclo de Inversión: multiplicidad de alternativas, análisis y gestión de riesgos, estimación de costos bajo estándares de ingeniería, financiamiento sostenible y análisis de los sistemas de entrega." },
-                { "numero": "6.3", "descripcion": "El esfuerzo técnico para la formulación, evaluación y ejecución de proyectos es directamente proporcional a su complejidad. La DGPMI, en coordinación con los Sectores, establece criterios específicos basados en riesgos asociados a la complejidad de las inversiones." },
-                { "numero": "6.4", "descripcion": "La DGPMI establece disposiciones para estandarizar los niveles de alcance de la ingeniería conceptual y básica en la fase de Formulación y Evaluación, a fin de estimar mejor los costos de inversión y reducir variaciones en la fase de Ejecución." },
-                { "numero": "6.5", "descripcion": "Los proyectos cumplen con niveles de servicio y estándares de calidad establecidos por los Sectores, con información suficiente que sustente la toma de decisión para la ejecución. Los Sectores promueven estándares para el diseño de las inversiones en los tres niveles de gobierno." },
-                { "numero": "6.6", "descripcion": "Las evaluaciones ex post retroalimentan la teoría del cambio de los proyectos de inversión y sustentan las evidencias de nuevos proyectos, a partir de recomendaciones y lecciones aprendidas que deben contribuir a la predictibilidad y gestión de riesgos para evitar obras paralizadas." },
-                { "numero": "6.7", "descripcion": "La evaluación de la calidad de las viabilidades por la DGPMI y los Sectores retroalimenta con lecciones aprendidas a la fase de Formulación y Evaluación y contribuye a determinar las necesidades de capital humano en el Ciclo de Inversión." },
-                { "numero": "6.8", "descripcion": "La DGPMI lidera la implementación de la metodología BIM (Building Information Modelling) en la formulación, diseño, construcción y gestión de activos de proyectos de inversión de mediana y alta complejidad, a fin de generar eficiencias en costos y plazos." },
-                { "numero": "6.9", "descripcion": "Las variaciones de costo del diseño (según el nivel de ingeniería) respecto a la viabilidad del proyecto se informan a los órganos de control para plantear medidas de optimización en la fase de ejecución." },
-                { "numero": "6.10", "descripcion": "La DGPMI, en coordinación con los sectores funcionalmente responsables, propone soluciones innovadoras técnicamente posibles y sostenibles para ser consideradas en la formulación y evaluación, o ejecución, o funcionamiento, para lograr soluciones más eficientes y efectivas." },
-                { "numero": "6.11", "descripcion": "Los proyectos de baja complejidad se pueden ejecutar por administración directa cuando se justifique que es más eficiente en costo o tiempo. Por excepción, no requieren de dicha justificación: (i) intervenciones de prevención o atención de situaciones de emergencia; (ii) inversiones de emergencia en zonas con declaratoria de Estado de Emergencia; y (iii) saldos de obra cuyo costo de inversión es menor a S/ 10,000,000. Los proyectos por administración directa están sujetos al control concurrente." },
-                { "numero": "6.12", "descripcion": "La DGPMI, en coordinación con los Sectores, promueve la estandarización de los procesos de formulación, evaluación y entrega de proyectos de baja complejidad y simplificados." },
-                { "numero": "6.13", "descripcion": "La identificación de inversiones IOARR (optimización, ampliación marginal, reposición y rehabilitación) está sujeta a los criterios y umbrales que determine la DGPMI, incluyendo un análisis de riesgos para confirmar su identificación como IOARR." }
+                {
+                  "numero": "6.1",
+                  "descripcion": "Se realiza la opinión independiente de proyectos de alta complejidad con participación del MEF (DGPMI y DGPP) y de mediana complejidad con participación de los Sectores, como condición previa y vinculante para su declaración de viabilidad, en términos de pertinencia, rentabilidad, ejecutabilidad, sostenibilidad, capacidad presupuestal y capacidad organizacional."
+                },
+                {
+                  "numero": "6.2",
+                  "descripcion": "Para la evaluación ex ante de proyectos de mediana y alta complejidad de infraestructura económica se utiliza el análisis costo beneficio como la metodología que refleja el valor por dinero a lo largo del Ciclo de Inversión: multiplicidad de alternativas, análisis y gestión de riesgos, estimación de costos bajo estándares de ingeniería, financiamiento sostenible y análisis de los sistemas de entrega."
+                },
+                {
+                  "numero": "6.3",
+                  "descripcion": "El esfuerzo técnico para la formulación, evaluación y ejecución de proyectos es directamente proporcional a su complejidad. La DGPMI, en coordinación con los Sectores, establece criterios específicos basados en riesgos asociados a la complejidad de las inversiones."
+                },
+                {
+                  "numero": "6.4",
+                  "descripcion": "La DGPMI establece disposiciones para estandarizar los niveles de alcance de la ingeniería conceptual y básica en la fase de Formulación y Evaluación, a fin de estimar mejor los costos de inversión y reducir variaciones en la fase de Ejecución."
+                },
+                {
+                  "numero": "6.5",
+                  "descripcion": "Los proyectos cumplen con niveles de servicio y estándares de calidad establecidos por los Sectores, con información suficiente que sustente la toma de decisión para la ejecución. Los Sectores promueven estándares para el diseño de las inversiones en los tres niveles de gobierno."
+                },
+                {
+                  "numero": "6.6",
+                  "descripcion": "Las evaluaciones ex post retroalimentan la teoría del cambio de los proyectos de inversión y sustentan las evidencias de nuevos proyectos, a partir de recomendaciones y lecciones aprendidas que deben contribuir a la predictibilidad y gestión de riesgos para evitar obras paralizadas."
+                },
+                {
+                  "numero": "6.7",
+                  "descripcion": "La evaluación de la calidad de las viabilidades por la DGPMI y los Sectores retroalimenta con lecciones aprendidas a la fase de Formulación y Evaluación y contribuye a determinar las necesidades de capital humano en el Ciclo de Inversión."
+                },
+                {
+                  "numero": "6.8",
+                  "descripcion": "La DGPMI lidera la implementación de la metodología BIM (Building Information Modelling) en la formulación, diseño, construcción y gestión de activos de proyectos de inversión de mediana y alta complejidad, a fin de generar eficiencias en costos y plazos."
+                },
+                {
+                  "numero": "6.9",
+                  "descripcion": "Las variaciones de costo del diseño (según el nivel de ingeniería) respecto a la viabilidad del proyecto se informan a los órganos de control para plantear medidas de optimización en la fase de ejecución."
+                },
+                {
+                  "numero": "6.10",
+                  "descripcion": "La DGPMI, en coordinación con los sectores funcionalmente responsables, propone soluciones innovadoras técnicamente posibles y sostenibles para ser consideradas en la formulación y evaluación, o ejecución, o funcionamiento, para lograr soluciones más eficientes y efectivas."
+                },
+                {
+                  "numero": "6.11",
+                  "descripcion": "Los proyectos de baja complejidad se pueden ejecutar por administración directa cuando se justifique que es más eficiente en costo o tiempo. Por excepción, no requieren de dicha justificación: (i) intervenciones de prevención o atención de situaciones de emergencia; (ii) inversiones de emergencia en zonas con declaratoria de Estado de Emergencia; y (iii) saldos de obra cuyo costo de inversión es menor a S/ 10,000,000. Los proyectos por administración directa están sujetos al control concurrente."
+                },
+                {
+                  "numero": "6.12",
+                  "descripcion": "La DGPMI, en coordinación con los Sectores, promueve la estandarización de los procesos de formulación, evaluación y entrega de proyectos de baja complejidad y simplificados."
+                },
+                {
+                  "numero": "6.13",
+                  "descripcion": "La identificación de inversiones IOARR (optimización, ampliación marginal, reposición y rehabilitación) está sujeta a los criterios y umbrales que determine la DGPMI, incluyendo un análisis de riesgos para confirmar su identificación como IOARR."
+                }
               ]
             },
             {
               "tipo": "lineamiento",
               "numero": "VII",
               "titulo": "Lineamiento para la gobernanza de las inversiones",
-              "principios_rectores": ["Gestión de riesgos", "eficacia", "eficiencia", "oportunidad", "transparencia"],
+              "principios_rectores": [
+                "Gestión de riesgos",
+                "eficacia",
+                "eficiencia",
+                "oportunidad",
+                "transparencia"
+              ],
               "medidas": [
-                { "numero": "7.1", "descripcion": "Para los proyectos de alta complejidad, las entidades implementan una gestión basada en resultados y procesos definido por la DGPMI, así como estándares adecuados para mejorar la eficiencia y efectividad del proyecto, asegurando que se ejecuten dentro del costo, plazo y alcance definidos en el diseño." },
-                { "numero": "7.2", "descripcion": "La coordinación entre niveles de gobierno es fundamental para la definición de las estrategias y sinergias de inversión multinivel y multisectorial, realizada a través de mecanismos que fomenten el equilibrio entre una perspectiva nacional y los distintos puntos de vista sectoriales, regionales y locales." },
-                { "numero": "7.3", "descripcion": "La DGPMI brinda acceso al ciudadano sobre los resultados del desempeño de las entidades públicas en la gestión de inversiones, a través del índice de gestión de inversiones, como fuente de información para procesos de vigilancia y rendición de cuentas a nivel local, regional y nacional." },
-                { "numero": "7.4", "descripcion": "Las entidades realizan el seguimiento y evaluación de las inversiones con indicadores propuestos por la DGPMI, buscando la calidad en la gestión de las inversiones durante el Ciclo de Inversión, identificando áreas críticas, riesgos y compromisos." },
-                { "numero": "7.5", "descripcion": "Se promueve el uso de herramientas de dirección de proyectos para la mejora de la gestión de la inversión pública, promoviendo la participación de la alta dirección y los actores involucrados en el desarrollo de los proyectos para una adecuada toma de decisiones." },
-                { "numero": "7.6", "descripcion": "La DGPMI implementa procesos para lograr una mayor efectividad en el Ciclo de Inversiones, teniendo en cuenta los resultados de los índices de gestión de las inversiones de los tres niveles de gobierno." },
-                { "numero": "7.7", "descripcion": "Asegurar que el software desarrollado con recursos públicos y de titularidad de las entidades públicas se registre en la Plataforma Nacional de Software Público Peruano, para su uso, copia, modificación y distribución bajo licencia libre o abierta de los Sistemas Administrativos del Estado. No aplica para softwares o aplicaciones informáticas desarrollados o implementados por los Sistemas Administrativos del Estado." },
-                { "numero": "7.8", "descripcion": "Priorizar, previa evaluación funcional y técnica de la DGPMI, el uso de software de código abierto y estándares libres en todas las fases del Ciclo de Inversión del SNPMGI, con el propósito de optimizar la toma de decisiones, la eficiencia operativa y la calidad de la gestión de inversiones; fomentar la incorporación de tecnologías digitales, incluyendo sistemas basados en IA, y adoptar metodologías ágiles para el desarrollo, implementación y gestión de softwares de los aplicativos informáticos del SNPMGI definidos por la DGPMI, promoviendo la automatización, digitalización y sostenibilidad tecnológica." }
+                {
+                  "numero": "7.1",
+                  "descripcion": "Para los proyectos de alta complejidad, las entidades implementan una gestión basada en resultados y procesos definido por la DGPMI, así como estándares adecuados para mejorar la eficiencia y efectividad del proyecto, asegurando que se ejecuten dentro del costo, plazo y alcance definidos en el diseño."
+                },
+                {
+                  "numero": "7.2",
+                  "descripcion": "La coordinación entre niveles de gobierno es fundamental para la definición de las estrategias y sinergias de inversión multinivel y multisectorial, realizada a través de mecanismos que fomenten el equilibrio entre una perspectiva nacional y los distintos puntos de vista sectoriales, regionales y locales."
+                },
+                {
+                  "numero": "7.3",
+                  "descripcion": "La DGPMI brinda acceso al ciudadano sobre los resultados del desempeño de las entidades públicas en la gestión de inversiones, a través del índice de gestión de inversiones, como fuente de información para procesos de vigilancia y rendición de cuentas a nivel local, regional y nacional."
+                },
+                {
+                  "numero": "7.4",
+                  "descripcion": "Las entidades realizan el seguimiento y evaluación de las inversiones con indicadores propuestos por la DGPMI, buscando la calidad en la gestión de las inversiones durante el Ciclo de Inversión, identificando áreas críticas, riesgos y compromisos."
+                },
+                {
+                  "numero": "7.5",
+                  "descripcion": "Se promueve el uso de herramientas de dirección de proyectos para la mejora de la gestión de la inversión pública, promoviendo la participación de la alta dirección y los actores involucrados en el desarrollo de los proyectos para una adecuada toma de decisiones."
+                },
+                {
+                  "numero": "7.6",
+                  "descripcion": "La DGPMI implementa procesos para lograr una mayor efectividad en el Ciclo de Inversiones, teniendo en cuenta los resultados de los índices de gestión de las inversiones de los tres niveles de gobierno."
+                },
+                {
+                  "numero": "7.7",
+                  "descripcion": "Asegurar que el software desarrollado con recursos públicos y de titularidad de las entidades públicas se registre en la Plataforma Nacional de Software Público Peruano, para su uso, copia, modificación y distribución bajo licencia libre o abierta de los Sistemas Administrativos del Estado. No aplica para softwares o aplicaciones informáticas desarrollados o implementados por los Sistemas Administrativos del Estado."
+                },
+                {
+                  "numero": "7.8",
+                  "descripcion": "Priorizar, previa evaluación funcional y técnica de la DGPMI, el uso de software de código abierto y estándares libres en todas las fases del Ciclo de Inversión del SNPMGI, con el propósito de optimizar la toma de decisiones, la eficiencia operativa y la calidad de la gestión de inversiones; fomentar la incorporación de tecnologías digitales, incluyendo sistemas basados en IA, y adoptar metodologías ágiles para el desarrollo, implementación y gestión de softwares de los aplicativos informáticos del SNPMGI definidos por la DGPMI, promoviendo la automatización, digitalización y sostenibilidad tecnológica."
+                }
               ]
             }
           ]
@@ -462,6 +664,8 @@
     "fecha_analisis": "2026-02-21",
     "analizado_por": "GitHub Copilot (Claude Sonnet 4.5) - análisis directo del texto del PDF",
     "version_schema": "1.0",
-    "notas": "Firmado el 13 de febrero de 2025 por Dina Ercilia Boluarte Zegarra (Presidenta) y José Antonio Salardi Rodríguez (Ministro de Economía y Finanzas). El PDF contiene 7 páginas en formato El Peruano (páginas 24 a 30). Las páginas 1-2 (inicio del PDF) contienen además una resolución ministerial de MIDIS sobre el Premio Sello Municipal (no parte de este DS). La última página del PDF (pág. 7 del PDF) contiene el inicio de la RM 060-2025-EF/50 sobre FONCOR, que tampoco forma parte de este DS y no fue incluida en el JSON. Los LPNIP son el primer documento de este tipo aprobado en el marco del Art. 3-A del DL 1252, incorporado por DL 1664 (24-09-2024). Contienen 7 lineamientos con un total de 43 medidas específicas, más el listado de servicios prioritarios por sector y nivel de gobierno (metodología sustentada en econometría de datos de panel, período 2008-2023, usando datos del Banco de Inversiones e INEI)."
+    "notas": "Firmado el 13 de febrero de 2025 por Dina Ercilia Boluarte Zegarra (Presidenta) y José Antonio Salardi Rodríguez (Ministro de Economía y Finanzas). El PDF contiene 7 páginas en formato El Peruano (páginas 24 a 30). Las páginas 1-2 (inicio del PDF) contienen además una resolución ministerial de MIDIS sobre el Premio Sello Municipal (no parte de este DS). La última página del PDF (pág. 7 del PDF) contiene el inicio de la RM 060-2025-EF/50 sobre FONCOR, que tampoco forma parte de este DS y no fue incluida en el JSON. Los LPNIP son el primer documento de este tipo aprobado en el marco del Art. 3-A del DL 1252, incorporado por DL 1664 (24-09-2024). Contienen 7 lineamientos con un total de 43 medidas específicas, más el listado de servicios prioritarios por sector y nivel de gobierno (metodología sustentada en econometría de datos de panel, período 2008-2023, usando datos del Banco de Inversiones e INEI).",
+    "version_esquema": "3",
+    "fuente": "DS020_2025EF.pdf"
   }
 }
