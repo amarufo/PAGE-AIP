@@ -7,7 +7,7 @@
     <meta name="keywords" content="inversión pública, PIP, ciencia de datos, análisis cuantitativo, Perú, proyectos">
     <meta name="author" content="Wilbert Amaru Fernández Olmedo">
     <meta name="theme-color" content="#b91c1c">
-    
+
     <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://amarufo.github.io/">
@@ -15,83 +15,63 @@
     <meta property="og:description" content="Portal especializado en ciencia de datos aplicada a inversión pública en el Perú, con bases de datos, guías técnicas y métodos cuantitativos.">
     <meta property="og:image" content="https://amarufo.github.io/images/icono.webp">
     <meta property="og:locale" content="es_ES">
-    
+
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Academia de Inversión Pública">
     <meta name="twitter:description" content="Recursos y guías para formulación de Proyectos de Inversión Pública con análisis de datos.">
     <meta name="twitter:image" content="https://amarufo.github.io/images/icono.webp">
-    
+
     <!-- PWA -->
     <link rel="manifest" href="manifest.json">
     <link rel="apple-touch-icon" href="images/icono2.png">
-    
     <link rel="icon" href="images/icono2.png" type="image/png">
-    <title>Academia de Inversión Pública - Análisis de Datos en Perú | Amaru</title>
+
+    <title>Academia de Inversión Pública — Análisis de Datos en Perú | Amaru</title>
     <link href="css/styles.css" rel="stylesheet">
 </head>
 <body data-pagina="inicio">
+
+<a href="#main-content" class="skip-to-main">Ir al contenido</a>
+
 <div class="layout">
-    <!-- Sidebar -->
-    <aside class="sidebar" role="complementary" aria-label="Navegación principal">
-        <a href="index.html" aria-label="Ir a inicio">
-            <img src="images/rino1.png" alt="Foto de perfil de Wilbert Amaru" class="profile-img">
-        </a>
-        <h1>Academia de Inversión Pública</h1>
-        <h2 style="font-size: 0.95rem; font-weight: 600;">Econ. Wilbert Amaru Fernandez Olmedo</h2>
-        <p>Especialista en Ciencia de Datos aplicada a la Inversión Pública</p>
-        <nav aria-label="Menú de navegación principal">
-            <a href="index.html"><b>Inicio</b></a>
-            <a href="pages/sobre-mi.html">Sobre mí</a>
-            <a href="pages/servicios.html">Servicios</a>
-            <a href="pages/proyectos.html">Proyectos</a>
-            <a href="pages/articulos.html">Artículos y bases de datos</a>
-            <a href="pages/guias-pip.html">Guías PIP</a>
-            <a href="pages/contacto.html">Contacto</a>
-        </nav>
-        <div class="sidebar-social">
-            <a href="mailto:amaruf9523@gmail.com"><img src="images/mailito.png" alt="Email"></a>
-            <a href="https://www.youtube.com/@amarufo_inversionpublica" target="_blank"><img src="images/yt.png" alt="YouTube"></a>
-            <a href="https://www.linkedin.com/in/amarufo/" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"></a>
-            <a href="https://github.com/amarufo" target="_blank"><img src="images/gh.png" alt="GitHub"></a>
-            <a href="https://wa.me/51934657378" target="_blank"><img src="images/wsp.png" alt="WhatsApp"></a>
-            
-        </div>
-    </aside>
+    <!-- Sidebar dinámico -->
+    <div id="sidebar-root"></div>
+
     <!-- Contenido principal -->
-    <main class="content">
-        <!-- Hero o Banner principal -->
-        <section class="hero">
-            <div>
-                <img src="images/icono.png" alt="Academia Amaru" class="hero-icon">
-            </div>
+    <main class="content" id="main-content">
+
+        <!-- Hero mejorado -->
+        <section class="hero" aria-label="Bienvenida">
+            <img src="images/icono.png" alt="Logo Academia de Inversión Pública" class="hero-icon" loading="eager">
             <div class="hero-text">
                 <h1>Academia de Inversión Pública</h1>
-                <p class="page-subtitle"><i>Accede a recursos, guías y bases de datos para mejorar la formulación de Proyectos de Inversión Pública en el Perú, con foco en analítica y ciencia de datos.</i></p>
+                <p class="hero-sub">Accede a recursos, guías y bases de datos para mejorar la formulación de Proyectos de Inversión Pública en el Perú, con foco en analítica y ciencia de datos.</p>
+                <a href="pages/servicios.html" class="hero-cta">Ver servicios →</a>
             </div>
         </section>
 
-        <!-- Paneles destacados tipo masonry -->
-        <section id="paneles">
-        <h2 style="color:#b91c1c; margin-bottom: 1.5rem;">Últimas publicaciones</h2>
-        <p style="color: #666; margin-bottom: 1.5rem; font-size: 0.95rem;">
-            Últimos proyectos: aplicaciones, desarrollos, etc... 
-            <a href="pages/proyectos.html" style="color: #b91c1c; font-weight: bold;">Ver todas →</a>
-        </p>
-        <div class="paneles-contenedor" id="ultimas-entradas">
-            <!-- Se cargan dinámicamente desde data/contenido.json -->
-        </div>
+        <!-- Últimas publicaciones -->
+        <section id="paneles" aria-labelledby="titulo-publicaciones">
+            <h2 id="titulo-publicaciones" style="color:var(--red); margin-bottom:.6rem; font-size:1.35rem; font-weight:800; letter-spacing:-.02em;">Últimas publicaciones</h2>
+            <p style="color:var(--text-2); margin-bottom:1.4rem; font-size:0.93rem;">
+                Proyectos, aplicaciones y recursos recientes.
+                <a href="pages/proyectos.html" style="color:var(--red); font-weight:700; text-decoration:none; margin-left:.3rem;">Ver todos →</a>
+            </p>
+            <div class="paneles-contenedor" id="ultimas-entradas">
+                <!-- Se cargan dinámicamente desde data/contenido.json -->
+            </div>
         </section>
 
-        <script src="js/contenido.js"></script>
-
-        <!-- Botón flotante WhatsApp -->
-        <a href="mailto:amaruf9523@gmail.com" target="_blank" class="whatsapp-float-global" aria-label="Contactar por WhatsApp">
+        <!-- Botón flotante contacto -->
+        <a href="mailto:amaruf9523@gmail.com" class="whatsapp-float-global" aria-label="Contactar por email">
             💬
             <span class="wsp-tooltip">¿Necesitas ayuda?</span>
         </a>
     </main>
 </div>
-</body>
 
+<script src="js/sidebar.js"></script>
+<script src="js/contenido.js"></script>
+</body>
 </html>

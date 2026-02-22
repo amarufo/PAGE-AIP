@@ -1,219 +1,153 @@
 /**
  * contenido.js
- * Sistema central de contenido: carga desde JSON y actualiza múltiples páginas
- * Maneja: Apps, scripts, bases de datos, análisis, artículos
+ * Sistema central de contenido: carga desde JSON y actualiza múltiples páginas.
  */
 
 let todasLasEntradas = [];
 
-/**
- * Carga el JSON de contenido central
- */
 async function cargarContenido() {
   try {
-    // Determinar la ruta correcta del JSON según la URL actual
-    const currentPath = window.location.pathname;
-    const isInPages = currentPath.includes('/pages/');
-    const jsonPath = isInPages ? '../data/contenido.json' : './data/contenido.json';
-    
-    console.log('Ruta actual:', currentPath);
-    console.log('En pages:', isInPages);
-    console.log('Buscando JSON en:', jsonPath);
-    
-    const response = await fetch(jsonPath);
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    todasLasEntradas = await response.json();
-    
-    console.log('JSON cargado exitosamente:', todasLasEntradas);
-    
-    // Guardar si estamos en pages o no para usarlo después en rutas de imágenes
+    const isInPages = window.location.pathname.includes('/pages/');
+    const jsonPath  = isInPages ? '../data/contenido.json' : './data/contenido.json';
     window.isInPages = isInPages;
-    
-    // Renderizar según la página actual
-    const paginaActual = document.body.dataset.pagina;
-    console.log('Página actual:', paginaActual);
-    
-    if (paginaActual === 'articulos') {
-      renderizarArticulos();
-    } else if (paginaActual === 'proyectos') {
-      renderizarProyectos();
-    } else if (paginaActual === 'inicio') {
-      renderizarUltimosEnInicio();
-    }
-    
-  } catch (error) {
-    console.error('Error cargando contenido:', error);
+
+    const response = await fetch(jsonPath);
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    todasLasEntradas = await response.json();
+
+    const pagina = document.body.dataset.pagina;
+    if      (pagina === 'articulos') renderizarArticulos();
+    else if (pagina === 'proyectos') renderizarProyectos();
+    else if (pagina === 'inicio')    renderizarUltimosEnInicio();
+  } catch (err) {
+    console.error('Error cargando contenido:', err);
   }
 }
 
-/**
- * Obtiene la ruta correcta de una imagen según la ubicación actual
- */
 function ajustarRutaImagen(ruta) {
-  if (window.isInPages) {
-    return '../' + ruta;
-  }
-  return ruta;
+  return window.isInPages ? '../' + ruta : ruta;
 }
 
-/**
- * Renderiza artículos, análisis y bases de datos
- */
 function renderizarArticulos() {
   const contenedor = document.getElementById('articulos-contenedor');
   if (!contenedor) return;
-  
-  // Filtrar entradas que deben ir a articulos
-  const articulos = todasLasEntradas.entradas.filter(e => 
-    e.paginas_destino.includes('articulos')
-  ).sort((a, b) => new Date(b.fecha_publicacion) - new Date(a.fecha_publicacion));
-  
+  const articulos = todasLasEntradas.entradas
+    .filter(e => e.paginas_destino.includes('articulos'))
+    .sort((a, b) => new Date(b.fecha_publicacion) - new Date(a.fecha_publicacion));
   contenedor.innerHTML = '';
-  articulos.forEach(entrada => {
-    contenedor.appendChild(crearTarjeta(entrada));
-  });
+  articulos.forEach(e => contenedor.appendChild(crearTarjeta(e)));
 }
 
-/**
- * Renderiza apps y herramientas para descargar
- */
 function renderizarProyectos() {
   const contenedor = document.getElementById('proyectos-contenedor');
   if (!contenedor) return;
-  
-  // Filtrar entradas que deben ir a proyectos
-  const proyectos = todasLasEntradas.entradas.filter(e => 
-    e.paginas_destino.includes('proyectos')
-  ).sort((a, b) => new Date(b.fecha_publicacion) - new Date(a.fecha_publicacion));
-  
+  const proyectos = todasLasEntradas.entradas
+    .filter(e => e.paginas_destino.includes('proyectos'))
+    .sort((a, b) => new Date(b.fecha_publicacion) - new Date(a.fecha_publicacion));
   contenedor.innerHTML = '';
-  proyectos.forEach(entrada => {
-    contenedor.appendChild(crearTarjeta(entrada));
-  });
+  proyectos.forEach(e => contenedor.appendChild(crearTarjeta(e)));
 }
 
-/**
- * Renderiza últimas 3 entradas en inicio (index.html)
- */
 function renderizarUltimosEnInicio() {
-    const contenedor = document.getElementById('ultimas-entradas');
-    if (!contenedor) return;
-  
-    // Filtrar solo las entradas que tienen "inicio" en paginas_destino
-    const ultimas = todasLasEntradas.entradas
-      .filter(e => e.paginas_destino && e.paginas_destino.includes('inicio'))
-      .sort((a, b) => new Date(b.fecha_publicacion) - new Date(a.fecha_publicacion))
-      .slice(0, 10); // O el número que desees mostrar
-  
-    contenedor.innerHTML = '';
-    ultimas.forEach(entrada => {
-      contenedor.appendChild(crearTarjeta(entrada));
-    });
-  }
+  const contenedor = document.getElementById('ultimas-entradas');
+  if (!contenedor) return;
+  const ultimas = todasLasEntradas.entradas
+    .filter(e => e.paginas_destino && e.paginas_destino.includes('inicio'))
+    .sort((a, b) => new Date(b.fecha_publicacion) - new Date(a.fecha_publicacion))
+    .slice(0, 10);
+  contenedor.innerHTML = '';
+  ultimas.forEach(e => contenedor.appendChild(crearTarjeta(e)));
+}
 
-/**
- * Crea una tarjeta visual para una entrada
- */
 function crearTarjeta(entrada) {
   const panel = document.createElement('div');
-  panel.className = 'panel';
+  panel.className = 'panel animate-fade-in';
   panel.dataset.categoria = entrada.categoria;
-  
-  // Icono/sticker
+
+  // Sticker
   const icono = document.createElement('img');
   icono.src = ajustarRutaImagen(entrada.icono);
-  icono.alt = entrada.categoria;
+  icono.alt = '';
   icono.className = 'panel-sticker';
+  icono.setAttribute('aria-hidden', 'true');
   panel.appendChild(icono);
-  
-  // Imagen principal
+
+  // Imagen
   const img = document.createElement('img');
   img.src = ajustarRutaImagen(entrada.imagen);
   img.alt = entrada.titulo;
   img.className = 'panel-img';
+  img.loading = 'lazy';
   panel.appendChild(img);
-  
+
   // Contenido
   const contenido = document.createElement('div');
   contenido.className = 'panel-contenido';
-  
-  // Badge de categoría
+
   const badge = document.createElement('span');
   badge.className = 'badge-categoria';
   badge.textContent = obtenerLabelCategoria(entrada.categoria);
   contenido.appendChild(badge);
-  
-  // Título
+
   const titulo = document.createElement('h3');
   titulo.textContent = entrada.titulo;
   contenido.appendChild(titulo);
-  
-  // Subtítulo
+
   if (entrada.subtitulo) {
-    const subtitulo = document.createElement('p');
-    subtitulo.className = 'subtitulo-panel';
-    subtitulo.textContent = entrada.subtitulo;
-    contenido.appendChild(subtitulo);
+    const sub = document.createElement('p');
+    sub.className = 'subtitulo-panel';
+    sub.textContent = entrada.subtitulo;
+    contenido.appendChild(sub);
   }
-  
-  // Descripción
+
   const desc = document.createElement('p');
   desc.textContent = entrada.descripcion;
   contenido.appendChild(desc);
-  
-  // Precio (si aplica)
+
   if (entrada.precio) {
     const precio = document.createElement('p');
     precio.className = 'precio-panel';
     precio.textContent = entrada.precio;
     contenido.appendChild(precio);
   }
-  
-  // Botón
-  const link = document.createElement('a');
-  link.href = '#entrada-' + entrada.id;
+
+  const link = document.createElement('button');
   link.className = 'panel-link';
   link.textContent = 'Ver más';
-  link.onclick = (e) => {
-    e.preventDefault();
-    mostrarDetalle(entrada);
-  };
+  link.addEventListener('click', () => mostrarDetalle(entrada));
   contenido.appendChild(link);
-  
+
   panel.appendChild(contenido);
-  
   return panel;
 }
 
-/**
- * Obtiene el label legible de una categoría
- */
 function obtenerLabelCategoria(categoria) {
   const labels = {
-    'base-datos': '📊 Base de datos',
-    'analisis': '📈 Análisis',
-    'app-escritorio': '💻 App Escritorio',
-    'app-web': '🌐 App Web',
-    'script': '⚙️ Script',
-    'articulo': '📰 Artículo',
-    'especial': '✨ Especial'
+    'base-datos':    '📊 Base de datos',
+    'analisis':      '📈 Análisis',
+    'app-escritorio':'💻 App Escritorio',
+    'app-web':       '🌐 App Web',
+    'script':        '⚙️ Script',
+    'articulo':      '📰 Artículo',
+    'especial':      '✨ Especial',
   };
   return labels[categoria] || categoria;
 }
 
-/**
- * Muestra detalle de una entrada en modal
- */
 function mostrarDetalle(entrada) {
+  // Cerrar modal anterior si existe
+  const anterior = document.getElementById('modal-detalle-global');
+  if (anterior) anterior.remove();
+
   const detalle = document.createElement('div');
-  detalle.id = 'detalle-' + entrada.id;
+  detalle.id = 'modal-detalle-global';
   detalle.className = 'modal-detalle';
-  
+  detalle.setAttribute('role', 'dialog');
+  detalle.setAttribute('aria-modal', 'true');
+  detalle.setAttribute('aria-labelledby', 'modal-titulo');
+
   let botonesCuerpo = '';
-  
-  // Botón de descarga
+
   if (entrada.descargas && entrada.descargas.length > 0) {
     botonesCuerpo += `
       <div class="descargas">
@@ -221,48 +155,44 @@ function mostrarDetalle(entrada) {
         ${entrada.descargas.map(d => `
           <a href="${d.url}" class="btn-descarga" download>${d.nombre}</a>
         `).join('')}
-      </div>
-    `;
+      </div>`;
   }
-  
-  // Botón de app web
+
   if (entrada.url_web) {
     botonesCuerpo += `
       <div class="acceso-web">
-        <a href="${entrada.url_web}" target="_blank" class="btn-app">🚀 Abrir aplicación</a>
-      </div>
-    `;
+        <a href="${entrada.url_web}" target="_blank" rel="noopener" class="btn-app">🚀 Abrir aplicación</a>
+      </div>`;
   }
-  
+
   detalle.innerHTML = `
     <div class="modal-contenido">
-      <button class="cerrar" onclick="this.parentElement.parentElement.remove()">&times;</button>
+      <button class="cerrar" aria-label="Cerrar">&times;</button>
       <span class="badge-categoria-modal">${obtenerLabelCategoria(entrada.categoria)}</span>
-      <h2>${entrada.titulo}</h2>
+      <h2 id="modal-titulo">${entrada.titulo}</h2>
       <p class="subtitulo">${entrada.subtitulo || ''}</p>
       <div class="modal-metadata">
         <small>Publicado: ${formatearFecha(entrada.fecha_publicacion)}</small>
         <small>Por: ${entrada.autor}</small>
       </div>
-      <div class="modal-cuerpo">
-        ${entrada.contenido}
-      </div>
+      <div class="modal-cuerpo">${entrada.contenido}</div>
       ${botonesCuerpo}
-    </div>
-  `;
-  
+    </div>`;
+
   document.body.appendChild(detalle);
+
+  // Cerrar al hacer click en overlay o en botón cerrar
+  detalle.querySelector('.cerrar').addEventListener('click', () => detalle.remove());
+  detalle.addEventListener('click', e => { if (e.target === detalle) detalle.remove(); });
+
+  // Cerrar con Escape
+  document.addEventListener('keydown', function handler(e) {
+    if (e.key === 'Escape') { detalle.remove(); document.removeEventListener('keydown', handler); }
+  });
 }
 
-/**
- * Formatea fecha al formato español
- */
 function formatearFecha(fecha) {
-  const opciones = { year: 'numeric', month: 'long', day: 'numeric' };
-  return new Date(fecha).toLocaleDateString('es-ES', opciones);
+  return new Date(fecha).toLocaleDateString('es-ES', { year: 'numeric', month: 'long', day: 'numeric' });
 }
 
-/**
- * Ejecuta al cargar
- */
 document.addEventListener('DOMContentLoaded', cargarContenido);
