@@ -1,0 +1,367 @@
+{
+  "id": "DS001_2019EF",
+  "archivo_pdf": "DS001_2019EF.pdf",
+  "tipo_norma": "decreto_supremo",
+  "numero": "001-2019-EF",
+  "titulo_oficial": "Decreto Supremo que aprueba el Reglamento del Decreto Legislativo N° 1435, Decreto Legislativo que establece la implementación y funcionamiento del Fondo Invierte para el Desarrollo Territorial - FIDT",
+  "titulo_corto": "DS 001-2019-EF — Reglamento del FIDT",
+  "fecha_publicacion": "2019-01-04",
+  "entidad_emisora": "Ministerio de Economía y Finanzas",
+  "estado": "vigente",
+  "fase_ciclo_inversion": ["programacion", "formulacion_evaluacion", "ejecucion"],
+  "temas_clave": [
+    "Fondo Invierte para el Desarrollo Territorial (FIDT)",
+    "financiamiento y cofinanciamiento de inversiones de GR y GL",
+    "cierre de brechas de infraestructura y servicios básicos",
+    "concurso de proyectos de inversión regional y local",
+    "Consejo Directivo del FIDT",
+    "Secretaría Técnica (DGPMI-MEF)",
+    "liquidación del FONIE",
+    "servicios priorizados para el desarrollo territorial"
+  ],
+  "resumen_ejecutivo": "El Decreto Supremo N° 001-2019-EF aprueba el Reglamento del Decreto Legislativo N° 1435, que implementa el Fondo Invierte para el Desarrollo Territorial (FIDT). El Reglamento establece 5 capítulos y 17 artículos que desarrollan la operación del FIDT: su finalidad (financiar/cofinanciar inversiones y estudios de preinversión de GR y GL en el marco de Invierte.pe, orientados a reducir brechas), la administración mediante un Consejo Directivo presidido por la Secretaría de Descentralización de PCM y una Secretaría Técnica a cargo de la DGPMI-MEF, los 9 servicios priorizados, los criterios de asignación de recursos por concurso, los procedimientos de selección, y el seguimiento de la ejecución. Deroga los reglamentos del FONIPREL (DS 204-2007-EF y DS 080-2018-EF) y del FONIE (DS 004-2013-MIDIS).",
+  "objetivo": "Establecer las disposiciones reglamentarias para la implementación y funcionamiento del Fondo Invierte para el Desarrollo Territorial (FIDT), creado por el Decreto Legislativo N° 1435.",
+  "ambito_aplicacion": "Gobiernos Regionales y Gobiernos Locales que concursen y sean beneficiarios de los recursos del FIDT para el financiamiento o cofinanciamiento de inversiones y estudios de preinversión en el marco del Sistema Invierte.pe.",
+  "normas_que_modifica": [],
+  "normas_que_deroga": [
+    "Decreto Supremo N° 204-2007-EF — Reglamento de la Ley 29125 (FONIPREL)",
+    "Decreto Supremo N° 080-2018-EF — Modificación del Reglamento del FONIPREL",
+    "Decreto Supremo N° 004-2013-MIDIS — Reglamento del FONIE"
+  ],
+  "normas_referenciadas": [
+    "Decreto Legislativo N° 1435 — Ley que establece la implementación y funcionamiento del FIDT (norma reglamentada)",
+    "Decreto Legislativo N° 1252 — Ley Invierte.pe (marco del sistema al que están sujetas las inversiones del FIDT)",
+    "Artículo 108 del TUO de la Ley N° 27444 (Ley del Procedimiento Administrativo General, DS 006-2017-JUS)",
+    "Ley N° 29125 — Ley del FONIPREL (derogada junto con sus reglamentos)"
+  ],
+  "estructura": [
+    {
+      "tipo": "seccion",
+      "titulo": "Decreto Supremo (cuerpo)",
+      "hijos": [
+        {
+          "tipo": "articulo",
+          "numero": "1",
+          "titulo": "Aprobación del Reglamento",
+          "contenido_resumen": "Aprueba el Reglamento del DL 1435 (FIDT), que consta de 5 capítulos, 17 artículos y 4 disposiciones complementarias finales."
+        },
+        {
+          "tipo": "articulo",
+          "numero": "2",
+          "titulo": "Refrendo",
+          "contenido_resumen": "Refrendado por el Presidente del Consejo de Ministros, la Ministra de Desarrollo e Inclusión Social y el Ministro de Economía y Finanzas."
+        },
+        {
+          "tipo": "disposicion_derogatoria",
+          "titulo": "Disposición Complementaria Derogatoria Única — Derogación de normas",
+          "contenido_resumen": "Deroga el DS 204-2007-EF (Reglamento FONIPREL), el DS 080-2018-EF (modificación al Reglamento FONIPREL) y el DS 004-2013-MIDIS (Reglamento del FONIE)."
+        }
+      ]
+    },
+    {
+      "tipo": "capitulo",
+      "numero": "I",
+      "titulo": "Disposiciones Generales (Reglamento del FIDT)",
+      "hijos": [
+        {
+          "tipo": "articulo",
+          "numero": "1",
+          "titulo": "Objeto del Reglamento",
+          "contenido_resumen": "Establecer las disposiciones reglamentarias para la implementación y funcionamiento del FIDT creado por el DL 1435. Toda referencia a 'la Ley' en el Reglamento se entiende hecha al DL 1435."
+        },
+        {
+          "tipo": "articulo",
+          "numero": "2",
+          "titulo": "Finalidad del FIDT",
+          "contenido_resumen": "2.1: El FIDT financia o cofinancia inversiones y estudios de preinversión de competencia de GR y GL en el marco del SNPMGI, orientados a reducir brechas en provisión de servicios e infraestructura básicos, con mayor impacto en la reducción de la pobreza y pobreza extrema y que generen aumento de la productividad con enfoque territorial. 2.2: Mecanismo concursable con 3 características: (1) Competitivo e igualitario (criterios de agrupamiento de GR y GL); (2) Compensatorio (recursos consistentes con objetivos priorizados del PMI o planes de desarrollo local concertado); (3) Inclusivo (prioriza territorios con mayores niveles de pobreza y pobreza extrema)."
+        },
+        {
+          "tipo": "articulo",
+          "numero": "3",
+          "titulo": "Destino de los recursos del FIDT",
+          "contenido_resumen": "3.1: Recursos destinados a inversiones y estudios de preinversión consistentes con criterios de priorización aprobados por el Sector funcionalmente competente y los objetivos del PMI de los GR y GL sujetos al SNPMGI (o con las prioridades del plan de desarrollo local concertado para los GL no sujetos al SNPMGI), que atiendan los servicios del artículo 8. 3.2: El financiamiento/cofinanciamiento puede incluir la elaboración del expediente técnico o equivalente. 3.3: El FIDT puede también financiar el encargo de evaluación de solicitudes y de evaluación del impacto del FIDT."
+        }
+      ]
+    },
+    {
+      "tipo": "capitulo",
+      "numero": "II",
+      "titulo": "Administración del FIDT",
+      "hijos": [
+        {
+          "tipo": "subcapitulo",
+          "titulo": "Subcapítulo I — Consejo Directivo",
+          "hijos": [
+            {
+              "tipo": "articulo",
+              "numero": "4",
+              "titulo": "Designación de los miembros del Consejo Directivo",
+              "contenido_resumen": "La Secretaría de Descentralización de PCM preside el CD del FIDT. Los miembros son designados por el MEF, MIDIS y CEPLAN mediante comunicación escrita al Presidente del CD. Los representantes de la Asamblea de GR, AMPE y REMURPE también comunican su designación. La alternancia AMPE/REMURPE inicia con la AMPE. Plazo de comunicación de designaciones: 30 días calendario desde la vigencia del Reglamento."
+            },
+            {
+              "tipo": "articulo",
+              "numero": "5",
+              "titulo": "Sesiones del Consejo Directivo",
+              "contenido_resumen": "Sesiones ordinarias y extraordinarias (a solicitud del Presidente o mayoría simple de miembros), presenciales o virtuales. Quórum: mayoría absoluta de los miembros. Los acuerdos constan en actas a cargo de la Secretaría Técnica."
+            },
+            {
+              "tipo": "articulo",
+              "numero": "6",
+              "titulo": "Funciones del Consejo Directivo",
+              "contenido_resumen": "11 funciones: (1) establecer políticas y directivas generales; (2) dictar lineamientos de administración y gestión; (3) vigilar el uso de recursos; (4) aprobar distribución de recursos disponibles; (5) aprobar criterios generales y bases del concurso; (6) aprobar la lista de solicitudes seleccionadas; (7) aprobar especificaciones de jerarquía y ponderación de criterios; (8) autorizar encargo de evaluación de solicitudes a instituciones especializadas; (9) evaluar y autorizar modificaciones a los convenios; (10) remitir informes semestrales al Congreso (Comisión de Presupuesto) y a la CGR; (11) aprobar instrumentos de gestión internos."
+            }
+          ]
+        },
+        {
+          "tipo": "subcapitulo",
+          "titulo": "Subcapítulo II — Secretaría Técnica",
+          "hijos": [
+            {
+              "tipo": "articulo",
+              "numero": "7",
+              "titulo": "De la Secretaría Técnica",
+              "contenido_resumen": "La DGPMI-MEF actúa como Secretaría Técnica del CD del FIDT (DL 1435, art. 10.3). Tiene 16 funciones: estimar y proponer montos por concurso; solicitar depósito de recursos; elaborar bases del concurso; convocar concursos; evaluar y seleccionar solicitudes; presentar resultados al CD; publicar lista de seleccionadas; suscribir convenios; solicitar modificaciones presupuestarias; realizar seguimiento físico-financiero; proponer modificaciones a convenios; elaborar informes semestrales para el CD; remitir propuesta de especificaciones de jerarquía y ponderación; dictar pautas técnicas y operativas; mantener el libro de actas; y otras que encargue el CD."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "capitulo",
+      "numero": "III",
+      "titulo": "Servicios Priorizados y Criterios de Asignación de Recursos",
+      "hijos": [
+        {
+          "tipo": "articulo",
+          "numero": "8",
+          "titulo": "Servicios priorizados",
+          "contenido_resumen": "El FIDT financia inversiones y estudios de preinversión orientados a los siguientes 9 servicios de competencia de GR y GL: (1) servicios de salud básica; (2) desnutrición infantil y/o anemia infantil; (3) servicios de educación básica; (4) infraestructura vial; (5) servicios de saneamiento; (6) electrificación rural; (7) infraestructura agrícola; (8) telecomunicación rural; (9) apoyo al desarrollo productivo. En las bases del concurso se establece el orden de prelación entre estos servicios."
+        },
+        {
+          "tipo": "articulo",
+          "numero": "9",
+          "titulo": "Criterios para el agrupamiento de GR y GL",
+          "contenido_resumen": "Los GR y GL se agrupan por rubros en función a dos dimensiones: necesidades y niveles de recursos, conforme a las especificaciones de jerarquía y ponderación. Cada solicitud concursa en un solo rubro. El CD reasigna saldos disponibles por rubro. El agrupamiento por nivel de recursos determina límites de financiamiento/cofinanciamiento del FIDT."
+        },
+        {
+          "tipo": "articulo",
+          "numero": "10",
+          "titulo": "Criterios para la determinación del orden de prelación de las solicitudes",
+          "contenido_resumen": "La prelación se determina conforme a los criterios del DL 1435 (art. 7.1, numerales 3 al 8) y la ponderación de las siguientes 4 líneas de evaluación: (1) Calidad de las inversiones en términos de identificación, efectividad, rentabilidad social y sostenibilidad; (2) Articulación de las inversiones entre niveles de gobierno (Mancomunidades, Junta de Coordinación Interregional o Asociación de GR); (3) Ubicación en zona de frontera; (4) Consistencia con los objetivos priorizados del PMI regional o local o con el plan de desarrollo local concertado. La Secretaría Técnica publica las especificaciones en el Diario Oficial El Peruano y en el portal del MEF."
+        }
+      ]
+    },
+    {
+      "tipo": "capitulo",
+      "numero": "IV",
+      "titulo": "Procedimiento de Selección de Solicitudes y Asignación de Recursos",
+      "hijos": [
+        {
+          "tipo": "articulo",
+          "numero": "11",
+          "titulo": "Convocatoria de los concursos",
+          "contenido_resumen": "La Secretaría Técnica elabora las bases del concurso teniendo en cuenta los recursos disponibles del FIDT y las propone al CD para aprobación. La convocatoria se publica en El Peruano, el portal del MEF y otros medios."
+        },
+        {
+          "tipo": "articulo",
+          "numero": "12",
+          "titulo": "Presentación y selección de solicitudes",
+          "contenido_resumen": "12.1: Las solicitudes deben cumplir los requisitos de las bases. 12.2: Se presentan dentro de los plazos de las bases. Si hay más de una solicitud, se indica el orden de prioridad alineado al PMI. 12.3: La Secretaría Técnica evalúa y asigna puntaje conforme a los criterios de prelación; recursos se asignan en estricto orden de prelación. 12.4: La Secretaría Técnica presenta la lista de seleccionadas al CD para aprobación; luego la comunica a los GR/GL y la publica en el portal del MEF. 12.5: Para cofinanciamiento, los GR/GL deben acreditar disponibilidad presupuestaria suscrita por el Gobernador Regional o Alcalde. 12.6: Cuando el cronograma supera el año fiscal, los GR/GL deben priorizar el cofinanciamiento en su formulación presupuestaria. 12.7: La Secretaría Técnica suscribe los convenios con los GR/GL seleccionados."
+        },
+        {
+          "tipo": "articulo",
+          "numero": "13",
+          "titulo": "Incorporación de recursos en el presupuesto institucional de GR y GL",
+          "contenido_resumen": "La Secretaría Técnica solicita al MEF la aprobación de modificaciones presupuestarias para incorporar los recursos del FIDT en los presupuestos institucionales de los GR/GL seleccionados, adjuntando el proyecto de decreto supremo y la documentación sustentatoria."
+        }
+      ]
+    },
+    {
+      "tipo": "capitulo",
+      "numero": "V",
+      "titulo": "Seguimiento de las Inversiones y Estudios de Preinversión",
+      "hijos": [
+        {
+          "tipo": "articulo",
+          "numero": "14",
+          "titulo": "Plazos de vigencia de los convenios",
+          "contenido_resumen": "14.1: Plazos máximos de los convenios: (1) proyectos de inversión: hasta 5 años; (2) IOARR (optimización, ampliación marginal, reposición y rehabilitación): hasta 2 años; (3) estudios de preinversión: hasta 2 años. 14.2: El plazo se determina según la naturaleza de la inversión; puede prorrogarse, pero nunca exceder los límites del numeral 14.1."
+        },
+        {
+          "tipo": "articulo",
+          "numero": "15",
+          "titulo": "Seguimiento de la ejecución",
+          "contenido_resumen": "15.1: La Secretaría Técnica realiza el seguimiento a través de la aprobación de los informes semestrales y de culminación. 15.2: Los GR y GL son responsables de culminar las inversiones y estudios de preinversión dentro de los plazos del convenio."
+        },
+        {
+          "tipo": "articulo",
+          "numero": "16",
+          "titulo": "Informes semestrales y de culminación",
+          "contenido_resumen": "16.1: Los GR y GL remiten informes semestrales con avance físico y financiero. 16.2: Presentación hasta el 30 de mayo y el 30 de noviembre de cada año, a partir de la incorporación de recursos en su presupuesto. 16.3: También deben presentar un informe de culminación con liquidación física y financiera, dentro del plazo de vigencia del convenio. 16.4: Los informes se elaboran según el formato de las bases del concurso y se remiten a través del aplicativo informático del FIDT. 16.5: La información tiene carácter de Declaración Jurada."
+        },
+        {
+          "tipo": "articulo",
+          "numero": "17",
+          "titulo": "Procedimiento para la resolución de convenios",
+          "contenido_resumen": "17.1: La Secretaría Técnica comunica la causal de resolución al GR/GL, dándole 10 días hábiles para subsanar. 17.2: Sin subsanación, la Secretaría Técnica comunica la resolución y solicita el extorno de recursos no utilizados; informa al CD en 5 días hábiles. 17.3: La Secretaría Técnica comunica los incumplimientos al OCI de los GR/GL."
+        }
+      ]
+    },
+    {
+      "tipo": "disposiciones_complementarias_finales",
+      "titulo": "Disposiciones Complementarias Finales del Reglamento",
+      "hijos": [
+        {
+          "tipo": "disposicion",
+          "numero": "Primera",
+          "titulo": "Aprobación del reglamento interno del Consejo Directivo",
+          "contenido_resumen": "El CD del FIDT aprueba su reglamento interno dentro del plazo de 90 días calendario desde la vigencia del Reglamento."
+        },
+        {
+          "tipo": "disposicion",
+          "numero": "Segunda",
+          "titulo": "Resolución de convenios FONIPREL anteriores al 2014",
+          "contenido_resumen": "Los GR y GL con convenios FONIPREL pre-2014 pendientes por incumplimiento deben remitir a la Secretaría Técnica (vía aplicativo) un informe situacional (suscrito por el representante del beneficiario) en un plazo de 6 meses desde la vigencia del Reglamento. Si no presentan el informe o éste no es aprobado, el convenio se resuelve."
+        },
+        {
+          "tipo": "disposicion",
+          "numero": "Tercera",
+          "titulo": "Liquidación del FONIE",
+          "contenido_resumen": "La comisión de liquidación del FONIE coordina y ejecuta el proceso de liquidación y la transferencia del acervo documentario al FIDT. Presenta al CD del FIDT un informe final dentro de los 15 días calendario siguientes a la culminación de sus actividades."
+        },
+        {
+          "tipo": "disposicion",
+          "numero": "Cuarta",
+          "titulo": "Seguimiento de intervenciones financiadas por el FONIE",
+          "contenido_resumen": "Las Unidades Sectoriales de los Ministerios de Energía y Minas, Transportes y Comunicaciones y Vivienda, Construcción y Saneamiento deben presentar a la Secretaría Técnica en 30 días calendario un informe situacional de las intervenciones FONIE a su cargo (incluyendo: montos transferidos, número de intervenciones, estado de avance, cronograma de liquidación y anexo relacional). A partir de la vigencia del Reglamento, presentan reportes trimestrales (dentro de los 30 días siguientes de cada trimestre). Los convenios FONIE continúan vigentes hasta culminación. Los recursos no ejecutados se extornan al FIDT."
+        }
+      ]
+    }
+  ],
+  "conceptos_clave": [
+    {
+      "termino": "FIDT (Fondo Invierte para el Desarrollo Territorial)",
+      "definicion": "Mecanismo concursable creado por el DL 1435, que reestructura el FONIPREL. Financia o cofinancia inversiones y estudios de preinversión de GR y GL en el marco del SNPMGI, orientados a reducir brechas en infraestructura y servicios básicos, con foco en reducción de pobreza y productividad territorial.",
+      "articulo_fuente": "Artículo 2 del Reglamento"
+    },
+    {
+      "termino": "FONIPREL (Fondo de Promoción a la Inversión Pública Regional y Local)",
+      "definicion": "Fondo predecesor del FIDT, creado por la Ley 29125 y regulado por el DS 204-2007-EF. Reestructurado como FIDT por el DL 1435. Su Reglamento fue derogado por el DS 001-2019-EF.",
+      "articulo_fuente": "Disposición Complementaria Derogatoria Única del DS"
+    },
+    {
+      "termino": "FONIE (Fondo para la Inclusión Económica en Zonas Rurales)",
+      "definicion": "Fondo liquidado por el DL 1435 y cuyas intervenciones pendientes son seguidas por las Unidades Sectoriales bajo la supervisión de la Secretaría Técnica del FIDT. Su Reglamento (DS 004-2013-MIDIS) fue derogado por el DS 001-2019-EF.",
+      "articulo_fuente": "DCF Tercera y Cuarta del Reglamento"
+    },
+    {
+      "termino": "Consejo Directivo del FIDT",
+      "definicion": "Órgano de gobierno del FIDT, presidido por la Secretaría de Descentralización de PCM. Integrado por representantes del MEF, MIDIS, CEPLAN, la Asamblea de Gobiernos Regionales, la AMPE y la REMURPE. Establece políticas, aprueba la distribución de recursos, las bases del concurso y las listas de solicitudes seleccionadas.",
+      "articulo_fuente": "Artículos 4-6 del Reglamento"
+    },
+    {
+      "termino": "Secretaría Técnica del FIDT",
+      "definicion": "Rol ejercido por la DGPMI-MEF. Es el órgano técnico-operativo del FIDT que elabora las bases del concurso, evalúa y selecciona solicitudes, suscribe convenios, realiza el seguimiento de la ejecución y presenta informes periódicos al Consejo Directivo y al Congreso/CGR.",
+      "articulo_fuente": "Artículo 7 del Reglamento"
+    },
+    {
+      "termino": "Mancomunidad Regional/Municipal",
+      "definicion": "Forma de articulación intergubernamental entre Gobiernos Regionales o entre Gobiernos Locales que es valorada positivamente en el criterio de prelación del FIDT, como indicador de articulación territorial.",
+      "articulo_fuente": "Artículo 10.2 del Reglamento"
+    }
+  ],
+  "actores_institucionales": [
+    {
+      "nombre": "Consejo Directivo del FIDT",
+      "rol": "Órgano de gobierno del FIDT",
+      "funciones_clave": [
+        "Establecer políticas y directivas generales del FIDT",
+        "Aprobar distribución de recursos, las bases del concurso y la lista de solicitudes seleccionadas",
+        "Remitir informes semestrales al Congreso y a la CGR"
+      ]
+    },
+    {
+      "nombre": "Secretaría de Descentralización (PCM)",
+      "rol": "Preside el Consejo Directivo del FIDT",
+      "funciones_clave": [
+        "Presidir el Consejo Directivo",
+        "Coordinar la participación de los miembros del CD"
+      ]
+    },
+    {
+      "nombre": "DGPMI-MEF (Secretaría Técnica del FIDT)",
+      "rol": "Secretaría Técnica, órgano técnico-operativo del FIDT",
+      "funciones_clave": [
+        "Elaborar y publicar las bases de los concursos",
+        "Evaluar, seleccionar solicitudes y publicar resultados",
+        "Suscribir convenios de financiamiento/cofinanciamiento",
+        "Solicitar incorporación presupuestaria al MEF",
+        "Realizar el seguimiento físico-financiero de inversiones",
+        "Elaborar informes semestrales al CD, Congreso y CGR"
+      ]
+    },
+    {
+      "nombre": "Gobiernos Regionales y Gobiernos Locales",
+      "rol": "Beneficiarios del FIDT",
+      "funciones_clave": [
+        "Presentar solicitudes de financiamiento/cofinanciamiento alineadas al PMI",
+        "Ejecutar los proyectos financiados dentro de los plazos del convenio",
+        "Remitir informes semestrales y de culminación a la Secretaría Técnica",
+        "Cofinanciar con sus propios recursos cuando aplique"
+      ]
+    }
+  ],
+  "plazos_importantes": [
+    {
+      "descripcion": "Comunicación de designación de miembros del Consejo Directivo",
+      "plazo": "30 días calendario desde la vigencia del Reglamento",
+      "referencia": "Artículo 4.5 del Reglamento"
+    },
+    {
+      "descripcion": "Aprobación del reglamento interno del Consejo Directivo",
+      "plazo": "90 días calendario desde la vigencia del Reglamento",
+      "referencia": "DCF Primera del Reglamento"
+    },
+    {
+      "descripcion": "Presentación de informes semestrales de avance por GR y GL",
+      "plazo": "Hasta el 30 de mayo y el 30 de noviembre de cada año",
+      "referencia": "Artículo 16.2 del Reglamento"
+    },
+    {
+      "descripcion": "Plazo máximo de vigencia de convenios para proyectos de inversión",
+      "plazo": "Hasta 5 años",
+      "referencia": "Artículo 14.1.1 del Reglamento"
+    },
+    {
+      "descripcion": "Plazo máximo de vigencia de convenios para IOARR y estudios de preinversión",
+      "plazo": "Hasta 2 años",
+      "referencia": "Artículo 14.1.2 y 14.1.3 del Reglamento"
+    },
+    {
+      "descripcion": "Plazo para subsanación de incumplimientos en convenios (antes de su resolución)",
+      "plazo": "10 días hábiles desde la comunicación de la causal de resolución",
+      "referencia": "Artículo 17.1 del Reglamento"
+    },
+    {
+      "descripcion": "Informe situacional de convenios FONIPREL pre-2014 pendientes",
+      "plazo": "6 meses desde la vigencia del Reglamento",
+      "referencia": "DCF Segunda del Reglamento"
+    },
+    {
+      "descripcion": "Unidades Sectoriales presentan informe situacional de intervenciones FONIE",
+      "plazo": "30 días calendario desde la vigencia del Reglamento",
+      "referencia": "DCF Cuarta del Reglamento"
+    },
+    {
+      "descripcion": "Unidades Sectoriales presentan reportes trimestrales de intervenciones FONIE",
+      "plazo": "30 días calendario siguientes al término de cada trimestre",
+      "referencia": "DCF Cuarta del Reglamento"
+    }
+  ],
+  "metadata_analisis": {
+    "fecha_analisis": "2026-02-21",
+    "analizado_por": "GitHub Copilot (Claude Sonnet 4.5) - análisis directo del texto del PDF",
+    "version_schema": "1.0",
+    "notas": "Firmado el 3 de enero de 2019 por Martín Alberto Vizcarra Cornejo (Presidente), César Villanueva Arévalo (PCM), Carlos Oliva Neyra (MEF) y Liliana del Carmen La Rosa Huertas (MIDIS). El PDF contiene 16 páginas: las primeras 2 son el cuerpo del Decreto Supremo y la DCD; las páginas 3 a 16 son el texto del Reglamento con sus 17 artículos y 4 DCFs. Este DS es el Reglamento del DL 1435 (FIDT), que reestructuró el FONIPREL y liquidó el FONIE."
+  }
+}

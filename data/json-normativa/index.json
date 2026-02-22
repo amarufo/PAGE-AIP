@@ -1,0 +1,27 @@
+{
+  "_comment": "Índice de documentos normativos. Añade el nombre del archivo JSON aquí cuando agregues un nuevo documento.",
+  "archivos": [
+    "200981-dl1252.json",
+    "7528229-rd019_2025ef6301.json",
+    "DL1486.json",
+    "DL1538.json",
+    "DL_1622.json",
+    "DL_1635.json",
+    "DL_1664.json",
+    "DS001_2019EF.json",
+    "DS011_2024EF.json",
+    "DS020_2025EF.json",
+    "DS074_2023EF.json",
+    "DS108_2021EF.json",
+    "DS119_2020EF.json",
+    "DS166_2022EF.json",
+    "DS231_2022EF.json",
+    "DS236_2020EF.json",
+    "DS284_2018EF_Reglamento_1252.json",
+    "DS286_2021EF.json",
+    "DS287_2024EF.json",
+    "DS289_2019EF_BIM.json",
+    "DS389_2020EF.json",
+    "RD0020_2025EF6301.json"
+  ]
+}

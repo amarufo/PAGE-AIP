@@ -1,0 +1,539 @@
+{
+  "id": "DS119_2020EF",
+  "archivo_pdf": "DS119_2020EF.pdf",
+  "tipo_norma": "decreto_supremo",
+  "numero": "119-2020-EF",
+  "titulo_oficial": "Decreto Supremo que Aprueba el Reglamento de Proyectos Especiales de Inversión Pública en el marco del Decreto de Urgencia N° 021-2020, Decreto de Urgencia que establece el modelo de ejecución de inversiones públicas a través de proyectos especiales de inversión pública y dicta otras disposiciones",
+  "titulo_corto": "DS 119-2020-EF — Reglamento de Proyectos Especiales de Inversión Pública (PEIP)",
+  "fecha_publicacion": "2020-05-24",
+  "entidad_emisora": "Ministerio de Economía y Finanzas",
+  "estado": "vigente",
+  "fase_ciclo_inversion": ["ejecucion"],
+  "temas_clave": [
+    "Proyectos Especiales de Inversión Pública (PEIP)",
+    "modelo de ejecución de inversiones públicas",
+    "contratos estandarizados (NEC, FIDIC, ENAA)",
+    "asistencia técnica especializada en gestión de inversiones",
+    "Ejecución Fast Track",
+    "Junta de Cambios — Control Integrado de Cambios",
+    "réplica del modelo de ejecución",
+    "Decreto de Urgencia N° 021-2020",
+    "BIM en la ejecución de inversiones públicas"
+  ],
+  "resumen_ejecutivo": "El DS N° 119-2020-EF aprueba el Reglamento de los Proyectos Especiales de Inversión Pública (PEIP), que son estructuras organizativas temporales del Gobierno Nacional creadas para ejecutar proyectos de inversión o Carteras de Inversiones de alta complejidad (≥350,000 UIT) en el marco del Decreto de Urgencia N° 021-2020. El Reglamento tiene 20 artículos agrupados en 5 Títulos y 7 Disposiciones Complementarias Finales. Define el modelo de ejecución de inversiones públicas basado en buenas prácticas internacionales de gestión de proyectos, con instrumentos clave como la Oficina de Gestión de Proyectos (OGP), Junta de Cambios (Control Integrado de Cambios), BIM, contratos estandarizados (NEC, FIDIC, ENAA), asistencia técnica especializada y ejecución Fast Track. La DGPMI autoriza la creación de PEIP, emite lineamientos, evalúa el desempeño anual y puede autorizar la réplica total o parcial del modelo en los tres niveles de gobierno.",
+  "objetivo": "Desarrollar las disposiciones reglamentarias generales aplicables a los Proyectos Especiales de Inversión Pública (PEIP) en el marco del Sistema Nacional de Programación Multianual y Gestión de Inversiones y del DU N° 021-2020, para contribuir a dinamizar la actividad económica y garantizar la efectiva prestación de servicios y la provisión de la infraestructura pública necesaria para el desarrollo del país.",
+  "ambito_aplicacion": "Los PEIP, las entidades públicas y los actores que participan del modelo de ejecución de inversiones públicas en el marco del DU N° 021-2020.",
+  "normas_que_modifica": [],
+  "normas_que_deroga": [],
+  "normas_referenciadas": [
+    "Decreto de Urgencia N° 021-2020 — establece el modelo de ejecución de inversiones públicas a través de PEIP (norma habilitante)",
+    "Decreto Legislativo N° 1252 — crea el SNPMGI",
+    "Decreto Supremo N° 284-2018-EF — Reglamento del DL 1252",
+    "Decreto Supremo N° 288-2019-EF — Lineamientos para la contratación del servicio de consultoría de soporte especializado en la gestión de inversiones",
+    "Decreto Supremo N° 082-2019-EF (TUO de la Ley N° 30225) — Ley de Contrataciones del Estado",
+    "Decreto Supremo N° 344-2018-EF — Reglamento de la Ley de Contrataciones del Estado",
+    "Decreto Legislativo N° 1486 — Segunda DCF: faculta a entidades del GN a aprobar aplicación de metodologías BIM",
+    "Decreto de Urgencia N° 003-2020 — adquisición y liberación de áreas para el PNIC y PIRCC",
+    "Ley N° 29158 — Ley Orgánica del Poder Ejecutivo (art. 38: creación de organismo público)",
+    "Ley N° 30356 — Fortalece la transparencia y el control en los convenios de administración de recursos con organizaciones internacionales",
+    "Ley N° 29806 — regula la contratación de personal altamente calificado",
+    "Decreto Supremo N° 054-2018-PCM — Lineamientos de Organización del Estado (aprobación de Manuales de Operaciones)",
+    "Decreto Supremo N° 021-2019-JUS — TUO de la Ley N° 27806 (Ley de Transparencia)"
+  ],
+  "estructura": [
+    {
+      "tipo": "decreto",
+      "titulo": "Decreto Supremo N° 119-2020-EF (cuerpo principal)",
+      "hijos": [
+        {
+          "tipo": "articulo",
+          "numero": "1",
+          "titulo": "Aprobación del Reglamento de PEIP",
+          "contenido_resumen": "Apruébase el Reglamento de PEIP en el marco del DU N° 021-2020, que consta de veinte (20) artículos y siete (7) Disposiciones Complementarias Finales."
+        },
+        {
+          "tipo": "articulo",
+          "numero": "2",
+          "titulo": "Refrendo",
+          "contenido_resumen": "Refrendado por la Ministra de Economía y Finanzas, María Antonieta Alva Luperdi."
+        },
+        {
+          "tipo": "articulo",
+          "numero": "3",
+          "titulo": "Vigencia",
+          "contenido_resumen": "Entra en vigencia a partir del día siguiente de su publicación en el Diario Oficial El Peruano (es decir, el 25 de mayo de 2020)."
+        },
+        {
+          "tipo": "articulo",
+          "numero": "4",
+          "titulo": "Publicación",
+          "contenido_resumen": "Se publica en el Diario Oficial El Peruano y en el portal institucional del MEF (www.gob.pe/mef)."
+        }
+      ]
+    },
+    {
+      "tipo": "reglamento",
+      "titulo": "Reglamento de Proyectos Especiales de Inversión Pública en el marco del DU N° 021-2020",
+      "numero_articulos": 20,
+      "hijos": [
+        {
+          "tipo": "titulo",
+          "numero": "I",
+          "titulo": "Disposiciones Generales",
+          "hijos": [
+            {
+              "tipo": "articulo",
+              "numero": "1",
+              "titulo": "Objeto",
+              "contenido_resumen": "Desarrollar las disposiciones reglamentarias generales aplicables a los PEIP del DU N° 021-2020, con la finalidad de dinamizar la actividad económica y garantizar la efectiva prestación de servicios y provisión de infraestructura pública."
+            },
+            {
+              "tipo": "articulo",
+              "numero": "2",
+              "titulo": "Ámbito de aplicación",
+              "contenido_resumen": "Aplica a los PEIP, a las entidades públicas y a todos los actores que participan del modelo de ejecución de inversiones públicas en el marco del DU N° 021-2020 y el presente Reglamento."
+            },
+            {
+              "tipo": "articulo",
+              "numero": "3",
+              "titulo": "Definiciones (18 conceptos clave del modelo de ejecución)",
+              "contenido_resumen": "El artículo establece 18 definiciones propias del modelo de ejecución de inversiones públicas. Estas prevalecen para la ejecución del proyecto de inversión o Cartera de Inversiones del PEIP.",
+              "definiciones": [
+                "a. Alcance: Requerimientos y condiciones para que el proyecto o Cartera de Inversiones cumplan sus objetivos.",
+                "b. Alta complejidad: Nivel de proyecto o Cartera con: alto nivel de incertidumbre sobre variables técnicas/económicas/ambientales; y/o escasa información sobre variables que definen el costo/alternativas; y/o complejidad en diseño/equipamiento/ejecución; y/o complejidad en la determinación del alcance; y/o factores productivos altamente especializados.",
+                "c. Cambios: Modificación en el alcance, capacidad de producción, tecnología, localización, cronograma o costos respecto a lo planificado.",
+                "d. Cartera de Inversiones del PEIP: Conjunto de proyectos de inversión, programas de inversión y/o IOARR a cargo de un PEIP.",
+                "e. Contratos estandarizados: Formas contractuales estándar de uso general en el mercado de la construcción (NEC, FIDIC, ENAA y similares).",
+                "f. Control Integrado de Cambios: Proceso de identificación, documentación, aprobación o rechazo de cambios propuestos. Función de la OGP.",
+                "g. Convenio para la ejecución de inversiones por parte del PEIP: Acuerdo entre la Entidad responsable del PEIP y la/s Entidad/es responsable/s de las inversiones transferidas.",
+                "h. Entidad responsable del PEIP: Entidad del GN que implementa un PEIP.",
+                "i. Entidad responsable de las inversiones transferidas al PEIP: Entidad pública (GN, GR o MML) que transfiere al PEIP inversiones viables/aprobadas para su ejecución.",
+                "j. Entidad responsable de la fase funcionamiento de las inversiones ejecutadas por el PEIP: Entidad o empresa pública de los tres niveles de gobierno que tiene a cargo la O&M de los activos una vez culminada la ejecución.",
+                "k. Ejecución Fast Track: Técnica de programación y ejecución que reduce el tiempo superponiendo actividades de diseño, construcción, obtención de equipamiento.",
+                "l. Estrategia de contratación: Conjunto de procesos, factores y criterios para la contratación y selección de bienes/servicios/obras del PEIP; incluye sistemas de entrega, contratos estandarizados, empaquetamiento y control.",
+                "m. Lineamientos: Documento técnico-normativo y metodológico que desarrolla disposiciones complementarias al modelo de ejecución. Aprobados por la DGPMI.",
+                "n. Manual de operaciones: Documento técnico normativo de gestión organizacional del PEIP aprobado según DS 054-2018-PCM.",
+                "ñ. Plan de ejecución del PEIP: Documento con procedimientos, responsabilidades, cronograma, indicadores de ejecución, mecanismos de control, gestión de riesgos y cambios. Se actualiza regularmente. Se integra al Manual de operaciones.",
+                "o. Plan de Gestión de calidad de cada inversión: Documento con criterios de calidad, indicadores de cumplimiento, procedimientos y responsables. Propuesto por el contratista.",
+                "p. Proyecto Especial de Inversión Pública (PEIP): Estructura organizativa temporal del GN creada para ejecutar un proyecto de inversión, programa de inversión o Cartera de Inversiones de naturaleza sectorial o multisectorial. Sus activos se integran a la Entidad de funcionamiento al concluir.",
+                "q. Supervisión de calidad: Proceso de evaluación y monitoreo de la implementación del Plan de Gestión de Calidad del PEIP (auditoría de calidad e identificación del cumplimiento de requisitos).",
+                "r. Unidad Ejecutora (UE): Comprende a la Unidad Ejecutora en materia presupuestaria."
+              ]
+            },
+            {
+              "tipo": "articulo",
+              "numero": "4",
+              "titulo": "Principios del modelo de ejecución de inversiones públicas",
+              "contenido_resumen": "Establece 8 principios rectores:",
+              "principios": [
+                "a. Calidad de inversiones: eficiencia técnica, efectividad, economía y oportunidad.",
+                "b. Economía: mejor relación costo-beneficio de acciones alternativas con ajustes durante la ejecución.",
+                "c. Efectividad: cumplimiento de metas y objetivos de alcance, costo y plazo.",
+                "d. Eficiencia: uso óptimo de recursos e insumos para la generación de activos.",
+                "e. Integridad: evita prácticas indebidas; deber de comunicar a las autoridades competentes.",
+                "f. Previsibilidad: identificación anticipada de riesgos que afecten plazos, costos y alcances.",
+                "g. Transparencia: sustenta funciones en procedimientos que promuevan acceso a la información; aplica tecnologías digitales.",
+                "h. Valor público: enfoca los esfuerzos en el funcionamiento efectivo de servicios públicos y logro de resultados.",
+                "Adicionalmente, aplican los principios del SNPMGI."
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "titulo",
+          "numero": "II",
+          "titulo": "Proceso de Implementación de los PEIP",
+          "hijos": [
+            {
+              "tipo": "articulo",
+              "numero": "5",
+              "titulo": "Actores que intervienen en el modelo de ejecución de inversiones públicas",
+              "contenido_resumen": "El modelo integra como mínimo los siguientes actores:",
+              "actores": [
+                {
+                  "codigo": "5.1",
+                  "nombre": "DGPMI",
+                  "rol": "Ente rector del SNPMGI",
+                  "funciones": [
+                    "Emite opinión técnico-normativa vinculante para la operatividad del modelo",
+                    "Autoriza la conformación de PEIP propuestos",
+                    "Establece perfiles tipo del personal no contemplado en el Reglamento (con opinión favorable de SERVIR)",
+                    "Efectúa seguimiento del desempeño de los PEIP",
+                    "Presenta informe anual consolidado sobre la evaluación del modelo",
+                    "Sistematiza y promueve mejores prácticas y el perfeccionamiento del modelo"
+                  ]
+                },
+                {
+                  "codigo": "5.2",
+                  "nombre": "Director/a Ejecutivo/a del PEIP",
+                  "rol": "Titular de la UE y del PEIP; designado mediante RM del Titular de la Entidad responsable del PEIP",
+                  "funciones": [
+                    "Tomar las decisiones para asegurar ejecución conforme al cronograma, costo, alcance y calidad",
+                    "Aprobar el Plan de Ejecución del PEIP y la Estrategia de contratación",
+                    "Suscribir convenios de administración de recursos con organismos internacionales (delegación del Titular)",
+                    "Disponer la ejecución directa de actividades para liberación/remoción/reubicación de interferencias",
+                    "Reportar información de interferencias a la PIDE",
+                    "Aprobar y presentar informe anual sobre el modelo al Titular del Sector (copia a DGPMI)"
+                  ]
+                },
+                {
+                  "codigo": "5.3",
+                  "nombre": "Oficina de Gestión de Proyectos (OGP)",
+                  "rol": "Planifica, organiza y facilita la implementación del modelo conforme al Plan de Ejecución del PEIP",
+                  "funciones": [
+                    "Diseña e implementa procesos, procedimientos e instrumentos de gestión integrada",
+                    "Propone planes, directivas y orientaciones de gestión de proyectos",
+                    "Propone el Plan de Ejecución elaborado por la ATEGI",
+                    "Establece y monitorea cronogramas de las áreas de trabajo",
+                    "Monitorea cronogramas del proyecto/Cartera de Inversiones",
+                    "Efectúa seguimiento de costos y presupuesto",
+                    "Implementa y gestiona el Control Integrado de Cambios",
+                    "Gestiona riesgos (planificación, identificación, análisis, respuesta, monitoreo)",
+                    "Diseña e implementa procesos de gestión de la información del PEIP",
+                    "Implementa el proceso de gestión e involucramiento de los interesados",
+                    "Coordina con la OPMI del Sector respectivo"
+                  ]
+                },
+                {
+                  "codigo": "5.4",
+                  "nombre": "Oficina de Infraestructura (OI)",
+                  "rol": "Responsable de la Fase de Ejecución del proyecto/Cartera de Inversiones, en coordinación con la ATEGI",
+                  "funciones": [
+                    "Define el alcance del proyecto/Cartera en coordinación con la ATEGI",
+                    "Define alcance y elabora requerimientos para la contratación de contratos estandarizados",
+                    "Gestiona seguimiento y supervisión de los contratos estandarizados y emite conformidad",
+                    "Efectúa la consistencia del proyecto/Cartera y registra en el Banco de Inversiones",
+                    "Efectúa seguimiento y supervisión de la calidad durante la ejecución",
+                    "Solicita aprobación de cambios en la Junta de Cambios",
+                    "Prepara argumentación técnica sobre controversias en los contratos estandarizados",
+                    "Reporta avances y riesgos a la OGP",
+                    "Implementa acciones de respuesta para gestión de riesgos (coordinación con OGP)",
+                    "Realiza procesos de cierre de contratos estandarizados y gestiona transferencia a la Entidad de funcionamiento",
+                    "Verifica el cumplimiento de actividades de la ATEGI respecto a construcción e ingeniería"
+                  ]
+                },
+                {
+                  "codigo": "5.5",
+                  "nombre": "Equipo de Asistencia Técnica Especializada en Gestión de Inversiones (ATEGI)",
+                  "rol": "Contratado por el PEIP para asesoría técnico-especializada y acompañamiento técnico en buenas prácticas internacionales",
+                  "funciones": [
+                    "Brinda asistencia técnica durante la ejecución basada en buenas prácticas internacionales",
+                    "Propone la definición del alcance del proyecto/Cartera (revisando estudios, ETs, TdR, EE.TT.)",
+                    "Elabora el Plan de Ejecución del PEIP y la Estrategia de contratación",
+                    "Propone implementación y capacitación en sistemas y herramientas tecnológicas para gestión de costos, tiempos, calidad e información",
+                    "Lleva a cabo los procesos de selección de contratos estandarizados (Estrategia de contratación)",
+                    "Emite informe de recomendación de postores ganadores",
+                    "Brinda asistencia técnica sobre ejecución contractual, supervisión y resolución de disputas",
+                    "Brinda asistencia técnica en la implementación de BIM (estándar ISO 19650) para transferencia de conocimiento y réplica del modelo"
+                  ]
+                },
+                {
+                  "codigo": "5.6",
+                  "nombre": "Responsable de administración del PEIP",
+                  "rol": "Propone la Estrategia de contratación al Director/a Ejecutivo/a, en coordinación con la ATEGI; cumple funciones del Sistema Nacional de Abastecimiento"
+                },
+                {
+                  "codigo": "5.7",
+                  "nombre": "Responsable de presupuesto del PEIP",
+                  "rol": "Cumple funciones establecidas en el Sistema Nacional de Presupuesto Público"
+                },
+                {
+                  "codigo": "5.8",
+                  "nombre": "Junta de Cambios",
+                  "rol": "Grupo integrado por el/la Director/a Ejecutivo/a, responsables de OGP e OI, responsable de presupuesto y otros; la ATEGI participa en sus sesiones",
+                  "funciones": [
+                    "Revisar, evaluar, aprobar o rechazar los cambios propuestos por las áreas del PEIP",
+                    "Evalúa cambios ante caso fortuito o fuerza mayor",
+                    "Evalúa modificaciones a la normatividad aplicable a cada inversión"
+                  ]
+                }
+              ]
+            },
+            {
+              "tipo": "articulo",
+              "numero": "6",
+              "titulo": "Proceso de implementación de los PEIP",
+              "contenido_resumen": "El Titular de la Entidad responsable del PEIP presenta al MEF: (a) propuesta de creación con sustento; (b) vigencia, plazos de ejecución y cierre; (c) sustento de creación de la UE; (d) proyecto de Manual de Operaciones; (e) informe técnico de disponibilidad presupuestaria; (f) terna y criterios para Director/a Ejecutivo/a. Para inversiones multisectoriales o no propias: se adjunta el Convenio PEIP. Secuencia: solicitud → opinión DGPMI (verifica requisitos del PEIP) → opinión DGPP (verifica disponibilidad presupuestaria y sustento UE) → autorización para gestionar creación del PEIP (art. 38 LOPE; Manual de Operaciones por RM) → designación Director/a Ejecutivo/a (Comité: 1 representante Entidad + 1 SERVIR + 1 MEF; por mayoría de 2/3; decide en terna) → registro de la UE.",
+              "plazos": [
+                "Creación de la UE se efectúa con cargo al presupuesto de la Entidad responsable del PEIP.",
+                "El Director/a Ejecutivo/a propone designación/contratación de puestos directivos (F5 o CAS).",
+                "La ATEGI se contrata vía contrato estandarizado (art. 6.10)."
+              ]
+            },
+            {
+              "tipo": "articulo",
+              "numero": "7",
+              "titulo": "Criterios para la incorporación de proyecto de inversión o Cartera de Inversiones al PEIP",
+              "contenido_resumen": "7.1 Criterios obligatorios: (a) Alta complejidad y/o generación de eficiencias; (b) incorporación en la Cartera de Inversiones del PMI vigente; (c) presupuesto para el año fiscal en curso y previsión multianual en PMI; (d) liberación de predios realizada (si corresponde); (e) cumplimiento de normas sectoriales; (f) no tener contratos vigentes de infraestructura/obras previos a su incorporación; (g) no tener controversias o arbitrajes. 7.2 Para Cartera de Inversiones, al menos uno de: (a) articulación generando especialización/complementariedad/sinergias; (b) inversiones en mismo ámbito territorial; (c) inversiones en una red de servicios o mancomunidad. 7.3 Monto total de inversión a precios de mercado ≥ 350,000 UIT. 7.4 La DGPMI puede establecer criterios adicionales."
+            },
+            {
+              "tipo": "articulo",
+              "numero": "8",
+              "titulo": "Organización y vigencia del PEIP",
+              "contenido_resumen": "El Manual de Operaciones contiene órganos, funciones, puestos y procesos del PEIP. Como mínimo, el PEIP tiene como órganos de línea a la OGP y a la OI, que dependen de la Dirección Ejecutiva del PEIP. Modificaciones al Manual requieren opinión favorable previa de la DGPMI."
+            },
+            {
+              "tipo": "articulo",
+              "numero": "9",
+              "titulo": "Requisitos mínimos para el Director/a Ejecutivo/a y demás puestos de responsabilidad directiva",
+              "contenido_resumen": "9.1 Director/a Ejecutivo/a: (a) experiencia en gerencia/dirección/supervisión/coordinación/gestión de proyectos (público y/o privado); (b) conocimientos en herramientas de gestión de proyectos. 9.2 Puestos directivos de libre designación: (a) experiencia en materias relacionadas al puesto; (b) conocimientos en herramientas de planificación, programación y costos. 9.3 El MEF puede establecer requisitos adicionales (SERVIR brinda soporte técnico). 9.4 No deben estar impedidos para ingreso al Estado; deben presentar declaraciones juradas conforme a la normativa."
+            }
+          ]
+        },
+        {
+          "tipo": "titulo",
+          "numero": "III",
+          "titulo": "Del Modelo de Ejecución de Inversiones Públicas",
+          "hijos": [
+            {
+              "tipo": "articulo",
+              "numero": "10",
+              "titulo": "Modelo de ejecución de inversiones públicas",
+              "contenido_resumen": "Se denomina modelo de ejecución de inversiones públicas a la agrupación de procesos, procedimientos e instrumentos metodológicos de un conjunto de buenas prácticas guiadas por altos estándares internacionales para la ejecución efectiva de las inversiones públicas, que brinda facilidades para la revisión y desarrollo de las inversiones, asegurando el cumplimiento de cronograma, costos, alcance y calidad."
+            },
+            {
+              "tipo": "articulo",
+              "numero": "11",
+              "titulo": "Instrumentos y facilidades del modelo de ejecución de inversiones públicas",
+              "contenido_resumen": "11.1 Instrumentos del modelo: (a) Procesos, procedimientos y herramientas de gestión de proyectos (OGP y Junta de Cambios); (b) Asistencia técnica para la gestión y ejecución de inversiones; (c) Metodología BIM y otras (Lineamientos); (d) Mejores prácticas de Contratos estandarizados; (e) Acompañamiento en la elaboración del Estudio de Impacto Ambiental. 11.2 Facilidades del PEIP: (a) Condiciones especiales para la contratación de funcionarios y servidores; (b) Contratación de ATEGI; (c) Suscripción de contratos estandarizados; (d) Convenios de Administración de Recursos con OI; (e) Facilidades para licencias de habilitación urbana o edificación; (f) Facilidades para liberación y registro de interferencias (DU 021-2020); (g) Facilidades para adquisición y liberación de áreas (DU 003-2020 y Segunda DCF del DL 1486); (h) Regularización excepcional del Ministerio de Cultura para obras de PEIP (párr. 8.3 DU 021-2020). 11.3 El PEIP implementa el modelo de forma integral y conforme al cronograma."
+            },
+            {
+              "tipo": "articulo",
+              "numero": "12",
+              "titulo": "Ejecución de las inversiones",
+              "contenido_resumen": "12.1 El proyecto/Cartera de Inversiones del PEIP cumple las disposiciones del SNPMGI. 12.2 Para componentes de obras, previa a la creación del PEIP o incorporación de inversiones, los inmuebles/predios deben tener saneamiento físico-legal; excepción si: (a) no inscritos a nombre de terceros privados; (b) propiedad de la Entidad de funcionamiento; o (c) con convenio de cesión/afectación en uso. 12.3 El Director/a Ejecutivo/a es responsable de la ejecución hasta su culminación y cierre, y de la transferencia a la Entidad de funcionamiento. 12.4 El PEIP es responsable de las modificaciones y registros en el Banco de Inversiones. La Junta de Cambios autoriza las modificaciones respectivas."
+            },
+            {
+              "tipo": "articulo",
+              "numero": "13",
+              "titulo": "Cierre del PEIP",
+              "contenido_resumen": "13.1 Una vez culminada la ejecución del proyecto/Cartera, el PEIP tiene hasta 6 meses para efectuar el cierre, ampliable por única vez (previa opinión favorable del Sector y de la DGPMI). 13.2 Al cierre del PEIP, el Titular de la Entidad responsable aprueba la transferencia de activos a la Entidad de funcionamiento. Los recursos del PEIP se transfieren según lo establecido por la Entidad responsable del PEIP."
+            }
+          ]
+        },
+        {
+          "tipo": "titulo",
+          "numero": "IV",
+          "titulo": "De los Procedimientos de Contratación o Suscripción de Convenios del Modelo de Ejecución de Inversiones Públicas",
+          "hijos": [
+            {
+              "tipo": "articulo",
+              "numero": "14",
+              "titulo": "Procedimiento para la contratación del equipo de ATEGI",
+              "contenido_resumen": "14.1 La ATEGI se contrata con personas jurídicas con experiencia en buenas prácticas internacionales y profesionales especializados. 14.2 La OGP elabora los TdR. 14.3 Etapas del procedimiento: (a) Etapa previa: Comité de Selección (Director/a Ejecutivo/a + responsable OGP + 1 representante DGPMI); publica invitación en portal web del PEIP y en SEACE; interesados se registran en sistema informático del PEIP adjuntando Compromiso de Integridad, Estados Financieros Auditados y DJ de experiencia. (b) Etapa de concurso: Ofertas vía sistema informático; Comité publica resultados en sistema y SEACE. (c) Etapa contractual: Comité eleva resultados al área para suscripción del contrato estandarizado. 14.4 Plazo del contrato estandarizado: ligado al cronograma de ejecución del proyecto/Cartera, incluyendo cierre y liquidación. 14.5-14.6: Detalles en los Lineamientos de la DGPMI."
+            },
+            {
+              "tipo": "articulo",
+              "numero": "15",
+              "titulo": "Procedimiento para la suscripción de Contratos estandarizados para ejecución y/o funcionamiento",
+              "contenido_resumen": "15.1 Los PEIP emplean Contratos estandarizados sustentados en la Estrategia de contratación. 15.2 Los contratos deben incluir mecanismos de prevención de disputas y solución de controversias; pueden incluir Fast Track. 15.3 La OI con la ATEGI elabora los TdR y/o alcances del contrato estandarizado (requisitos del PEIP, KPIs, condiciones particulares). 15.4 Etapas del procedimiento: (a) Etapa previa: invitación en portal web del PEIP y SEACE; registro de interesados con Compromiso de Integridad, Estados Financieros Auditados y monto mínimo de facturación. (b) Etapa de precalificación: cuestionario sobre personal, seguridad y salud, gestión de riesgos; la OI y la ATEGI precalifican y publican lista de admitidos. (c) Etapa de concurso: bases en sistema informático y SEACE; evaluación por OI y ATEGI; ATEGI emite informe de recomendación del postor ganador; OI presenta al Director/a Ejecutivo/a. (d) Etapa contractual: Director/a Ejecutivo/a aprueba y suscribe el contrato estandarizado; la ATEGI brinda asesoría continua sobre ejecución, supervisión y solución de controversias. 15.5 Los Expedientes Técnicos pueden presentarse digitalmente. 15.7 Los Lineamientos establecen criterios adicionales y límites."
+            },
+            {
+              "tipo": "articulo",
+              "numero": "16",
+              "titulo": "Convenios de Administración de Recursos",
+              "contenido_resumen": "16.1 El Director/a Ejecutivo/a propone la suscripción de convenios con OI para adquirir bienes y contratar servicios; el objeto del convenio se define en RM de la Entidad responsable del PEIP. 16.2 Se suscriben bajo la Ley N° 30356. 16.3 El Titular puede delegar en el Director/a Ejecutivo/a la facultad de suscribir el convenio y sus adendas."
+            },
+            {
+              "tipo": "articulo",
+              "numero": "17",
+              "titulo": "Verificación previa a la suscripción de contratos y convenios",
+              "contenido_resumen": "El PEIP verifica que las personas naturales o jurídicas a contratar no se encuentren en impedimentos ni hayan sido sancionadas bajo el TUO de la Ley N° 30225 (DS 082-2019-EF)."
+            },
+            {
+              "tipo": "articulo",
+              "numero": "18",
+              "titulo": "Disponibilidad presupuestal para la contratación o suscripción de convenios",
+              "contenido_resumen": "Las contrataciones/convenios deben ajustarse al Sistema Nacional de Presupuesto Público. En contratos o convenios plurianuales, debe incluirse una cláusula que sujete la ejecución a la disponibilidad presupuestaria y financiera de la Entidad."
+            }
+          ]
+        },
+        {
+          "tipo": "titulo",
+          "numero": "V",
+          "titulo": "Evaluación y Réplica del Modelo de Ejecución de Inversiones Públicas",
+          "hijos": [
+            {
+              "tipo": "articulo",
+              "numero": "19",
+              "titulo": "Evaluación del modelo de ejecución de inversiones públicas",
+              "contenido_resumen": "19.1 La DGPMI evalúa el modelo y su aplicación práctica en los PEIP autorizados (alcance, costos, cronogramas, avance físico y financiero). 19.2 La DGPMI presenta al Ministro de EF un informe anual consolidado sobre la evaluación del modelo (incluye evaluación de la réplica). 19.3 El informe puede contener recomendaciones: (a) mejoras o modificación del modelo; (b) mejoras a disposiciones técnico-legales de Sistemas Administrativos del Estado relacionados al Ciclo de Inversión; (c) reestructuración, cierre o fusión de determinados PEIP; (d) réplica total o parcial del modelo; (e) incorporación de proyectos/IOARR a los PEIP."
+            },
+            {
+              "tipo": "articulo",
+              "numero": "20",
+              "titulo": "Réplica del modelo de ejecución de inversiones públicas",
+              "contenido_resumen": "20.1 El modelo puede ser aplicado total o parcialmente por las entidades públicas de los tres niveles de gobierno. 20.2 Aplicación total: todos los instrumentos del art. 11.1 (uso de contratos estandarizados y facilidades del art. 11.2 requieren PEIP y convenio previo). 20.3 Aplicación parcial: funciones de gestión de proyectos + ATEGI + BIM (contratación de ATEGI vía DS 288-2019-EF). 20.4 Criterios de elegibilidad para réplica total o parcial: (a) cumplimiento de metas de ejecución del MEF; (b) registros actualizados de formatos de seguimiento en Banco de Inversiones del PMI. 20.5 Solicitud al PEIP: (a) reporte de metas financieras y seguimiento del PMI; (b) informe de la OPMI sobre estado situacional y contribución al cierre de brechas; (c) informe de disponibilidad presupuestaria multianual; (d) detalle del proyecto/Cartera con sustento de los criterios del art. 7. 20.6 El PEIP emite opinión favorable (con cargo al presupuesto de la entidad solicitante, sin demandar recursos al Tesoro Público). 20.7 El Director/a Ejecutivo/a adjunta la opinión favorable en su informe anual. 20.8 La DGPMI autoriza la réplica total o parcial. 20.9 El PEIP acompaña a las entidades en la aplicación total o parcial del modelo."
+            }
+          ]
+        },
+        {
+          "tipo": "seccion",
+          "titulo": "Disposiciones Complementarias Finales (7 DCF)",
+          "hijos": [
+            {
+              "tipo": "disposicion_complementaria_final",
+              "numero": "Primera",
+              "titulo": "Incorporación excepcional de inversiones a un PEIP ya creado",
+              "contenido_resumen": "Excepcionalmente, se puede incorporar a un PEIP ya creado proyectos de inversión, programas de inversión y/o IOARR, siempre que: (i) cumplan con los criterios del art. 7; (ii) no afecte el plazo de vigencia del PEIP; (iii) previa opinión favorable de la DGPMI. Una vez obtenida la opinión, el PEIP suscribe los convenios respectivos con la entidad pública (GN, GR o MML) titular de las inversiones."
+            },
+            {
+              "tipo": "disposicion_complementaria_final",
+              "numero": "Segunda",
+              "titulo": "Cláusulas de confidencialidad, solución de controversias en Contratos estandarizados y aplicación de normas",
+              "contenido_resumen": "Los Contratos estandarizados suscritos bajo el presente Reglamento contemplan: (i) cláusulas de confidencialidad; (ii) cláusulas de solución de controversias. En virtud del párrafo 7.1 del Art. 7 del DU N° 021-2020, no les aplican las disposiciones del TUO de la Ley N° 30225 (Ley de Contrataciones del Estado) ni su Reglamento (DS 344-2018-EF); corresponde aplicar normas de derecho común y/o las que correspondan."
+            },
+            {
+              "tipo": "disposicion_complementaria_final",
+              "numero": "Tercera",
+              "titulo": "Del funcionamiento de las inversiones del PEIP",
+              "contenido_resumen": "Los PEIP, a pedido de la Entidad responsable de la Fase de Funcionamiento, pueden acompañar en el proceso de selección para la contratación de servicios de gestión de la O&M de las inversiones que hayan ejecutado. Esto se realiza: (i) con cargo al presupuesto de las entidades públicas respectivas; (ii) sin demandar recursos adicionales al Tesoro Público; (iii) sin afectar el plazo de vigencia del PEIP; (iv) previa opinión favorable del MEF."
+            },
+            {
+              "tipo": "disposicion_complementaria_final",
+              "numero": "Cuarta",
+              "titulo": "Cierre del PEIP durante su fase de ejecución",
+              "contenido_resumen": "Excepcionalmente, un PEIP durante su fase de ejecución puede ser cerrado con autorización del Titular de la Entidad responsable del PEIP, siempre que garantice la continuidad de ejecución del proyecto/Cartera de Inversiones. En dicho caso, efectúa la transferencia de recursos por criterios de competencia, continuidad de inversiones, entre otros."
+            },
+            {
+              "tipo": "disposicion_complementaria_final",
+              "numero": "Quinta",
+              "titulo": "Sistema informático del PEIP",
+              "contenido_resumen": "Cada PEIP debe implementar y utilizar un sistema informático para registrar todas las comunicaciones e información a lo largo de las etapas de los procedimientos de selección, garantizando su trazabilidad, almacenamiento y auditabilidad. Incluye información de contratos y convenios del modelo de ejecución. Los usuarios del sistema están sujetos a responsabilidades por el uso y manejo de la información."
+            },
+            {
+              "tipo": "disposicion_complementaria_final",
+              "numero": "Sexta",
+              "titulo": "Supervisión de los principios de contratación pública a cargo del OSCE",
+              "contenido_resumen": "El OSCE puede supervisar la aplicación y cumplimiento de los principios que rigen las contrataciones del Estado en los procesos de contratación derivados del DU N° 021-2020 y el presente Reglamento."
+            },
+            {
+              "tipo": "disposicion_complementaria_final",
+              "numero": "Sétima",
+              "titulo": "Mecanismo de solución de controversias en los procedimientos de contratación",
+              "contenido_resumen": "Los postulantes descalificados en los procedimientos de los arts. 14 y 15 pueden solicitar la revisión de la evaluación de sus ofertas. Si el procedimiento supera los umbrales de los acuerdos comerciales internacionales del Perú: la revisión la efectúa el Tribunal de Contrataciones del Estado dentro de los 10 días hábiles siguientes de presentada la solicitud (presentación: 8 días hábiles desde conocido el resultado). El Tribunal evalúa únicamente la oferta cuestionada con base en los TdR, Bases y el presente Reglamento. Si el procedimiento no supera los umbrales: lo resuelve el/la Director/a Ejecutivo/a del PEIP en el mismo plazo."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conceptos_clave": [
+    {
+      "termino": "Proyecto Especial de Inversión Pública (PEIP)",
+      "definicion": "Estructura organizativa temporal del Gobierno Nacional creada para ejecutar un proyecto de inversión, programa de inversión o Cartera de Inversiones de naturaleza sectorial o multisectorial, que cuente con disponibilidad presupuestal y cuyas inversiones sean viables/aprobadas. Una vez cumplidos sus objetivos, los activos se integran a la Entidad responsable de la fase de funcionamiento.",
+      "articulo_fuente": "Art. 3, literal p"
+    },
+    {
+      "termino": "Contratos estandarizados",
+      "definicion": "Formas contractuales estándar, guías y documentación de uso general en el mercado de la construcción con terminologías y condiciones claras. Los más comunes: NEC (New Engineering Contract), FIDIC (International Federation of Consulting Engineers) y ENAA (Engineering Advancement Association of Japan). No les aplica la Ley de Contrataciones del Estado (TUO Ley 30225); se rigen por el derecho común.",
+      "articulo_fuente": "Art. 3, literal e; DCF Segunda"
+    },
+    {
+      "termino": "Ejecución Fast Track",
+      "definicion": "Técnica de programación y ejecución de inversiones que reduce el tiempo permitiendo que las actividades de diseño y construcción (y obtención de equipamiento) se lleven a cabo de manera superpuesta.",
+      "articulo_fuente": "Art. 3, literal k"
+    },
+    {
+      "termino": "Junta de Cambios — Control Integrado de Cambios",
+      "definicion": "La Junta de Cambios es un grupo integrado por el Director/a Ejecutivo/a, responsables de OGP, OI, presupuesto y otros. Tiene la función de revisar, evaluar, aprobar o rechazar los cambios propuestos para la ejecución del proyecto/Cartera. El Control Integrado de Cambios es el proceso de identificación, documentación, aprobación o rechazo de cualquier cambio propuesto para la ejecución efectiva del proyecto/Cartera. Es función de la OGP.",
+      "articulo_fuente": "Art. 3, literales c y f; Art. 5.8"
+    },
+    {
+      "termino": "Asistencia Técnica Especializada en Gestión de Inversiones (ATEGI)",
+      "definicion": "Empresa con experiencia en buenas prácticas internacionales de gestión de inversiones (y profesionales especializados), contratada por el PEIP para brindar asesoría técnico-especializada y acompañamiento en la elaboración del Plan de Ejecución, Estrategia de contratación, selección de contratos estandarizados, supervisión contractual, BIM y solución de controversias.",
+      "articulo_fuente": "Art. 5.5, Art. 14"
+    },
+    {
+      "termino": "Estrategia de contratación",
+      "definicion": "Conjunto de procesos, factores y criterios que determinan las acciones a seguir en la contratación y selección de bienes, servicios y/u obras del PEIP. Establece los sistemas de entrega (previa evaluación comparativa), los contratos estandarizados a emplear, los factores drivers, el empaquetamiento de contratos y los procesos de control para administrar los acuerdos, buscando la mejor relación costo-beneficio.",
+      "articulo_fuente": "Art. 3, literal l"
+    },
+    {
+      "termino": "Réplica del modelo de ejecución",
+      "definicion": "Aplicación total o parcial del modelo de ejecución de inversiones públicas por entidades de los tres niveles de gobierno en proyectos/Carteras de Inversiones propias. Para la réplica total se requiere pasar a través de un PEIP (con convenio). Para la réplica parcial, se pueden contratar funciones de gestión de proyectos, ATEGI y BIM vía DS 288-2019-EF. La DGPMI autoriza la réplica.",
+      "articulo_fuente": "Art. 20"
+    },
+    {
+      "termino": "Monto mínimo para incorporación al PEIP",
+      "definicion": "350,000 UIT a precios de mercado.",
+      "articulo_fuente": "Art. 7.3"
+    }
+  ],
+  "actores_institucionales": [
+    {
+      "nombre": "DGPMI (MEF)",
+      "rol": "Ente rector del SNPMGI; autoriza y supervisa los PEIP; emite Lineamientos; evalúa el modelo y autoriza su réplica",
+      "funciones_clave": [
+        "Autoriza la conformación de PEIP",
+        "Emite opinión técnico-normativa vinculante sobre el modelo",
+        "Participa en el Comité de Selección del Director/a Ejecutivo/a y de la ATEGI",
+        "Emite los Lineamientos del modelo de ejecución",
+        "Evalúa el modelo de ejecución y presenta informe anual al MEF",
+        "Autoriza la réplica total o parcial del modelo"
+      ]
+    },
+    {
+      "nombre": "DGPP (MEF)",
+      "rol": "Verifica la disponibilidad presupuestaria y el sustento de creación de la UE del PEIP",
+      "funciones_clave": [
+        "Verifica disponibilidad presupuestaria y sostenibilidad multianual del proyecto/Cartera",
+        "Verifica el sustento de creación de la UE"
+      ]
+    },
+    {
+      "nombre": "Entidad responsable del PEIP",
+      "rol": "Entidad del GN que implementa el PEIP; su Titular solicita la creación y designa al Director/a Ejecutivo/a",
+      "funciones_clave": [
+        "Presenta la propuesta de creación del PEIP al MEF",
+        "Crea el PEIP mediante norma (art. 38 LOPE), aprueba el Manual de Operaciones por RM",
+        "Designa al Director/a Ejecutivo/a mediante RM (con terna evaluada por Comité)"
+      ]
+    },
+    {
+      "nombre": "SERVIR",
+      "rol": "Participa en el Comité de selección del Director/a Ejecutivo/a del PEIP y brinda soporte técnico en Gestión de Recursos Humanos",
+      "funciones_clave": [
+        "Un representante evalúa la terna para el Director/a Ejecutivo/a",
+        "Emite opinión técnica favorable sobre los perfiles tipo del personal no contemplado en el Reglamento"
+      ]
+    },
+    {
+      "nombre": "OSCE",
+      "rol": "Puede supervisar la aplicación de los principios de contratación pública en los procesos derivados del DU 021-2020 y el Reglamento",
+      "funciones_clave": [
+        "Supervisión de principios de contratación (DCF Sexta)"
+      ]
+    },
+    {
+      "nombre": "Tribunal de Contrataciones del Estado",
+      "rol": "Resuelve controversias en procedimientos de contratación del PEIP que superen los umbrales de los acuerdos comerciales internacionales del Perú",
+      "funciones_clave": [
+        "Conoce y resuelve en 10 días hábiles la revisión de evaluación de ofertas (solo sobre la oferta cuestionada)"
+      ]
+    }
+  ],
+  "plazos_importantes": [
+    {
+      "plazo": "6 meses",
+      "descripcion": "Plazo máximo para el cierre del PEIP una vez culminada la ejecución del proyecto/Cartera de Inversiones (ampliable por única vez con opinión favorable del Sector y de la DGPMI).",
+      "articulo_fuente": "Art. 13.1"
+    },
+    {
+      "plazo": "8 días hábiles",
+      "descripcion": "Plazo para que el postor descalificado solicite la revisión de la evaluación de su oferta ante el Tribunal de Contrataciones del Estado (o el Director/a Ejecutivo/a, según corresponda).",
+      "articulo_fuente": "DCF Sétima"
+    },
+    {
+      "plazo": "10 días hábiles",
+      "descripcion": "Plazo para que el Tribunal de Contrataciones del Estado resuelva la solicitud de revisión de la evaluación de una oferta.",
+      "articulo_fuente": "DCF Sétima"
+    }
+  ],
+  "metadata_analisis": {
+    "fecha_analisis": "2026-02-21",
+    "analizado_por": "GitHub Copilot (Claude Sonnet 4.5) - análisis directo del texto del PDF",
+    "version_schema": "1.0",
+    "notas": "Firmado el 22 de mayo de 2020 por Martín Alberto Vizcarra Cornejo (Presidente) y María Antonieta Alva Luperdi (Ministra de Economía y Finanzas). El PDF tiene 10 páginas en formato El Peruano de dos columnas. Las primeras líneas del PDF contienen el encabezado del decreto supremo principal (DS 119-2020-EF, 4 artículos) seguido por el Reglamento completo (20 artículos en 5 Títulos y 7 DCF). Las páginas finales del PDF continúan con una Resolución Ministerial de Energía y Minas (RM 119-2020-MINEM-DM sobre concesión temporal para Electro Sur Este — Central Hidroeléctrica Tintoc), que es una norma distinta no incluida en este JSON. Los PEIP fueron el mecanismo extraordinario para la ejecución de inversiones complejas durante la pandemia COVID-19: el DU 021-2020 fue emitido el 23 de enero de 2020 y el DS 119-2020-EF desarrolla su Reglamento en mayo de 2020. El monto mínimo de inversión es 350,000 UIT. Norma vinculada estrechamente con el DL 1486 (disposiciones para mejorar y optimizar la ejecución de inversiones públicas, también de 2020)."
+  }
+}

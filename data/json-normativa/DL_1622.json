@@ -1,0 +1,102 @@
+{
+  "id": "DL_1622",
+  "archivo_pdf": "DL_1622.pdf",
+  "tipo_norma": "decreto_legislativo",
+  "numero": "1622",
+  "titulo_oficial": "Decreto Legislativo que modifica los artículos 3, 4 y 5 del Decreto Legislativo N° 1553, Decreto Legislativo que establece medidas en materia de inversión pública y de contratación pública que coadyuven al impulso de la reactivación económica",
+  "titulo_corto": "DL 1622 — Ampliación de plazos del DL 1553",
+  "fecha_publicacion": "2024-07-27",
+  "entidad_emisora": "Presidencia de la República / Ministerio de Economía y Finanzas",
+  "estado": "vigente",
+  "fase_ciclo_inversion": ["ejecucion", "formulacion_evaluacion"],
+  "temas_clave": [
+    "ampliación de plazos del Decreto Legislativo N° 1553",
+    "licencias de habilitación urbana y edificación para inversiones públicas",
+    "elaboración de estudios ambientales por tramos para proyectos de inversión pública",
+    "metodologías específicas en el marco de Invierte.pe",
+    "reactivación económica"
+  ],
+  "resumen_ejecutivo": "El Decreto Legislativo N° 1622, dictado en virtud de la delegación de la Ley N° 32089, modifica los artículos 3, 4 y 5 del Decreto Legislativo N° 1553 para ampliar sus plazos de vigencia. Extiende hasta el 31/12/2026 las disposiciones especiales sobre licencias de habilitación urbana o de edificación (art. 3 DL 1553) y sobre elaboración de estudios ambientales para proyectos de inversión pública por tramos (art. 4 DL 1553). Asimismo, extiende hasta el 31/08/2025 las disposiciones sobre metodologías específicas aplicables a las inversiones en el marco del Sistema Invierte.pe (art. 5 DL 1553).",
+  "objetivo": "Ampliar los plazos previstos en los artículos 3, 4 y 5 del Decreto Legislativo N° 1553 para asegurar la continuidad en la implementación de las inversiones públicas para la efectiva prestación de servicios y la provisión de infraestructura.",
+  "ambito_aplicacion": "Entidades sujetas al Sistema Nacional de Programación Multianual y Gestión de Inversiones (Invierte.pe), beneficiarias de las disposiciones del DL 1553.",
+  "normas_que_modifica": [
+    "Decreto Legislativo N° 1553 — artículos 3, 4 y 5 (ampliación de plazos)"
+  ],
+  "normas_que_deroga": [],
+  "normas_referenciadas": [
+    "Ley N° 32089 — Ley que delega al Ejecutivo facultades en materia de reactivación económica, simplificación regulatoria, etc. (sub numeral 2.2.2 del numeral 2.2 del artículo 2)",
+    "Decreto Legislativo N° 1553 — norma modificada (artículos 3, 4 y 5)",
+    "Decreto Supremo N° 063-2021-PCM — Reglamento del Marco Institucional de Mejora de Calidad Regulatoria (AIR Ex Ante, artículo 28.1.6)"
+  ],
+  "estructura": [
+    {
+      "tipo": "considerandos",
+      "titulo": "Considerandos",
+      "contenido_resumen": "Fundamenta la norma en: la delegación de la Ley 32089 (sub numeral 2.2.2, art. 2) para modificar los arts. 3, 4 y 5 del DL 1553 ampliando sus plazos; la necesidad de asegurar la continuidad en la implementación de inversiones públicas; la exclusión del AIR Ex Ante por tratarse de disposiciones de sistemas administrativos del Estado (art. 46 Ley 29158)."
+    },
+    {
+      "tipo": "articulo",
+      "numero": "1",
+      "titulo": "Objeto",
+      "contenido_resumen": "Modificar los artículos 3, 4 y 5 del Decreto Legislativo N° 1553 a fin de ampliar los plazos previstos en dichos artículos."
+    },
+    {
+      "tipo": "articulo",
+      "numero": "2",
+      "titulo": "Ampliación de plazos de los artículos 3 y 4 del DL 1553 (licencias y estudios ambientales)",
+      "contenido_resumen": "Amplía hasta el 31 de diciembre de 2026 lo dispuesto en los artículos 3 y 4 del DL 1553: (a) artículo 3 — disposiciones especiales sobre licencias de habilitación urbana o de edificación para entidades públicas (inicio de obras con cargo de recepción del expediente); (b) artículo 4 — elaboración de estudios ambientales (IGA) para proyectos de inversión pública del GN que ejecutan por tramos, etapas, componentes o sectores funcionalmente independientes."
+    },
+    {
+      "tipo": "articulo",
+      "numero": "3",
+      "titulo": "Ampliación del plazo del artículo 5 del DL 1553 (metodologías específicas de Invierte.pe)",
+      "contenido_resumen": "Amplía hasta el 31 de agosto de 2025 lo dispuesto en el artículo 5 del DL 1553, que regula las metodologías específicas aplicables a las inversiones en el marco del Sistema Nacional de Programación Multianual y Gestión de Inversiones (Invierte.pe). (Nota: este plazo ya expiró al 31-08-2025.)"
+    },
+    {
+      "tipo": "articulo",
+      "numero": "4",
+      "titulo": "Refrendo",
+      "contenido_resumen": "Refrendado por el Presidente del Consejo de Ministros, la Ministra de Vivienda, Construcción y Saneamiento, el Ministro del Ambiente y el Ministro de Economía y Finanzas."
+    }
+  ],
+  "conceptos_clave": [
+    {
+      "termino": "Decreto Legislativo N° 1553",
+      "definicion": "Decreto legislativo que establece medidas en materia de inversión pública y de contratación pública para la reactivación económica. Sus artículos 3 y 4 regulan el inicio de obras con cargo de recepción de licencia y la elaboración de IGAs por tramos; su artículo 5 regula las metodologías específicas del sistema Invierte.pe. El DL 1622 amplía sus plazos.",
+      "articulo_fuente": "Artículos 2 y 3"
+    }
+  ],
+  "actores_institucionales": [
+    {
+      "nombre": "Entidades públicas de los 3 niveles de gobierno sujetas a Invierte.pe",
+      "rol": "Beneficiarias de la extensión temporal de las disposiciones del DL 1553",
+      "funciones_clave": [
+        "Continuar aplicando las disposiciones del DL 1553, arts. 3 y 4, hasta el 31/12/2026",
+        "Aplicar metodologías específicas del art. 5 del DL 1553 (plazo extendido hasta 31/08/2025, ya vencido)"
+      ]
+    }
+  ],
+  "plazos_importantes": [
+    {
+      "descripcion": "Vigencia extendida de las disposiciones del artículo 3 del DL 1553 (licencias de habilitación urbana o edificación)",
+      "plazo": "Hasta el 31 de diciembre de 2026",
+      "referencia": "Artículo 2 del DL 1622"
+    },
+    {
+      "descripcion": "Vigencia extendida de las disposiciones del artículo 4 del DL 1553 (elaboración de estudios ambientales/IGA para proyectos por tramos)",
+      "plazo": "Hasta el 31 de diciembre de 2026",
+      "referencia": "Artículo 2 del DL 1622"
+    },
+    {
+      "descripcion": "Vigencia extendida de las disposiciones del artículo 5 del DL 1553 (metodologías específicas de Invierte.pe)",
+      "plazo": "Hasta el 31 de agosto de 2025 (ya vencido)",
+      "referencia": "Artículo 3 del DL 1622"
+    }
+  ],
+  "metadata_analisis": {
+    "fecha_analisis": "2026-02-21",
+    "analizado_por": "GitHub Copilot (Claude Sonnet 4.5) - análisis directo del texto del PDF",
+    "version_schema": "1.0",
+    "notas": "El PDF es una página del Diario Oficial El Peruano del 27-07-2024 (página 5). Firmado en Lima el 26 de julio de 2024 por Dina Ercilia Boluarte Zegarra (Presidenta), Gustavo Lino Adrianzén Olaya (PCM), Juan Carlos Castro Vargas (Ambiente), José Berley Arista Arbildo (MEF) y Hania Pérez de Cuéllar Lubienska (MVCS). Es una norma de modificación simple cuyo único propósito es extender los plazos del DL 1553. El artículo 3 (extensión hasta 31/08/2025 del art. 5 DL 1553) ya expiró; el artículo 2 (extensión hasta 31/12/2026 de los arts. 3 y 4 DL 1553) continúa vigente al momento del análisis (21/02/2026)."
+  }
+}

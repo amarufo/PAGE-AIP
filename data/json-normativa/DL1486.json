@@ -1,0 +1,311 @@
+{
+  "id": "DL1486",
+  "archivo_pdf": "DL1486.pdf",
+  "tipo_norma": "decreto_legislativo",
+  "numero": "1486",
+  "titulo_oficial": "Decreto Legislativo que establece disposiciones para mejorar y optimizar la ejecución de las inversiones públicas",
+  "titulo_corto": "DL 1486 — Optimización de ejecución de inversiones públicas (COVID-19)",
+  "fecha_publicacion": "2020-05-10",
+  "entidad_emisora": "Presidencia de la República / Ministerio de Economía y Finanzas",
+  "estado": "vigente",
+  "fase_ciclo_inversion": ["ejecucion", "funcionamiento", "transversal"],
+  "temas_clave": [
+    "optimización de la ejecución de inversiones públicas",
+    "reactivación económica COVID-19",
+    "digitalización de solicitudes CIRA y PMA",
+    "metodologías BIM en inversiones públicas",
+    "seguimiento de IOARR por núcleos ejecutores",
+    "certificación de funcionarios del sistema Invierte.pe",
+    "reactivación de obras públicas paralizadas",
+    "liberación de interferencias para obras de infraestructura",
+    "modificación del Decreto Legislativo N° 1252"
+  ],
+  "resumen_ejecutivo": "El Decreto Legislativo N° 1486, dictado en el marco de la delegación de facultades legislativas de la Ley 31011 (COVID-19), establece disposiciones para mejorar y optimizar la ejecución de inversiones públicas. Introduce: digitalización de solicitudes CIRA y PMA ante el Ministerio de Cultura; autorización a entidades del Gobierno Nacional para adoptar metodologías BIM; seguimiento obligatorio de IOARR por núcleos ejecutores en el Banco de Inversiones; y certifiación progresiva de funcionarios del sistema Invierte.pe. Modifica el DL 1252 (arts. 5.2, 5.4 y agrega art. 11.3), la Ley 30556 y el DL 1192. Contiene disposiciones transitorias para la reactivación de obras paralizadas por el Estado de Emergencia Nacional (DS 044-2020-PCM).",
+  "objetivo": "Establecer disposiciones para que las entidades públicas ejecuten sus inversiones de manera efectiva, con procesos de retroalimentación y mejora constante, para que el Estado brinde servicios públicos de manera oportuna contribuyendo al cierre de brechas, y a la reactivación de la economía nacional afectada por el COVID-19.",
+  "ambito_aplicacion": "Entidades públicas de los tres niveles de gobierno, incluyendo sus organismos y empresas públicas.",
+  "normas_que_modifica": [
+    "Decreto Legislativo N° 1252 (Invierte.pe): modifica numerales 5.2 y 5.4 del artículo 5 e incorpora numeral 11.3 al artículo 11",
+    "Ley N° 30556 (Ley de Reconstrucción con Cambios): modifica art. 7.8, numerales 7-A.1 y 7-A.3 del artículo 7-A e incorpora Cuarta DCT",
+    "Decreto Legislativo N° 1192 (Ley Marco de Adquisición y Expropiación de Inmuebles): incorpora artículo 45 y las Disposiciones Complementarias Finales Vigésimo Quinta y Vigésimo Sexta",
+    "Ley N° 28056 (Ley Marco del Presupuesto Participativo): incorpora Tercera Disposición Complementaria Final"
+  ],
+  "normas_que_deroga": [],
+  "normas_referenciadas": [
+    "Ley N° 31011 — Ley que delega facultades legislativas al Ejecutivo por COVID-19 (base legal del DL)",
+    "Decreto Legislativo N° 1252 — Ley Invierte.pe (modificada por este DL)",
+    "Ley N° 31015 — Ley de núcleos ejecutores para infraestructura social básica, productiva y natural",
+    "Decreto de Urgencia N° 021-2020 — PEIP (Proyectos Especiales de Inversión Pública)",
+    "Decreto de Urgencia N° 003-2020 — Disposiciones para adquisición/liberación de áreas (PNIC y PIRCC)",
+    "Decreto de Urgencia N° 008-2019 — Reactivación de obras públicas paralizadas",
+    "Decreto Supremo N° 044-2020-PCM — Estado de Emergencia Nacional por COVID-19",
+    "Decreto Legislativo N° 1435 — FIDT (Fondo Invierte para el Desarrollo Territorial)",
+    "Decreto Legislativo N° 1192 — Ley Marco de Adquisición y Expropiación de Inmuebles y Liberación de Interferencias",
+    "Ley N° 30556 — Ley que dispone la creación de la Autoridad para la Reconstrucción con Cambios",
+    "Ley N° 28056 — Ley Marco del Presupuesto Participativo",
+    "Decreto Legislativo N° 1362 — Ley de APP y Proyectos en Activos",
+    "Decreto Supremo N° 294-2018-EF — TUO Ley 29230 (Obras por Impuestos)",
+    "FONIPREL (Fondo de Promoción a la Inversión Pública Regional y Local), concursos 2014-2017"
+  ],
+  "estructura": [
+    {
+      "tipo": "considerandos",
+      "titulo": "Considerandos",
+      "contenido_resumen": "Justifica la norma en: la delegación legislativa de la Ley 31011 (COVID-19, 45 días, materia de promoción de la inversión); el impacto negativo del COVID-19 en la economía; la importancia de la inversión pública como instrumento de reactivación económica; y la necesidad de mejorar y optimizar la ejecución de inversiones conforme al DL 1252, la Ley 31015, el DL 1192, el DL 1435 y la Ley 28056, orientando las disposiciones al cierre de brechas."
+    },
+    {
+      "tipo": "articulo",
+      "numero": "1",
+      "titulo": "Objeto",
+      "contenido_resumen": "Establece disposiciones para mejorar y optimizar la ejecución de las inversiones públicas, a través de mecanismos que permitan que las entidades públicas ejecuten sus inversiones de manera efectiva con retroalimentación y mejora constante, para que el Estado brinde servicios públicos de manera oportuna contribuyendo al cierre de brechas."
+    },
+    {
+      "tipo": "articulo",
+      "numero": "2",
+      "titulo": "Finalidad",
+      "contenido_resumen": "Reactivar la economía nacional impactada por el COVID-19 a través de los procesos de mejora y optimización de la inversión pública."
+    },
+    {
+      "tipo": "articulo",
+      "numero": "3",
+      "titulo": "Ámbito de aplicación",
+      "contenido_resumen": "El DL y sus normas reglamentarias/complementarias son de aplicación obligatoria a las entidades públicas de los tres niveles de gobierno, incluyendo sus organismos y empresas públicas."
+    },
+    {
+      "tipo": "articulo",
+      "numero": "4",
+      "titulo": "Facilidades para la obtención del CIRA y del PMA",
+      "contenido_resumen": "4.1: Autoriza a entidades públicas titulares de proyectos de inversión a presentar íntegramente digitalizada la información para el CIRA y el PMA, a través de los sistemas del Ministerio de Cultura (Sistema de Gestión de CIRA y Sistema de Gestión de PMA). 4.2: El Ministerio de Cultura tiene 15 días hábiles desde la vigencia del DL para emitir disposiciones de implementación progresiva."
+    },
+    {
+      "tipo": "articulo",
+      "numero": "5",
+      "titulo": "Utilización de metodologías BIM u otras en las inversiones públicas",
+      "contenido_resumen": "Las entidades públicas del Gobierno Nacional pueden aprobar la aplicación de metodologías BIM u otras en las inversiones de su ámbito de responsabilidad funcional, para su utilización por ellas mismas y/o por otras entidades públicas, conforme a los lineamientos de la DGPMI."
+    },
+    {
+      "tipo": "articulo",
+      "numero": "6",
+      "titulo": "Seguimiento de la ejecución de IOARR realizadas por núcleos ejecutores",
+      "contenido_resumen": "6.1: Las entidades de los 3 niveles de gobierno que ejecuten IOARR mediante núcleos ejecutores (Ley 31015) registran la modalidad en el Banco de Inversiones, adjuntando: (a) análisis costo-beneficio; (b) convenio con el núcleo ejecutor y cronograma; (c) ficha de datos del núcleo ejecutor y sus integrantes. 6.2: Las entidades registran y mantienen actualizado el seguimiento físico-financiero en el Banco de Inversiones. 6.3: La información es utilizada por las OPMI sectoriales y de las entidades para el seguimiento. 6.4: Las OPMI pueden reportar incidencias a las entidades o autoridades competentes."
+    },
+    {
+      "tipo": "articulo",
+      "numero": "7",
+      "titulo": "Refrendo",
+      "contenido_resumen": "Refrendado por el Presidente del Consejo de Ministros, la Ministra de Cultura, el Ministro de Vivienda Construcción y Saneamiento, y la Ministra de Economía y Finanzas."
+    },
+    {
+      "tipo": "disposiciones_complementarias_finales",
+      "titulo": "Disposiciones Complementarias Finales",
+      "hijos": [
+        {
+          "tipo": "disposicion",
+          "numero": "Primera",
+          "titulo": "Certificación de los funcionarios y servidores del Sistema Invierte.pe",
+          "contenido_resumen": "Los funcionarios y servidores de entidades públicas que participan directamente en las fases del Ciclo de Inversión del Sistema Invierte.pe deben contar con certificación para realizar dichas funciones. El proceso de certificación es progresivo, conforme a los lineamientos de la DGPMI. La DGPMI está facultada para suscribir convenios con instituciones educativas, colegios profesionales u otras instituciones para la certificación."
+        },
+        {
+          "tipo": "disposicion",
+          "numero": "Segunda",
+          "titulo": "Aplicación extensiva del DU 003-2020 a los Proyectos Especiales de Inversión Pública (PEIP)",
+          "contenido_resumen": "Faculta a los PEIP creados bajo el DU 021-2020 (que identifiquen necesidad de adquirir y liberar áreas durante la Ejecución) a emplear el DU 003-2020 (disposiciones extraordinarias para adquisición y liberación de áreas del PNIC y PIRCC), en lo aplicable."
+        },
+        {
+          "tipo": "disposicion",
+          "numero": "Tercera",
+          "titulo": "Aplicación extensiva de la DCF Tercera del DL 1435 (FIDT) a convenios FONIPREL 2014-2017",
+          "contenido_resumen": "Extiende los beneficios de la Tercera DCF del DL 1435 (FIDT) a los convenios suscritos en los concursos FONIPREL de los años 2014 al 2017 que a la fecha de vigencia del DL no hayan concluido debido al incumplimiento de obligaciones por parte de los beneficiarios."
+        }
+      ]
+    },
+    {
+      "tipo": "disposiciones_complementarias_transitorias",
+      "titulo": "Disposiciones Complementarias Transitorias",
+      "hijos": [
+        {
+          "tipo": "disposicion",
+          "numero": "Primera",
+          "titulo": "Disposiciones sobre licencias de habilitación urbana",
+          "contenido_resumen": "Faculta a entidades públicas del Gobierno Nacional y Gobierno Regional a aplicar el artículo 8 del DU 021-2020 (licencias de habilitación urbana o de edificación) sin necesidad de sujetarse a las demás disposiciones de dicho DU. Vigencia hasta el 30 de junio de 2021."
+        },
+        {
+          "tipo": "disposicion",
+          "numero": "Segunda",
+          "titulo": "Reactivación de obras públicas paralizadas por el Estado de Emergencia Nacional (COVID-19)",
+          "contenido_resumen": "Para la reactivación de contratos de obra (régimen general de contrataciones del Estado) paralizados por el DS 044-2020-PCM, establece de forma excepcional: (a) dentro de los 15 días calendario de culminada la inmovilización social, el ejecutor de obra presenta a la entidad: cuantificación de la ampliación de plazo, nuevo cronograma, CPM, calendario de avance, calendario de materiales/equipos, plan de seguridad y salud actualizado, propuesta de reemplazo de personal clave; (b) el funcionario competente aprueba la ampliación en 15 días (si no, se entiende aprobada por silencio positivo); (c) las entidades pueden acordar con ejecutores y supervisores modificaciones contractuales para medidas COVID; (d) si el supervisor no puede continuar, se designa un inspector hasta la contratación de un nuevo supervisor; (e) se otorga adelantos directos hasta el 15% y para materiales hasta el 25% del contrato original en los casos indicados. También aplica para contratos con ampliaciones de plazo parciales o suspensiones acordadas durante la emergencia, y al régimen de la Ley 30556. El OSCE emite la directiva correspondiente en 7 días. La implementación va con cargo al presupuesto institucional."
+        },
+        {
+          "tipo": "disposicion",
+          "numero": "Tercera",
+          "titulo": "Disposiciones para obras públicas paralizadas con avance ≥ 40%",
+          "contenido_resumen": "Las obras públicas de proyectos del Sistema Invierte.pe (bajo Ley de Contrataciones del Estado) con avance físico ≥ 40% que califiquen como obras paralizadas (DU 008-2019) pueden acogerse a las disposiciones de dicho DU. El inventario de obras (art. 4 del DU 008-2019) se realiza hasta el 31 de julio de 2020 y se registra en el Banco de Inversiones. Hasta el 31-12-2020, las entidades aprueban mediante resolución la lista priorizada. Las disposiciones del DU 008-2019 aplican por 12 meses desde la vigencia del DL 1486."
+        }
+      ]
+    },
+    {
+      "tipo": "seccion",
+      "titulo": "Disposiciones Complementarias Modificatorias",
+      "hijos": [
+        {
+          "tipo": "disposicion",
+          "numero": "Primera",
+          "titulo": "Modificación del DL 1252 (art. 5.2, 5.4) e incorporación del numeral 11.3 al artículo 11",
+          "contenido_resumen": "Modifica los arts. 5.2 y 5.4 e incorpora el art. 11.3 del DL 1252: — Art. 5.2 (DGPMI como ente rector): añade la función de 'gestionar e implementar mecanismos para el seguimiento y monitoreo de la ejecución de inversiones'; incorpora condición para inversiones financiadas con endeudamiento con aval/garantía del Estado Mayor a 1 año: MEF da conformidad para su inclusión en el PMI. — Art. 5.4 (OPMI): añade que las OPMI sectoriales emiten opinión sobre pertinencia de inversiones subnacionales en su ámbito funcional 'de acuerdo con los criterios que establezca la DGPMI en coordinación con los sectores respectivos'. — Art. 11.3 (nuevo): Corresponde a las UEI registrar y actualizar mensualmente el avance físico y financiero de todos los componentes de las inversiones a su cargo en el formato de seguimiento del Banco de Inversiones; la información alimenta la PMI y la Programación Multianual Presupuestaria."
+        },
+        {
+          "tipo": "disposicion",
+          "numero": "Segunda",
+          "titulo": "Modificación de la Ley N° 30556 (arts. 7.8, 7-A.1, 7-A.3 e incorporación de Cuarta DCT)",
+          "contenido_resumen": "Modifica el numeral 7.8 del artículo 7 de la Ley 30556 (contratación Estado a Estado para el Plan de Reconstrucción), añadiendo como requisito la declaratoria de viabilidad o aprobación en el SNPMGI para inversiones de construcción, o el Formato Único de Reconstrucción para las de reconstrucción. Modifica el numeral 7-A.1 (plazo de presentación de ofertas de 8 días hábiles; presentación electrónica vía SEACE; no procede elevación de cuestionamientos al pliego) y el numeral 7-A.3 (repositorio público de información de buena pro). Incorpora Cuarta DCT a la Ley 30556."
+        },
+        {
+          "tipo": "disposicion",
+          "numero": "Tercera",
+          "titulo": "Incorporación de art. 45 y DCF Vigésimo Quinta y Vigésimo Sexta al DL N° 1192",
+          "contenido_resumen": "Incorpora al DL 1192 (Ley Marco de Adquisición y Expropiación de Inmuebles): — Art. 45: Faculta a entidades públicas de los 3 niveles de gobierno a ejecutar alternativamente la liberación de interferencias, incluyendo dichos costos en el presupuesto de la inversión, previa suscripción de convenio con la empresa prestadora de servicios públicos. — DCF Vigésimo Quinta: Los gastos de liberación/remoción/reubicación de interferencias para obras de infraestructura se registran como parte del proyecto de inversión (no como IOARR). Si los hace la empresa prestadora de servicios, se registran como 'otros gastos de inversión'. — DCF Vigésimo Sexta: Los contratos de ejecución y supervisión de obra de entidades públicas deben incluir una cláusula de suspensión automática del plazo por liberación de interferencias por un tercero, por el tiempo que dure dicha liberación/disponibilidad de áreas. No aplica a APP ni OxI."
+        },
+        {
+          "tipo": "disposicion",
+          "numero": "Cuarta",
+          "titulo": "Adecuaciones al SEACE y/o incorporación de Tercera DCF a la Ley 28056",
+          "contenido_resumen": "Adecuaciones al SEACE: lo establecido en el literal a) del numeral 7-A.1 de la Ley 30556 (presentación electrónica de ofertas) entra en vigencia cuando el OSCE realice las adecuaciones necesarias en el SEACE, con plazo máximo de 60 días. Incorporación de Tercera DCF a la Ley 28056 (Ley Marco del Presupuesto Participativo): para la priorización de inversiones en el presupuesto participativo se debe considerar el criterio anual y multianual, los procesos de Programación Multianual Presupuestaria y el PMI; la DGPMI establece las directivas y lineamientos correspondientes."
+        }
+      ]
+    }
+  ],
+  "conceptos_clave": [
+    {
+      "termino": "Certificación de funcionarios del Sistema Invierte.pe",
+      "definicion": "Proceso progresivo mediante el cual los funcionarios y servidores que participan directamente en las fases del Ciclo de Inversión deben acreditar competencias para realizar sus funciones, conforme a los lineamientos de la DGPMI. La DGPMI puede suscribir convenios con instituciones educativas y colegios profesionales para este fin.",
+      "articulo_fuente": "DCF Primera"
+    },
+    {
+      "termino": "CIRA (Certificado de Inexistencia de Restos Arqueológicos)",
+      "definicion": "Certificación emitida por el Ministerio de Cultura que acredita la inexistencia de restos arqueológicos en el área de un proyecto de inversión. El DL 1486 autoriza su tramitación íntegramente digitalizada.",
+      "articulo_fuente": "Artículo 4"
+    },
+    {
+      "termino": "PMA (Plan de Monitoreo Arqueológico)",
+      "definicion": "Plan de supervisión arqueológica durante la ejecución de obras, autorizado por el Ministerio de Cultura. El DL 1486 autoriza tramitar su solicitud íntegramente digitalizada.",
+      "articulo_fuente": "Artículo 4"
+    },
+    {
+      "termino": "Núcleo ejecutor",
+      "definicion": "Modalidad de ejecución de IOARR regulada por la Ley 31015, en la que una organización comunal ejecuta inversiones de infraestructura social básica, productiva y natural. Las entidades que usen esta modalidad deben registrar el seguimiento en el Banco de Inversiones.",
+      "articulo_fuente": "Artículo 6"
+    },
+    {
+      "termino": "Liberación de interferencias",
+      "definicion": "Actividades de traslado o reubicación de instalaciones de servicios públicos (redes de agua, gas, electricidad, etc.) que obstruyen la ejecución de obras de infraestructura. El DL 1486 incorpora al DL 1192 disposiciones para que las entidades ejecuten estas actividades alternativamente y se prevean cláusulas de suspensión automática de contrato por este motivo.",
+      "articulo_fuente": "DCM Tercera"
+    },
+    {
+      "termino": "Obras públicas paralizadas",
+      "definicion": "Obras que cumplen las condiciones del DU 008-2019 para ser consideradas como paralizadas. El DL 1486 (DCT Tercera) permite que las obras con avance ≥40% paralizadas por el COVID-19 se acojan a las disposiciones del DU 008-2019.",
+      "articulo_fuente": "DCT Tercera"
+    }
+  ],
+  "actores_institucionales": [
+    {
+      "nombre": "Dirección General de Programación Multianual de Inversiones (DGPMI) - MEF",
+      "rol": "Ente rector que establece lineamientos para BIM, certificación de funcionarios y seguimiento",
+      "funciones_clave": [
+        "Establecer lineamientos para la uso de metodologías BIM por entidades del GN (Art. 5)",
+        "Establecer el proceso de certificación progresiva de funcionarios y suscribir convenios (DCF Primera)",
+        "Establecer disposiciones de seguimiento físico-financiero mensual en el Banco de Inversiones (DCM Primera — art. 11.3 DL 1252)",
+        "Establecer criterios para que OPMI sectoriales emitan opiniones sobre pertinencia (DCM Primera — art. 5.4 DL 1252)",
+        "Establecer directivas para priorización en el presupuesto participativo (DCM Cuarta — Ley 28056)"
+      ]
+    },
+    {
+      "nombre": "Ministerio de Cultura",
+      "rol": "Entidad que digitaliza la tramitación de CIRA y PMA",
+      "funciones_clave": [
+        "Emitir disposiciones para implementación progresiva de la digitalización de CIRA y PMA en 15 días hábiles (Art. 4.2)"
+      ]
+    },
+    {
+      "nombre": "OSCE (Organismo Supervisor de las Contrataciones del Estado)",
+      "rol": "Regula procedimientos de contratación pública para la reactivación de obras",
+      "funciones_clave": [
+        "Emitir directiva sobre ampliaciones de plazo, adelantos y medidas COVID en contratos de obra (DCT Segunda, plazo 7 días hábiles)",
+        "Realizar adecuaciones al SEACE para presentación electrónica de ofertas (DCM Cuarta, plazo 60 días)"
+      ]
+    },
+    {
+      "nombre": "Entidades públicas de los 3 niveles de gobierno",
+      "rol": "Sujetos obligados a optimizar la ejecución de sus inversiones",
+      "funciones_clave": [
+        "Presentar CIRA y PMA íntegramente digitalizados",
+        "Registrar IOARR por núcleo ejecutor en el Banco de Inversiones",
+        "Mantener actualizado el seguimiento físico-financiero mensual (UEI)",
+        "Reactivar obras paralizadas conforme a las disposiciones transitorias"
+      ]
+    },
+    {
+      "nombre": "Autoridad para la Reconstrucción con Cambios",
+      "rol": "Entidad beneficiada por modificaciones a la Ley 30556",
+      "funciones_clave": [
+        "Aplicar el Procedimiento de Contratación Pública Especial para la Reconstrucción con Cambios con los requisitos actualizados (declaratoria de viabilidad o FUR)"
+      ]
+    }
+  ],
+  "plazos_importantes": [
+    {
+      "descripcion": "Ministerio de Cultura emite disposiciones para digitalización de CIRA y PMA",
+      "plazo": "15 días hábiles desde la entrada en vigencia del DL 1486",
+      "referencia": "Artículo 4.2"
+    },
+    {
+      "descripcion": "Ejecutor de obra presenta documentación para ampliación de plazo al reactivar obras paralizadas por COVID-19",
+      "plazo": "15 días calendario desde culminación de la inmovilización social",
+      "referencia": "DCT Segunda, literal a)"
+    },
+    {
+      "descripcion": "Entidad aprueba ampliación de plazo del contrato de obra (si no la aprueba, se entiende aprobada por silencio positivo)",
+      "plazo": "15 días calendario desde la presentación de la documentación",
+      "referencia": "DCT Segunda, literal b)"
+    },
+    {
+      "descripcion": "OSCE emite directiva sobre ampliaciones de plazo, adelantos y medidas COVID",
+      "plazo": "7 días hábiles desde la vigencia de la DCT Segunda",
+      "referencia": "DCT Segunda (al final)"
+    },
+    {
+      "descripcion": "Inventario de obras públicas paralizadas con avance ≥40% (registro en Banco de Inversiones)",
+      "plazo": "Hasta el 31 de julio de 2020",
+      "referencia": "DCT Tercera"
+    },
+    {
+      "descripcion": "Aprobación de lista priorizada de obras públicas paralizadas",
+      "plazo": "Hasta el 31 de diciembre de 2020",
+      "referencia": "DCT Tercera"
+    },
+    {
+      "descripcion": "Plazo de vigencia de disposiciones del DU 008-2019 para obras con avance ≥40%",
+      "plazo": "12 meses desde la vigencia del DL 1486",
+      "referencia": "DCT Tercera"
+    },
+    {
+      "descripcion": "OSCE realiza adecuaciones al SEACE para presentación electrónica de ofertas",
+      "plazo": "Máximo 60 días calendario desde la vigencia del DL 1486",
+      "referencia": "DCM Cuarta"
+    },
+    {
+      "descripcion": "Licencias de habilitación urbana y de edificación (facultad a GN y GR)",
+      "plazo": "Vigencia hasta el 30 de junio de 2021",
+      "referencia": "DCT Primera"
+    },
+    {
+      "descripcion": "Registro mensual de avance físico y financiero por UEI en el Banco de Inversiones",
+      "plazo": "Mensual (permanente)",
+      "referencia": "DCM Primera — artículo 11.3 del DL 1252"
+    }
+  ],
+  "metadata_analisis": {
+    "fecha_analisis": "2026-02-21",
+    "analizado_por": "GitHub Copilot (Claude Sonnet 4.5) - análisis directo del texto del PDF",
+    "version_schema": "1.0",
+    "notas": "El PDF es una página del Diario Oficial El Peruano del 10-05-2020 que contiene múltiples normas. La primera parte de la página 1 corresponde al remate de otro DL (ampliación de REACTIVA PERÚ). El DL 1486 inicia aproximadamente en la mitad de la página 1 y culmina en la página 5. Firmado en Lima el 9 de mayo de 2020 por Martín Alberto Vizcarra Cornejo (Presidente), Vicente Antonio Zeballos Salinas (PCM), Sonia Guillén Oneeglio (Cultura), María Antonieta Alva Luperdi (MEF) y Rodolfo Yañez Wendorff (Vivienda). El texto de la DCM Cuarta puede presentar ambigüedad en su numeración por el formato a dos columnas del Diario Oficial; puede contener la regulación de adecuaciones SEACE y la incorporación a la Ley 28056 bajo el mismo numeral."
+  }
+}

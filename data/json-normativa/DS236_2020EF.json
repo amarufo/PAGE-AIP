@@ -1,0 +1,238 @@
+{
+  "id": "DS236_2020EF",
+  "archivo_pdf": "DS236_2020EF.pdf",
+  "tipo_norma": "decreto_supremo",
+  "numero": "236-2020-EF",
+  "titulo_oficial": "Decreto Supremo que aprueba el procedimiento para la contratación del Servicio de Asistencia Técnica Especializada para la gestión de inversiones",
+  "titulo_corto": "DS 236-2020-EF — SATE para la gestión de inversiones públicas (deroga DS 288-2019-EF)",
+  "fecha_publicacion": "2020-08-21",
+  "entidad_emisora": "Ministerio de Economía y Finanzas",
+  "estado": "vigente",
+  "fase_ciclo_inversion": ["formulacion_evaluacion", "ejecucion"],
+  "temas_clave": [
+    "Servicio de Asistencia Técnica Especializada (SATE) para la gestión de inversiones",
+    "PERÚ COMPRAS — encargo de procedimiento de selección del SATE",
+    "Plan Nacional de Infraestructura para la Competitividad (PNIC)",
+    "umbral de inversión ≥ S/ 200,000,000 para contratación del SATE",
+    "derogación del DS 288-2019-EF",
+    "gestión integral de inversiones — órgano especializado como prerrequisito",
+    "transferencia de conocimiento en gestión de inversiones",
+    "contratación de expertos con ≥ 8 años de experiencia",
+    "factores de evaluación del SATE"
+  ],
+  "resumen_ejecutivo": "El DS N° 236-2020-EF aprueba el procedimiento y las disposiciones para la contratación del Servicio de Asistencia Técnica Especializada (SATE) para la gestión de inversiones públicas. Define el ámbito de aplicación: inversiones del PNIC, Proyectos Especiales de Inversión Pública (PEIP) del DU 021-2020, entidades autorizadas para replicar el modelo de ejecución del DU 021-2020, y entidades con inversiones ≥ S/ 200,000,000. La contratación se canaliza a través de PERÚ COMPRAS (mediante convenio interinstitucional) o de organismos internacionales (para entidades con inversiones ≥ S/ 200M). Las bases incluyen 6 factores de evaluación mínimos y los expertos evaluadores deben tener ≥ 8 años de experiencia. Se deroga el DS N° 288-2019-EF.",
+  "objetivo": "Establecer el procedimiento y las disposiciones para la contratación del Servicio de Asistencia Técnica Especializada (SATE) para la gestión de inversiones, programa de inversión o cartera de inversiones que ejecuten las entidades del sector público.",
+  "ambito_aplicacion": "Entidades del sector público del Art. 3 del TUO de la Ley 30225 (DS 082-2019-EF) que: (a) ejecuten inversiones del Plan Nacional de Infraestructura para la Competitividad (PNIC); (b) sean PEIP del DU 021-2020 y no empleen un Contrato estandarizado para la ATEGI; (c) estén autorizadas por el MEF para replicar parcialmente el modelo de ejecución del DU 021-2020; o (d) ejecuten inversiones con valor total ≥ S/ 200,000,000 (previa autorización del titular de la entidad).",
+  "normas_que_modifica": [],
+  "normas_que_deroga": [
+    "DS N° 288-2019-EF — Lineamientos para la contratación del servicio de consultoría que proporcione soporte especializado para la gestión de inversiones, programa de inversión o cartera de inversiones (derogado por la Disposición Complementaria Derogatoria Única)"
+  ],
+  "normas_referenciadas": [
+    "DS N° 345-2018-EF — Política Nacional de Competitividad y Productividad (Objetivo Prioritario 1: infraestructura de calidad)",
+    "DS N° 237-2019-EF — Plan Nacional de Competitividad y Productividad 2019-2030",
+    "DS N° 238-2019-EF — Plan Nacional de Infraestructura para la Competitividad (PNIC)",
+    "Decreto de Urgencia N° 021-2020 — establece el modelo de ejecución de inversiones públicas a través de PEIP (numeral 3.5 del Art. 3: faculta al MEF a dictar disposiciones para la contratación de la asistencia técnica)",
+    "DS N° 119-2020-EF — Reglamento de PEIP del DU 021-2020 (numeral 20.3 del Art. 20 sobre réplica parcial del modelo)",
+    "DS N° 082-2019-EF — TUO de la Ley N° 30225, Ley de Contrataciones del Estado",
+    "DS N° 344-2018-EF — Reglamento de la Ley de Contrataciones del Estado",
+    "DS N° 288-2019-EF — Lineamientos para la contratación del servicio de consultoría de soporte especializado en la gestión de inversiones (norma derogada)"
+  ],
+  "estructura": [
+    {
+      "tipo": "articulo",
+      "numero": "1",
+      "titulo": "Objeto",
+      "contenido_resumen": "Establecer el procedimiento y las disposiciones para la contratación del Servicio de Asistencia Técnica Especializada (SATE) para la gestión de inversiones, programa de inversión o cartera de inversiones que ejecuten las entidades del sector público."
+    },
+    {
+      "tipo": "articulo",
+      "numero": "2",
+      "titulo": "Ámbito de aplicación",
+      "contenido_resumen": "2.1 El SATE puede ser contratado por: (a) Entidades del sector público que ejecuten inversiones del PNIC; (b) PEIP del DU 021-2020 cuando el PEIP decida no emplear un Contrato estandarizado para su ATEGI; (c) Entidades autorizadas por el MEF para replicar parcialmente el modelo de ejecución (DCF Quinta del DU 021-2020 y numeral 20.3 del Art. 20 del DS 119-2020-EF); (d) Entidades con valor total de inversión ≥ S/ 200,000,000, previa autorización del Titular de la Entidad. 2.2 Las entidades del numeral 2.1 deben observar obligatoriamente las disposiciones y procedimientos del presente DS. 2.3 'Entidades del sector público' = art. 3 del TUO de la Ley 30225 (DS 082-2019-EF)."
+    },
+    {
+      "tipo": "articulo",
+      "numero": "3",
+      "titulo": "Condiciones para la contratación de la Asistencia Técnica Especializada",
+      "contenido_resumen": "3.1 Las entidades suscriben un convenio interinstitucional con PERÚ COMPRAS (Central de Compras Públicas), que encarga a esta última las actuaciones preparatorias y el procedimiento de selección, con acompañamiento en la optimización del requerimiento. 3.2 Alternativa: las entidades del literal d) del numeral 2.1 (inversiones ≥ S/ 200M) pueden encargar a un organismo internacional la contratación del SATE (regulado por el Reglamento de la Ley 30225). 3.3 Prerrequisito: las entidades deben contar con un órgano, unidad orgánica u otra forma de organización con funciones de gestión integral de inversiones públicas, incluyendo como mínimo: (3.3.1) planificar, organizar, controlar y gerenciar las inversiones; (3.3.2) diseñar e implementar procesos, procedimientos e instrumentos para la gestión integrada; (3.3.3) brindar asistencia y proponer soluciones técnicas para controversias en la ejecución contractual. 3.4 Entidades sin dicho órgano (o sin las funciones mínimas): deben incluir en el SATE la obligación de efectuar el diagnóstico de la estructura organizacional y formular una propuesta de implementación."
+    },
+    {
+      "tipo": "articulo",
+      "numero": "4",
+      "titulo": "Alcances del Servicio de Asistencia Técnica Especializada",
+      "contenido_resumen": "4.1 El SATE proporciona asistencia técnica y soporte especializado en la gestión de inversiones desde la formulación y evaluación hasta la ejecución (o desde la etapa en que se encuentre el ciclo de inversión). 4.2 Actividades mínimas del SATE (11 actividades):",
+      "actividades_minimas": [
+        "4.2.1 Evaluación y diagnóstico de la estructura organizacional enfocada en la gestión de proyectos de inversión.",
+        "4.2.2 Asistencia y evaluación en la planificación, organización y gerenciamiento de las inversiones públicas.",
+        "4.2.3 Asistencia en la revisión y/o evaluación de documentos, estudios técnicos e información de la formulación, evaluación o ejecución de inversiones.",
+        "4.2.4 Asistencia en la revisión y/o evaluación de expedientes técnicos o documentos equivalentes, modificaciones contractuales y selección de proveedores.",
+        "4.2.5 Elaboración de metodologías, herramientas técnicas, procesos y acciones para la gestión de proyectos.",
+        "4.2.6 Asistencia para la revisión y/o elaboración del plan de operación y mantenimiento de inversiones.",
+        "4.2.7 Asistencia en la gestión, control y administración de los contratos para la ejecución de la Inversión Pública (planificación/programación, calidad, desempeño, costos, cambios, alcance, riesgos y oportunidades).",
+        "4.2.8 Asistencia en la implementación de herramientas adaptables y flexibles para la gestión de documentos y manejo de información física y electrónica.",
+        "4.2.9 Asistencia en la implementación, adquisición y/o uso o conservación del uso de sistemas informáticos para la gestión de las inversiones, y/o capacitación sobre el uso de los mismos.",
+        "4.2.10 Transferencia de conocimiento hacia la Entidad (gestión y gerenciamiento de inversiones, tecnologías informáticas para gestión de proyectos, manuales de buenas prácticas, repositorio de lecciones aprendidas).",
+        "4.2.11 Otros que establezcan las entidades según sus necesidades y la naturaleza del servicio (con posibilidad de excluir actividades sustentadas)."
+      ],
+      "disposiciones_adicionales": [
+        "4.3 La DGPMI, en coordinación con la Dirección General de Abastecimiento, aprueba lineamientos para establecer actividades específicas del SATE.",
+        "4.4 Para los PEIP del DU 021-2020, las actividades del SATE se rigen por el DS 119-2020-EF (Reglamento de PEIP), en lo que no se oponga a la Ley de Contrataciones del Estado."
+      ]
+    },
+    {
+      "tipo": "articulo",
+      "numero": "5",
+      "titulo": "Reglas para la selección de la Asistencia Técnica Especializada a cargo de PERÚ COMPRAS",
+      "contenido_resumen": "5.1 PERÚ COMPRAS designa un Comité de Selección de 3 miembros: 1 representante de PERÚ COMPRAS + 2 representantes de la entidad (con conocimiento técnico en el objeto de la contratación). 5.2 El Comité es presidido por el representante de PERÚ COMPRAS. 5.3 Funciones del Comité sujetas al TUO de la Ley 30225 y su Reglamento; los miembros del Comité NO participan en la evaluación de la oferta técnica: publican los resultados que informan los expertos. 5.4 PERÚ COMPRAS contrata hasta 3 expertos para cada procedimiento (con cargo a los recursos de la entidad), que: (5.4.1) establecen criterios técnicos y comerciales para la evaluación de postores; (5.4.2) atienden consultas sobre la evaluación de ofertas (vía el Comité de Selección); (5.4.3) evalúan las ofertas e informan los resultados al Comité (consensuando en caso de evaluación individual discrepante entre los expertos). 5.5 Calificaciones mínimas de los expertos: (i) título profesional afín a la naturaleza de las inversiones; (ii) estudios de especialización en gerencia o gestión de proyectos; (iii) ≥ 8 años de experiencia en gestión de proyectos de inversión similares, habiendo participado en todas las fases del ciclo de inversión; (iv) experiencia como especialista de control/planeamiento, jefe de oficina técnica, ingeniero residente y/o supervisor de obra; (v) participación en ≥ 3 proyectos similares con cargos de responsabilidad (jefe de oficina técnica, gerente/director de proyecto, portafolio, programa o cartera); (vi) si la profesión es distinta: al menos 5 de los 8 años como jefe de proyecto, administrador de contratos, especialista en procura o responsable de control/planeamiento en inversiones similares.",
+      "factores_evaluacion_minimos": [
+        "5.6.1 Estructura y organización para el SATE: (a) recursos profesionales y perfiles del personal clave; (b) definición de responsabilidades del personal propuesto.",
+        "5.6.2 Metodología de gestión de proyectos: propuesta de plan de ejecución e implementación del SATE.",
+        "5.6.3 Exposición de 2 casos de inversiones similares en los que haya participado.",
+        "5.6.4 Identificación de riesgos, restricciones y oportunidades de la inversión, con propuesta para su gestión.",
+        "5.6.5 Transferencia de conocimientos: (a) metodología de transferencia de conocimiento; (b) plan de capacitación.",
+        "5.6.6 Tipo de tecnologías de la información y comunicación, y gestión de la información a emplear."
+      ],
+      "disposiciones_adicionales": [
+        "5.7 El proceso no incluye cuestionamientos al pliego de absolución de consultas, observaciones e integración de bases.",
+        "5.8 Los postores pueden impugnar solo la evaluación de sus ofertas mediante recurso de apelación (Ley 30225 y su Reglamento). Al resolver, PERÚ COMPRAS o el Tribunal de Contrataciones del Estado se pronuncia únicamente sobre la evaluación del impugnante; nulidad solo si las bases son abiertamente contradictorias u oscuras.",
+        "5.9 Lo no regulado por el DS o disposición especial aplicable se rige por el TUO de la Ley 30225 (DS 082-2019-EF) y su Reglamento."
+      ]
+    },
+    {
+      "tipo": "articulo",
+      "numero": "6",
+      "titulo": "Seguimiento a la ejecución contractual",
+      "contenido_resumen": "6.1 PERÚ COMPRAS remite a la Dirección General de Abastecimiento reportes mensuales sobre el estado de los encargos, según las disposiciones que esta última establezca. 6.2 Las entidades reportan: (a) a la DGPMI: el impacto del SATE en el avance y ejecución de las inversiones (según formatos de la DGPMI); (b) a la Dirección General de Abastecimiento: reportes mensuales sobre la ejecución del SATE (según lineamientos y formatos de la Dirección)."
+    },
+    {
+      "tipo": "articulo",
+      "numero": "7",
+      "titulo": "Financiamiento",
+      "contenido_resumen": "El SATE se financia con cargo a los recursos de la Entidad responsable de las Inversiones Públicas, sin demandar mayores recursos al Tesoro Público."
+    },
+    {
+      "tipo": "articulo",
+      "numero": "8",
+      "titulo": "Refrendo",
+      "contenido_resumen": "Refrendado por la Ministra de Economía y Finanzas, María Antonieta Alva Luperdi."
+    },
+    {
+      "tipo": "seccion",
+      "titulo": "Disposiciones Complementarias Finales (3 DCF)",
+      "hijos": [
+        {
+          "tipo": "disposicion_complementaria_final",
+          "numero": "Primera",
+          "titulo": "Convenio de encargo",
+          "contenido_resumen": "En un plazo máximo de 10 días hábiles de publicado el DS, la Central de Compras Públicas (PERÚ COMPRAS), previa conformidad de la Dirección General de Abastecimiento, aprueba mediante Resolución Jefatural el modelo de convenio de encargo al que se refiere el numeral 3.1 del artículo 3 del presente DS."
+        },
+        {
+          "tipo": "disposicion_complementaria_final",
+          "numero": "Segunda",
+          "titulo": "Bases estándar",
+          "contenido_resumen": "En un plazo máximo de 10 días hábiles de publicado el DS, el Organismo Supervisor de las Contrataciones del Estado (OSCE) actualiza las Bases Estándar para la contratación del SATE para las entidades comprendidas en el DS 236-2020-EF."
+        },
+        {
+          "tipo": "disposicion_complementaria_final",
+          "numero": "Tercera",
+          "titulo": "Gestión de proyectos bajo la modalidad de Asociaciones Público-Privadas",
+          "contenido_resumen": "Las disposiciones del DS 236-2020-EF NO son aplicables a la gestión de proyectos bajo la modalidad de Asociaciones Público-Privadas (APP)."
+        }
+      ]
+    },
+    {
+      "tipo": "seccion",
+      "titulo": "Disposición Complementaria Derogatoria",
+      "hijos": [
+        {
+          "tipo": "disposicion_complementaria_derogatoria",
+          "numero": "Única",
+          "titulo": "Derogación del Decreto Supremo N° 288-2019-EF",
+          "contenido_resumen": "Se deroga el DS N° 288-2019-EF, que aprobaba los Lineamientos para la contratación del servicio de consultoría que proporcione soporte especializado para la gestión de inversiones, programa de inversión o cartera de inversiones."
+        }
+      ]
+    }
+  ],
+  "conceptos_clave": [
+    {
+      "termino": "Servicio de Asistencia Técnica Especializada (SATE) para la gestión de inversiones",
+      "definicion": "Servicio de consultoría especializada que proporciona a las entidades del sector público asistencia técnica y soporte en la gestión de inversiones públicas desde la formulación y evaluación hasta la ejecución. Incluye 11 actividades mínimas que abarcan: diagnóstico organizacional, asistencia en planificación/gerenciamiento, revisión de estudios y ET, elaboración de metodologías, planes de O&M, gestión contractual, herramientas de gestión documental, sistemas informáticos y transferencia de conocimiento.",
+      "articulo_fuente": "Arts. 1, 4"
+    },
+    {
+      "termino": "PERÚ COMPRAS (Central de Compras Públicas)",
+      "definicion": "Organismo público encargado de realizar las actuaciones preparatorias y el procedimiento de selección del SATE, mediante convenio interinstitucional con la entidad. Designa el Comité de Selección (1 representante de PERÚ COMPRAS + 2 de la entidad), lo preside y contrata hasta 3 expertos para cada procedimiento de evaluación de ofertas.",
+      "articulo_fuente": "Arts. 3.1, 5"
+    },
+    {
+      "termino": "Umbral de S/ 200,000,000 para contratación obligatoria del SATE",
+      "definicion": "Las entidades públicas que ejecuten inversiones con valor total de inversión ≥ S/ 200,000,000 (previa autorización del titular de la entidad) pueden contratar el SATE bajo el DS 236-2020-EF. Esta es la vía ordinaria para entidades que no son del PNIC, PEIP del DU 021-2020 ni entidades de réplica del modelo PEIP.",
+      "articulo_fuente": "Art. 2.1, literal d)"
+    },
+    {
+      "termino": "Prerrequisito organizacional para la contratación del SATE",
+      "definicion": "Las entidades deben contar con un órgano, unidad orgánica u otra forma de organización con funciones de gestión integral de inversiones (planificar, organizar, controlar, gerenciar; diseñar e implementar procesos/instrumentos; brindar asistencia técnica y proponer soluciones para controversias). Si no lo tienen, el SATE debe incluir el diagnóstico y formulación de propuesta organizacional.",
+      "articulo_fuente": "Arts. 3.3, 3.4"
+    },
+    {
+      "termino": "Expertos en el procedimiento de selección del SATE",
+      "definicion": "Hasta 3 especialistas contratados por PERÚ COMPRAS (con cargo a los recursos de la entidad) para evaluar técnicamente las ofertas del SATE. Requisitos mínimos: ≥ 8 años de experiencia en gestión de proyectos de inversión similares, participación en todas las fases del ciclo de inversión, y haber participado en ≥ 3 proyectos similares con cargos de responsabilidad. Los miembros del Comité de Selección NO participan en esta evaluación.",
+      "articulo_fuente": "Arts. 5.4, 5.5"
+    }
+  ],
+  "actores_institucionales": [
+    {
+      "nombre": "DGPMI (MEF)",
+      "rol": "Regulador de las actividades específicas del SATE (en coordinación con la Dirección General de Abastecimiento); receptor de reportes de impacto del SATE",
+      "funciones_clave": [
+        "Aprobar lineamientos para las actividades específicas del SATE (en coordinación con la DGA)",
+        "Recibir reportes de impacto del SATE en el avance y ejecución de las inversiones"
+      ]
+    },
+    {
+      "nombre": "PERÚ COMPRAS (Central de Compras Públicas)",
+      "rol": "Ejecuta los procedimientos de selección del SATE mediante convenio interinstitucional con las entidades; designa y preside el Comité de Selección; contrata expertos para la evaluación técnica",
+      "funciones_clave": [
+        "Aprobar el modelo de convenio de encargo (dentro de los 10 días hábiles de publicado el DS)",
+        "Designar comité de selección (1 PERÚ COMPRAS + 2 entidad)",
+        "Contratar hasta 3 expertos por procedimiento",
+        "Remitir reportes mensuales a la Dirección General de Abastecimiento"
+      ]
+    },
+    {
+      "nombre": "Dirección General de Abastecimiento (MEF)",
+      "rol": "Supervisa la ejecución de los encargos de PERÚ COMPRAS y la ejecución del SATE; participa en la aprobación de lineamientos del SATE",
+      "funciones_clave": [
+        "Emite conformidad previa para la aprobación del modelo de convenio de encargo",
+        "Aprueba lineamientos y formatos para los reportes de seguimiento del SATE",
+        "Recibe reportes mensuales de PERÚ COMPRAS y de las entidades"
+      ]
+    },
+    {
+      "nombre": "OSCE (Organismo Supervisor de las Contrataciones del Estado)",
+      "rol": "Actualiza las Bases Estándar para la contratación del SATE (dentro de los 10 días hábiles de publicado el DS); resuelve recursos de apelación en los procedimientos que superen los umbrales establecidos"
+    },
+    {
+      "nombre": "Entidades del sector público (ámbito del DS)",
+      "rol": "Contratan el SATE mediante convenio con PERÚ COMPRAS o con organismo internacional (literal d); deben contar con un órgano de gestión integral de inversiones como prerrequisito; financian el SATE con sus propios recursos"
+    }
+  ],
+  "plazos_importantes": [
+    {
+      "plazo": "10 días hábiles",
+      "descripcion": "Plazo máximo para que PERÚ COMPRAS (previa conformidad de la Dirección General de Abastecimiento) apruebe mediante Resolución Jefatural el modelo de convenio de encargo a que se refiere el numeral 3.1 del Art. 3.",
+      "articulo_fuente": "DCF Primera"
+    },
+    {
+      "plazo": "10 días hábiles",
+      "descripcion": "Plazo máximo para que el OSCE actualice las Bases Estándar para la contratación del SATE.",
+      "articulo_fuente": "DCF Segunda"
+    }
+  ],
+  "metadata_analisis": {
+    "fecha_analisis": "2026-02-21",
+    "analizado_por": "GitHub Copilot (Claude Sonnet 4.5) - análisis directo del texto del PDF",
+    "version_schema": "1.0",
+    "notas": "Firmado el 20 de agosto de 2020 por Martín Alberto Vizcarra Cornejo (Presidente) y María Antonieta Alva Luperdi (Ministra de Economía y Finanzas). El PDF tiene 3 páginas en formato El Peruano de dos columnas. Las primeras líneas corresponden a una Resolución Ministerial del Ministerio de Desarrollo e Inclusión Social (designación del señor Guzmán Niño como asesor; 1878868-1) — norma ajena, no incluida en este JSON. El DS 236-2020-EF tiene el código 1878878-1. Deroga el DS 288-2019-EF. Esta norma regula la contratación del SATE para entidades fuera del ámbito PEIP/DU 021-2020 (para las cuales el DS 119-2020-EF ya regulaba la ATEGI): PNIC, inversiones ≥ S/ 200M y entidades en réplica parcial del modelo. Es la norma antecesora del DS 286-2021-EF (que también la modifica). Nota: el DS 231-2022-EF (Art. 20, párrafo 20.3 del DS 119-2020-EF) establece que la réplica parcial del modelo PEIP puede usar el DS 288-2019-EF, pero este ya fue derogado por el DS 236-2020-EF, por lo que se debe leer como referencia al DS 236-2020-EF."
+  }
+}

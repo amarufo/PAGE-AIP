@@ -1,0 +1,190 @@
+{
+    "id": "DL_1635",
+    "archivo_pdf": "DL_1635.pdf",
+    "tipo_norma": "decreto_legislativo",
+    "numero": "1635",
+    "titulo_oficial": "Decreto Legislativo que regula las Intervenciones de Reconstrucción mediante Inversiones (IRI) para su alineamiento al Sistema Nacional de Programación Multianual y Gestión de Inversiones",
+    "titulo_corto": "DL 1635 — Alineamiento de IRI-PIRCC al Sistema Invierte.pe",
+    "fecha_publicacion": "2024-08-30",
+    "entidad_emisora": "Presidencia de la República / Ministerio de Economía y Finanzas",
+    "estado": "vigente",
+    "fase_ciclo_inversion": [
+        "programacion",
+        "formulacion_evaluacion",
+        "ejecucion",
+        "transversal"
+    ],
+    "temas_clave": [
+        "Intervenciones de Reconstrucción mediante Inversiones (IRI)",
+        "Plan Integral de Reconstrucción con Cambios (PIRCC)",
+        "alineamiento de IRI al Ciclo de Inversión de Invierte.pe",
+        "Formato Único de Reconstrucción (FUR)",
+        "Autoridad para la Reconstrucción con Cambios (ARCC) - extinción",
+        "Autoridad Nacional de Infraestructura (ANIN)",
+        "regularización de inversiones post-PIRCC"
+    ],
+    "resumen_ejecutivo": "El Decreto Legislativo N° 1635, dictado en virtud de la Ley N° 32089, regula las Intervenciones de Reconstrucción mediante Inversiones (IRI) comprendidas en el Plan Integral de Reconstrucción con Cambios (PIRCC) hasta el 6 de diciembre de 2023 (fecha de publicación de la Ley de Presupuesto 2024) que no contaron con registro de Formato Único de Reconstrucción (FUR) en el Banco de Inversiones. Dispone que esas IRI deben alinearse al DL 1252 y cumplir las fases del Ciclo de Inversión, mientras que las IRI con FUR aprobado continúan bajo el régimen de la Ley 30556. También regula las IRI registradas en BI sin FUR aprobado. Deroga disposiciones de la Ley 30556 y del DL 1354 relacionadas con las IRI, en concordancia con la extinción de la ARCC (31/12/2023) y la creación de la ANIN.",
+    "objetivo": "Regular las IRI comprendidas en el PIRCC que no contaron con registro del FUR al 06/12/2023, para su alineamiento al SNPMGI y cumplimiento de las fases del Ciclo de Inversión, asegurando la calidad de las inversiones.",
+    "ambito_aplicacion": "Entidades de los tres niveles de gobierno que tienen a su cargo la implementación de las IRI comprendidas en el PIRCC al 06 de diciembre de 2023.",
+    "normas_que_modifica": [],
+    "normas_que_deroga": [
+        "Segundo párrafo del numeral 8-A.1 del artículo 8-A de la Ley N° 30556, incorporado por el artículo 3 del Decreto Legislativo N° 1354",
+        "Primer párrafo de la Décimo Sexta Disposición Complementaria Final del Decreto Legislativo N° 1354 (que modifica la Ley N° 30556)"
+    ],
+    "normas_referenciadas": [
+        "Ley N° 32089 — Ley que delega facultades legislativas al Ejecutivo en materias de reactivación económica, etc. (inciso 2.2.1, numeral 2.2, artículo 2)",
+        "Ley N° 30556 — Ley que dispone la creación de la ARCC y el PIRCC (con sus modificatorias)",
+        "Decreto Legislativo N° 1354 — que modifica la Ley 30556 (incorpora art. 8-A sobre IRI)",
+        "Decreto Supremo N° 091-2017-PCM — aprueba el PIRCC",
+        "Decreto Legislativo N° 1252 — Ley Invierte.pe (norma de referencia a la que deben alinearse las IRI sin FUR)",
+        "Ley N° 31953 — Ley de Presupuesto del Sector Público para el Año Fiscal 2024 (artículo 70, numerales 70.2, 70.3 y 70.6 — IRI, ANIN)",
+        "Ley N° 31841 — crea la Autoridad Nacional de Infraestructura (ANIN)",
+        "Ley N° 31639 — Ley de Equilibrio Financiero 2023 (artículo 9: vencimiento de la ARCC el 31/12/2023)",
+        "Decreto Supremo N° 063-2021-PCM — Reglamento del marco de mejora de calidad regulatoria (exclusión del AIR Ex Ante)"
+    ],
+    "estructura": [
+        {
+            "tipo": "considerandos",
+            "titulo": "Considerandos",
+            "contenido_resumen": "Fundamenta la norma en: (1) la delegación de la Ley 32089 (sub numeral 2.2.1, art. 2) para regular IRI del PIRCC sin FUR; (2) la regulación de las IRI en la Ley 30556 (art. 8-A.1, incorporado por DL 1354): no son proyectos de inversión, se aprueban con el solo registro del FUR en el Banco de Inversiones; (3) el artículo 70 de la Ley 31953 (Presupuesto 2024) que autoriza financiar IRI del PIRCC; (4) el vencimiento de la ARCC el 31/12/2023 (Ley 31639); (5) la creación de la ANIN (Ley 31841); y (6) la necesidad de asegurar la calidad de las inversiones mediante el cumplimiento del Ciclo de Inversión para las IRI sin FUR."
+        },
+        {
+            "tipo": "articulo",
+            "numero": "1",
+            "titulo": "Objeto",
+            "contenido_resumen": "Regular las IRI comprendidas en el PIRCC (aprobado por DS 091-2017-PCM) hasta el 06/12/2023 que no contaron con registro del FUR, para su alineamiento al SNPMGI y cumplimiento de las fases del Ciclo de Inversión."
+        },
+        {
+            "tipo": "articulo",
+            "numero": "2",
+            "titulo": "Finalidad",
+            "contenido_resumen": "Asegurar la calidad de las inversiones que desarrollen las entidades de los tres niveles de gobierno, disponiendo que las IRI sin FUR al 06/12/2023 se alineen al DL 1252 y sus normas reglamentarias."
+        },
+        {
+            "tipo": "articulo",
+            "numero": "3",
+            "titulo": "Ámbito de aplicación",
+            "contenido_resumen": "El DL se aplica a las entidades de los tres niveles de gobierno que tienen a su cargo la implementación de las IRI comprendidas en el PIRCC al 06/12/2023 (fecha de publicación de la Ley 31953, Ley de Presupuesto 2024)."
+        },
+        {
+            "tipo": "articulo",
+            "numero": "4",
+            "titulo": "Alineamiento de las IRI al SNPMGI",
+            "contenido_resumen": "Las IRI del PIRCC que al 06/12/2023 no contaron con registro del FUR en el Banco de Inversiones del SNPMGI deben aplicar las disposiciones del DL 1252 y sus normas reglamentarias, y cumplir las fases del Ciclo de Inversión del SNPMGI."
+        },
+        {
+            "tipo": "articulo",
+            "numero": "5",
+            "titulo": "Continuidad de la ejecución de las IRI con FUR aprobado",
+            "contenido_resumen": "Las IRI del PIRCC que al 06/12/2023 cumplían con el numeral 8-A.1 del artículo 8-A de la Ley 30556 (es decir, tenían FUR aprobado registrado en el Banco de Inversiones) continúan reguladas conforme a la Ley 30556 en lo que les resulte aplicable, y se financian con cargo al presupuesto institucional de los pliegos y unidades ejecutoras."
+        },
+        {
+            "tipo": "articulo",
+            "numero": "6",
+            "titulo": "IRI no comprendidas en el PIRCC al 06/12/2023 con FUR registrado",
+            "contenido_resumen": "Las IRI no comprendidas en el PIRCC al 06/12/2023, que tengan registro del FUR en el Banco de Inversiones del SNPMGI y que no tengan ejecución física o financiera ni asignación presupuestal en el año fiscal 2024, debe aplicar las disposiciones del DL 1252 y sus normas reglamentarias."
+        },
+        {
+            "tipo": "articulo",
+            "numero": "7",
+            "titulo": "IRI con registro en el Banco de Inversiones pero sin aprobación del FUR",
+            "contenido_resumen": "Las entidades de los 3 niveles de gobierno que cuenten con IRI del PIRCC al 06/12/2023 con registro en el Banco de Inversiones del SNPMGI pero sin aprobación del FUR, deben aplicar las disposiciones del DL 1252 y sus normas reglamentarias."
+        },
+        {
+            "tipo": "articulo",
+            "numero": "8",
+            "titulo": "Refrendo",
+            "contenido_resumen": "Refrendado por el Presidente del Consejo de Ministros y el Ministro de Economía y Finanzas."
+        },
+        {
+            "tipo": "disposicion_derogatoria",
+            "titulo": "Disposiciones Complementarias Derogatorias",
+            "hijos": [
+                {
+                    "tipo": "disposicion",
+                    "numero": "Primera",
+                    "titulo": "Derogación del segundo párrafo del numeral 8-A.1 del artículo 8-A de la Ley N° 30556",
+                    "contenido_resumen": "Deroga el segundo párrafo del numeral 8-A.1 del artículo 8-A de la Ley 30556, incorporado por el artículo 3 del DL 1354. Dicho párrafo regulaba las IRI como no constitutivas de proyectos de inversión y su aprobación con el solo registro del FUR en el Banco de Inversiones."
+                },
+                {
+                    "tipo": "disposicion",
+                    "numero": "Segunda",
+                    "titulo": "Derogación del primer párrafo de la Décimo Sexta DCF del DL N° 1354",
+                    "contenido_resumen": "Deroga el primer párrafo de la Décimo Sexta Disposición Complementaria Final del DL 1354 (que modifica la Ley 30556)."
+                }
+            ]
+        }
+    ],
+    "conceptos_clave": [
+        {
+            "termino": "Intervención de Reconstrucción mediante Inversiones (IRI)",
+            "definicion": "Intervenciones de reconstrucción implementadas a través de la ejecución de inversiones en el marco del PIRCC (Ley 30556, art. 8-A, incorporado por DL 1354). Consideran las características y niveles de servicio de la infraestructura preexistente. Originalmente no constituían proyectos de inversión ni requerían declaración de viabilidad; se aprobaban con el solo registro del FUR en el Banco de Inversiones. El DL 1635 establece que las IRI sin FUR al 06/12/2023 deben alinearse al DL 1252.",
+            "articulo_fuente": "Artículos 1 y 4"
+        },
+        {
+            "termino": "Formato Único de Reconstrucción (FUR)",
+            "definicion": "Instrumento de aprobación de las IRI en el marco de la Ley 30556, que sustituía a la declaratoria de viabilidad del SNPMGI. Su registro en el Banco de Inversiones era condición suficiente para ejecutar una IRI bajo el régimen excepcional de la ARCC. El DL 1635 regula las consecuencias de tener o no tener FUR.",
+            "articulo_fuente": "Artículos 4, 5, 6 y 7"
+        },
+        {
+            "termino": "Plan Integral de Reconstrucción con Cambios (PIRCC)",
+            "definicion": "Plan de caracteristicas extraordinario, de obligatorio cumplimiento para los 3 niveles de gobierno, aprobado por DS 091-2017-PCM, para la reconstrucción de infraestructura pública y vivienda afectadas por desastres naturales con niveles de emergencia 4 y 5 (El Niño). Ejecutado por la ARCC hasta su extinción el 31/12/2023.",
+            "articulo_fuente": "Considerandos, Artículo 1"
+        },
+        {
+            "termino": "ARCC (Autoridad para la Reconstrucción con Cambios)",
+            "definicion": "Entidad creada por la Ley 30556 para liderar, implementar y ejecutar el PIRCC. Su plazo de duración venció el 31 de diciembre de 2023 (Ley 31639, art. 9). Fue reemplazada por la ANIN (Autoridad Nacional de Infraestructura) creada por la Ley 31841.",
+            "articulo_fuente": "Considerandos"
+        },
+        {
+            "termino": "ANIN (Autoridad Nacional de Infraestructura)",
+            "definicion": "Organismo público ejecutor adscrito a la PCM, creado por la Ley 31841, para la formulación, ejecución y mantenimiento de proyectos o programas de inversión. Asumió parte de las funciones de la ARCC respecto a la cartera PIRCC.",
+            "articulo_fuente": "Considerandos"
+        }
+    ],
+    "actores_institucionales": [
+        {
+            "nombre": "Entidades de los 3 niveles de gobierno con IRI del PIRCC",
+            "rol": "Sujetos obligados a alinear sus IRI sin FUR al Ciclo de Inversión del SNPMGI",
+            "funciones_clave": [
+                "Alinear las IRI sin FUR al DL 1252 y cumplir las fases del Ciclo de Inversión (Art. 4)",
+                "Continuar ejecutando IRI con FUR aprobado bajo el régimen de la Ley 30556 (Art. 5)",
+                "Aplicar el DL 1252 a IRI registradas en BI sin aprobación del FUR (Art. 7)"
+            ]
+        },
+        {
+            "nombre": "ANIN (Autoridad Nacional de Infraestructura)",
+            "rol": "Puede ejecutar IRI de la cartera PIRCC en el marco del acuerdo Gobierno a Gobierno",
+            "funciones_clave": [
+                "Ejecutar IRI de la cartera PIRCC en el marco del acuerdo GaG (Ley 31953, art. 70.6)",
+                "Asumir la posición contractual en acuerdos, convenios o contratos",
+                "Aplicar el Procedimiento de Contratación Pública Especial para la Reconstrucción con Cambios"
+            ]
+        },
+        {
+            "nombre": "DGPMI — MEF",
+            "rol": "Ente rector del SNPMGI al que deben alinearse las IRI sin FUR",
+            "funciones_clave": [
+                "Establecer disposiciones del DL 1252 y normas reglamentarias aplicables a las IRI que se reconvierten a proyectos de inversión"
+            ]
+        }
+    ],
+    "plazos_importantes": [
+        {
+            "descripcion": "Fecha de corte para determinar si las IRI del PIRCC requieren alineamiento al SNPMGI (registro de FUR en el Banco de Inversiones)",
+            "plazo": "06 de diciembre de 2023 (fecha de publicación de la Ley 31953, Ley de Presupuesto 2024)",
+            "referencia": "Artículos 1, 3, 4, 5, 6 y 7"
+        },
+        {
+            "descripcion": "Extinción de la ARCC (Autoridad para la Reconstrucción con Cambios)",
+            "plazo": "31 de diciembre de 2023 (Ley 31639, artículo 9)",
+            "referencia": "Considerandos"
+        }
+    ],
+    "metadata_analisis": {
+        "fecha_analisis": "2026-02-21",
+        "analizado_por": "GitHub Copilot (Claude Sonnet 4.5) - análisis directo del texto del PDF",
+        "version_schema": "1.0",
+        "notas": "El PDF es una página del Diario Oficial El Peruano del 30-08-2024 (páginas 9-11). El DL 1635 ocupa el inicio de la página 1 (que contiene el remate de otro DL anterior), la página 2 completa y el inicio de la página 3 (donde luego comienza el DL 1636). Firmado el 29 de agosto de 2024 por Dina Ercilia Boluarte Zegarra (Presidenta), Gustavo Adrianzén Olaya (PCM) y José Berley Arista Arbildo (MEF). La lógica clave: IRI con FUR aprobado al 06/12/2023 → siguen Ley 30556; IRI sin FUR al 06/12/2023 → deben cumplir Ciclo de Inversión del DL 1252."
+    }
+}

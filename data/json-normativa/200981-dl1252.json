@@ -1,0 +1,382 @@
+{
+  "id": "200981-dl1252",
+  "archivo_pdf": "200981-dl1252.pdf",
+  "tipo_norma": "decreto_legislativo",
+  "numero": "1252",
+  "titulo_oficial": "Decreto Legislativo que crea el Sistema Nacional de Programación Multianual y Gestión de Inversiones",
+  "titulo_corto": "Ley Invierte.pe",
+  "fecha_publicacion": "2016-12-01",
+  "entidad_emisora": "Presidencia de la República / Ministerio de Economía y Finanzas",
+  "estado": "modificado",
+  "fase_ciclo_inversion": ["transversal"],
+  "temas_clave": [
+    "creación del sistema Invierte.pe",
+    "ciclo de inversión pública",
+    "principios rectores de la inversión pública",
+    "cierre de brechas de infraestructura",
+    "programación multianual de inversiones",
+    "banco de inversiones",
+    "integración intersistémica de la administración financiera"
+  ],
+  "resumen_ejecutivo": "El Decreto Legislativo N° 1252 crea el Sistema Nacional de Programación Multianual y Gestión de Inversiones (Invierte.pe) como sistema administrativo del Estado, reemplazando al SNIP (Ley 27293). Define 12 principios rectores, establece las cuatro fases del Ciclo de Inversión (Programación Multianual, Formulación y Evaluación, Ejecución, Funcionamiento), los órganos del sistema y sus funciones, y regula la integración con la Administración Financiera del Sector Público. Ha sido modificado por DL 1341, Ley 30680, DL 1432, DL 1486, DL 1553, DL 1664 y Ley 32425.",
+  "objetivo": "Crear el Sistema Nacional de Programación Multianual y Gestión de Inversiones como sistema administrativo del Estado, con la finalidad de orientar el uso de los recursos públicos destinados a la inversión para la efectiva prestación de servicios y la provisión de la infraestructura necesaria para el desarrollo del país.",
+  "ambito_aplicacion": "Entidades del Sector Público No Financiero (Ley N° 30099). Incluye sectores del Gobierno Nacional, Gobiernos Regionales y Gobiernos Locales, agrupados por sector o nivel de gobierno según corresponda.",
+  "normas_que_modifica": [],
+  "normas_que_deroga": [
+    "Ley N° 27293, Ley del Sistema Nacional de Inversión Pública",
+    "Primera Disposición Complementaria Final del Decreto Legislativo N° 1224"
+  ],
+  "normas_referenciadas": [
+    "Ley N° 30506 (delegación de facultades legislativas al Ejecutivo)",
+    "Ley N° 30099, Ley de Fortalecimiento de la Responsabilidad y Transparencia Fiscal",
+    "Marco Macroeconómico Multianual",
+    "Sistema Nacional de Planeamiento Estratégico (SINAPLAN)",
+    "SIAF-RP (Sistema Integrado de Administración Financiera de los Recursos Públicos)",
+    "SEACE (Sistema Electrónico de Contrataciones del Estado)",
+    "Sistema Integrado de Gestión Administrativa (SIGA)",
+    "Ley N° 28411, Ley General del Sistema Nacional de Presupuesto Público",
+    "Ley N° 29337 (PROCOMPITE - apoyo a competitividad productiva)",
+    "Ley N° 29622 (responsabilidad administrativa funcional)",
+    "Decreto Legislativo N° 1341 (modificación)",
+    "Ley N° 30680 (modificación)",
+    "Decreto Legislativo N° 1432 (modificación)",
+    "Decreto Legislativo N° 1486 (modificación)",
+    "Decreto Legislativo N° 1553 (modificación)",
+    "Decreto Legislativo N° 1664 (modificación)",
+    "Ley N° 32425 (modificación)"
+  ],
+  "estructura": [
+    {
+      "tipo": "considerandos",
+      "titulo": "Considerandos y exposición de motivos",
+      "contenido_resumen": "El Congreso delegó facultades al Ejecutivo mediante Ley 30506 para reorganizar el SNIP. Se justifica la creación de un sistema descentralizado articulado al cierre de brechas de infraestructura y de acceso a servicios, en sustitución del SNIP."
+    },
+    {
+      "tipo": "capitulo",
+      "numero": "I",
+      "titulo": "Del Sistema Nacional de Programación Multianual y Gestión de Inversiones",
+      "contenido_resumen": "Establece la creación, ámbito de aplicación, principios rectores, lineamientos de política nacional, fases del ciclo de inversión, órganos del sistema y articulación con el presupuesto participativo.",
+      "hijos": [
+        {
+          "tipo": "articulo",
+          "numero": "1",
+          "titulo": "Objeto",
+          "contenido_resumen": "Crea el Sistema Nacional de Programación Multianual y Gestión de Inversiones (Invierte.pe) como sistema administrativo del Estado. Finalidad: orientar el uso de recursos públicos de inversión para la efectiva prestación de servicios e infraestructura. Deroga la Ley N° 27293 (SNIP)."
+        },
+        {
+          "tipo": "articulo",
+          "numero": "2",
+          "titulo": "Ámbito de aplicación",
+          "contenido_resumen": "Aplicación obligatoria a entidades del Sector Público No Financiero (Ley 30099). Las entidades del Gobierno Nacional se agrupan por sectores; las de Gobiernos Regionales y Locales, por su nivel de gobierno, conforme al Reglamento."
+        },
+        {
+          "tipo": "articulo",
+          "numero": "3",
+          "titulo": "Principios rectores",
+          "contenido_resumen": "Define 12 principios rectores: a) Alineamiento: inversión alineada al cierre de brechas y al planeamiento estratégico; b) Priorización: servicios prioritarios y maximización de recursos según Marco Macroeconómico Multianual; c) Oportunidad: ejecutar inversiones en el plazo previsto en formulación; d) Eficacia: cumplir metas y objetivos del Ciclo de Inversión; e) Eficiencia: usar recursos con calidad y maximizar rendimiento de activos; f) Sostenibilidad: garantizar culminación y operación/mantenimiento; g) Complementariedad: articulación territorial para economías de escala e impacto en bienestar; h) Calidad de las inversiones: aplicar el Ciclo de Inversión, metodologías y normas técnicas; i) Capacidad técnica: contar con competencias especializadas para sustentar decisiones; j) Evaluación social y económica: maximizar valor en términos de eficiencia, eficacia y oportunidad; k) Transparencia: información pública, accesible, confiable y oportuna; l) Gestión de riesgos: identificar, analizar, evaluar, priorizar y mitigar riesgos con alertas tempranas. Adicionalmente, se rige por los principios de la Administración Financiera del Sector Público. (Modificado por DL 1664)"
+        },
+        {
+          "tipo": "articulo",
+          "numero": "3-A",
+          "titulo": "Lineamientos de Política Nacional de Inversión Pública",
+          "contenido_resumen": "Marco orientador para planes y estrategias de inversiones sectoriales, regionales y locales, con enfoque territorial, y para el PMI. Contiene servicios prioritarios para el cierre de brechas y el crecimiento económico. Son evaluados por la DGPMI. Se aprueban y actualizan cada 5 años mediante Decreto Supremo con voto del Consejo de Ministros, a propuesta del MEF-DGPMI. Los planes de inversiones sectoriales y subnacionales identifican inversiones considerando los servicios prioritarios. El Plan Nacional de Infraestructura los considera en lo referido a inversión pública. (Incorporado por DL 1664)"
+        },
+        {
+          "tipo": "articulo",
+          "numero": "4",
+          "titulo": "Fases del Ciclo de Inversión",
+          "contenido_resumen": "Define las 4 fases: a) Programación Multianual de Inversiones (PMI): proyección tri-anual mínima, coordinación interinstitucional e intergubernamental, a cargo de Sectores, GR y GL; incluye inversiones por OxI y APP cofinanciadas; marco de referencia para formulación presupuestaria anual. b) Formulación y Evaluación: formulación vía ficha técnica (o estudio de preinversión para proyectos complejos), registro y aprobación en Banco de Inversiones; los Sectores realizan seguimiento periódico de calidad. c) Ejecución: elaboración de expediente técnico y ejecución física-financiera; seguimiento vía Sistema de Seguimiento de Inversiones (integra Banco de Inversiones, SIAF-RP, SEACE y otros). d) Funcionamiento: operación y mantenimiento de activos generados; evaluaciones ex post para lecciones aprendidas. Reglas adicionales: las IOARR no son proyectos de inversión (no aplican fases a y b); solo se asignan fondos a inversiones registradas en el Banco de Inversiones con viabilidad declarada; decisiones de inversión fuera de la norma requieren Decreto Supremo refrendado por el Ministro del Sector y el MEF."
+        },
+        {
+          "tipo": "articulo",
+          "numero": "5",
+          "titulo": "Órganos y funciones del Sistema",
+          "contenido_resumen": "Órganos del sistema: DGPMI-MEF, Órganos Resolutivos, OPMIs, Unidades Formuladoras y Unidades Ejecutoras de Inversiones. DGPMI (ente rector): administra el Banco de Inversiones, puede desactivar inversiones de oficio, dicta lineamientos del Ciclo de Inversión, supervisa calidad, elabora PMIE, aprueba metodologías generales, brinda capacitación, emite opinión vinculante exclusiva. Sectores aprueban metodologías específicas. Órgano Resolutivo: presenta y aprueba el PMI sectorial/regional/local, aprueba indicadores de brechas y criterios de priorización para los 3 niveles de gobierno. OPMI: conduce la fase de Programación Multianual, verifica encuadre en el PMI, realiza seguimiento y monitoreo, puede opinar sobre pertinencia de inversiones subnacionales en su ámbito funcional. UF: aplica contenidos, metodologías y parámetros, elabora fichas técnicas y estudios, aprueba o declara viabilidad. UEI: ejecuta inversiones sujeta al diseño del Banco de Inversiones; en APP cofinanciadas el planteamiento técnico es referencial. El Reglamento puede establecer funciones complementarias."
+        },
+        {
+          "tipo": "articulo",
+          "numero": "6",
+          "titulo": "Del presupuesto participativo",
+          "contenido_resumen": "La información de la programación multianual de inversiones orienta la fase de concertación del proceso del presupuesto participativo de los Gobiernos Regionales y Gobiernos Locales. (Incorporado por DL 1432)"
+        }
+      ]
+    },
+    {
+      "tipo": "capitulo",
+      "numero": "II",
+      "titulo": "De la Integración Intersistémica",
+      "contenido_resumen": "Regula las relaciones del Sistema Invierte.pe con otros sistemas administrativos y con la Administración Financiera del Sector Público en sus tres procesos: programación multianual, gestión y seguimiento/evaluación de inversiones. (Todos los artículos incorporados por DL 1432)",
+      "hijos": [
+        {
+          "tipo": "articulo",
+          "numero": "7",
+          "titulo": "De las relaciones con otros Sistemas Administrativos",
+          "contenido_resumen": "Invierte.pe mantiene coordinación e interrelación con otros sistemas administrativos para su finalidad y coherencia normativa. Interactúa con los sistemas de la Administración Financiera del Sector Público. Los aplicativos del sistema integran toda la información del Ciclo de Inversión e interactúan con SIAF-RP y SIGA."
+        },
+        {
+          "tipo": "articulo",
+          "numero": "8",
+          "titulo": "Integración intersistémica",
+          "contenido_resumen": "Como parte de la Administración Financiera del Sector Público, Invierte.pe realiza tres funciones: 1) Programación Multianual de la Inversión Pública; 2) Gestión de la Inversión Pública; 3) Seguimiento y Evaluación de las inversiones."
+        },
+        {
+          "tipo": "articulo",
+          "numero": "9",
+          "titulo": "La Programación Multianual de la Inversión Pública",
+          "contenido_resumen": "Forma parte del proceso de Programación de Recursos Públicos de la AFSP. Requiere información de: DGPP (programación presupuestaria anual para consistencia del PMI), órganos del sistema (el PMI), DGPMDF (proyección del Marco Macroeconómico Multianual) y DGTP (programación multianual de concertaciones de endeudamiento del GN)."
+        },
+        {
+          "tipo": "articulo",
+          "numero": "10",
+          "titulo": "La Gestión de la Inversión Pública",
+          "contenido_resumen": "Forma parte del proceso de Gestión de Recursos Públicos de la AFSP. Objetivo: que las inversiones ejecutadas contribuyan efectivamente al cierre de brechas. Requiere información de: DGPP (ejecución presupuestaria de inversiones), DGTP (programación de concertaciones y plan de desembolsos), DGAP (gasto corriente de O&M y del SIGA), órganos del sistema (registro en Banco de Inversiones, evaluación de calidad sectorial, ejecución no cubierta por DGPP)."
+        },
+        {
+          "tipo": "articulo",
+          "numero": "11",
+          "titulo": "El Seguimiento y Evaluación de las inversiones",
+          "contenido_resumen": "Forma parte del proceso de Evaluación de la Gestión de Recursos Públicos de la AFSP. Objetivo: seguimiento y evaluación del avance del cierre de brechas, ejecución y rendición de cuentas. Las UEI registran avance físico y financiero de todos los componentes en el Banco de Inversiones de manera mensual. La información alimenta la PMI y la Programación Multianual Presupuestaria. Requiere información de: DGPP, DGTP, DGAP y órganos del sistema. (Numeral 11.3 incorporado por DL 1486)"
+        }
+      ]
+    },
+    {
+      "tipo": "disposiciones_complementarias_finales",
+      "titulo": "Disposiciones Complementarias Finales",
+      "contenido_resumen": "Nueve disposiciones que regulan vigencia, reglamentación, criterios de priorización de transferencias, carácter de declaración jurada del Banco de Inversiones, inventario de activos, PROCOMPITE, exclusiones y priorización de activos estratégicos (muros de contención y escaleras).",
+      "hijos": [
+        {
+          "tipo": "disposicion",
+          "numero": "Primera",
+          "titulo": "Vigencia",
+          "contenido_resumen": "Entra en vigencia al día siguiente de la publicación de su Reglamento. Efectivamente vigente desde el 24 de febrero de 2017."
+        },
+        {
+          "tipo": "disposicion",
+          "numero": "Segunda",
+          "titulo": "Reglamentación",
+          "contenido_resumen": "El Poder Ejecutivo, a propuesta del MEF, aprueba el Reglamento en un plazo máximo de 60 días hábiles desde la publicación del DL."
+        },
+        {
+          "tipo": "disposicion",
+          "numero": "Tercera",
+          "titulo": "Criterios de priorización para transferencias",
+          "contenido_resumen": "Solo pueden recibir transferencias del Gobierno Nacional los GR o GL cuyas inversiones cumplan con los criterios de priorización aprobados por los Sectores. (Modificada por DL 1432)"
+        },
+        {
+          "tipo": "disposicion",
+          "numero": "Cuarta",
+          "titulo": "Control",
+          "contenido_resumen": "La programación, formulación y ejecución de inversiones están en el ámbito de la discrecionalidad funcional (Ley 29622). La información del Banco de Inversiones tiene carácter de Declaración Jurada, con las responsabilidades legales correspondientes."
+        },
+        {
+          "tipo": "disposicion",
+          "numero": "Quinta",
+          "titulo": "Inventario de activos generados por la inversión pública",
+          "contenido_resumen": "Las entidades a cargo de O&M de activos generados por inversión pública deben contar con inventario actualizado periódicamente, compatible con la normativa del Sistema Administrativo de Abastecimiento. (Modificada por DL 1432)"
+        },
+        {
+          "tipo": "disposicion",
+          "numero": "Sexta",
+          "titulo": "Iniciativas de Apoyo a la Competitividad Productiva (PROCOMPITE)",
+          "contenido_resumen": "Los procedimientos y metodología para PROCOMPITE (Ley 29337) los emiten el Ministerio de la Producción y el Ministerio de Desarrollo Agrario y Riego. Los GR y GL informan. Cada ministerio realiza seguimiento y evaluación anual de impacto. (Modificada por Ley 31195)"
+        },
+        {
+          "tipo": "disposicion",
+          "numero": "Sétima",
+          "titulo": "Entidades o empresas excluidas",
+          "contenido_resumen": "El DL no aplica a entidades o empresas que por Ley expresa hayan sido excluidas del SNIP."
+        },
+        {
+          "tipo": "disposicion",
+          "numero": "Octava",
+          "titulo": "(Derogada)",
+          "contenido_resumen": "Derogada por el párrafo 32.2 del Artículo 32 de la Ley N° 30680."
+        },
+        {
+          "tipo": "disposicion",
+          "numero": "Novena",
+          "titulo": "Incorporación y priorización de activos estratégicos en la PMI: muros de contención y escaleras de acceso",
+          "contenido_resumen": "Prioriza en el PMI: a) muros de contención para prevención de riesgos de desastres; b) escaleras de acceso peatonal para movilidad urbana. La DGPMI establece el procedimiento técnico. Los sectores del GN elaboran y publican indicadores de brechas dentro de los plazos del Anexo N° 6 de la PMI (Periodo 2026-2028). Los pliegos del GN, GR y GL priorizan incluir estos proyectos en sus PMI. (Incorporada por Ley 32425, publicada el 20-08-2025)"
+        }
+      ]
+    },
+    {
+      "tipo": "disposiciones_complementarias_transitorias",
+      "titulo": "Disposiciones Complementarias Transitorias",
+      "contenido_resumen": "Cinco disposiciones que regulan la aplicación progresiva del sistema, los instrumentos de gestión, la equivalencia de referencias normativas al SNIP, y los proyectos en curso al momento de entrada en vigencia.",
+      "hijos": [
+        {
+          "tipo": "disposicion",
+          "numero": "Primera",
+          "titulo": "Aplicación progresiva",
+          "contenido_resumen": "El DL se aplica de manera progresiva en los sectores y entidades que se señalen, conforme lo establezca el Reglamento."
+        },
+        {
+          "tipo": "disposicion",
+          "numero": "Segunda",
+          "titulo": "Instrumentos de gestión",
+          "contenido_resumen": "En 30 días hábiles desde la vigencia del DL y su Reglamento, el MEF propone los instrumentos para la reestructuración organizativa institucional."
+        },
+        {
+          "tipo": "disposicion",
+          "numero": "Tercera",
+          "titulo": "Referencias al Sistema Nacional de Inversión Pública",
+          "contenido_resumen": "Toda referencia al SNIP o a la Ley 27293 se entiende hecha a Invierte.pe / DL 1252. Las disposiciones no interfieren en la continuidad de proyectos en formulación, evaluación o ejecución a la fecha de entrada en vigencia."
+        },
+        {
+          "tipo": "disposicion",
+          "numero": "Cuarta",
+          "titulo": "(Derogada)",
+          "contenido_resumen": "Derogada por la Única Disposición Complementaria Derogatoria del DL 1432."
+        },
+        {
+          "tipo": "disposicion",
+          "numero": "Quinta",
+          "titulo": "Proyectos de Inversión nuevos (disposición transitoria 2017)",
+          "contenido_resumen": "Proyectos que inicien formulación tras la vigencia del DL y se prevean ejecutar en 2017 no aplican la fase de Programación Multianual. Las IOARR previstas para 2017 pasan directamente a Ejecución. GR, GL y Sectores comunican dichas inversiones a la DGPMI hasta el 30-06-2017; la ejecución debe iniciarse antes del 30-11-2017."
+        }
+      ]
+    },
+    {
+      "tipo": "disposicion_derogatoria",
+      "titulo": "Disposición Complementaria Derogatoria Única",
+      "contenido_resumen": "Al entrar en vigencia el DL quedan sin efecto: la Primera Disposición Complementaria Final del DL 1224 (Marco de APP y Proyectos en Activos) y demás disposiciones contrarias al presente DL."
+    }
+  ],
+  "conceptos_clave": [
+    {
+      "termino": "Sistema Nacional de Programación Multianual y Gestión de Inversiones (Invierte.pe)",
+      "definicion": "Sistema administrativo del Estado que orienta el uso de los recursos públicos destinados a la inversión para la efectiva prestación de servicios y la provisión de infraestructura necesaria para el desarrollo del país. Reemplaza al SNIP.",
+      "articulo_fuente": "Artículo 1"
+    },
+    {
+      "termino": "Ciclo de Inversión",
+      "definicion": "Conjunto de cuatro fases secuenciales que rigen la gestión de la inversión pública: Programación Multianual, Formulación y Evaluación, Ejecución y Funcionamiento.",
+      "articulo_fuente": "Artículo 4"
+    },
+    {
+      "termino": "Banco de Inversiones",
+      "definicion": "Sistema informático administrado por la DGPMI-MEF donde se registran, aprueban y hace seguimiento a las inversiones. La declaración de viabilidad inscrita en él es condición habilitante para asignar fondos públicos e iniciar la fase de Ejecución.",
+      "articulo_fuente": "Artículos 4 y 5"
+    },
+    {
+      "termino": "Programación Multianual de Inversiones (PMI)",
+      "definicion": "Proceso de coordinación interinstitucional e intergubernamental de proyección tri-anual mínima que establece la cartera de inversiones alineada al cierre de brechas, al planeamiento estratégico y al Marco Macroeconómico Multianual. Constituye el marco orientador de la formulación presupuestaria.",
+      "articulo_fuente": "Artículo 4.1.a"
+    },
+    {
+      "termino": "IOARR",
+      "definicion": "Inversiones de Optimización, Ampliación Marginal, Reposición y Rehabilitación. No constituyen proyectos de inversión y no les aplican las fases de Programación Multianual ni de Formulación y Evaluación. Pasan directamente a la fase de Ejecución.",
+      "articulo_fuente": "Artículo 4.2"
+    },
+    {
+      "termino": "Brecha de infraestructura o de acceso a servicios",
+      "definicion": "Déficit en infraestructura o en acceso a servicios públicos en el territorio. Es el criterio central de priorización, alineamiento y evaluación del cumplimiento de la inversión pública en Invierte.pe.",
+      "articulo_fuente": "Artículo 3, principio a; Artículo 4"
+    },
+    {
+      "termino": "Lineamientos de Política Nacional de Inversión Pública",
+      "definicion": "Marco orientador quinquenal que contiene los servicios prioritarios para el cierre de brechas y el crecimiento económico. Se aprueba por Decreto Supremo con voto aprobatorio del Consejo de Ministros, a propuesta del MEF-DGPMI, y se actualiza cada 5 años.",
+      "articulo_fuente": "Artículo 3-A"
+    },
+    {
+      "termino": "Declaración de viabilidad",
+      "definicion": "Acto mediante el cual la UF o la OPMI aprueba un proyecto de inversión en el Banco de Inversiones, certificando que cumple los criterios técnicos, económicos y de pertinencia, habilitando la asignación de fondos y el inicio de la Ejecución.",
+      "articulo_fuente": "Artículo 4.3"
+    },
+    {
+      "termino": "Obras por Impuestos (OxI)",
+      "definicion": "Mecanismo de financiamiento de inversiones incluido en la Programación Multianual de Inversiones, que permite a empresas privadas financiar y ejecutar proyectos de inversión pública a cambio de beneficios tributarios.",
+      "articulo_fuente": "Artículo 4.1.a"
+    }
+  ],
+  "actores_institucionales": [
+    {
+      "nombre": "Dirección General de Programación Multianual de Inversiones (DGPMI) - MEF",
+      "rol": "Ente rector del Sistema Invierte.pe",
+      "funciones_clave": [
+        "Administrar el Banco de Inversiones",
+        "Desactivar inversiones de oficio según criterios propios",
+        "Dictar procedimientos y lineamientos del Ciclo de Inversión",
+        "Supervisar la calidad del ciclo de inversión",
+        "Elaborar el Programa Multianual de Inversiones del Estado (PMIE)",
+        "Aprobar metodologías generales según nivel de complejidad",
+        "Brindar capacitación y asistencia técnica a las entidades",
+        "Emitir opinión vinculante exclusiva y excluyente sobre el Ciclo de Inversión",
+        "Desarrollar estándares de dirección de proyectos como Centro de Excelencia",
+        "Aprobar y evaluar los Lineamientos de Política Nacional de Inversión Pública"
+      ]
+    },
+    {
+      "nombre": "Órgano Resolutivo (OR)",
+      "rol": "Ministro o máxima autoridad ejecutiva del Sector, GR o GL",
+      "funciones_clave": [
+        "Presentar y aprobar el PMI sectorial, regional o local",
+        "Aprobar indicadores de brechas y criterios de priorización para los 3 niveles de gobierno (OR del Gobierno Nacional)",
+        "Autorizar modificaciones al PMI conforme al Reglamento"
+      ]
+    },
+    {
+      "nombre": "Oficina de Programación Multianual de Inversiones (OPMI)",
+      "rol": "Responsable de la fase de Programación Multianual en cada Sector, GR o GL",
+      "funciones_clave": [
+        "Conducir la fase de Programación Multianual",
+        "Verificar que las inversiones se enmarquen en el PMI",
+        "Realizar seguimiento de metas e indicadores del PMI",
+        "Monitorear el avance de ejecución de proyectos",
+        "OPMIs sectoriales: emitir opinión sobre pertinencia de inversiones subnacionales en su ámbito funcional"
+      ]
+    },
+    {
+      "nombre": "Unidad Formuladora (UF)",
+      "rol": "Responsable de la fase de Formulación y Evaluación",
+      "funciones_clave": [
+        "Aplicar contenidos, metodologías y parámetros de formulación",
+        "Elaborar fichas técnicas y estudios de preinversión",
+        "Aprobar o declarar la viabilidad de las inversiones",
+        "Registrar las inversiones en el Banco de Inversiones"
+      ]
+    },
+    {
+      "nombre": "Unidad Ejecutora de Inversiones (UEI)",
+      "rol": "Responsable de la fase de Ejecución",
+      "funciones_clave": [
+        "Ejecutar las inversiones sujeta al diseño aprobado en el Banco de Inversiones",
+        "Registrar y actualizar mensualmente el avance físico y financiero en el Banco de Inversiones"
+      ]
+    }
+  ],
+  "plazos_importantes": [
+    {
+      "descripcion": "Aprobación del Reglamento del DL 1252",
+      "plazo": "60 días hábiles desde la publicación del DL (01-12-2016)",
+      "referencia": "DCF Segunda"
+    },
+    {
+      "descripcion": "Propuesta de instrumentos de gestión institucional",
+      "plazo": "30 días hábiles desde la entrada en vigencia del DL y su Reglamento",
+      "referencia": "DCT Segunda"
+    },
+    {
+      "descripcion": "Actualización de los Lineamientos de Política Nacional de Inversión Pública",
+      "plazo": "Cada 5 años",
+      "referencia": "Artículo 3-A.3"
+    },
+    {
+      "descripcion": "Horizonte mínimo de la Programación Multianual de Inversiones",
+      "plazo": "3 años (tri-anual)",
+      "referencia": "Artículo 4.1.a"
+    },
+    {
+      "descripcion": "Registro de avance físico y financiero por las UEI en el Banco de Inversiones",
+      "plazo": "Mensual",
+      "referencia": "Artículo 11.3"
+    }
+  ],
+  "metadata_analisis": {
+    "fecha_analisis": "2026-02-21",
+    "analizado_por": "GitHub Copilot (Claude Sonnet 4.5) - análisis directo del texto del PDF",
+    "version_schema": "1.0",
+    "notas": "El número '12521' en el PDF es un artefacto de la extracción: el '1' al final es la nota al pie 1 superpuesta al número de la norma. El número correcto es 1252. Se analizó el texto consolidado con todas las modificaciones hasta la Ley N° 32425 (publicada el 20-08-2025). Vigente desde el 24-02-2017."
+  }
+}

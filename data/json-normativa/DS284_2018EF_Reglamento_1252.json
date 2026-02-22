@@ -1,0 +1,369 @@
+{
+  "tipo_norma": "decreto_supremo",
+  "numero": "284-2018-EF",
+  "titulo_oficial": "Decreto Supremo que aprueba el Reglamento del Decreto Legislativo N° 1252, Decreto Legislativo que crea el Sistema Nacional de Programación Multianual y Gestión de Inversiones",
+  "fecha_publicacion": "2018-12-09",
+  "diario_oficial": "El Peruano",
+  "estado": "parcialmente_modificado",
+  "firmantes": [
+    "Martín Alberto Vizcarra Cornejo (Presidente de la República)",
+    "Carlos Oliva Neyra (Ministro de Economía y Finanzas)"
+  ],
+  "objeto": "Aprobar el Reglamento del Decreto Legislativo N° 1252 que crea el Sistema Nacional de Programación Multianual y Gestión de Inversiones (Invierte.pe), derogando el anterior Reglamento aprobado por DS 027-2017-EF y sus modificatorias.",
+  "deroga": [
+    {
+      "norma": "DS 027-2017-EF",
+      "descripcion": "Reglamento anterior del DL 1252"
+    },
+    {
+      "norma": "DS 104-2017-EF",
+      "descripcion": "Modificatoria del DS 027-2017-EF"
+    },
+    {
+      "norma": "DS 248-2017-EF",
+      "descripcion": "Modificatoria del DS 027-2017-EF"
+    }
+  ],
+  "normas_que_lo_modifican": [
+    {
+      "norma": "DS 179-2020-EF",
+      "fecha": "2020-07-07",
+      "descripcion": "Primera modificación: ajusta definición de nivel de servicio, numerales sobre OR, OPMI del Sector, programación multianual de FONAFE, entre otros"
+    },
+    {
+      "norma": "DS 231-2022-EF",
+      "fecha": "2022-10-04",
+      "descripcion": "Modificación amplia: 30+ disposiciones modificadas; incorpora 9 nuevas disposiciones. Incluye nuevas definiciones (Aplicativos informáticos del SNPMGI, Seguimiento al desempeño), nuevas funciones de la DGPMI (desactivación de oficio, seguimiento al desempeño, revisión calidad), nuevas funciones de OPMI/UF/UEI/OR, reglas de registro de inversiones conjuntas multisector, umbral S/3,450,000 para ficha técnica simplificada, reglas para modificaciones en ejecución de IOARR, convenios entre entidades del GN"
+    },
+    {
+      "norma": "DS 074-2023-EF",
+      "fecha": "2023-04-26",
+      "descripcion": "Modifica 4 disposiciones: Art. 9.3 numeral 6 (seguimiento del OR del sector), Art. 10.3 numeral 10 (verificación OPMI del sector), Art. 17.3 (variación del costo ET → comunicar al OCI sin interrumpir ejecución), Art. 17.5 y 17.8 (modificaciones en ejecución de PI y de IOARR)"
+    },
+    {
+      "norma": "DS 287-2024-EF",
+      "fecha": "2024-12-27",
+      "descripcion": "Incorpora numeral 7 en Art. 9.3 (OR/titular responsable de la fase de Funcionamiento), numeral 8 en Art. 9.3 (OR/titular aprueba procedimiento de cierre de oficio), numeral 9 en Art. 13.3 (UEI realiza cierre de inversiones bajo responsabilidad), numeral 10 en Art. 13.3 (UEI realiza cierre de oficio)"
+    }
+  ],
+  "normas_relacionadas": [
+    {
+      "norma": "DL 1252",
+      "relacion": "Norma principal que este Reglamento desarrolla (Sistema Nacional de Programación Multianual y Gestión de Inversiones)"
+    },
+    {
+      "norma": "DL 1432",
+      "relacion": "Modificó el DL 1252 y ordenó la aprobación de este nuevo Reglamento en 60 días"
+    },
+    {
+      "norma": "DS 289-2019-EF",
+      "relacion": "Establece medidas para el uso de metodologías BIM en inversiones públicas; referencia la Cuarta DCF de este Reglamento"
+    },
+    {
+      "norma": "DS 108-2021-EF",
+      "relacion": "Modifica DS 289-2019-EF (BIM); su Art. 5 reformulado remite al numeral 4 del Art. 8.2 de este Reglamento"
+    }
+  ],
+  "estructura": {
+    "decreto_supremo_cuerpo": {
+      "descripcion": "Cuerpo del Decreto Supremo (3 artículos + 1 DCD)",
+      "articulos": [
+        {
+          "numero": "Art. 1",
+          "titulo": "Aprobación del Reglamento del DL N° 1252",
+          "contenido": "Aprueba el Reglamento que consta de 3 capítulos, 20 artículos, 7 DCF y 1 DCT"
+        },
+        {
+          "numero": "Art. 2",
+          "titulo": "Vigencia",
+          "contenido": "Entra en vigencia el día siguiente de su publicación, con excepción de ciertos numerales que entran en vigencia el 1 de enero de 2019"
+        },
+        {
+          "numero": "Art. 3",
+          "titulo": "Refrendo",
+          "contenido": "Refrendado por el Ministro de Economía y Finanzas"
+        }
+      ],
+      "dcd": {
+        "unica": "Deroga DS 027-2017-EF, DS 104-2017-EF y DS 248-2017-EF"
+      }
+    },
+    "reglamento": {
+      "titulo": "Reglamento del Decreto Legislativo N° 1252",
+      "capitulos": [
+        {
+          "numero": "Capítulo I",
+          "titulo": "Disposiciones Generales",
+          "articulos": [
+            {
+              "numero": "Art. 1",
+              "titulo": "Objeto",
+              "contenido": "Establecer disposiciones reglamentarias para la aplicación del DL N° 1252"
+            },
+            {
+              "numero": "Art. 2",
+              "titulo": "Acrónimos",
+              "contenido": "Define 13 acrónimos: DGPMI, ESSALUD, FONAFE, GL, GR, MEF, OPMI, OR, PMI, PMIE, SINAPLAN, UEI, UF"
+            },
+            {
+              "numero": "Art. 3",
+              "titulo": "Definiciones",
+              "contenido": "18 definiciones: (1) Brecha; (2) Concepción técnica; (3) Estándares de calidad; (4) Fondos públicos; (5) Infraestructura natural; (6) Inversiones; (7) Inversiones de ampliación marginal [4 subtipos: del servicio, de la edificación, para adquisición anticipada de terrenos, por liberación de interferencias]; (8) Inversiones de optimización; (9) Inversiones de rehabilitación; (10) Inversiones de reposición; (11) Línea de corte; (12) Nivel de servicio; (13) PMI; (14) Proyecto de inversión; (15) Proyecto de inversión estándar; (16) Unidad ejecutora; (17) Aplicativos informáticos del SNPMGI [incorporado por DS 231-2022-EF]; (18) Seguimiento al desempeño de la gestión de las inversiones [incorporado por DS 231-2022-EF]"
+            },
+            {
+              "numero": "Art. 4",
+              "titulo": "Ámbito de aplicación",
+              "contenido": "Aplica a todas las entidades y empresas públicas del Sector Público No Financiero (DL 1276) que ejecuten inversiones con fondos públicos"
+            },
+            {
+              "numero": "Art. 5",
+              "titulo": "Aplicación de los principios rectores del SNPMGI",
+              "contenido": "Los principios del Art. 3 del DL 1252 orientan todas las decisiones de los órganos del sistema; la aplicación del Ciclo de Inversión debe promover transparencia, calidad y eficiencia"
+            },
+            {
+              "numero": "Art. 6",
+              "titulo": "Agrupación por Sectores y niveles de gobierno",
+              "contenido": "Define 30 Sectores del Gobierno Nacional (Arts. 6.1-6.2). GR y GL agrupan entidades de su nivel de gobierno. La DGPMI aprueba el clasificador institucional"
+            },
+            {
+              "numero": "Art. 7",
+              "titulo": "Ámbito de responsabilidad funcional de los Sectores",
+              "contenido": "Los Sectores lideran en los 3 niveles de gobierno la programación multianual de inversiones de su responsabilidad funcional. La DGPMI aprueba el clasificador de responsabilidad funcional"
+            }
+          ]
+        },
+        {
+          "numero": "Capítulo II",
+          "titulo": "Órganos del Sistema Nacional de Programación Multianual y Gestión de Inversiones",
+          "articulos": [
+            {
+              "numero": "Art. 8",
+              "titulo": "Del ente rector del SNPMGI (DGPMI)",
+              "contenido": "La DGPMI es el ente rector. 23 funciones principales: (1) Aprobar directivas/lineamientos/instrumentos metodológicos; (2) Regular aplicativos informáticos del SNPMGI; (3) Emitir contenidos de fichas técnicas y metodologías de formulación y evaluación ex ante; (4) Emitir metodologías colaborativas de modelamiento digital de la información (BIM); (5) Aprobar directivas para inventario de activos; (6) Aprobar directivas para seguimiento y evaluación ex post; (7) Emitir metodología general de evaluación de calidad de viabilidades; (8) Emitir opinión vinculante exclusiva y excluyente; (9) Evaluar calidad del Ciclo de Inversión mediante muestras anuales; (10) Evaluar logro de objetivos y cierre de brechas; (11) Regular procesos y procedimientos del Ciclo de Inversión; (12) Elaborar el PMIE; (13) Realizar evaluaciones ex post mediante muestra; (14) Evaluar calidad de metodologías específicas sectoriales; (15) Brindar capacitación y asistencia técnica; (16) Verificar conformidad DGTESORO para endeudamiento externo del GN; (17) Emitir opinión previa sobre PI financiados con endeudamiento externo del GN; (18) Aprobar perfiles profesionales de Responsables de OPMI y UF; (19) Desarrollar, implementar y administrar los aplicativos informáticos del SNPMGI; (20) Solicitar información a OPMI, UF y UEI; (21) Desactivar de oficio inversiones que no cumplan criterios [DS 231-2022-EF]; (22) Regular mecanismos para seguimiento al desempeño [DS 231-2022-EF]; (23) Efectuar revisión de calidad de aprobación/viabilidad de inversiones [DS 231-2022-EF]",
+              "nota": "Numeral 4 del Art. 8.2 es la base legal de la Cuarta DCF sobre BIM"
+            },
+            {
+              "numero": "Art. 9",
+              "titulo": "Del OR (Órgano Resolutivo)",
+              "contenido": "9.1: OR es el Ministro/Titular del Sector; Gobernador Regional en los GR; Alcalde en los GL. 9.2: OR del Sector aprueba indicadores de brechas y criterios de priorización para formulación del PMI. 9.3: Funciones del OR (Sector/GR/GL): (1) Aprobar PMI y sus modificaciones; (2) Designar OPMI; (3) Designar Responsable de OPMI (con perfil DGPMI); (4) Aprobar brechas y criterios de priorización del PMI; (5) Autorizar elaboración de ETs/documentos equivalentes y su ejecución cuando PI fueron viables en ficha técnica; (6) Seguimiento de inversiones en fase de Ejecución y presidir comité de seguimiento [modificado DS 074-2023-EF]; (7) OR/titular responsable de la fase de Funcionamiento [incorporado DS 287-2024-EF]; (8) OR/titular aprueba procedimiento de cierre de oficio [incorporado DS 287-2024-EF]"
+            },
+            {
+              "numero": "Art. 10",
+              "titulo": "De la OPMI del Sector",
+              "contenido": "10.1: Responsable de la fase de PMI en el ámbito de responsabilidad funcional del Sector. 10.2: Puede ser cualquier órgano del Ministerio/organismo autónomo/Fuero Militar Policial. 10.3: 27 funciones: elaborar PMI del Sector, presentarlo a la DGPMI, conceptualizar indicadores de brechas, elaborar diagnóstico de brechas, establecer objetivos y metas, publicar indicadores, aprobar modificaciones del PMI sin cambio de objetivos, proponer criterios al OR, coordinar con GR y GL, verificar alineamiento de inversiones, emitir opinión sobre PI con endeudamiento externo del GN (GR y GL), solicitar opinión DGTESORO, emitir opinión sobre PI de UF del Sector con endeudamiento externo, realizar seguimiento de metas de cierre de brechas, apoyar al OR en seguimiento de ejecución, aprobar metodologías específicas sectoriales, aprobar estandarización de PI, registrar UF y UEI del Sector, brindar capacitación a GR y GL, publicar fuentes de información, promover revisión de normas técnicas sectoriales, realizar evaluación ex post, evaluar calidad de viabilidades mediante muestras anuales, solicitar información situacional de activos, remitir información a DGPMI, emitir opinión sobre inversiones GR/GL (incorporado DS 179-2020-EF), emitir opinión sobre PI de UF de GR/GL (incorporado DS 231-2022-EF). 10.4: OPMI del Sector remite a DGPMI antes del 30 de junio de cada año actualizaciones de niveles de servicios y estándares de calidad",
+              "funciones_count": 27
+            },
+            {
+              "numero": "Art. 11",
+              "titulo": "De las OPMI de los GR y GL",
+              "contenido": "11.1: Responsables de la fase de PMI en el ámbito de competencias de su nivel de gobierno. 11.2: Cualquier órgano del GR o municipalidad. 11.3: 14 funciones: elaborar PMI del GR/GL, presentarlo a DGPMI, diagnóstico de brechas territoriales, objetivos y metas, aprobar modificaciones del PMI sin cambio de objetivos, proponer criterios al OR, verificar alineamiento de inversiones, solicitar opinión DGTESORO y OPMI del Sector para endeudamiento externo, emitir opinión a UF sobre endeudamiento externo, seguimiento de metas de cierre de brechas, monitorear avance de ejecución en Banco de Inversiones, evaluación ex post, registrar UF y UEI del GR/GL, remitir información a DGPMI",
+              "funciones_count": 14
+            },
+            {
+              "numero": "Art. 12",
+              "titulo": "De las UF (Unidades Formuladoras)",
+              "contenido": "12.1: Responsables de la fase de Formulación y Evaluación. 12.2: Puede ser cualquier unidad organizacional de la entidad, incluyendo unidades ejecutoras, programas y proyectos especiales. 12.3: 14 funciones: aplicar contenidos y metodologías de la DGPMI y del Sector, elaborar fichas técnicas y estudios de preinversión, registrar inversiones en el Banco de Inversiones, cautelar que las IOARR cumplan definiciones y no constituyan PI ni fraccionamiento ni gasto corriente, declarar viabilidad de PI, aprobar IOARR, solicitar opinión OPMI del Sector sobre PI con endeudamiento externo del GN, solicitar opinión favorable DGPMI sobre PI con endeudamiento externo del GN previo a viabilidad, verificar y aprobar consistencia técnica entre ET y ficha técnica/estudio de preinversión, remitir información a DGPMI y demás órganos, cautelar que inversiones correspondan a UP que brindan servicios públicos en competencias del nivel de gobierno [DS 231-2022-EF], desactivar inversiones [DS 231-2022-EF], registrar modificaciones de PI posterior a viabilidad y previo al ET si no cambia concepción técnica [DS 231-2022-EF], registrar actualización de documentos técnicos que sustentaron viabilidad cuando pierdan vigencia [DS 231-2022-EF]. 12.4: UF de GR y GL formulan y evalúan PI y aprueban IOARR en competencias de su nivel de gobierno",
+              "funciones_count": 14
+            },
+            {
+              "numero": "Art. 13",
+              "titulo": "De las UEI (Unidades Ejecutoras de Inversiones)",
+              "contenido": "13.1: Responsables de la fase de Ejecución. 13.2: Son UEI las unidades ejecutoras; también pueden ser UEI otras unidades de organización sin ser unidades ejecutoras, siempre que cuenten con competencias legales y capacidad operativa y técnica. 13.3: 10 funciones: elaborar ET o documento equivalente de PI sujetándose a concepción técnica/económica y dimensionamiento de la ficha técnica o estudio de preinversión, elaborar ET o documento equivalente para IOARR, ejecutar física y financieramente inversiones, registrar y mantener actualizado el avance físico y financiero en los aplicativos del SNPMGI, cautelar que se mantenga la concepción técnica/económica y dimensionamiento durante la ejecución física, realizar seguimiento y efectuar registros en los aplicativos del SNPMGI, remitir información a DGPMI y demás órganos, registrar modificaciones durante la ejecución física y financiera [DS 231-2022-EF], realizar el cierre de inversiones bajo responsabilidad conforme disposiciones DGPMI [DS 287-2024-EF], realizar cierre de oficio bajo responsabilidad conforme procedimiento aprobado por OR/titular [DS 287-2024-EF]. 13.4: Para PI bajo modalidad APP cofinanciada, responsabilidades de ejecución se establecen en el contrato",
+              "funciones_count": 10
+            }
+          ]
+        },
+        {
+          "numero": "Capítulo III",
+          "titulo": "Ciclo de Inversión",
+          "articulos": [
+            {
+              "numero": "Art. 14",
+              "titulo": "Fase de Programación Multianual de Inversiones",
+              "contenido": "14.1: Proyección trianual mínima desde el año siguiente de la programación. 14.2: El Sector conceptualiza indicadores de brechas; OPMI elabora diagnóstico detallado. 14.3: Los Sectores/GR/GL definen objetivos, criterios de priorización y selección de cartera. 14.4: Las OPMI coordinan para evitar duplicación. 14.5: La cartera considera inversiones en liquidación, ejecución, con ET aprobado, declaradas viables, aprobadas o a nivel de idea. 14.6: Registro mínimo de la inversión: fase del ciclo, fuente de financiamiento y modalidad recomendada, montos estimados, período de inicio y término estimado de fases, indicador de brecha asociado y contribución al cierre. 14.7: Para PI con endeudamiento mayores a 1 año con aval/garantía del Estado → opinión previa de DGTESORO. 14.8: DGPMI consolida los PMI y elabora el PMIE; la información consolidada se remite a la DGPP. El PMI es marco de referencia orientador. 14.9: DGPP remite a DGPMI la programación presupuestaria anual para evaluación de consistencia. 14.10: DGPMI elabora el PMIE y lo publica. 14.11: Excepcionalmente se pueden incorporar inversiones no previstas en el PMI (OPMI sustenta técnica y financieramente; inversiones alineadas a criterios de priorización). 14.12: Inversiones conjuntas multisector se registran en PMI del Sector al que más contribuye con cierre de brechas. 14.13: Inversiones de GR/GL financiadas con transferencias del GN se consideran en PMI del Sector transferente. 14.14: Inversiones del GN con fondos de otras entidades del GN se programan en PMI del Sector al que contribuyen"
+            },
+            {
+              "numero": "Art. 15",
+              "titulo": "Fase de PMI de las empresas públicas bajo el ámbito del FONAFE, incluido ESSALUD",
+              "contenido": "15.1: Para empresas FONAFE/ESSALUD cuyas inversiones no se financien con transferencias del GN: el Directorio/Gerente General aprueba el PMI; órgano encargado elabora el PMI con las funciones que establece la DGPMI; el PMI se elabora de acuerdo a objetivos del Sector (Salud para ESSALUD). 15.2: Para inversiones con transferencias del GN → aplica el Art. 14. 15.3: FONAFE remite a DGPMI el presupuesto consolidado de inversiones. 15.4: FONAFE realiza seguimiento de inversiones de empresas públicas bajo su ámbito; las empresas realizan los registros en los aplicativos del SNPMGI"
+            },
+            {
+              "numero": "Art. 16",
+              "titulo": "Fase de Formulación y Evaluación",
+              "contenido": "16.1: Se inicia con la elaboración de la ficha técnica o estudio de preinversión, siempre que el PI sea necesario para alcanzar objetivos del PMI. 16.2: La UF registra el PI en el Banco de Inversiones y el resultado de la evaluación. 16.3: Fichas técnicas y estudios de preinversión tienen carácter de Declaración Jurada; con el resultado de la evaluación culmina la fase. 16.4: Fichas técnicas de Sectores deben incluir mínimamente los contenidos de los documentos metodológicos de la DGPMI. 16.5: PI ≤ S/ 3,450,000 → ficha técnica simplificada. 16.6: PI estándar → ficha técnica estándar aprobada por el Sector. 16.7: Demás PI → ficha técnica de baja y mediana complejidad o estudio de preinversión a nivel de perfil (según complejidad); requieren perfil si: alto nivel de incertidumbre, experiencia insuficiente, modalidad APP o financiamiento con endeudamiento externo, o son redes/multipropósito/programas. 16.8: Si el Sector no aprobó fichas, se emplean las de la DGPMI. 16.9: Para PI con endeudamiento externo del GN → UF solicita opinión favorable de la DGPMI previa a la viabilidad, adjuntando el estudio y la opinión de la OPMI"
+            },
+            {
+              "numero": "Art. 17",
+              "titulo": "Fase de Ejecución",
+              "contenido": "17.1: Inicia luego de la declaración de viabilidad (PI) o aprobación (IOARR). 17.2: Comprende elaboración del ET o documento equivalente y la ejecución física. 17.3: El ET debe sujetarse a la concepción técnica y dimensionamiento del estudio de preinversión/ficha técnica. Si la variación del costo del ET supera el porcentaje establecido por la DGPMI, la UEI comunica al OCI sin que esto interrumpa la ejecución [modificado DS 074-2023-EF]. 17.4: Para iniciar la fase de Ejecución: inversiones deben estar registradas en el Banco de Inversiones con viabilidad/aprobación y en el PMI. 17.5: Modificaciones antes de la aprobación del ET proceden para PI si no modifican el objetivo central ni la concepción técnica; son registradas por la UF. Para IOARR proceden si son cambios en cronograma, costos y metas físicas; son registradas por la UEI [modificado DS 074-2023-EF]. 17.6: Información del ET es registrada en el Banco de Inversiones por la UEI. 17.7: Luego de la aprobación del ET inicia la ejecución física. 17.8: Modificaciones durante la ejecución física deben mantener la concepción técnica y dimensionamiento (PI); para IOARR solo pueden ser modificaciones en cronograma, costos y metas físicas; registradas por UEI antes de ejecutarlas [modificado DS 231-2022-EF]. 17.9: Seguimiento a través del Sistema de Seguimiento de Inversiones (vincula Banco de Inversiones + SIAF-RP + SEACE). 17.10: Cierre de inversión: UEI registra en el Banco de Inversiones luego de la liquidación física y financiera. 17.11: Para PI en modalidad APP cofinanciada, se sujeta a la normativa del Sistema Nacional de Promoción de la Inversión Privada"
+            },
+            {
+              "numero": "Art. 18",
+              "titulo": "Fase de Funcionamiento",
+              "contenido": "18.1: La operación y mantenimiento de activos y la provisión de servicios a cargo de la entidad titular de los activos. 18.2: Corresponde a dichas entidades: (1) programar, ejecutar y supervisar el mantenimiento para preservar condiciones eficientes y vida útil; (2) contar con un inventario de activos generado con inversiones, actualizado periódicamente; (3) asegurar la generación y entrega de servicios [inciso incorporado DS 231-2022-EF]. 18.3: En esta fase se realiza la evaluación ex post conforme metodología de la DGPMI"
+            },
+            {
+              "numero": "Art. 19",
+              "titulo": "Registro de las inversiones de optimización, de ampliación marginal, de reposición y de rehabilitación (IOARR)",
+              "contenido": "19.1: Las IOARR se registran de forma agregada y simplificada en el PMI. 19.2: Las UF cautelan que: (1) no se registren como IOARR intervenciones de gasto permanente ni fraccionamiento de PI; (2) no se registren IOARR en activos de UP que hayan sido objeto de dichas inversiones en un período de 3 años desde que culminó su ejecución (excepción: eventos con declaratoria de Estado de Emergencia por la entidad competente)"
+            },
+            {
+              "numero": "Art. 20",
+              "titulo": "Convenios para las fases del Ciclo de Inversión",
+              "contenido": "20.1: GR pueden celebrar convenios entre sí para la fase de Formulación y Evaluación de inversiones de competencia regional cuya ejecución/beneficios abarquen más de un GR; también con entidades del GN. En caso de mancomunidad regional competente con fondos para O&M, esta asume la formulación y evaluación. 20.2: GL pueden celebrar convenios para la fase de F&E respecto de inversiones de su competencia exclusiva incluyendo inversiones que abarquen más de un GL; si hay mancomunidad municipal competente con fondos para O&M, esta asume. 20.3: GL sujetos al SNPMGI pueden celebrar convenios con GL no sujetos para su fase de F&E, conforme a disposiciones de la DGPMI. 20.4: GR y GL pueden celebrar convenios con mancomunidades no incorporadas al SNPMGI para la fase de F&E. 20.5: Entidades del GN pueden celebrar convenios entre sí para la fase de F&E [párrafo modificado DS 231-2022-EF]"
+            }
+          ]
+        }
+      ],
+      "disposiciones_complementarias_finales": [
+        {
+          "numero": "Primera",
+          "titulo": "GL sujetos al SNPMGI e incorporación al referido Sistema Nacional",
+          "contenido": "Las disposiciones del SNPMGI se aplican a los GL que a la entrada en vigencia del Reglamento ya estén incorporados. Los GL que gestionen operaciones de endeudamiento externo con garantía o aval del Estado deben incorporarse. Los GL no sujetos pueden incorporarse voluntariamente. La DGPMI puede, mediante resolución directoral, incorporar progresivamente entidades públicas. La incorporación es definitiva"
+        },
+        {
+          "numero": "Segunda",
+          "titulo": "Inversiones ejecutadas por terceros",
+          "contenido": "La normativa del SNPMGI aplica a inversiones desarrolladas por terceros cuando una entidad/empresa pública sujeta deba asumir los gastos incrementales de O&M de carácter permanente"
+        },
+        {
+          "numero": "Tercera",
+          "titulo": "Intervenciones a ejecutarse en situaciones que cuentan con declaratoria de Estado de Emergencia",
+          "contenido": "Las intervenciones en Estado de Emergencia son atendidas mediante inversiones que no constituyen PI. Las fases de PMI y de F&E no se aplican. Al término de la ejecución la OPMI informa a la DGPMI si se afectaron las metas del PMI. La DGPMI establece disposiciones para su registro en el Banco de Inversiones"
+        },
+        {
+          "numero": "Cuarta",
+          "titulo": "Implementación progresiva de las metodologías colaborativas de modelamiento digital de la información (BIM)",
+          "contenido": "La implementación de metodologías BIM (a que se refiere el numeral 4 del párrafo 8.2 del Art. 8) se realiza de manera progresiva. La DGPMI aprueba las disposiciones necesarias para la adopción de aplicativos informáticos y la generación de capacidades. Esta DCF es la base legal del Sistema BIM del Perú (DS 289-2019-EF y modificatoria DS 108-2021-EF)"
+        },
+        {
+          "numero": "Quinta",
+          "titulo": "Proyectos de inversión desactivados en el Banco de Inversiones",
+          "contenido": "Dentro de 120 días hábiles desde la entrada en vigencia, las UF desactivan definitivamente los PI desactivados en el Banco de Inversiones cuya necesidad de continuar con su formulación/ejecución no persiste. En caso contrario, la DGPMI procede a la desactivación definitiva"
+        },
+        {
+          "numero": "Sexta",
+          "titulo": "Programación multianual de inversiones de las empresas públicas de servicios de saneamiento",
+          "contenido": "La PMI de las empresas públicas prestadoras de servicios de saneamiento de accionariado municipal considera las inversiones de su Plan Maestro Optimizado aprobado, remitiendo la información a la Municipalidad Provincial accionista mayoritaria y al Ministerio de Vivienda, Construcción y Saneamiento"
+        },
+        {
+          "numero": "Sétima",
+          "titulo": "Remisión de información sobre el órgano encargado de elaborar el PMI en empresas FONAFE/ESSALUD",
+          "contenido": "Dentro de 15 días calendario desde la entrada en vigencia, las empresas FONAFE/ESSALUD informan a la DGPMI sobre el órgano encargado de elaborar el PMI"
+        }
+      ],
+      "disposiciones_complementarias_transitorias": [
+        {
+          "numero": "Única",
+          "titulo": "Aplicación de disposiciones del Sistema Nacional de Inversión Pública",
+          "contenido": "Los PI en fase de preinversión aplicando los contenidos mínimos del SNIP (DS 027-2017-EF, Art. 15) continúan aplicando dichos contenidos hasta la declaración de viabilidad. Para las demás fases aplica la normativa del SNPMGI"
+        }
+      ]
+    }
+  },
+  "organos_del_sistema": {
+    "ente_rector": "DGPMI (Dirección General de Programación Multianual de Inversiones del MEF)",
+    "organos_de_linea": [
+      {
+        "sigla": "OR",
+        "nombre": "Órgano Resolutivo",
+        "nivel": "Sector / GR / GL",
+        "descripcion": "Ministro/Titular del Sector; Gobernador Regional; Alcalde"
+      },
+      {
+        "sigla": "OPMI",
+        "nombre": "Oficina de Programación Multianual de Inversiones",
+        "nivel": "Sector / GR / GL",
+        "fase_responsable": "Programación Multianual de Inversiones"
+      },
+      {
+        "sigla": "UF",
+        "nombre": "Unidad Formuladora",
+        "nivel": "Entidad / empresa pública",
+        "fase_responsable": "Formulación y Evaluación"
+      },
+      {
+        "sigla": "UEI",
+        "nombre": "Unidad Ejecutora de Inversiones",
+        "nivel": "Entidad / empresa pública",
+        "fase_responsable": "Ejecución"
+      }
+    ]
+  },
+  "ciclo_de_inversion": {
+    "fases": [
+      {
+        "nombre": "Programación Multianual de Inversiones",
+        "actores": ["OR", "OPMI del Sector", "OPMI de GR y GL"],
+        "producto": "PMI (Programa Multianual de Inversiones) con proyección mínima trianual; PMIE (consolidado nacional)"
+      },
+      {
+        "nombre": "Formulación y Evaluación",
+        "actores": ["UF"],
+        "instrumentos": ["Ficha técnica simplificada (≤S/3,450,000)", "Ficha técnica estándar (PI estándar)", "Ficha técnica de baja y mediana complejidad", "Estudio de preinversión a nivel de perfil"],
+        "producto": "Declaración de viabilidad del PI / Aprobación de IOARR"
+      },
+      {
+        "nombre": "Ejecución",
+        "actores": ["UEI"],
+        "subetapas": ["Elaboración del expediente técnico o documento equivalente", "Ejecución física y financiera", "Cierre de la inversión"],
+        "herramienta_seguimiento": "Sistema de Seguimiento de Inversiones (Banco de Inversiones + SIAF-RP + SEACE)"
+      },
+      {
+        "nombre": "Funcionamiento",
+        "actores": ["Entidad titular de activos / responsable de provisión del servicio"],
+        "actividades": ["Operación y mantenimiento de activos", "Provisión de servicios", "Evaluación ex post"]
+      }
+    ]
+  },
+  "sectores_del_estado": [
+    "Agricultura y Riego", "Ambiente", "Comercio Exterior y Turismo", "Congreso de la República",
+    "Junta Nacional de Justicia", "Contraloría General", "Cultura", "Defensa", "Defensoría del Pueblo",
+    "Desarrollo e Inclusión Social", "Economía y Finanzas", "Educación", "Energía y Minas",
+    "Fuero Militar Policial", "Interior", "Jurado Nacional de Elecciones", "Justicia y Derechos Humanos",
+    "Ministerio Público", "Mujer y Poblaciones Vulnerables", "Oficina Nacional de Procesos Electorales",
+    "Poder Judicial", "Presidencia del Consejo de Ministros", "Producción",
+    "Registro Nacional de Identificación y Estado Civil", "Relaciones Exteriores", "Salud",
+    "Trabajo y Promoción del Empleo", "Transportes y Comunicaciones", "Tribunal Constitucional",
+    "Vivienda, Construcción y Saneamiento"
+  ],
+  "conceptos_clave": [
+    "Sistema Nacional de Programación Multianual y Gestión de Inversiones (SNPMGI / Invierte.pe)",
+    "Ciclo de Inversión (4 fases: PMI, Formulación y Evaluación, Ejecución, Funcionamiento)",
+    "DGPMI como ente rector con funciones normativas, de registro, seguimiento y evaluación",
+    "PMI (Programa Multianual de Inversiones) - proyección trianual mínima",
+    "PMIE (Programa Multianual de Inversiones del Estado) - consolidado nacional",
+    "Banco de Inversiones como aplicativo informático central del sistema",
+    "Brecha de infraestructura o acceso a servicios",
+    "Proyectos de inversión (PI) e inversiones de optimización, ampliación marginal, rehabilitación y reposición (IOARR)",
+    "Ficha técnica simplificada (≤S/3,450,000)", "Ficha técnica estándar (proyectos estándar)",
+    "Estudio de preinversión a nivel de perfil (proyectos complejos / App / endeudamiento externo)",
+    "Declaración de viabilidad (PI) / Aprobación (IOARR)",
+    "Concepción técnica y dimensionamiento (parámetro a preservar durante toda la ejecución del PI)",
+    "Variación del costo del ET: comunicar al OCI sin interrumpir la ejecución",
+    "Metodologías colaborativas de modelamiento digital (BIM) - Cuarta DCF",
+    "Inversiones conjuntas multisector - registro en PMI del Sector con mayor contribución de cierre de brechas",
+    "Convenios para la fase de Formulación y Evaluación (GR, GL, GN)",
+    "Evaluación ex post de inversiones",
+    "Seguimiento al desempeño de la gestión de las inversiones",
+    "Endeudamiento externo del Gobierno Nacional - opinión favorable de DGPMI previa a viabilidad",
+    "Cierre de inversiones y cierre de oficio"
+  ],
+  "fase_ciclo_inversion": "todas_las_fases",
+  "ambito": "Sistema Nacional completo - todas las entidades y empresas públicas del Sector Público No Financiero que ejecuten inversiones con fondos públicos",
+  "metadata_analisis": {
+    "fuente": "Texto completo del PDF DS284_2018EF_Reglamento_1252.pdf",
+    "paginas_pdf": 28,
+    "lineas_texto": 1313,
+    "notas": [
+      "Este es el Reglamento principal del Sistema Nacional de Programación Multianual y Gestión de Inversiones (Invierte.pe), aprobado en reemplazo del DS 027-2017-EF",
+      "Ha sido modificado por 4 decretos supremos adicionales: DS 179-2020-EF, DS 231-2022-EF (modificación más extensa), DS 074-2023-EF y DS 287-2024-EF",
+      "La Cuarta DCF (implementación progresiva de metodologías BIM) es la base legal del Sistema BIM en inversiones públicas, desarrollado por DS 289-2019-EF (modificado por DS 108-2021-EF) y por la RD 0007-2022-EF/63.01 (derogada por RD 0019-2025-EF/63.01)",
+      "El umbral para ficha técnica simplificada es S/ 3,450,000 (modificado por DS 231-2022-EF; texto original era diferente)",
+      "Las modificaciones del DS 231-2022-EF son las más extensas: incorporan nuevas definiciones, amplían funciones de todos los órganos, regulan nuevos supuestos de PMI (inversiones conjuntas multisector, transferencias), y actualizan las reglas para modificaciones durante la ejecución",
+      "El DS 287-2024-EF (aún no procesado en esta sesión) incorporó los numerales sobre cierre de inversiones y responsabilidad del OR en la fase de Funcionamiento"
+    ],
+    "fecha_analisis": "2025-07-16",
+    "version_esquema": "1.0"
+  }
+}

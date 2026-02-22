@@ -1,0 +1,160 @@
+{
+  "id": "DL1538",
+  "archivo_pdf": "DL1538.pdf",
+  "tipo_norma": "decreto_legislativo",
+  "numero": "1538",
+  "titulo_oficial": "Decreto Legislativo que establece disposiciones especiales para la ejecución de las inversiones públicas",
+  "titulo_corto": "DL 1538 — Disposiciones especiales para ejecución de inversiones (2022)",
+  "fecha_publicacion": "2022-03-26",
+  "entidad_emisora": "Presidencia de la República / Ministerio de Economía y Finanzas",
+  "estado": "parcialmente_derogado",
+  "fase_ciclo_inversion": ["ejecucion", "formulacion_evaluacion"],
+  "temas_clave": [
+    "licencias de habilitación urbana y edificación para obras públicas",
+    "inicio de ejecución de obras con cargo de recepción de licencia",
+    "certificación ambiental en proyectos por tramos o etapas",
+    "articulación planes de desarrollo urbano con Invierte.pe",
+    "reactivación económica post COVID-19"
+  ],
+  "resumen_ejecutivo": "El Decreto Legislativo N° 1538, dictado en virtud de la delegación de la Ley N° 31380, establece disposiciones especiales con vigencia hasta el 31/12/2022 para agilizar la ejecución de inversiones públicas: (1) permite iniciar obras con el cargo de recepción del expediente de licencia de habilitación urbana o edificación (Modalidad A) sin esperar la emisión formal; (2) regula la certificación ambiental para proyectos que ejecutan por tramos o componentes funcionalmente independientes. La Disposición Complementaria Modificatoria Única (de vigencia permanente) modifica la Sexta DCF de la Ley 31313 para articular los Planes de Acondicionamiento Territorial y los Planes de Desarrollo Urbano con las fases de Programación Multianual de Inversiones y Formulación y Evaluación del sistema Invierte.pe.",
+  "objetivo": "Establecer disposiciones especiales para la ejecución de las inversiones públicas y alinear las disposiciones en materia de desarrollo urbano a la normativa del Sistema Nacional de Programación Multianual y Gestión de Inversiones.",
+  "ambito_aplicacion": "Entidades de los tres niveles de gobierno sujetas al Sistema Invierte.pe, incluyendo organismos, empresas públicas, programas o proyectos especiales.",
+  "normas_que_modifica": [
+    "Ley N° 31313 (Ley de Desarrollo Urbano Sostenible): modifica la Sexta DCF (articulación con Invierte.pe) y deroga la Novena DCF"
+  ],
+  "normas_que_deroga": [
+    "Novena Disposición Complementaria Final de la Ley N° 31313 (Ley de Desarrollo Urbano Sostenible)"
+  ],
+  "normas_referenciadas": [
+    "Ley N° 31380 — Ley que delega facultades al Ejecutivo en materia tributaria, fiscal, financiera y de reactivación económica (inciso 3.2, numeral 3, artículo 3)",
+    "Ley N° 29090 — Ley de Regulación de Habilitaciones Urbanas y de Edificaciones (TUO aprobado por DS 006-2017-VIVIENDA, art. 10.1.h)",
+    "Decreto Supremo N° 029-2019-VIVIENDA — Reglamento de Licencias de Habilitación Urbana y Licencias de Edificación (art. 3, numeral 3.2, literal b)",
+    "Ley N° 31313 — Ley de Desarrollo Urbano Sostenible (modificada por la DCM Única)",
+    "Sistema Nacional de Evaluación del Impacto Ambiental (SEIA) y normativa ambiental sectorial"
+  ],
+  "estructura": [
+    {
+      "tipo": "considerandos",
+      "titulo": "Considerandos",
+      "contenido_resumen": "Fundamenta la norma en: la delegación de la Ley 31380 (inciso 3.2, numeral 3, art. 3) que faculta al Ejecutivo para establecer disposiciones especiales hasta el 31/12/2022 para facilitar tramitación de licencias/autorizaciones y alinear el desarrollo urbano con Invierte.pe; la necesidad de promover plazos de ejecución más eficientes en los 3 niveles de gobierno como instrumento de reactivación post-COVID-19."
+    },
+    {
+      "tipo": "articulo",
+      "numero": "1",
+      "titulo": "Objeto",
+      "contenido_resumen": "Establece disposiciones especiales para la ejecución de las inversiones públicas y alinea las disposiciones en materia de desarrollo urbano a la normativa del Sistema Invierte.pe."
+    },
+    {
+      "tipo": "articulo",
+      "numero": "2",
+      "titulo": "Ámbito de aplicación",
+      "contenido_resumen": "Aplicación obligatoria a las entidades de los tres niveles de gobierno sujetas al Sistema Invierte.pe, incluyendo organismos, empresas públicas, programas o proyectos especiales, según la normativa vigente."
+    },
+    {
+      "tipo": "articulo",
+      "numero": "3",
+      "titulo": "Disposiciones sobre licencias de habilitación urbana o de edificación",
+      "contenido_resumen": "3.1: Las entidades de los 3 niveles de gobierno pueden iniciar la ejecución de obras con el cargo de recepción del expediente de licencia de habilitación urbana o de edificación (debidamente firmado y sellado por la unidad de recepción documental), en la Modalidad A (aprobación automática con firma de profesionales), para los supuestos del literal h) del numeral 1 del artículo 10 del TUO de la Ley 29090 (DS 006-2017-VIVIENDA); sin perjuicio de que la municipalidad emita y notifique la licencia en el plazo previsto en el literal b) del numeral 3.2 del artículo 3 del DS 029-2019-VIVIENDA. 3.2: No aplica a obras en bienes inmuebles integrantes del Patrimonio Cultural de la Nación y su área de influencia."
+    },
+    {
+      "tipo": "articulo",
+      "numero": "4",
+      "titulo": "Certificación ambiental e información para estudios ambientales en proyectos de inversión pública",
+      "contenido_resumen": "Para proyectos de inversión pública del Gobierno Nacional con declaración de viabilidad a la vigencia del DL, que prevean ejecutar la obra con aprobación parcial del expediente técnico (por tramos, etapas, componentes o sectores de obra de naturaleza funcionalmente independiente): el Estudio Ambiental (IGA o modificación) se elabora conforme a sus términos de referencia y sobre la base de la información aprobada del expediente técnico parcial. El titular debe obtener la certificación ambiental o aprobación del IGA de manera previa a la ejecución física, conforme al SEIA y normativa ambiental sectorial."
+    },
+    {
+      "tipo": "articulo",
+      "numero": "5",
+      "titulo": "Refrendo",
+      "contenido_resumen": "Refrendado por el Presidente del Consejo de Ministros, el Ministro de Economía y Finanzas, el Ministro del Ambiente y el Ministro de Vivienda, Construcción y Saneamiento."
+    },
+    {
+      "tipo": "disposiciones_complementarias_finales",
+      "titulo": "Disposición Complementaria Final",
+      "hijos": [
+        {
+          "tipo": "disposicion",
+          "numero": "Única",
+          "titulo": "Vigencia",
+          "contenido_resumen": "El DL tiene vigencia hasta el 31 de diciembre de 2022, con excepción de la Única Disposición Complementaria Modificatoria y la Única Disposición Complementaria Derogatoria, que son de vigencia permanente."
+        }
+      ]
+    },
+    {
+      "tipo": "seccion",
+      "titulo": "Disposición Complementaria Modificatoria",
+      "hijos": [
+        {
+          "tipo": "disposicion",
+          "numero": "Única",
+          "titulo": "Modificación de la Sexta DCF de la Ley N° 31313 (Ley de Desarrollo Urbano Sostenible) — vigencia permanente",
+          "contenido_resumen": "Modifica la Sexta Disposición Complementaria Final de la Ley 31313, quedando con el siguiente texto: 'SEXTA. Articulación con el Sistema Nacional de Programación Multianual y Gestión de Inversiones — Los Planes para el Acondicionamiento Territorial y Desarrollo Urbano, en la medida que se encuentren vigentes, se toman en cuenta, según corresponda, en las fases de Programación Multianual de Inversiones y de Formulación y Evaluación.' Esta disposición es de vigencia permanente y no limitada al 31/12/2022."
+        }
+      ]
+    },
+    {
+      "tipo": "disposicion_derogatoria",
+      "titulo": "Disposición Complementaria Derogatoria Única — vigencia permanente",
+      "contenido_resumen": "Deroga la Novena Disposición Complementaria Final de la Ley N° 31313 (Ley de Desarrollo Urbano Sostenible). Esta derogación es de vigencia permanente y no limitada al 31/12/2022."
+    }
+  ],
+  "conceptos_clave": [
+    {
+      "termino": "Modalidad A de licencia de habilitación urbana o edificación",
+      "definicion": "Modalidad de aprobación automática con firma de profesionales establecida en el TUO de la Ley 29090. El DL 1538 permite a las entidades públicas iniciar la ejecución de obras con el simple cargo de recepción del expediente de licencia en esta modalidad, sin aguardar la emisión formal de la licencia.",
+      "articulo_fuente": "Artículo 3"
+    },
+    {
+      "termino": "Ejecución por tramos, etapas, componentes o sectores de obra funcionalmente independientes",
+      "definicion": "Modalidad de ejecución de proyectos de inversión que permite iniciar la ejecución física de partes del proyecto que son independientes entre sí, aprobando el expediente técnico de manera parcial. El DL 1538 regula cómo elaborar la certificación ambiental para estas situaciones.",
+      "articulo_fuente": "Artículo 4"
+    },
+    {
+      "termino": "Planes de Acondicionamiento Territorial y Desarrollo Urbano (PAT y PDU)",
+      "definicion": "Instrumentos de planificación territorial y urbana de los gobiernos locales y regionales regulados por la Ley 31313. El DL 1538 (DCM Única) los articula expresamente con las fases de Programación Multianual de Inversiones y Formulación y Evaluación del sistema Invierte.pe.",
+      "articulo_fuente": "DCM Única"
+    },
+    {
+      "termino": "IGA (Instrumento de Gestión Ambiental)",
+      "definicion": "Documento que sustenta la certificación ambiental de un proyecto, enmarcado en el Sistema Nacional de Evaluación del Impacto Ambiental (SEIA). Para proyectos que ejecutan por tramos, el DL 1538 permite elaborarlo sobre la base de la información aprobada del expediente técnico parcial.",
+      "articulo_fuente": "Artículo 4"
+    }
+  ],
+  "actores_institucionales": [
+    {
+      "nombre": "Entidades públicas de los 3 niveles de gobierno sujetas a Invierte.pe",
+      "rol": "Beneficiarias de las disposiciones especiales para ejecución de obras",
+      "funciones_clave": [
+        "Iniciar ejecución de obras con cargo de recepción de licencia (Modalidad A) sin esperar emisión formal (Art. 3.1)",
+        "Obtener certificación ambiental o aprobación del IGA previo a ejecución física para proyectos por tramos (Art. 4)"
+      ]
+    },
+    {
+      "nombre": "Municipalidades",
+      "rol": "Emiten y notifican las licencias de habilitación urbana y edificación",
+      "funciones_clave": [
+        "Emitir y notificar la licencia en el plazo previsto no obstante el inicio de obras con cargo de recepción (Art. 3.1)"
+      ]
+    },
+    {
+      "nombre": "Autoridad competente de certificación ambiental (SENACE y autoridades sectoriales)",
+      "rol": "Aprueban la certificación ambiental o IGA para proyectos de inversión pública",
+      "funciones_clave": [
+        "Aprobar el IGA o certificación ambiental elaborado sobre la base del expediente técnico parcial, previo al inicio de ejecución física (Art. 4)"
+      ]
+    }
+  ],
+  "plazos_importantes": [
+    {
+      "descripcion": "Vigencia de las disposiciones especiales de los artículos 1-5 y la DCF Única",
+      "plazo": "Hasta el 31 de diciembre de 2022 (ya vencido)",
+      "referencia": "DCF Única"
+    }
+  ],
+  "metadata_analisis": {
+    "fecha_analisis": "2026-02-21",
+    "analizado_por": "GitHub Copilot (Claude Sonnet 4.5) - análisis directo del texto del PDF",
+    "version_schema": "1.0",
+    "notas": "El PDF es una página del Diario Oficial El Peruano del 26-03-2022 que contiene múltiples normas. El DL 1538 ocupa la página 1 completa (en 2 columnas) y el inicio de la página 2. Firmado el 25 de marzo de 2022 por José Pedro Castillo Terrones (Presidente), Aníbal Torres Vásquez (PCM), Modesto Montoya Zavaleta (Ambiente), Oscar Graham Yamahuchi (MEF) y Geiner Alvarado López (Vivienda). Los artículos 1-5 y la DCF Única tenían vigencia temporal hasta el 31/12/2022 (ya vencida). La DCM Única y la DCD Única son de vigencia permanente y modifican la Ley 31313. El estado 'parcialmente_derogado' refleja el vencimiento de las disposiciones temporales."
+  }
+}

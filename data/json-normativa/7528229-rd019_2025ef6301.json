@@ -1,0 +1,161 @@
+{
+  "id": "7528229-rd019_2025ef6301",
+  "archivo_pdf": "7528229-rd019_2025ef6301.pdf",
+  "tipo_norma": "resolucion_directoral",
+  "numero": "0019-2025-EF/63.01",
+  "titulo_oficial": "Resolución Directoral que aprueba documentación técnica referida a BIM: 'Lineamientos para la adopción progresiva de BIM en las fases del Ciclo de Inversión', 'Guía para la aplicación de estándares abiertos (openBIM) y prácticas colaborativas para el desarrollo de modelos de información', 'Recomendaciones BIM para infraestructura educativa', y 'Orientaciones para la adopción de BIM en una entidad o empresa pública'",
+  "titulo_corto": "RD 0019-2025-EF/63.01 — Documentos técnicos BIM",
+  "fecha_publicacion": "2025-12-17",
+  "entidad_emisora": "Dirección General de Programación Multianual de Inversiones (DGPMI) - MEF",
+  "estado": "vigente",
+  "fase_ciclo_inversion": ["formulacion_evaluacion", "ejecucion", "transversal"],
+  "temas_clave": [
+    "BIM (Building Information Modeling) en la inversión pública",
+    "Lineamientos para adopción progresiva de BIM",
+    "openBIM y estándares abiertos",
+    "Gestión de la Información BIM en el Ciclo de Inversión",
+    "Guía Nacional BIM",
+    "marco colaborativo BIM sector público",
+    "infraestructura educativa BIM",
+    "capacidad institucional BIM en entidades/empresas públicas"
+  ],
+  "resumen_ejecutivo": "La Resolución Directoral N° 0019-2025-EF/63.01, firmada por David Guillermo Miranda Herrera (Director General DGPMI), aprueba cuatro documentos técnicos BIM como parte del marco colaborativo de la Guía Nacional BIM: (1) nuevos Lineamientos para la adopción progresiva de BIM en las fases del Ciclo de Inversión (que sustituyen a los de la RD 0007-2022-EF/63.01); (2) Guía de estándares abiertos (openBIM); (3) Recomendaciones BIM para infraestructura educativa; y (4) Orientaciones BIM para entidades/empresas públicas. Deroga la RD N° 0007-2022-EF/63.01. Las entidades en proceso de aplicación de los Lineamientos anteriores tienen 180 días hábiles para adecuarse a los nuevos.",
+  "objetivo": "Actualizar y ampliar el marco técnico para la adopción progresiva de BIM en la inversión pública, aprobando documentos de los niveles 2 y 3 de la jerarquía del marco colaborativo de la Guía Nacional BIM, incorporando lecciones aprendidas, nuevos requisitos tecnológicos y el contexto de obligatoriedad de BIM establecido por la RD 0007-2025-EF/63.01.",
+  "ambito_aplicacion": "Entidades y empresas públicas de los tres niveles de gobierno que realizan inversiones en el marco del Sistema Nacional de Programación Multianual y Gestión de Inversiones (Invierte.pe), especialmente las que aplican o deben adoptar BIM en el Ciclo de Inversión.",
+  "normas_que_modifica": [],
+  "normas_que_deroga": [
+    "Resolución Directoral N° 0007-2022-EF/63.01 — Lineamientos para la adopción progresiva de BIM en las fases del Ciclo de Inversión"
+  ],
+  "normas_referenciadas": [
+    "Decreto Legislativo N° 1252 (Ley Invierte.pe y sus modificatorias)",
+    "Decreto Supremo N° 284-2018-EF — Reglamento del DL 1252 y sus modificatorias (art. 8, numeral 8.2.4 y Cuarta DCF)",
+    "Decreto Supremo N° 289-2019-EF — Disposiciones para la incorporación progresiva de BIM en la inversión pública",
+    "Decreto Supremo N° 108-2021-EF (modifica el DS 289-2019-EF)",
+    "Resolución Directoral N° 0002-2021-EF/63.01 — Plan de Implementación y Hoja de Ruta del Plan BIM Perú",
+    "Resolución Directoral N° 0005-2021-EF/63.01 — Guía Nacional BIM: Gestión de la información para inversiones desarrolladas con BIM",
+    "Resolución Directoral N° 0007-2022-EF/63.01 (derogada por la presente norma)",
+    "Resolución Directoral N° 0007-2025-EF/63.01 — Incorpora nuevos requisitos tecnológicos, tipologías de proyectos y obliga el uso de BIM",
+    "Resolución Ministerial N° 331-2023-EF/41 — ROF del MEF (literal c, artículo 208)"
+  ],
+  "estructura": [
+    {
+      "tipo": "considerandos",
+      "titulo": "Considerandos",
+      "contenido_resumen": "Fundamenta la norma en: (1) la función de la DGPMI de emitir metodologías colaborativas de modelamiento digital (DS 284-2018-EF, art. 8.2.4); (2) el Plan BIM Perú (RD 0002-2021-EF/63.01) y su línea estratégica de 'Construcción de un marco colaborativo'; (3) la Guía Nacional BIM (RD 0005-2021-EF/63.01) que establece la jerarquía en 3 niveles de documentación BIM; (4) la necesidad de actualizar los Lineamientos de la RD 0007-2022-EF/63.01 a la luz de lecciones aprendidas y de la obligatoriedad BIM dispuesta por la RD 0007-2025-EF/63.01; y (5) el objeto y justificación de cada uno de los 4 documentos técnicos aprobados."
+    },
+    {
+      "tipo": "articulo",
+      "numero": "1",
+      "titulo": "Aprobación de los 'Lineamientos para la adopción progresiva de BIM en las fases del Ciclo de Inversión'",
+      "contenido_resumen": "Aprueba los 'Lineamientos para la adopción progresiva de BIM en las fases del Ciclo de Inversión' como Anexo 1 de la presente Resolución Directoral. Reemplaza a los aprobados por la RD 0007-2022-EF/63.01, incorporando directrices más detalladas para la planificación, implementación, seguimiento y mejora continua de la adopción BIM, y ampliando progresivamente su alcance en las 4 fases del Ciclo de Inversión."
+    },
+    {
+      "tipo": "articulo",
+      "numero": "2",
+      "titulo": "Aprobación de la 'Guía para la aplicación de estándares abiertos (openBIM) y prácticas colaborativas para el desarrollo de modelos de información'",
+      "contenido_resumen": "Aprueba la 'Guía para la aplicación de estándares abiertos (openBIM) y prácticas colaborativas para el desarrollo de modelos de información' como Anexo 2. Forma parte del segundo nivel de la jerarquía del marco colaborativo BIM. Objetivo: introducir herramientas de interoperabilidad, trazabilidad y estandarización a través de estándares abiertos en el trabajo colaborativo para el desarrollo de inversiones aplicando el proceso de Gestión de la Información BIM."
+    },
+    {
+      "tipo": "articulo",
+      "numero": "3",
+      "titulo": "Aprobación de las 'Recomendaciones BIM para infraestructura educativa'",
+      "contenido_resumen": "Aprueba las 'Recomendaciones BIM para infraestructura educativa' como Anexo 3. Forma parte del segundo nivel de la jerarquía BIM. Objetivo: brindar recomendaciones técnicas para estandarizar criterios en la definición de objetivos y requisitos de información de las inversiones en infraestructura de servicios educativos realizadas con BIM por entidades públicas."
+    },
+    {
+      "tipo": "articulo",
+      "numero": "4",
+      "titulo": "Aprobación de las 'Orientaciones para la adopción de BIM en una entidad o empresa pública'",
+      "contenido_resumen": "Aprueba las 'Orientaciones para la adopción de BIM en una entidad o empresa pública' como Anexo 4. Forma parte del tercer nivel de la jerarquía BIM. Objetivo: brindar orientaciones claras y prácticas para que las entidades o empresas públicas desarrollen la capacidad de gestión necesaria para aplicar, mantener y ampliar progresivamente BIM en el Ciclo de Inversión."
+    },
+    {
+      "tipo": "articulo",
+      "numero": "5",
+      "titulo": "Derogación",
+      "contenido_resumen": "Deroga la Resolución Directoral N° 0007-2022-EF/63.01, que aprobó los anteriores 'Lineamientos para la adopción progresiva de BIM en las fases del Ciclo de Inversión'."
+    },
+    {
+      "tipo": "articulo",
+      "numero": "6",
+      "titulo": "Publicación",
+      "contenido_resumen": "Dispone la publicación de la Resolución Directoral y sus cuatro Anexos en la sede digital del MEF (www.gob.pe/mef) en la misma fecha de publicación en el Diario Oficial El Peruano."
+    },
+    {
+      "tipo": "disposiciones_complementarias_transitorias",
+      "titulo": "Disposición Complementaria Transitoria",
+      "hijos": [
+        {
+          "tipo": "disposicion",
+          "numero": "Única",
+          "titulo": "Plazo para implementar los nuevos Lineamientos BIM",
+          "contenido_resumen": "Las entidades y empresas públicas que se encontraban aplicando los Lineamientos aprobados por la RD 0007-2022-EF/63.01 deben adecuarse a los nuevos Lineamientos (Anexo 1 de la presente RD) en un plazo máximo de 180 días hábiles, contados desde la vigencia de la presente Resolución Directoral."
+        }
+      ]
+    }
+  ],
+  "conceptos_clave": [
+    {
+      "termino": "BIM (Building Information Modeling)",
+      "definicion": "Metodología colaborativa de modelamiento digital de la información para la planificación, diseño, construcción y gestión de activos de inversión pública. La DGPMI emite metodologías BIM conforme al DS 284-2018-EF, art. 8.2.4.",
+      "articulo_fuente": "Considerandos"
+    },
+    {
+      "termino": "Guía Nacional BIM",
+      "definicion": "Documento aprobado mediante RD 0005-2021-EF/63.01, titulado 'Gestión de la información para inversiones desarrolladas con BIM'. Define la jerarquía de 3 niveles de documentación BIM: (1) estándares/normas técnicas; (2) guías, especificaciones y formatos; (3) recursos de soporte e instructivos.",
+      "articulo_fuente": "Considerandos"
+    },
+    {
+      "termino": "Plan BIM Perú",
+      "definicion": "Plan de Implementación y Hoja de Ruta aprobado por RD 0002-2021-EF/63.01, que analiza el contexto nacional de la industria de construcción y la adopción BIM en el Perú, estructurando objetivos y acciones en 4 líneas estratégicas, incluyendo la 'Construcción de un marco colaborativo'.",
+      "articulo_fuente": "Considerandos"
+    },
+    {
+      "termino": "openBIM",
+      "definicion": "Enfoque de trabajo colaborativo para el desarrollo de inversiones basado en estándares abiertos que promueven la interoperabilidad, trazabilidad y estandarización en el intercambio de información de los modelos de información BIM.",
+      "articulo_fuente": "Artículo 2"
+    },
+    {
+      "termino": "Marco colaborativo BIM",
+      "definicion": "Sistema jerárquico de documentación técnica que enlaza toda la documentación BIM en 3 niveles, conforme establece la Guía Nacional BIM. La presente RD aprueba documentos de los niveles 2 y 3 de dicho marco.",
+      "articulo_fuente": "Considerandos / Artículos 1-4"
+    }
+  ],
+  "actores_institucionales": [
+    {
+      "nombre": "Dirección General de Programación Multianual de Inversiones (DGPMI) - MEF",
+      "rol": "Ente rector que emite la norma y las metodologías BIM para el sector público",
+      "funciones_clave": [
+        "Emitir metodologías colaborativas de modelamiento digital de la información (DS 284-2018-EF, art. 8.2.4)",
+        "Aprobar disposiciones para la adopción de aplicativos informáticos BIM y generación de capacidades",
+        "Aprueba los cuatro documentos técnicos BIM mediante la presente RD"
+      ]
+    },
+    {
+      "nombre": "Dirección de Política y Estrategias de la Inversión Pública (DGPMI)",
+      "rol": "Unidad interna de la DGPMI que propone y elabora los documentos técnicos BIM",
+      "funciones_clave": [
+        "Proponer los documentos técnicos BIM para aprobación por el Director General de la DGPMI"
+      ]
+    },
+    {
+      "nombre": "Entidades y empresas públicas de los 3 niveles de gobierno",
+      "rol": "Sujetos obligados a aplicar BIM de manera progresiva en el Ciclo de Inversión",
+      "funciones_clave": [
+        "Aplicar los Lineamientos BIM en las fases del Ciclo de Inversión",
+        "Adecuarse a los nuevos Lineamientos en un plazo máximo de 180 días hábiles (si venían usando los anteriores)"
+      ]
+    }
+  ],
+  "plazos_importantes": [
+    {
+      "descripcion": "Plazo para que las entidades que aplicaban los Lineamientos BIM de la RD 0007-2022-EF/63.01 se adecúen a los nuevos Lineamientos (Anexo 1 de la RD 0019-2025-EF/63.01)",
+      "plazo": "180 días hábiles desde la vigencia de la RD 0019-2025-EF/63.01 (publicada el 17-12-2025)",
+      "referencia": "Disposición Complementaria Transitoria Única"
+    }
+  ],
+  "metadata_analisis": {
+    "fecha_analisis": "2026-02-21",
+    "analizado_por": "GitHub Copilot (Claude Sonnet 4.5) - análisis directo del texto del PDF",
+    "version_schema": "1.0",
+    "notas": "El PDF es una página del Diario Oficial El Peruano del 17-12-2025 (páginas 25-27) que contiene múltiples normas. La RD 0019-2025-EF/63.01 ocupa las páginas 25 (parcial), 26 y 27 (parcial). Los Anexos 1-4 no están en el PDF; se publicaron por separado en www.gob.pe/mef. Firmada por David Guillermo Miranda Herrera, Director General de la DGPMI."
+  }
+}

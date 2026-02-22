@@ -1,0 +1,140 @@
+{
+  "id": "DS074_2023EF",
+  "archivo_pdf": "DS074_2023EF.pdf",
+  "tipo_norma": "decreto_supremo",
+  "numero": "074-2023-EF",
+  "titulo_oficial": "Decreto Supremo que modifica el Reglamento del Decreto Legislativo N° 1252, Decreto Legislativo que crea el Sistema Nacional de Programación Multianual y Gestión de Inversiones, aprobado por Decreto Supremo N° 284-2018-EF",
+  "titulo_corto": "DS 074-2023-EF — Modificación del Reglamento del DL 1252 (DS 284-2018-EF)",
+  "fecha_publicacion": "2023-04-26",
+  "entidad_emisora": "Ministerio de Economía y Finanzas",
+  "estado": "vigente",
+  "fase_ciclo_inversion": ["ejecucion"],
+  "temas_clave": [
+    "modificación del Reglamento del DL 1252 (DS 284-2018-EF)",
+    "Órgano Resolutivo (OR) — delegación de presidencia del Comité de Seguimiento",
+    "OPMI del Sector — función de verificación de alineamiento",
+    "expediente técnico — variación de costo respecto a la viabilidad",
+    "modificaciones antes de la aprobación del expediente técnico",
+    "modificaciones de IOARR en la fase de Ejecución"
+  ],
+  "resumen_ejecutivo": "El Decreto Supremo N° 074-2023-EF modifica cuatro disposiciones específicas del Reglamento del DL 1252 (DS 284-2018-EF): (1) el numeral 6 del párrafo 9.3 del artículo 9 (OR), permitiendo que en el caso del Sector la función de presidir el comité de seguimiento de inversiones sea delegable en la máxima autoridad administrativa; (2) el numeral 10 del párrafo 10.3 del artículo 10 (OPMI del Sector), precisando la función de verificar el alineamiento de las inversiones con el PMI y los criterios de priorización sectoriales; (3) el párrafo 17.3 del artículo 17 (Fase de Ejecución), aclarando que cuando la variación del costo del expediente técnico supera el porcentaje fijado por la DGPMI, la UEI comunica al OCI sin interrumpir la ejecución; y (4) el párrafo 17.5 del artículo 17, precisando que las modificaciones antes de la aprobación del ET están permitidas en proyectos de inversión (sin cambiar el objetivo central ni la concepción técnica-económica) y también en IOARR (cambios en cronograma, costos y metas físicas).",
+  "objetivo": "Optimizar las funciones de los operadores del SNPMGI, precisando la delegabilidad de la presidencia del comité de seguimiento de inversiones en el OR del Sector, las funciones de verificación de la OPMI del Sector, y las reglas sobre modificaciones en la fase de Ejecución para proyectos de inversión e IOARR.",
+  "ambito_aplicacion": "Entidades sujetas al SNPMGI: Órganos Resolutivos (OR), Oficinas de Programación Multianual de Inversiones (OPMI) del Sector, Unidades Formuladoras (UF), Unidades Ejecutoras de Inversiones (UEI), y Órganos de Control Institucional (OCI).",
+  "normas_que_modifica": [
+    "DS 284-2018-EF — Reglamento del DL 1252: Modifica el numeral 6 del párrafo 9.3 del Art. 9 (OR); el numeral 10 del párrafo 10.3 del Art. 10 (OPMI del Sector); el párrafo 17.3 del Art. 17 (Fase de Ejecución); y el párrafo 17.5 del Art. 17 (Fase de Ejecución)."
+  ],
+  "normas_que_deroga": [],
+  "normas_referenciadas": [
+    "Decreto Legislativo N° 1252 — Ley que crea el SNPMGI (norma madre)",
+    "DS N° 284-2018-EF — Reglamento del DL 1252 (norma modificada)"
+  ],
+  "estructura": [
+    {
+      "tipo": "seccion",
+      "titulo": "Cuerpo del Decreto Supremo",
+      "hijos": [
+        {
+          "tipo": "articulo",
+          "numero": "1",
+          "titulo": "Modificación de disposiciones del Reglamento del DL 1252",
+          "contenido_resumen": "Modifica los siguientes artículos del Reglamento del DL 1252 aprobado por DS 284-2018-EF:",
+          "modificaciones_especificas": [
+            {
+              "articulo_modificado": "Art. 9, numeral 6 del párrafo 9.3 — Del Órgano Resolutivo (OR)",
+              "texto_anterior_referencia": "Función de seguimiento del OR del Sector, GR y GL.",
+              "texto_nuevo": "Realizar el seguimiento de las inversiones en la fase de Ejecución, conformar y presidir el comité de seguimiento de inversiones del Sector, GR y GL, según corresponda. Para el caso de entidades o empresas públicas pertenecientes al Sector, GR y GL, el OR realiza sus funciones de seguimiento a través del Titular o la máxima autoridad de dichas entidades o empresas públicas. Para el caso del Sector, la función de presidir el comité de seguimiento de inversiones puede ser objeto de delegación en la máxima autoridad administrativa de la entidad.",
+              "innovacion_clave": "Se introduce la posibilidad de que el OR del Sector delegue la función de presidir el comité de seguimiento de inversiones en la máxima autoridad administrativa (director general o equivalente). Esta flexibilidad no existe para GR y GL."
+            },
+            {
+              "articulo_modificado": "Art. 10, numeral 10 del párrafo 10.3 — De la OPMI del Sector",
+              "texto_nuevo": "Verificar que las inversiones de su ámbito de responsabilidad funcional, a formularse o aprobarse (según corresponda) y a ejecutarse, se encuentren alineadas con los objetivos priorizados y metas respecto al cierre de brechas de infraestructura o de acceso a servicios establecidos en la programación multianual de inversiones, y que cumplan con los criterios de priorización aprobados por el Sector. Adicionalmente, cuando se requiera financiamiento, verificar que las inversiones a ejecutarse cumplan con la metodología general del SNPMGI, las metodologías específicas sectoriales y las normas técnicas que les sean aplicables.",
+              "innovacion_clave": "Precisa y amplía explícitamente la función de la OPMI del Sector en la verificación del alineamiento al PMI y a los criterios de priorización. Incorpora la verificación del cumplimiento de las metodologías y normas técnicas aplicables como condición previa al financiamiento."
+            },
+            {
+              "articulo_modificado": "Art. 17, párrafo 17.3 — Fase de Ejecución",
+              "texto_nuevo": "La elaboración del expediente técnico o documento equivalente debe sujetarse a la concepción técnica, económica y el dimensionamiento contenido en el estudio de preinversión o ficha técnica, para el caso de proyectos de inversión; o a la información registrada en los aplicativos informáticos del SNPMGI, para el caso de inversiones de Optimización, de Ampliación Marginal, de Reposición y de Rehabilitación (IOARR). En caso la variación del costo de inversión del expediente técnico o documento equivalente, según corresponda, respecto al declarado viable resulte superior al porcentaje establecido por la DGPMI, la Unidad Ejecutora de Inversiones (UEI) pondrá de conocimiento esta variación al Órgano de Control de la entidad, sin que ello implique la interrupción de la fase de Ejecución.",
+              "innovacion_clave": "Introduce el procedimiento ante variaciones del costo del ET que superan el umbral fijado por la DGPMI: la UEI informa al OCI (pero no se detiene la ejecución). Esto clarifica una situación de incertidumbre práctica sobre si las variaciones de costo generan obligación de paralizar la fase de Ejecución."
+            },
+            {
+              "articulo_modificado": "Art. 17, párrafo 17.5 — Fase de Ejecución",
+              "texto_nuevo": "Las modificaciones que se presenten antes de la aprobación del expediente técnico o documento equivalente, según corresponda, proceden para los proyectos de inversión, siempre que no se modifique el objetivo central del mismo y se mantenga su concepción técnica, económica y dimensionamiento. Estas modificaciones son registradas por la Unidad Formuladora (UF) en los aplicativos informáticos del SNPMGI sobre la base del sustento remitido por la UEI. Asimismo, las modificaciones para el caso de las inversiones de Optimización, de Ampliación Marginal, de Reposición y/o de Rehabilitación (IOARR), proceden cuando corresponden a cambios en el cronograma, costos y metas físicas de los activos registrados en su aprobación. Estas modificaciones son registradas en los aplicativos informáticos del SNPMGI por la UEI, adjuntando el respectivo sustento.",
+              "innovacion_clave": "Precisa y diferencia dos regímenes de modificaciones antes de la aprobación del ET: (1) Para proyectos de inversión: son posibles si no se modifica el objetivo central ni la concepción técnica-económica; las registra la UF con sustento de la UEI. (2) Para IOARR: son posibles ante cambios en cronograma, costos y metas físicas; las registra directamente la UEI adjuntando el sustento."
+            }
+          ]
+        },
+        {
+          "tipo": "articulo",
+          "numero": "2",
+          "titulo": "Refrendo",
+          "contenido_resumen": "Refrendado por el Ministro de Economía y Finanzas, Alex Alonso Contreras Miranda."
+        }
+      ]
+    }
+  ],
+  "conceptos_clave": [
+    {
+      "termino": "Órgano Resolutivo (OR)",
+      "definicion": "Máxima autoridad ejecutiva del Sector, Gobierno Regional (Gobernador Regional) o Gobierno Local (Alcalde), con funciones de seguimiento de inversiones, incluyendo presidir el Comité de Seguimiento de Inversiones. Para el Sector (Gobierno Nacional), la presidencia del Comité puede delegarse en la máxima autoridad administrativa.",
+      "articulo_fuente": "Art. 9, numeral 6 del párrafo 9.3 del Reglamento (modificado por Art. 1 del DS 074-2023-EF)"
+    },
+    {
+      "termino": "OPMI del Sector",
+      "definicion": "Oficina de Programación Multianual de Inversiones del Sector (Gobierno Nacional). Tiene la función explícita de verificar que las inversiones de su ámbito de responsabilidad funcional estén alineadas con los objetivos priorizados del PMI y los criterios de priorización sectoriales, así como con las metodologías del SNPMGI y normas técnicas cuando se requiera financiamiento.",
+      "articulo_fuente": "Art. 10, numeral 10 del párrafo 10.3 del Reglamento (modificado por Art. 1 del DS 074-2023-EF)"
+    },
+    {
+      "termino": "Variación de costo del ET respecto a la viabilidad",
+      "definicion": "Situación que se produce cuando el costo del expediente técnico o documento equivalente supera el porcentaje máximo de variación fijado por la DGPMI respecto al costo declarado en la viabilidad del proyecto. En este caso, la UEI comunica la variación al OCI de la entidad, sin que ello interrumpa la fase de Ejecución.",
+      "articulo_fuente": "Art. 17, párrafo 17.3 del Reglamento (modificado por Art. 1 del DS 074-2023-EF)"
+    },
+    {
+      "termino": "Modificaciones antes de la aprobación del ET — proyectos de inversión",
+      "definicion": "Ajustes al proyecto de inversión en la fase de Ejecución, antes de que se apruebe el expediente técnico o documento equivalente, permitidos siempre que no se modifique el objetivo central del proyecto ni su concepción técnica, económica y dimensionamiento. Las registra la UF en el Banco de Inversiones con base en el sustento de la UEI.",
+      "articulo_fuente": "Art. 17, párrafo 17.5 del Reglamento (modificado por Art. 1 del DS 074-2023-EF)"
+    },
+    {
+      "termino": "Modificaciones antes de la aprobación del ET — IOARR",
+      "definicion": "Ajustes a inversiones IOARR (Optimización, Ampliación Marginal, Reposición y Rehabilitación) en la fase de Ejecución, proceden cuando corresponden a cambios en el cronograma, costos y metas físicas de los activos registrados en su aprobación. Las registra directamente la UEI en los aplicativos del SNPMGI adjuntando el sustento.",
+      "articulo_fuente": "Art. 17, párrafo 17.5 del Reglamento (modificado por Art. 1 del DS 074-2023-EF)"
+    }
+  ],
+  "actores_institucionales": [
+    {
+      "nombre": "Órgano Resolutivo (OR) — Sector",
+      "rol": "Máxima autoridad ejecutiva del Sector; preside el Comité de Seguimiento de Inversiones (delegable en la MAA)",
+      "funciones_clave": ["Seguimiento de inversiones en la fase de Ejecución", "Conformar y presidir el Comité de Seguimiento (delegable en el Sector)"]
+    },
+    {
+      "nombre": "OPMI del Sector",
+      "rol": "Oficina de Programación Multianual de Inversiones del Sector",
+      "funciones_clave": ["Verificar alineamiento de inversiones con el PMI y criterios de priorización sectoriales", "Verificar cumplimiento de metodologías del SNPMGI y normas técnicas cuando se requiera financiamiento"]
+    },
+    {
+      "nombre": "Unidad Ejecutora de Inversiones (UEI)",
+      "rol": "Ejecuta el proyecto de inversión en la fase de Ejecución; elabora el expediente técnico",
+      "funciones_clave": ["Elaborar el ET sujetándose a la concepción técnica, económica y dimensionamiento de la viabilidad", "Comunicar al OCI cuando la variación del costo del ET supera el umbral de la DGPMI", "Remitir sustento a la UF para el registro de modificaciones de proyectos de inversión", "Registrar directamente en el SNPMGI las modificaciones de IOARR"]
+    },
+    {
+      "nombre": "Unidad Formuladora (UF)",
+      "rol": "Registra modificaciones de proyectos de inversión antes de la aprobación del ET",
+      "funciones_clave": ["Registrar en los aplicativos del SNPMGI las modificaciones de proyectos de inversión (previas al ET) con el sustento de la UEI"]
+    },
+    {
+      "nombre": "Órgano de Control Institucional (OCI)",
+      "rol": "Control gubernamental de la entidad",
+      "funciones_clave": ["Recibir comunicación de la UEI cuando la variación de costo del ET supera el umbral de la DGPMI"]
+    },
+    {
+      "nombre": "DGPMI-MEF",
+      "rol": "Ente rector del SNPMGI; fija el porcentaje de variación de costo del ET que activa la comunicación al OCI",
+      "funciones_clave": ["Establecer el porcentaje de variación de costo del ET que configura la comunicación al OCI"]
+    }
+  ],
+  "plazos_importantes": [],
+  "metadata_analisis": {
+    "fecha_analisis": "2026-02-21",
+    "analizado_por": "GitHub Copilot (Claude Sonnet 4.5) - análisis directo del texto del PDF",
+    "version_schema": "1.0",
+    "notas": "Firmado el 25 de abril de 2023 por Dina Ercilia Boluarte Zegarra (Presidenta) y Alex Alonso Contreras Miranda (Ministro de Economía y Finanzas). El PDF contiene 2 páginas en formato de El Peruano de dos columnas. La página 1 contiene principalmente un DS de Transferencia de Partidas a favor de 5 gobiernos locales (vinculado al FONDES — distinto al DS 074-2023-EF). El DS 074-2023-EF comienza al final de la página 1 y continúa en la página 2. La página 2 también contiene el inicio del DS 075-2023-EF (Crédito Suplementario FIDT 2022), que no forma parte del DS 074-2023-EF y no fue incluido en este JSON."
+  }
+}

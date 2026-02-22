@@ -1,0 +1,503 @@
+{
+  "id": "DS011_2024EF",
+  "archivo_pdf": "DS011_2024EF.pdf",
+  "tipo_norma": "decreto_supremo",
+  "numero": "011-2024-EF",
+  "titulo_oficial": "Decreto Supremo que modifica el Reglamento de la Ley N° 29230, Ley que impulsa la inversión pública regional y local con participación del sector privado, aprobado con Decreto Supremo N° 210-2022-EF",
+  "titulo_corto": "DS 011-2024-EF — Modificación del Reglamento de Obras por Impuestos (Ley 29230)",
+  "fecha_publicacion": "2024-02-10",
+  "entidad_emisora": "Ministerio de Economía y Finanzas",
+  "estado": "vigente",
+  "fase_ciclo_inversion": ["programacion", "formulacion_evaluacion", "ejecucion"],
+  "temas_clave": [
+    "Obras por Impuestos (Ley 29230)",
+    "CIPRL (Certificado de Inversión Pública Regional y Local - Tesoro Público)",
+    "CIPGN (Certificado de Inversión Pública Gobierno Nacional - Tesoro Público)",
+    "Empresa Privada y Entidad Privada Supervisora",
+    "Convenio de Inversión",
+    "Registro de Entidades Privadas Supervisoras",
+    "Certificación y capacitación de profesionales (Proinversión)",
+    "modificación del Reglamento DS 210-2022-EF"
+  ],
+  "resumen_ejecutivo": "El Decreto Supremo N° 011-2024-EF modifica y complementa el Reglamento de la Ley N° 29230 (Obras por Impuestos), previamente aprobado por DS N° 210-2022-EF, a fin de implementar los cambios introducidos por la Ley N° 31735 (que modificó la Ley 29230) y la Ley N° 31912. En su Artículo 1 modifica un amplio conjunto de artículos del Reglamento (numerales del Título Preliminar y artículos 1, 2, 3, 4, 6, 7, 10, 11, 12, 13, 15, 25, 28, 56, 61, 71, 76, 83, 85, 91, 92, 96, 97, 98, 101, 102, 128 y la Tercera DCF), actualizando definiciones, fuentes de financiamiento, características, condiciones y procedimientos para la emisión y uso del CIPRL y CIPGN. En su Artículo 2 incorpora dos nuevos Títulos (V: Registro de Entidades Privadas Supervisoras, Arts. 130-133; y VI: Especialización y Certificación de Profesionales, Arts. 134-136) y tres nuevas Disposiciones Complementarias Finales (Décimo Cuarta, Décimo Quinta y Décimo Sexta). Además, cambia la denominación oficial del DS 210-2022-EF.",
+  "objetivo": "Adecuar el Reglamento de la Ley N° 29230 (Obras por Impuestos) al nuevo marco normativo aprobado por la Ley N° 31735 y la Ley N° 31912, incorporando disposiciones sobre el Registro de Entidades Privadas Supervisoras y la certificación de profesionales que participan en el mecanismo de Obras por Impuestos.",
+  "ambito_aplicacion": "Entidades Públicas de los niveles de Gobierno Nacional, Gobiernos Regionales, Gobiernos Locales y Universidades Públicas, así como las Empresas Privadas, Entidades Privadas Supervisoras y Proinversión, en el marco del mecanismo de Obras por Impuestos (Ley N° 29230).",
+  "normas_que_modifica": [
+    "DS 210-2022-EF — Reglamento de la Ley N° 29230: Modifica numerals 8, 18, 22 y 32 del Art. III; numerals 19 y 20 del Art. V; numerals 6, 7 y 8 del Art. IX; Art. X del Título Preliminar; Arts. 1, 2, 3, 4, 6, 7, 10, 11, 12, 13, 15, 25, 28, 56, 61, 71, 76, 83, 85, 91, 92, 96, 97, 98, 101, 102, 128 y la Tercera DCF. También cambia su denominación oficial."
+  ],
+  "normas_que_deroga": [],
+  "normas_referenciadas": [
+    "Ley N° 29230 — Ley que impulsa la inversión pública regional y local con participación del sector privado (Obra por Impuestos)",
+    "DS N° 210-2022-EF — Reglamento de la Ley 29230 (norma modificada)",
+    "Ley N° 31735 — Ley que modifica la Ley N° 29230 (art. 1, 2-B, 3, 6, 7, 9, 11, 16 y Décimo Tercera DCF; incorpora arts. 17, 18, DCF 22ª, 23ª y 24ª) — motivó la adecuación reglamentaria",
+    "Ley N° 31912 — Ley de créditos suplementarios 2023 (modifica art. 8.2, art. 12 y Segunda DCF de Ley 29230) — también motivó la adecuación",
+    "Decreto Supremo N° 063-2021-PCM — Marco Institucional del Proceso de Mejora de la Calidad Regulatoria (excepción de AIR Ex Ante)",
+    "Decreto Legislativo N° 1534 — Modifica la Ley N° 29230",
+    "DS N° 138-2023-EF — Topes máximos de capacidad anual para emisión de CIPRL (actualización transitoria)"
+  ],
+  "estructura": [
+    {
+      "tipo": "seccion",
+      "titulo": "Cuerpo del Decreto Supremo",
+      "hijos": [
+        {
+          "tipo": "articulo",
+          "numero": "1",
+          "titulo": "Modificación del Reglamento DS 210-2022-EF — numerosos artículos",
+          "contenido_resumen": "Modifica los numerales 8, 18, 22 y 32 del artículo III (Definiciones); los numerales 19 y 20 del artículo V (Acrónimos); los numerales 6, 7 y 8 del artículo IX (Participación de Proinversión); el artículo X del Título Preliminar (Delegación y Desconcentración); y los artículos 1, 2, 3, 4, 6, 7, 10, 11, 12, 13, 15, 25, 28, 56, 61, 71, 76, 83, 85, 91, 92, 96, 97, 98, 101, 102 y 128, y la Tercera Disposición Complementaria Final del Reglamento de la Ley N° 29230 (aprobado por DS 210-2022-EF).",
+          "modificaciones_especificas": [
+            {
+              "articulo_modificado": "Art. III, numeral 8",
+              "tema": "Contrato de Supervisión",
+              "resumen": "Documento entre la Entidad Privada Supervisora y la Entidad Pública para supervisar las Inversiones y/o actividades de operación y/o mantenimiento."
+            },
+            {
+              "articulo_modificado": "Art. III, numeral 18",
+              "tema": "Empresa Privada",
+              "resumen": "Persona jurídica de derecho privado no sujeta a sistemas administrativos del sector público. Celebra el Convenio de Inversión con la Entidad Pública y financia y ejecuta las Inversiones y/o mantenimiento. Puede ser el Ejecutor de la inversión."
+            },
+            {
+              "articulo_modificado": "Art. III, numeral 22",
+              "tema": "Gastos de Administración Central y Monitoreo",
+              "resumen": "Gastos en que incurre la Empresa Privada durante la ejecución, registrados en el rubro Gestión del proyecto del Banco de Inversiones. La UF o UEI determina la pertinencia, alcance y monto máximo. Se fijan en el Convenio de Inversión y no pueden incorporarse o incrementarse mediante adenda."
+            },
+            {
+              "articulo_modificado": "Art. III, numeral 32",
+              "tema": "Monto Referencial del Convenio de Inversión",
+              "resumen": "Valor citado en la convocatoria y las bases. Comprende el Monto de Inversión de proyectos o IOARR y/o actividades de operación y/o mantenimiento; cuando corresponda, incluye costos de supervisión, ficha técnica, estudios de preinversión, Expediente Técnico, Manual de Operación y/o Mantenimiento."
+            },
+            {
+              "articulo_modificado": "Art. V, numerales 19 y 20",
+              "tema": "Acrónimos UF y UIT",
+              "resumen": "19. UF: Unidad Formuladora. 20. UIT: Unidad Impositiva Tributaria."
+            },
+            {
+              "articulo_modificado": "Art. IX, numerales 6, 7 y 8",
+              "tema": "Participación de Proinversión",
+              "resumen": "Numeral 6: gestiona y promueve fortalecimiento de capacidades de profesionales de GR y GL para especialización y capacitación certificada. Numeral 7: administra y actualiza el Registro de Entidades Privadas Supervisoras contratadas para supervisión en OxI. Numeral 8: realiza otras acciones que establezca el TUO de la Ley 29230 y su Reglamento."
+            },
+            {
+              "articulo_modificado": "Art. X",
+              "tema": "Delegación y Desconcentración de facultades",
+              "resumen": "El titular de la Entidad Pública del GN puede delegar atribuciones (excepto: aprobación lista de priorización, autorización de contratación directa, declaratoria de nulidad). En GR, GL y Universidades Públicas, el titular puede desconcentrar facultades (excepto: recurso de apelación, nulidad de oficio, autorización de contratación directa, suscripción del Convenio, sus adendas y actas de suspensión de plazo, aprobación de Mayores Trabajos de Obra)."
+            },
+            {
+              "articulo_modificado": "Art. 1",
+              "tema": "Fuentes de financiamiento de Inversiones — GR, GL y Universidades",
+              "resumen": "Para GR y GL: (1) Recursos Determinados del Canon, Sobrecanon, Regalías, Renta de Aduanas, Participaciones y FONCOR (calculados para topes de endeudamiento); (2) Recursos Determinados de fondos como FONCOMUN, FOCAM y otros; (3) Recursos Determinados de impuestos (para GL); (4) Recursos Directamente Recaudados; (5) Recursos Ordinarios para proyectos de inversión e IOARR previstos en el Anexo de la Ley de Presupuesto (cronograma de CIPRL debe iniciar en el año fiscal de los recursos). Para Universidades Públicas: Canon, Sobrecanon y Regalías Mineras."
+            },
+            {
+              "articulo_modificado": "Art. 2",
+              "tema": "Reglas para la utilización de fuentes de financiamiento — GR y GL (no constitutivas de operación oficial de crédito)",
+              "resumen": "Orden de prelación: 1° Recursos Determinados (fondos del numeral 2 del párr. 1.1 del art. 1), Recursos Directamente Recaudados y Recursos Determinados de impuestos; 2° Recursos Ordinarios del Anexo de la Ley de Presupuesto. Excepcionalmente se puede invertir el orden si la lista de priorización solo incluye inversiones no financiables con el primer orden. GR y GL pueden financiar mantenimiento con canon, sobrecanon y regalía minera (dentro del límite de la Décimo Tercera DCF de la Ley 29289)."
+            },
+            {
+              "articulo_modificado": "Art. 3",
+              "tema": "Cálculo del tope máximo de capacidad anual de recursos (operación oficial de crédito)",
+              "resumen": "Representa el nivel de endeudamiento de GR, GL y Universidades Públicas con cargo a Recursos Determinados de Canon y similares. Aprobado mediante DS refrendado por MEF, publicado a más tardar el 30 de junio de cada año."
+            },
+            {
+              "articulo_modificado": "Art. 4",
+              "tema": "Cálculo del límite CIPRL para GR, GL y Universidades (operación oficial de crédito)",
+              "resumen": "Para GR y GL: suma de flujos transferidos de Canon, Sobrecanon, Regalías, Renta de Aduanas, Participaciones y FONCOR de los 2 últimos años previos, más el tope presupuestal del PIA del año del cálculo. Para Universidades: ídem pero solo Canon, Sobrecanon y Regalías Mineras. La DGPP calcula el límite CIPRL y lo remite a la DGPPIP y DGPMACDF hasta el 30 de mayo de cada año."
+            },
+            {
+              "articulo_modificado": "Art. 6",
+              "tema": "Financiamiento de inversiones del Gobierno Nacional",
+              "resumen": "Fuentes de financiamiento para entidades del GN: (1) Recursos Ordinarios del presupuesto institucional aprobado (sin demandar recursos adicionales al Tesoro); (2) Recursos Directamente Recaudados depositados en la CUT (para proyectos de inversión en ambiente, cultura, electrificación rural, industria, pesca, turismo, defensa y seguridad, planeamiento, gestión y contingencia); (3) Recursos Determinados del Fondo Especial para la Seguridad Ciudadana; (4) Recursos Determinados del Fondo para las Fuerzas Armadas y PNP; (5) Recursos Determinados de fondos habilitados por ley expresa (incluyendo Programa Nacional de Vivienda Rural y electrificación rural)."
+            },
+            {
+              "articulo_modificado": "Art. 7",
+              "tema": "Porcentaje de deducción de los Recursos Determinados",
+              "resumen": "Art. 7.4: La SUNAT debe remitir a la DGTP la información de los CIPRL aplicados en los pagos a cuenta y de regularización del IR de Tercera Categoría y de cualquier otro tributo administrado por SUNAT, por parte de las Empresas Privadas o las empresas a las que se transfirió el CIPRL."
+            },
+            {
+              "articulo_modificado": "Art. 10",
+              "tema": "Características del CIPRL y CIPGN",
+              "resumen": "Tienen carácter cancelatorio para el pago a cuenta y de regularización del IR de Tercera Categoría y de cualquier otro tributo del Tesoro Público administrado por SUNAT. Son negociables. Vigencia de 10 años desde su emisión."
+            },
+            {
+              "articulo_modificado": "Art. 11",
+              "tema": "Condiciones para solicitar la emisión del CIPRL o CIPGN",
+              "resumen": "11 condiciones: (1) indicar en el Convenio de Inversión los funcionarios responsables de: aprobación de valorizaciones, conformidad de recepción, conformidad de calidad, conformidad al ET/documento de trabajo/Manual, conformidad a estudios de preinversión/ficha técnica, afectaciones presupuestales, solicitud de emisión a DGTP, conformidad de equipamiento si es mayoritario, conformidad del servicio de supervisión, conformidad de actividades de operación y/o mantenimiento, y autorización de cambio de empresa ejecutora o sus profesionales. Para inversiones con plazo ≤5 meses: contar previamente con Conformidad de Recepción y de Calidad total. Para inversiones con plazo >5 meses: avances trimestrales con aprobación de valorizaciones previa opinión favorable de la Entidad Privada Supervisora."
+            },
+            {
+              "articulo_modificado": "Art. 12",
+              "tema": "Solicitud y emisión de CIPRL o CIPGN",
+              "resumen": "12.1: Plazo de 3 días desde la Conformidad de Recepción y Calidad (o desde la aprobación de la valorización trimestral) para solicitar emisión vía Plataforma de Documentos Valorados. Documentación requerida: registro SIAF-SP, Conformidad de Recepción y Calidad (para culminación) o aprobación de valorizaciones (para avance trimestral), o Recepción de Prestaciones (para operación y mantenimiento). Si el CIPRL constituye operación oficial de crédito: registrar en módulo de deuda pública y en la Plataforma de Documentos Valorados. 12.6: El titular de la Entidad Pública es responsable del cumplimiento del registro en el SIAF-SP. 12.12-12.15: Al término de cada ejercicio, si la Empresa Privada no utilizó CIPRL/CIPGN por el límite del 80% del IR: la Entidad Pública solicita a la DGTP la emisión de nuevos CIPRL/CIPGN por la tasa de inflación acumulada de los últimos 12 meses (Marco Macroeconómico Multianual vigente). El reconocimiento inflacionario no constituye ingreso gravado con IR."
+            },
+            {
+              "articulo_modificado": "Art. 13",
+              "tema": "Emisión trimestral de CIPRL o CIPGN",
+              "resumen": "Para inversiones o actividades de operación y mantenimiento, los CIPRL y CIPGN se solicitan por avances trimestrales. Las bases del proceso de selección determinan los criterios para definir avances. Para inversiones: se requiere aprobación de cada valorización mensual por la Entidad Pública, previa opinión favorable de la Entidad Privada Supervisora (plazo 7 días de recibida la opinión). Para actividades de operación y mantenimiento: conforme al Manual de Operación y/o Mantenimiento y el Convenio (plazo 7 días para aprobación y 5 días para solicitud de emisión por la Empresa Privada)."
+            },
+            {
+              "articulo_modificado": "Art. 15",
+              "tema": "Utilización del CIPRL o CIPGN",
+              "resumen": "15.1: La Empresa Privada (o la empresa a la que se transfirió) utiliza los CIPRL o CIPGN para pagos a cuenta y regularización del IR de Tercera Categoría, incluyendo intereses moratorios, y para cualquier tributo del Tesoro Público administrado por SUNAT. 15.2: No pueden aplicarse contra multas. El exceso sobre el importe a pagar puede aplicarse en ejercicios posteriores. 15.4: Límite de uso: hasta 80% del IR calculado en la Declaración Jurada Anual del ejercicio anterior (según DJAIR original, sustitutoria o rectificatoria con efecto y presentada al menos 10 días antes de la utilización). 15.6: El exceso sobre el límite del 80% no es pago a cuenta ni regularización en el ejercicio corriente; puede aplicarse en ejercicios posteriores sin derecho a la actualización inflacionaria."
+            },
+            {
+              "articulo_modificado": "Art. 25",
+              "tema": "Tramitación de Iniciativas Privadas",
+              "resumen": "25.2: Si la iniciativa privada propone actualizar el estudio de preinversión o ficha técnica que sustentó la viabilidad en el marco del SNPMGI, el titular de la entidad debe contar con opinión previa de la UF que evalúe si corresponde dicha actualización conforme a las disposiciones del SNPMGI."
+            },
+            {
+              "articulo_modificado": "Art. 28",
+              "tema": "Determinación de costos de elaboración/actualización de ficha técnica, estudio de preinversión, Expediente Técnico o Manual de Operación y/o Mantenimiento",
+              "resumen": "28.1: El comité especial evalúa y determina el costo. Monto máximo de reembolso: hasta 2% del Monto Total de Inversión para ficha técnica o estudio de preinversión; hasta 5% del monto total de operación y/o mantenimiento para el Manual. 28.2: Para actualización de ficha técnica, estudio o Manual: hasta 1% del Monto Total de Inversión actualizado; para actualización del Expediente Técnico: hasta 5% del Monto Total actualizado."
+            },
+            {
+              "articulo_modificado": "Art. 56",
+              "tema": "Consultas y Observaciones",
+              "resumen": "56.3: Plazo de absolución de consultas y/u observaciones a las bases: 4 días desde el vencimiento del plazo para expresiones de interés (se amplía a 7 días cuando los participantes propongan la incorporación de Gastos de Administración Central y Monitoreo)."
+            },
+            {
+              "articulo_modificado": "Art. 61",
+              "tema": "Evaluación de la propuesta económica y técnica",
+              "resumen": "61.2: El comité especial selecciona la propuesta económica más favorable y verifica si la propuesta técnica cumple con las bases. Si no cumple, se denomina 'no admitida' y se revisa la siguiente propuesta en orden de prelación."
+            },
+            {
+              "articulo_modificado": "Art. 71",
+              "tema": "Modificaciones al Convenio de Inversión por cambios en la participación del Consorcio",
+              "resumen": "La conformación y participación de los consorciados puede modificarse con autorización previa de la Entidad Pública (15 días hábiles desde la solicitud). Los nuevos miembros deben cumplir todos los requisitos de las bases y el Convenio. Si la Entidad Pública no se pronuncia en el plazo, se considera autorizada la solicitud, bajo responsabilidad."
+            },
+            {
+              "articulo_modificado": "Art. 76",
+              "tema": "Requisitos e Impedimentos de la Entidad Privada Supervisora",
+              "resumen": "76.2: La Entidad Privada Supervisora o sus empresas vinculadas no pueden tener relación con la Empresa Privada que financia la ejecución del proyecto ni con el Ejecutor, dentro de los 2 años previos a la convocatoria, y no debe haber participado en la elaboración de estudios, planos y demás documentos para la ejecución del proyecto."
+            },
+            {
+              "articulo_modificado": "Art. 83",
+              "tema": "Responsabilidad de la Empresa Privada",
+              "resumen": "83.4: La Empresa Privada responde por vicios ocultos por un plazo no inferior a 7 años desde la Conformidad de Recepción. Para componentes de mobiliario y equipamiento (o proyectos íntegramente de adquisición y entrega de mobiliario/equipamiento): la garantía no puede ser superior a 2 años."
+            },
+            {
+              "articulo_modificado": "Art. 85",
+              "tema": "Suspensión del plazo de ejecución del Convenio de Inversión",
+              "resumen": "85.1: Ante eventos no atribuibles a ninguna de las partes que originen paralización, las partes pueden acordar la suspensión del plazo mediante un acta (sin reconocimiento de Mayores Gastos Generales ni penalidades). La suscripción del acta es indelegable para GR, GL y Universidades Públicas."
+            },
+            {
+              "articulo_modificado": "Art. 91",
+              "tema": "Responsabilidad por incumplimiento de la Empresa Privada y penalidades",
+              "resumen": "91.4: El Convenio de Inversión establece penalidades por incumplimiento injustificado de las obligaciones de la Empresa Privada: deben ser objetivas, razonables y congruentes con el objeto del Convenio. El listado debe especificar supuestos de aplicación, forma de cálculo y procedimiento de verificación. La suma de penalidades no puede superar los montos del párrafo 91.2."
+            },
+            {
+              "articulo_modificado": "Art. 92",
+              "tema": "Resolución del Convenio de Inversión",
+              "resumen": "92.2: La Empresa Privada puede resolver el Convenio de Inversión cuando: (1) la Entidad Pública incumpla las condiciones para iniciar el plazo de ejecución; (2) la Entidad Pública no contrate los servicios de la Entidad Privada Supervisora por contratación directa; (3) la Entidad Pública incumpla injustificadamente la solicitud de emisión del CIPRL o CIPGN o sus condiciones previas, pese a haber sido requerida; (4) transcurran 3 o más meses desde la fecha prevista para la entrega de terrenos y la Entidad Pública no los entregue; (5) se superen los límites para variaciones/modificaciones del Convenio conforme a la Décimo Tercera DCF de la Ley 29230."
+            },
+            {
+              "articulo_modificado": "Art. 96",
+              "tema": "Ampliación de plazos",
+              "resumen": "96.2: La Empresa Privada solicita la ampliación de plazo conforme al procedimiento del art. 96. El titular de la entidad (o el delegado) resuelve y notifica su decisión en 10 días hábiles desde la recepción del informe o vencimiento del plazo. De no haber pronunciamiento, se tiene por aprobado lo informado por la Entidad Privada Supervisora."
+            },
+            {
+              "articulo_modificado": "Art. 97",
+              "tema": "Variaciones al Monto Total del Convenio por Mayores Trabajos de Obra",
+              "resumen": "97.1: Aprobado el ET (o modificado mediante documento de trabajo), queda prohibido aprobar adicionales por errores o deficiencias en el ET. El reconocimiento de inversión considera un monto no mayor a la valorización económica de las prestaciones no ejecutadas, siempre que sean sustituidas por prestaciones alternativas previamente autorizadas. 97.3: La necesidad de Mayores Trabajos de Obra se anota en el Cuaderno de Obra por el Ejecutor. La Entidad Privada Supervisora comunica a la Entidad Pública dentro de los 3 días siguientes. La Entidad Pública evalúa y, de ser el caso, autoriza en 10 días."
+            },
+            {
+              "articulo_modificado": "Art. 98",
+              "tema": "Modificaciones al Convenio de Inversión",
+              "resumen": "98.5: Las variaciones o modificaciones al Convenio de Inversión son reconocidas por la Entidad Pública conforme a la Décimo Tercera DCF de la Ley N° 29230."
+            },
+            {
+              "articulo_modificado": "Art. 101",
+              "tema": "Conformidad de Calidad y Conformidad de Recepción",
+              "resumen": "101.2: La Conformidad de Recepción y de Calidad se emiten dentro de los 3 días siguientes a la verificación conjunta del art. 100.3. 101.4: Si la Entidad Pública no emite pronunciamiento en el plazo del art. 100.2, la Conformidad de Recepción se tiene por consentida (siempre que la Entidad Privada Supervisora haya otorgado la Conformidad de la Calidad). El período de demora se adiciona al plazo de ejecución y da derecho al reconocimiento de Mayores Gastos Generales debidamente acreditados."
+            },
+            {
+              "articulo_modificado": "Art. 102",
+              "tema": "Observaciones a la culminación de las Inversiones",
+              "resumen": "102.1: De existir observaciones de la Entidad Privada Supervisora o de la Entidad Pública, se consignan en acta o pliego; la Empresa Privada tiene 1/10 del plazo de ejecución o 45 días calendario, el que resulte menor (desde el quinto día de firmada el acta), para subsanarlas. Las subsanaciones dentro del plazo no generan derecho a pago ni penalidades."
+            },
+            {
+              "articulo_modificado": "Art. 128",
+              "tema": "Trato directo",
+              "resumen": "Requisito previo a la conciliación o arbitraje: trato directo (principio de buena fe). 128.1: Controversias sobre ejecución, interpretación, resolución, inexistencia, ineficacia o invalidez del Convenio. El acuerdo tiene efecto vinculante y produce efectos de transacción. 128.4: Procedimiento: comunicación por carta notarial con la causal y alternativa de solución; la otra parte responde en 10 días hábiles. El plazo de caducidad de 30 días hábiles (art. 16 de la Ley 29230) se cuenta desde la notificación de la respuesta o del vencimiento del plazo. El trato directo se rige por reglas específicas sobre actas, sustento de costos-beneficios, y opciones ante falta de acuerdo (conciliación o arbitraje en 30 días hábiles desde el acta de cierre)."
+            },
+            {
+              "articulo_modificado": "Tercera DCF",
+              "tema": "Remisión de documentación a la DGPPIP",
+              "resumen": "Las Entidades Públicas y las Empresas Privadas deben remitir a la DGPPIP (dentro de 10 días de suscripción): Convenios de Inversión, adendas y actas de suspensión de plazo; Contratos de Supervisión y adendas; Convenios de Ejecución Conjunta; actas de Conformidad de Calidad, avance y de Recepción; resolución de aprobación de liquidación y declaratoria de relevancia. La DGPPIP remite mensualmente a la DGTP una copia de los Convenios de Inversión y adendas recibidas. Proinversión remite a la DGPPIP una copia de los Convenios de Asistencia Técnica suscritos bajo el Art. XI (dentro de 10 días de suscritos)."
+            }
+          ]
+        },
+        {
+          "tipo": "articulo",
+          "numero": "2",
+          "titulo": "Incorporación al Reglamento DS 210-2022-EF: nuevas definiciones, Títulos V y VI y tres nuevas DCF",
+          "contenido_resumen": "Se incorporan al Reglamento de la Ley N° 29230 los siguientes elementos:",
+          "incorporaciones_especificas": [
+            {
+              "elemento": "Art. III, numeral 3.A",
+              "tema": "Certificación Profesional (nueva definición)",
+              "resumen": "Documento que acredita a un profesional estar capacitado o poseer conocimientos para realizar actividades y/o funciones referidas al procedimiento y/o trámites y/o fases del mecanismo de Obras por Impuestos."
+            },
+            {
+              "elemento": "Art. III, numeral 38.A",
+              "tema": "Registro de Entidades Privadas Supervisoras (nueva definición)",
+              "resumen": "Registro digital donde se incluyen todas las personas naturales y jurídicas que acrediten experiencia en la supervisión de inversiones o actividades de operación y/o mantenimiento en el marco de la Ley N° 29230."
+            },
+            {
+              "elemento": "TÍTULO V — Registro de Entidades Privadas Supervisoras",
+              "articulos": [
+                {
+                  "tipo": "articulo",
+                  "numero": "130",
+                  "titulo": "Objeto y Administrador del Registro",
+                  "contenido_resumen": "El Registro tiene por objeto contar con un banco de información referencial de personas naturales y jurídicas que participaron en actividades de supervisión de Inversiones bajo OxI. Proinversión establece, administra y conduce el Registro."
+                },
+                {
+                  "tipo": "articulo",
+                  "numero": "131",
+                  "titulo": "Inscripción en el Registro",
+                  "contenido_resumen": "131.1: La inscripción permite identificar a personas naturales y jurídicas que desarrollan actividades de supervisión en el marco de la Ley 29230. 131.2: El Registro se realiza en la plataforma virtual habilitada en la página institucional de Proinversión."
+                },
+                {
+                  "tipo": "articulo",
+                  "numero": "132",
+                  "titulo": "Requisitos para la inscripción",
+                  "contenido_resumen": "132.1: El registro se inicia con la solicitud de inscripción acompañada de documentos que acrediten participación de la Entidad Privada Supervisora o el Supervisor (de manera individual o como Jefe de supervisión hasta la recepción) en un proyecto OxI. 132.2: Se puede solicitar inscripción en más de una materia, acreditando la experiencia mínima requerida en cada una."
+                },
+                {
+                  "tipo": "articulo",
+                  "numero": "133",
+                  "titulo": "Modificación y actualización del Registro",
+                  "contenido_resumen": "133.1: El Administrador revisa la solicitud en 20 días hábiles desde su recepción; puede formular observaciones para subsanación en 10 días hábiles prorrogables por 10 días adicionales. Si no se subsanan, se archiva la solicitud. 133.2: Sin observaciones o con observaciones subsanadas, el Administrador emite una constancia de inscripción."
+                }
+              ]
+            },
+            {
+              "elemento": "TÍTULO VI — Especialización y Certificación de Profesionales",
+              "articulos": [
+                {
+                  "tipo": "articulo",
+                  "numero": "134",
+                  "titulo": "Finalidad de la capacitación y especialización",
+                  "contenido_resumen": "La capacitación a servidores públicos permite: (1) coadyuvar con metas y objetivos institucionales; (2) mejorar desempeño, eficiencia y competitividad en la gestión de trámites y procedimientos OxI; (3) brindar solución oportuna a decisiones en fases de OxI; (4) mantener actualización para desempeño eficiente; (5) mejorar capacidades para operar procesos y herramientas; (6) mantener sinergia con actores involucrados; (7) contribuir con el desempeño de funciones relacionadas al mecanismo OxI."
+                },
+                {
+                  "tipo": "articulo",
+                  "numero": "135",
+                  "titulo": "De la certificación de funcionarios y empleados públicos",
+                  "contenido_resumen": "135.1: La certificación se efectúa como primera etapa a través de entidades académicas autorizadas que suscriban convenios con Proinversión, en tanto no se implementen los instrumentos de gestión para la emisión directa de la certificación por Proinversión (segunda etapa). 135.2: Proinversión puede suscribir convenios con AMPE y Asamblea Nacional de Gobiernos Regionales para el fortalecimiento de capacidades de profesionales que intervienen en los procedimientos del mecanismo OxI."
+                },
+                {
+                  "tipo": "articulo",
+                  "numero": "136",
+                  "titulo": "Remisión de la lista de profesionales por parte de las entidades públicas",
+                  "contenido_resumen": "Las entidades públicas que forman parte de las Asociaciones de Municipalidades del Perú y/o de la Asamblea Nacional de GR remiten a Proinversión la lista de profesionales que cumplan con el perfil académico y nivel establecido en la Directiva para la certificación de profesionales aprobada por Proinversión, conforme al párrafo 135.2."
+                }
+              ]
+            },
+            {
+              "elemento": "DCF Décimo Cuarta",
+              "titulo": "Lista priorizada de proyectos de Institutos y Escuelas de Educación Superior",
+              "resumen": "Los institutos y escuelas de educación superior públicos que se acojan al último párrafo del Art. 3 de la Ley 29230 remiten a Proinversión —vía el Ministerio de Educación— una lista priorizada de Inversiones, IOARR, IOARR de Emergencia o actividades de operación y/o mantenimiento. La suscripción, financiamiento y ejecución de los Convenios de Inversión está a cargo del Ministerio de Educación o los GR, según corresponda."
+            },
+            {
+              "elemento": "DCF Décimo Quinta",
+              "titulo": "Proyectos considerados prioritarios",
+              "resumen": "Las entidades del GN, GR y GL dan prioridad al financiamiento y ejecución de proyectos de inversión o IOARR mediante OxI que tengan por objeto la reducción de la anemia y la desnutrición infantil. También dan prioridad a actividades de construcción de viviendas rurales en zonas de friaje extremo y heladas declaradas por el Gobierno (proceso IOARR; aplicable el art. 6.2 de la Ley 27506, Ley de Canon)."
+            },
+            {
+              "elemento": "DCF Décimo Sexta",
+              "titulo": "Cálculo de plazos",
+              "resumen": "Toda referencia a 'días' en el Reglamento se entiende referida a días hábiles, salvo disposición contraria. No son hábiles los sábados, domingos, feriados no laborables y los días declarados no laborables para el sector público."
+            }
+          ]
+        },
+        {
+          "tipo": "articulo",
+          "numero": "3",
+          "titulo": "Publicación",
+          "contenido_resumen": "El presente Decreto Supremo se publica en la Plataforma Digital Única del Estado Peruano (www.peru.gob.pe) y en la sede digital del MEF (www.gob.pe/mef), el mismo día de su publicación en el Diario Oficial El Peruano."
+        },
+        {
+          "tipo": "articulo",
+          "numero": "4",
+          "titulo": "Refrendo",
+          "contenido_resumen": "Refrendado por el Ministro de Economía y Finanzas, Alex Alonso Contreras Miranda."
+        },
+        {
+          "tipo": "disposiciones_complementarias_finales",
+          "titulo": "Disposiciones Complementarias Finales del DS 011-2024-EF",
+          "hijos": [
+            {
+              "tipo": "disposicion",
+              "numero": "Primera",
+              "titulo": "Vigencia",
+              "contenido_resumen": "El DS entra en vigencia al día siguiente de su publicación en El Peruano. Excepción: los artículos 7, 10, 11, 12, 13 y 15 del Reglamento (en lo referido a la aplicación de CIPRL o CIPGN para el pago de tributos distintos al IR de Tercera Categoría) entran en vigencia en un plazo de 90 días calendario. La entrada en vigencia no retrotraer los procesos o procedimientos en trámite, los que se adecúan al Reglamento en la fase en que se encuentren."
+            },
+            {
+              "tipo": "disposicion",
+              "numero": "Segunda",
+              "titulo": "Directiva para la certificación de profesionales",
+              "contenido_resumen": "Proinversión aprueba la Directiva con los procedimientos, condiciones, requisitos y perfiles para la certificación professional, dentro de 90 días hábiles desde la publicación, previa opinión favorable del MEF."
+            },
+            {
+              "tipo": "disposicion",
+              "numero": "Tercera",
+              "titulo": "Cambio de denominación del DS 210-2022-EF",
+              "contenido_resumen": "Se modifica la denominación del DS 210-2022-EF: el nuevo nombre oficial es 'Reglamento de la Ley Nº 29230, Ley que impulsa la inversión pública regional y local con participación del sector privado' (eliminando las referencias al DL 1534 en la denominación anterior)."
+            }
+          ]
+        },
+        {
+          "tipo": "disposicion_transitoria",
+          "titulo": "Disposición Complementaria Transitoria Única — Actualización de los topes máximos de capacidad anual para GR",
+          "contenido_resumen": "El Poder Ejecutivo aprueba mediante DS refrendado por el MEF la actualización de los topes máximos de capacidad anual para la emisión de CIPRL (aprobados por DS 138-2023-EF) para los Gobiernos Regionales, considerando las modificaciones de la Ley N° 31912 a la Ley N° 29230. El DS de actualización se publica a más tardar el 29 de febrero de 2024."
+        }
+      ]
+    }
+  ],
+  "conceptos_clave": [
+    {
+      "termino": "Obras por Impuestos (OxI) — Ley 29230",
+      "definicion": "Mecanismo que permite a empresas privadas financiar y ejecutar proyectos de inversión pública de GR, GL, GN y Universidades Públicas. La Entidad Pública emite CIPRL o CIPGN a favor de la Empresa Privada, los cuales son utilizados para el pago del Impuesto a la Renta de Tercera Categoría y otros tributos administrados por SUNAT.",
+      "articulo_fuente": "Ley N° 29230; Reglamento DS 210-2022-EF (modificado por este DS 011-2024-EF)"
+    },
+    {
+      "termino": "CIPRL (Certificado de Inversión Pública Regional y Local - Tesoro Público)",
+      "definicion": "Valor emitido por la DGTP-MEF a favor de la Empresa Privada que financia y ejecuta inversiones de GR y GL bajo OxI. Tiene carácter cancelatorio para el IR de Tercera Categoría y otros tributos del Tesoro Público administrados por SUNAT. Es negociable y tiene vigencia de 10 años. Puede constituir o no una operación oficial de crédito.",
+      "articulo_fuente": "Art. 10 del Reglamento (modificado por Art. 1 del DS)"
+    },
+    {
+      "termino": "CIPGN (Certificado de Inversión Pública Gobierno Nacional - Tesoro Público)",
+      "definicion": "Equivalente al CIPRL pero para inversiones de entidades del Gobierno Nacional. Mismas características: cancelatorio, negociable, vigencia 10 años.",
+      "articulo_fuente": "Art. 10 del Reglamento (modificado por Art. 1 del DS)"
+    },
+    {
+      "termino": "Entidad Privada Supervisora",
+      "definicion": "Persona natural o jurídica contratada directamente por la Entidad Pública para supervisar las inversiones y/o actividades de operación y/o mantenimiento ejecutadas por la Empresa Privada bajo OxI. Sus requisitos y el nuevo Registro de Entidades Privadas Supervisoras son regulados por este DS.",
+      "articulo_fuente": "Arts. 76 y 130-133 del Reglamento (modificados e incorporados por este DS)"
+    },
+    {
+      "termino": "Limit CIPRL / Tope de endeudamiento",
+      "definicion": "El límite máximo anual que puede emitir un GR, GL o Universidad Pública en CIPRL que constituyan operación oficial de crédito, calculado en función de los flujos de Canon, Sobrecanon y fondos similares de los últimos 2 años más el tope del PIA. La DGPP calcula y remite a más tardar el 30 de mayo de cada año.",
+      "articulo_fuente": "Arts. 3 y 4 del Reglamento (modificados por Art. 1 del DS)"
+    },
+    {
+      "termino": "Registro de Entidades Privadas Supervisoras",
+      "definicion": "Registro digital administrado por Proinversión donde se inscriben personas naturales y jurídicas con experiencia acreditada en supervisión de inversiones bajo OxI. La inscripción (con constancia emitida en 20 días hábiles) es requisito para operar como Entidad Privada Supervisora en el mecanismo OxI.",
+      "articulo_fuente": "Arts. 130-133 del Reglamento (incorporados por Art. 2 del DS)"
+    }
+  ],
+  "actores_institucionales": [
+    {
+      "nombre": "MEF - DGPPIP (Dirección General de Política de Promoción de la Inversión Privada)",
+      "rol": "Receptor de documentación de Convenios de Inversión, adendas, actas y liquidaciones",
+      "funciones_clave": [
+        "Recibir y sistematizar la documentación de los Convenios de Inversión de OxI",
+        "Remitir mensualmente a la DGTP copias de los Convenios y adendas"
+      ]
+    },
+    {
+      "nombre": "MEF - DGTP (Dirección General del Tesoro Público)",
+      "rol": "Emisor de los CIPRL y CIPGN",
+      "funciones_clave": [
+        "Emitir los CIPRL y CIPGN a solicitud de las Entidades Públicas",
+        "Solicitar a la SUNAT la información de IR de Empresas Privadas",
+        "Reconocer la actualización inflacionaria de CIPRL no utilizados"
+      ]
+    },
+    {
+      "nombre": "MEF - DGPP (Dirección General de Presupuesto Público)",
+      "rol": "Cálculo del límite CIPRL",
+      "funciones_clave": [
+        "Calcular y remitir a DGPPIP y DGPMACDF el límite CIPRL a más tardar el 30 de mayo de cada año"
+      ]
+    },
+    {
+      "nombre": "Proinversión",
+      "rol": "Órgano competente para el mecanismo OxI a nivel de GN; administrador del Registro de EPS y de la certificación de profesionales",
+      "funciones_clave": [
+        "Gestionar procesos de selección de OxI para el Gobierno Nacional",
+        "Establecer, administrar y conducir el Registro de Entidades Privadas Supervisoras",
+        "Aprobar la Directiva de certificación de profesionales (dentro de 90 días hábiles)"
+      ]
+    },
+    {
+      "nombre": "SUNAT",
+      "rol": "Administración tributaria que gestiona los CIPRL y CIPGN como créditos tributarios",
+      "funciones_clave": [
+        "Remitir a la DGTP información de los CIPRL aplicados en pagos del IR por parte de Empresas Privadas",
+        "Aceptar los CIPRL y CIPGN como pago cancelatorio del IR de Tercera Categoría y otros tributos"
+      ]
+    },
+    {
+      "nombre": "Entidades Públicas (GN, GR, GL, Universidades Públicas)",
+      "rol": "Beneficiarias del mecanismo OxI; suscritoras de los Convenios de Inversión",
+      "funciones_clave": [
+        "Firmar Convenios de Inversión con la Empresa Privada",
+        "Solicitar la emisión de CIPRL o CIPGN a la DGTP",
+        "Supervisar la ejecución de las inversiones mediante la Entidad Privada Supervisora",
+        "Remitir documentación a la DGPPIP dentro de los 10 días de suscripción"
+      ]
+    }
+  ],
+  "plazos_importantes": [
+    {
+      "descripcion": "Entrada en vigencia de los arts. 7, 10, 11, 12, 13 y 15 del Reglamento sobre tributos distintos al IR 3ª Categoría",
+      "plazo": "90 días calendario desde la publicación del DS (a partir del 10/02/2024)",
+      "referencia": "DCF Primera del DS 011-2024-EF"
+    },
+    {
+      "descripcion": "Proinversión aprueba la Directiva de certificación de profesionales",
+      "plazo": "90 días hábiles desde la publicación del DS",
+      "referencia": "DCF Segunda del DS 011-2024-EF"
+    },
+    {
+      "descripcion": "Publicación del DS de actualización de topes máximos de capacidad anual (CIPRL) para GR",
+      "plazo": "A más tardar el 29 de febrero de 2024",
+      "referencia": "DCT Única del DS 011-2024-EF"
+    },
+    {
+      "descripcion": "La DGPP calcula y remite el límite CIPRL a DGPPIP y DGPMACDF",
+      "plazo": "A más tardar el 30 de mayo de cada año",
+      "referencia": "Art. 4.5 del Reglamento (modificado por Art. 1 del DS)"
+    },
+    {
+      "descripcion": "Topes máximos de capacidad anual de endeudamiento para GR, GL y Universidades",
+      "plazo": "Aprobados mediante DS a más tardar el 30 de junio de cada año",
+      "referencia": "Art. 3.1 del Reglamento (modificado por Art. 1 del DS)"
+    },
+    {
+      "descripcion": "Entidad Pública solicita emisión del CIPRL o CIPGN desde la Conformidad de Recepción y Calidad",
+      "plazo": "No mayor a 3 días hábiles",
+      "referencia": "Art. 12.1 del Reglamento (modificado por Art. 1 del DS)"
+    },
+    {
+      "descripcion": "Entidad Pública emite autorización de cambio de consorciado",
+      "plazo": "15 días hábiles desde la solicitud",
+      "referencia": "Art. 71 del Reglamento (modificado por Art. 1 del DS)"
+    },
+    {
+      "descripcion": "Entidad Pública resuelve sobre ampliación de plazo y notifica a la Empresa Privada",
+      "plazo": "10 días hábiles desde la recepción del informe de la Entidad Privada Supervisora",
+      "referencia": "Art. 96.2.3 del Reglamento (modificado por Art. 1 del DS)"
+    },
+    {
+      "descripcion": "Empresa Privada tiene para subsanar observaciones a la culminación de Inversiones",
+      "plazo": "1/10 del plazo de ejecución o 45 días calendario, el que resulte menor",
+      "referencia": "Art. 102.1 del Reglamento (modificado por Art. 1 del DS)"
+    },
+    {
+      "descripcion": "Entidades y empresas privadas remiten documentación de Convenios de Inversión a la DGPPIP",
+      "plazo": "Dentro de los 10 días de haber sido suscritos",
+      "referencia": "Tercera DCF del Reglamento (modificada por Art. 1 del DS)"
+    },
+    {
+      "descripcion": "Revisión de solicitud de inscripción al Registro de Entidades Privadas Supervisoras",
+      "plazo": "20 días hábiles desde la recepción de la solicitud",
+      "referencia": "Art. 133.1 del Reglamento (incorporado por Art. 2 del DS)"
+    }
+  ],
+  "metadata_analisis": {
+    "fecha_analisis": "2026-02-21",
+    "analizado_por": "GitHub Copilot (Claude Sonnet 4.5) - análisis directo del texto del PDF",
+    "version_schema": "1.0",
+    "notas": "Firmado el 9 de febrero de 2024 por Dina Ercilia Boluarte Zegarra (Presidenta de la República) y Alex Alonso Contreras Miranda (Ministro de Economía y Finanzas). El PDF tiene 9 páginas en formato El Peruano de dos columnas (páginas 21 a 29 del diario). El DS 011-2024-EF es una modificación amplia y sustancial del Reglamento OxI (DS 210-2022-EF), implementando las reformas introducidas por la Ley 31735 y la Ley 31912 a la Ley 29230. En las últimas páginas del PDF (página 9) aparece el inicio de otra norma distinta (RM 042-2024-EF/43, sobre el FAG) que no forma parte del DS 011-2024-EF y no ha sido incluida en este JSON."
+  }
+}
