@@ -159,9 +159,19 @@ function mostrarDetalle(entrada) {
   }
 
   if (entrada.url_web) {
+    const esExterno = /^https?:\/\//.test(entrada.url_web);
+    let href = entrada.url_web;
+    if (!esExterno) {
+      // Las rutas internas son relativas a la raíz del sitio.
+      // Desde /pages/ hay que subir un nivel.
+      const enPages = window.location.pathname.includes('/pages/');
+      href = enPages ? '../' + entrada.url_web : entrada.url_web;
+    }
     botonesCuerpo += `
       <div class="acceso-web">
-        <a href="${entrada.url_web}" target="_blank" rel="noopener" class="btn-app">🚀 Abrir aplicación</a>
+        <a href="${href}" ${esExterno ? 'target="_blank" rel="noopener"' : ''} class="btn-app">
+          ${esExterno ? '🚀 Abrir aplicación' : '📜 Abrir herramienta'}
+        </a>
       </div>`;
   }
 
