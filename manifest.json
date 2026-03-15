@@ -1,12 +1,12 @@
 {
-  "name": "Academia de Inversión Pública",
-  "short_name": "Academia PIP",
-  "description": "Portal especializado en ciencia de datos aplicada a inversión pública en el Perú, con bases de datos, guías técnicas y métodos cuantitativos.",
+  "name": "amaru_fo — Data Science & Inversión Pública",
+  "short_name": "amaru_fo",
+  "description": "Portafolio personal de Amaru Fernandez Olmedo. Proyectos, aplicaciones y recursos de ciencia de datos aplicada a inversión pública.",
   "scope": "/",
   "start_url": "/index.html",
   "display": "standalone",
-  "theme_color": "#b91c1c",
-  "background_color": "#ffffff",
+  "theme_color": "#0e0e10",
+  "background_color": "#0e0e10",
   "orientation": "portrait-primary",
   "icons": [
     {

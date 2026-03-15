@@ -16,6 +16,7 @@
     { href: ROOT + 'index.html',                label: 'Inicio',                    id: 'inicio'     },
     { href: ROOT + 'pages/sobre-mi.html',       label: 'Sobre mí',                  id: 'sobre-mi'   },
     { href: ROOT + 'pages/servicios.html',      label: 'Servicios',                 id: 'servicios'  },
+    { href: ROOT + 'pages/invierte-ia.html',    label: 'Invierte-IA',               id: 'invierte-ia' },
     { href: ROOT + 'pages/proyectos.html',      label: 'Proyectos',                 id: 'proyectos'  },
     { href: ROOT + 'pages/articulos.html',      label: 'Artículos y bases de datos', id: 'articulos' },
     { href: ROOT + 'pages/guias-pip.html',      label: 'Guías PIP',                 id: 'guias-pip'  },
@@ -69,9 +70,9 @@
           <img src="${ROOT}images/amaru_1.png" alt="Perfil Amaru" class="profile-img" loading="eager">
         </a>
         <div class="sidebar-identity">
-          <h1 class="sidebar-title">Academia de Inversión Pública</h1>
-          <p class="sidebar-name">Econ. Wilbert Amaru Fernandez Olmedo</p>
-          <p class="sidebar-tagline">Especialista en Ciencia de Datos aplicada a la Inversión Pública</p>
+          <h1 class="sidebar-title">Amaru Fernandez Olmedo</h1>
+          <p class="sidebar-name">@amaru_fo</p>
+          <p class="sidebar-tagline">Data Science · Inversión Pública · Dev</p>
         </div>
         <nav class="sidebar-nav" aria-label="Menú principal">
           ${navLinks}

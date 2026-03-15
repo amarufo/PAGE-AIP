@@ -96,7 +96,7 @@
       "imagen": "images/fondo_fb.png",
       "icono": "images/programas.webp",
       "contenido": "<h2>Automatización de estudios de preinversión</h2><p>InvierteIA está diseñada para especialistas, consultores y entidades públicas que requieren agilizar y estandarizar los análisis técnicos y económicos en proyectos de inversión pública.</p><h3>Características principales</h3><ul><li><strong>29 motores automáticos</strong> para análisis de demanda, oferta, brechas, costos, riesgos y más.</li><li><strong>Reportes listos para Word y Excel</strong> con tablas, gráficos y mapas.</li><li><strong>Interfaz web intuitiva</strong> y fácil de usar, sin necesidad de instalar software adicional.</li><li><strong>Actualización constante</strong> de motores y metodologías según normativa Invierte.pe.</li><li><strong>Ejemplos aplicados</strong> a proyectos reales del Perú.</li></ul><h3>¿Cómo usar?</h3><ol><li><strong>Opción 1 - Rápido:</strong> Selecciona el motor de análisis, identifica las corrdenadas de análisis o ubigeo del distrito y descarga el reporte.</li><li><strong>Opción 2 - Asesoría:</strong> ¿Dudas con tu análisis? Contáctanos para soporte especializado.</li></ol><h3>Contacto y asesoría</h3><p>¿Necesitas ayuda para estructurar tu estudio de preinversión? Escríbenos para una asesoría personalizada y recomendaciones según tu proyecto.</p>",
-      "url_web": "https://invierteia.streamlit.app/",
+      "url_web": "pages/invierte-ia.html",
       "fecha_publicacion": "2025-12-27",
       "autor": "Amaru Fernandez Olmedo",
       "paginas_destino": [
