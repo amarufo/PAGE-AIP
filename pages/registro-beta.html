@@ -24,6 +24,24 @@
     <title>Registro Beta — Invierte IA | amaru_fo</title>
     <link rel="icon" href="../images/icono2.png" type="image/png">
     <link href="../css/styles.css" rel="stylesheet">
+    <style>
+        /* Submit button hover/active states using CSS instead of inline JS mouse events */
+        #btn-enviar:hover {
+            opacity: 0.88;
+        }
+        #btn-enviar:active {
+            transform: scale(0.98) !important;
+            opacity: 0.88;
+        }
+        /* Prevent iOS Safari zoom on focused inputs (font-size must be >= 16px) */
+        @media (max-width: 700px) {
+            #form-registro-beta input,
+            #form-registro-beta select,
+            #form-registro-beta textarea {
+                font-size: 16px !important;
+            }
+        }
+    </style>
 </head>
 <body data-pagina="proyectos">
 
@@ -210,11 +228,8 @@
                              color: white; font-size:15px; font-weight:700;
                              letter-spacing:1px; text-transform:uppercase;
                              border:none; border-radius:8px; cursor:pointer;
-                             transition: opacity 0.2s, transform 0.1s;"
-                      onmouseover="this.style.opacity='0.88'"
-                      onmouseout="this.style.opacity='1'"
-                      onmousedown="this.style.transform='scale(0.98)'"
-                      onmouseup="this.style.transform='scale(1)'">
+                             min-height:44px;
+                             transition: opacity 0.2s, transform 0.1s;">
                 Solicitar Acceso Beta →
               </button>
 

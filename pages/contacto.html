@@ -24,6 +24,23 @@
     <title>Contacto | amaru_fo</title>
     <link rel="icon" href="../images/icono2.png" type="image/png">
     <link href="../css/styles.css" rel="stylesheet">
+    <style>
+        /* Responsive form grid: single column on mobile (≤700px matches sidebar drawer breakpoint) */
+        .form-row-2col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+        @media (max-width: 700px) {
+            .form-row-2col {
+                grid-template-columns: 1fr;
+            }
+        }
+        /* Ensure form submit button has minimum touch target */
+        .form-submit-btn {
+            min-height: 44px;
+        }
+    </style>
 </head>
 <body>
 
@@ -71,7 +88,7 @@
                 <p style="color: #666; margin: 0 0 1.5rem 0; font-size: 0.9rem;">Cuéntame brevemente tu proyecto y te responderé en menos de 24 horas.</p>
                 
                 <form action="https://formspree.io/f/xlgrjpgd" method="POST" style="display: grid; gap: 1rem;">
-                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                    <div class="form-row-2col">
                         <input type="text" name="nombre" placeholder="Tu nombre" required style="padding: 0.8rem 1rem; border: 2px solid #e5e7eb; border-radius: 8px; font-size: 1rem; transition: border-color 0.2s;">
                         <input type="email" name="email" placeholder="Tu email" required style="padding: 0.8rem 1rem; border: 2px solid #e5e7eb; border-radius: 8px; font-size: 1rem; transition: border-color 0.2s;">
                     </div>
@@ -83,7 +100,7 @@
                         <option value="otro">Otro</option>
                     </select>
                     <textarea name="mensaje" placeholder="Describe brevemente tu proyecto o consulta..." rows="4" required style="padding: 0.8rem 1rem; border: 2px solid #e5e7eb; border-radius: 8px; font-size: 1rem; resize: vertical;"></textarea>
-                    <button type="submit" style="background: linear-gradient(135deg, #b91c1c 0%, #991b1b 100%); color: #fff; padding: 1rem 2rem; border: none; border-radius: 8px; font-size: 1rem; font-weight: 600; cursor: pointer; transition: all 0.2s;">Enviar mensaje →</button>
+                    <button type="submit" class="form-submit-btn" style="background: linear-gradient(135deg, #b91c1c 0%, #991b1b 100%); color: #fff; padding: 1rem 2rem; border: none; border-radius: 8px; font-size: 1rem; font-weight: 600; cursor: pointer; transition: all 0.2s; width: 100%;">Enviar mensaje →</button>
                 </form>
             </div>
 

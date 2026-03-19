@@ -69,11 +69,23 @@ body {
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Prevent background scroll when mobile menu is open */
+body.menu-open {
+  overflow: hidden;
 }
 
 img { display: block; max-width: 100%; height: auto; }
 
 a { color: inherit; }
+
+/* Remove 300ms tap delay and suppress tap highlight on iOS */
+a, button, [role="button"], input[type="submit"], input[type="button"], input[type="reset"] {
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
 
 /* Focus visible */
 a:focus-visible,
@@ -1585,6 +1597,7 @@ textarea:focus-visible {
   .invierte-final-cta-actions { flex-direction: column; align-items: center; }
 }
 
+@media (max-width: 768px) {
   .servicios-grid {
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
   }
@@ -1799,6 +1812,7 @@ textarea:focus-visible {
   width: 100%;
   max-height: 85vh;
   overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
   position: relative;
   box-shadow: var(--shadow-lg);
   animation: slideUp .22s ease;
@@ -2083,11 +2097,25 @@ textarea:focus-visible {
     transform: translateX(-100%);
     transition: transform 0.28s cubic-bezier(.4,0,.2,1);
     box-shadow: var(--shadow-lg);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
   }
 
   .sidebar.open { transform: translateX(0); }
 
   .sidebar-overlay { display: block; }
+
+  /* Ensure sidebar nav links have sufficient touch target size */
+  .sidebar-nav a, .sidebar nav a {
+    min-height: 44px;
+    padding: 0.65rem 0.75rem;
+  }
+
+  /* Increase social links to minimum 44px touch targets */
+  .sidebar-social a {
+    width: 44px;
+    height: 44px;
+  }
 
   .content {
     padding: 4.5rem 1rem 1.4rem;
@@ -2117,6 +2145,18 @@ textarea:focus-visible {
 
   .section-publicacion {
     padding: 1.2rem;
+  }
+
+  /* Prevent iOS Safari from zooming on focused inputs */
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="number"],
+  input[type="password"],
+  input[type="search"],
+  select,
+  textarea {
+    font-size: 16px !important;
   }
 }
 
