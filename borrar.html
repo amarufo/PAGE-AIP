@@ -1,0 +1,215 @@
+<!-- ============================================================
+     SECCIÓN: Registro Beta — Invierte IA
+     Backend: Formspree (https://formspree.io)
+     Asunto fijo del correo: "Registro Beta — Invierte IA"
+     ============================================================ -->
+<section id="registro-beta-invierte-ia" style="
+  background: linear-gradient(135deg, #150000 0%, #3D0505 50%, #1A0000 100%);
+  padding: 60px 20px;
+  font-family: 'Segoe UI', Helvetica, sans-serif;
+  border-top: 3px solid #E74C3C;
+">
+  <div style="max-width: 680px; margin: 0 auto;">
+
+    <!-- Header -->
+    <div style="text-align: center; margin-bottom: 36px;">
+      <div style="
+        display: inline-block;
+        background: #E74C3C;
+        color: white;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        padding: 5px 16px;
+        border-radius: 20px;
+        margin-bottom: 16px;
+      ">ACCESO BETA GRATUITO</div>
+
+      <h2 style="
+        color: #FFF5F5;
+        font-size: clamp(24px, 4vw, 36px);
+        font-weight: 800;
+        margin: 0 0 12px;
+        line-height: 1.2;
+      ">
+        INVIERTE<span style="color: #E74C3C;">IA</span>
+      </h2>
+
+      <p style="
+        color: #E8938C;
+        font-size: 15px;
+        line-height: 1.6;
+        margin: 0;
+      ">
+        Solicita acceso gratuito a la plataforma de análisis territorial
+        y de riesgos para proyectos de inversión pública en el Perú.
+      </p>
+    </div>
+
+    <!-- Formulario -->
+    <form
+      method="POST"
+      action="https://formspree.io/f/{FORMSPREE_FORM_ID}"
+      id="form-registro-beta"
+      style="background: rgba(255,255,255,0.04); border-radius: 12px;
+             padding: 32px; border: 1px solid rgba(231,76,60,0.25);"
+    >
+      <!-- Asunto fijo del correo — NO MODIFICAR -->
+      <input type="hidden" name="_subject"
+             value="Registro Beta — Invierte IA">
+
+      <!-- Honeypot antispam — NO MODIFICAR -->
+      <input type="text" name="_gotcha"
+             style="display:none" tabindex="-1" autocomplete="off">
+
+      <!-- Redirección post-envío -->
+      <input type="hidden" name="_next"
+             value="https://amarufo.github.io/PAGE-AIP/pages/proyectos.html?registro=ok">
+
+      <!-- ── Campo 1: Nombre ──────────────────────────────── -->
+      <div style="margin-bottom: 20px;">
+        <label style="display:block; color:#F0B429; font-size:12px;
+                      font-weight:700; letter-spacing:1px;
+                      text-transform:uppercase; margin-bottom:6px;">
+          Nombre completo *
+        </label>
+        <input type="text" name="nombre" required
+               placeholder="Ej. Juan Pérez García"
+               style="width:100%; box-sizing:border-box; padding:11px 14px;
+                      background:rgba(255,255,255,0.07); border:1px solid rgba(231,76,60,0.35);
+                      border-radius:7px; color:#FFF5F5; font-size:14px;
+                      outline:none; transition:border-color 0.2s;"
+               onfocus="this.style.borderColor='#E74C3C'"
+               onblur="this.style.borderColor='rgba(231,76,60,0.35)'">
+      </div>
+
+      <!-- ── Campo 2: Correo ──────────────────────────────── -->
+      <div style="margin-bottom: 20px;">
+        <label style="display:block; color:#F0B429; font-size:12px;
+                      font-weight:700; letter-spacing:1px;
+                      text-transform:uppercase; margin-bottom:6px;">
+          Correo electrónico *
+        </label>
+        <input type="email" name="correo" required
+               placeholder="tucorreo@ejemplo.com"
+               style="width:100%; box-sizing:border-box; padding:11px 14px;
+                      background:rgba(255,255,255,0.07); border:1px solid rgba(231,76,60,0.35);
+                      border-radius:7px; color:#FFF5F5; font-size:14px;
+                      outline:none; transition:border-color 0.2s;"
+               onfocus="this.style.borderColor='#E74C3C'"
+               onblur="this.style.borderColor='rgba(231,76,60,0.35)'">
+      </div>
+
+      <!-- ── Campo 3: Institución ─────────────────────────── -->
+      <div style="margin-bottom: 20px;">
+        <label style="display:block; color:#F0B429; font-size:12px;
+                      font-weight:700; letter-spacing:1px;
+                      text-transform:uppercase; margin-bottom:6px;">
+          Institución u organización *
+        </label>
+        <input type="text" name="institucion" required
+               placeholder="Ej. Municipalidad de ..."
+               style="width:100%; box-sizing:border-box; padding:11px 14px;
+                      background:rgba(255,255,255,0.07); border:1px solid rgba(231,76,60,0.35);
+                      border-radius:7px; color:#FFF5F5; font-size:14px;
+                      outline:none; transition:border-color 0.2s;"
+               onfocus="this.style.borderColor='#E74C3C'"
+               onblur="this.style.borderColor='rgba(231,76,60,0.35)'">
+      </div>
+
+      <!-- ── Campo 4: Rol ─────────────────────────────────── -->
+      <div style="margin-bottom: 20px;">
+        <label style="display:block; color:#F0B429; font-size:12px;
+                      font-weight:700; letter-spacing:1px;
+                      text-transform:uppercase; margin-bottom:6px;">
+          Rol *
+        </label>
+        <select name="rol" required
+                style="width:100%; box-sizing:border-box; padding:11px 14px;
+                       background:#2D0505; border:1px solid rgba(231,76,60,0.35);
+                       border-radius:7px; color:#FFF5F5; font-size:14px;
+                       outline:none; cursor:pointer; transition:border-color 0.2s;"
+                onfocus="this.style.borderColor='#E74C3C'"
+                onblur="this.style.borderColor='rgba(231,76,60,0.35)'">
+          <option value="" disabled selected>Selecciona tu rol...</option>
+          <option value="formulador">Formulador de proyectos de inversión</option>
+          <option value="evaluador">Evaluador / OPI / OPMI</option>
+          <option value="investigador">Investigador / Académico</option>
+          <option value="funcionario">Funcionario público</option>
+          <option value="consultor">Consultor independiente</option>
+          <option value="estudiante">Estudiante</option>
+          <option value="otro">Otro</option>
+        </select>
+      </div>
+
+      <!-- ── Campo 5: Comentario opcional ────────────────── -->
+      <div style="margin-bottom: 28px;">
+        <label style="display:block; color:#F0B429; font-size:12px;
+                      font-weight:700; letter-spacing:1px;
+                      text-transform:uppercase; margin-bottom:6px;">
+          ¿Para qué usarás la plataforma? (opcional)
+        </label>
+        <textarea name="uso_previsto" rows="3" maxlength="300"
+                  placeholder="Describe brevemente el tipo de proyectos o análisis que harías..."
+                  style="width:100%; box-sizing:border-box; padding:11px 14px;
+                         background:rgba(255,255,255,0.07); border:1px solid rgba(231,76,60,0.35);
+                         border-radius:7px; color:#FFF5F5; font-size:14px;
+                         outline:none; resize:vertical; min-height:75px;
+                         transition:border-color 0.2s; font-family:inherit;"
+                  onfocus="this.style.borderColor='#E74C3C'"
+                  onblur="this.style.borderColor='rgba(231,76,60,0.35)'"></textarea>
+      </div>
+
+      <!-- ── Botón de envío ───────────────────────────────── -->
+      <button type="submit" id="btn-enviar"
+              style="width:100%; padding:14px;
+                     background: linear-gradient(135deg, #C0392B, #E74C3C);
+                     color: white; font-size:15px; font-weight:700;
+                     letter-spacing:1px; text-transform:uppercase;
+                     border:none; border-radius:8px; cursor:pointer;
+                     transition: opacity 0.2s, transform 0.1s;"
+              onmouseover="this.style.opacity='0.88'"
+              onmouseout="this.style.opacity='1'"
+              onmousedown="this.style.transform='scale(0.98)'"
+              onmouseup="this.style.transform='scale(1)'">
+        Solicitar Acceso Beta →
+      </button>
+
+      <!-- Nota privacidad -->
+      <p style="color:#BBA8A8; font-size:11px; text-align:center;
+                margin-top:16px; margin-bottom:0; line-height:1.5;">
+        Solo usaremos tu correo para enviarte el acceso.
+        Sin spam, sin suscripciones.
+      </p>
+    </form>
+
+    <!-- ── Mensaje de éxito (visible si ?registro=ok) ─────── -->
+    <div id="msg-exito" style="display:none; text-align:center;
+         background:rgba(39,174,96,0.15); border:1px solid #27AE60;
+         border-radius:10px; padding:28px; margin-top:24px;">
+      <div style="font-size:36px; margin-bottom:8px;">✅</div>
+      <h3 style="color:#2ECC71; margin:0 0 8px;">¡Registro recibido!</h3>
+      <p style="color:#BBA8A8; margin:0; font-size:14px;">
+        Te enviaremos el acceso en los próximos días.
+        Revisa tu bandeja de entrada (y spam).
+      </p>
+    </div>
+
+  </div><!-- /max-width -->
+</section>
+
+<script>
+// Mostrar mensaje de éxito si viene de Formspree con ?registro=ok
+(function(){
+  if (window.location.search.includes('registro=ok')) {
+    var f = document.getElementById('form-registro-beta');
+    var m = document.getElementById('msg-exito');
+    if (f) f.style.display = 'none';
+    if (m) m.style.display = 'block';
+    // Scroll a la sección
+    var s = document.getElementById('registro-beta-invierte-ia');
+    if (s) s.scrollIntoView({behavior: 'smooth'});
+  }
+})();
+</script>
