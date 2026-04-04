@@ -135,16 +135,10 @@
 
     /* ─── Carga de datos ────────────────────────────────────── */
     async function loadAllDocs() {
-        const idx = await fetch(DATA_PATH + 'index.json').then(r => r.json());
-        const files = idx.archivos || [];
+        const rawDocs = await fetch(DATA_PATH + 'all.json').then(r => r.json());
 
-        const results = await Promise.allSettled(
-            files.map(f => fetch(DATA_PATH + f).then(r => r.json()).then(raw => normalizeDoc(raw, f)))
-        );
-
-        allDocs = results
-            .filter(r => r.status === 'fulfilled')
-            .map(r => r.value)
+        allDocs = rawDocs
+            .map((raw, i) => normalizeDoc(raw, String(i)))
             .sort((a, b) => b.fecha_publicacion.localeCompare(a.fecha_publicacion));
     }
 
