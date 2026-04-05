@@ -12,9 +12,9 @@
   --red-border:   #fca5a5;
   --red-glow:     rgba(220,38,38,.12);
 
-  --bg:           #0e0e10;
-  --surface:      #18181b;
-  --surface-2:    #1e1e22;
+  --bg:           #1c1c22;
+  --surface:      #272730;
+  --surface-2:    #32323e;
 
   --text:         #e4e4e7;
   --text-2:       #a1a1aa;
@@ -25,9 +25,9 @@
   --radius-md:    12px;
   --radius-lg:    16px;
 
-  --shadow-sm:    0 1px 3px rgba(0,0,0,.3);
-  --shadow-md:    0 4px 20px rgba(0,0,0,.4);
-  --shadow-lg:    0 10px 40px rgba(0,0,0,.55);
+  --shadow-sm:    0 1px 3px rgba(0,0,0,.2);
+  --shadow-md:    0 4px 20px rgba(0,0,0,.28);
+  --shadow-lg:    0 10px 40px rgba(0,0,0,.4);
   --shadow-red:   0 4px 24px var(--red-glow);
 
   --transition:   0.2s ease;
@@ -36,7 +36,7 @@
   --font-mono:    'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
 
   /* Aliases para compatibilidad con código existente */
-  --sidebar-bg:       #111113;
+  --sidebar-bg:       #181820;
   --sidebar-color:    #e4e4e7;
   --text-color:       var(--text);
   --text-light:       var(--text-2);

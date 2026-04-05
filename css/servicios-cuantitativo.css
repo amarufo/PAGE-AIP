@@ -409,7 +409,7 @@
 
         /* Contacto final */
         .contacto-final {
-            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+            background: linear-gradient(135deg, #25252e 0%, #363646 100%);
             color: #fff;
             padding: 3rem;
             border-radius: 20px;
@@ -554,7 +554,7 @@
         }
 
         .wizard-result {
-            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+            background: linear-gradient(135deg, #25252e 0%, #363646 100%);
             border-radius: 12px;
             padding: 1.5rem;
             margin-top: 1rem;
